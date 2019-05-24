@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Guidewire Navigation based on Reinforcement Learning | Hyungkyu Kim</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Guidewire Navigation based on Reinforcement Learning" />
+<meta name="author" content="Hyungkyu Kim" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The system places stent to the target lesion in the coronary artery via controlling manipulator made by Asan Medical Center. It is the world first autonomous PCI surgery robot system. My team has developed reinforcement learning-based control software. This project was awarded first place at Johnson &amp; Johnson QuickFire Challenge." />
+<meta property="og:description" content="The system places stent to the target lesion in the coronary artery via controlling manipulator made by Asan Medical Center. It is the world first autonomous PCI surgery robot system. My team has developed reinforcement learning-based control software. This project was awarded first place at Johnson &amp; Johnson QuickFire Challenge." />
+<link rel="canonical" href="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning" />
+<meta property="og:url" content="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning" />
+<meta property="og:site_name" content="Hyungkyu Kim" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-04-14T00:00:00+09:00" />
+<script type="application/ld+json">
+{"headline":"Guidewire Navigation based on Reinforcement Learning","dateModified":"2019-04-14T00:00:00+09:00","url":"http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning","datePublished":"2019-04-14T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning"},"author":{"@type":"Person","name":"Hyungkyu Kim"},"description":"The system places stent to the target lesion in the coronary artery via controlling manipulator made by Asan Medical Center. It is the world first autonomous PCI surgery robot system. My team has developed reinforcement learning-based control software. This project was awarded first place at Johnson &amp; Johnson QuickFire Challenge.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel='stylesheet' href='/assets/main.css'>
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hyungkyu Kim" />
+  
+
+</head>
+
+  <body>
+    <div class='layout'>
+      <header class='header'>
+  <nav class='header__nav'>
+    
+      
+        <a class='header__nav__item' href='/'>Hyungkyu Kim</a>
+      
+    
+      
+        <a class='header__nav__item--selected' href='/portfolio'>Portfolio</a>
+      
+    
+      
+        <a class='header__nav__item' href='/cv'>CV</a>
+      
+    
+  </nav>
+  <hr width=100% border-color=#EBEBEB size=1>
+</header>
+      <main class='main'>
+        <article class='post'>
+  <div class="posts__navigation">
+    <a href="/portfolio"> Portfolio </a> &nbsp; > &nbsp; <a href="/portfolio#Medipixel"> Medipixel </a> &nbsp; > &nbsp; Guidewire Navigation based on Reinforcement Learning
+  </div>
+  <br/>
+  <div>
+  
+    
+      <img src="/images/medipixel/logo_medipixel.png" width="100px" style="margin-bottom:35px">
+      
+  </div>
+  <h1>Guidewire Navigation based on Reinforcement Learning</h1>
+  <p>The system places stent to the target lesion in the coronary artery via controlling manipulator made by <a href="http://eng.amc.seoul.kr/gb/lang/main.do">Asan Medical Center</a>. 
+It is the world first autonomous <a href="https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention">PCI</a> surgery robot system. 
+My team has developed reinforcement learning-based control software. 
+This project was awarded first place at <a href="https://jlabs.jnjinnovation.com/quickfire-challenges/seoul-innovation-quickfire-challenge-robotics-digital-surgery">Johnson &amp; Johnson QuickFire Challenge</a>.</p>
+
+<!--break-->
+
+<h4 id="my-role">My Role</h4>
+<p>Development Team Leader</p>
+<ul>
+  <li>Design overall system architecture</li>
+  <li>Design data flow in system</li>
+  <li>Design an experiment process</li>
+  <li>Establish experiment environment</li>
+  <li>Implement device communication(manipulator, camera) module</li>
+  <li>Implement reinforcement learning environment module</li>
+</ul>
+
+<hr />
+<h4 id="project-detail">Project Detail</h4>
+
+<!-- Feel free to change the width and height to your desired video size. -->
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/qN3Mx64z1oM" width="700" height="480" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
+
+<p><br />
+Cardiovascular disease takes up a large portion of annual death around the world. 
+<a href="https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death">WHO announcement</a> shows that ischaemic heart disease is the world’s biggest killer in 2016 and one of the most general treatments for ischaemic heart disease is <a href="https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention">Percutaneous Coronary Intervention</a>. 
+But <strong>traditional PCI surgery has several shortages</strong> as follows.</p>
+<ul>
+  <li>Huge gap of proficiency and hard to transfer high level skill</li>
+  <li>Exposure to harmful radiation generated from angiography</li>
+  <li>Long surgery time(about 1 hour)</li>
+</ul>
+
+<p>To overcome these challenges, Medipixel has been collaborating with <a href="http://eng.amc.seoul.kr/gb/lang/main.do">Asan Medical Center</a> to develop <strong>the world first autonomous PCI surgery robot system</strong>. 
+This system autonomously navigates guide wire to the target lesion.
+As autonomous robot navigation system supports routine and crucial processes operating guide wire in PCI surgery, it can take advantages such as</p>
+<ul>
+  <li>Reduce gap between an expert and a beginner</li>
+  <li>Diminish exposing time from radiation</li>
+  <li>Enable workers to do other tasks</li>
+  <li>Reduce surgery time</li>
+</ul>
+
+<h5 id="required-technologies">Required Technologies</h5>
+<p>My team had to prepare various technologies including medicine, robotics and reinforcement learning.</p>
+
+<ul>
+  <li>To keep safety, it was necessary for my team to comprehend medical knowledge for PCI surgery</li>
+  <li>To achieve robust control, my team surveyed domains such as Robotics and Elastic Rod</li>
+  <li>To ascend accuracy of system, we studied Reinforcement Learning(RL) and Computer Vision Algorithm in detail</li>
+</ul>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_tech.png" />
+</figure>
+
+<h6 id="why-reinforcement-learning">Why Reinforcement Learning</h6>
+<p>Our environment, coronary arteries involving dynamic state transition like blood flow and heartbeat, was so complex that we did not have high confidence for traditional control method from robotics.	
+Therefore, we needed algorithm to approach a goal by interaction with environment. 
+We defined our problem as Markov Decision Process like below.</p>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_mdp.png" width="63%" />
+</figure>
+
+<h6 id="medic">Medic</h6>
+<p>Since most of my team were engineer, it essential that supplemented lack of medical knowledge.
+To understand PCI surgery process, we got interviews with doctors and researchers who involved with coronary artery disease.
+Also, we had PCI surgery observations several times and studied about coronary arteries.</p>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_animal_ex.png" />
+  <figcaption>Animal test observation - COPYRIGHT© 2019 Medipixel. All Rights Reserved.</figcaption>
+</figure>
+
+<h5 id="barriers-to-entry">Barriers to Entry</h5>
+<p>While designing project, It was significant issue that researched technologies were apply to the problems that what we encounter.
+We needed to know <strong>how to design and quantify intertwined relationship and complex experience</strong>.</p>
+
+<p>Standardization of surgery</p>
+
+<p>All of these expert’s experience and related knowledge needed to be quantified for determining a proper numerical values in RL system. 
+Furthermore, we contemplated mechanism of manipulator movement together for successful training of RL agent.</p>
+
+<p>For example, forward/backward step size for guidewire manipulation was considered in below part.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Medicine</th>
+      <th>Robotics</th>
+      <th>RL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/images/medipixel/profile_biorobot_medicine.png" /> Movement of guidewire could cause hazardous situation in coronary artery</td>
+      <td><img src="/images/medipixel/profile_biorobot_robotics.png" /> To handle nonlinearity of manipulation, control resolution of step size based on error tolerance was considered</td>
+      <td><img src="/images/medipixel/profile_biorobot_rl.png" />In RL algorithm, discrete or continuous input types were important criterion to define RL algorithm category such as value-based RL or policy-based RL</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="set-up">Set-up</h5>
+
+<h6 id="establishment-of-experiment-plan">Establishment of experiment plan</h6>
+<p>I established a simple experiment process based on core plan of project.
+Then, I drew a rough sketch of the experiment environment corresponding with experiment process. 
+Final expected environment figures are like below.
+    <figure>
+      <img src="/images/medipixel/profile_biorobot_2d3denv.png" width="90%" />
+    </figure></p>
+
+<h6 id="installation-of-darkroom">Installation of darkroom</h6>
+<p>Vision was the most important input data method  of this system.
+As vision was sensitive to the change of illumination problem, I wanted to exclude natural light from experiment environment. 
+Darkroom was the best option to handle this problem. 
+I was in charge of purchasing and installing all equipments for the darkroom. 
+    <figure>
+      <img src="/images/medipixel/profile_biorobot_experiment_env.png" width="90%" />
+    </figure></p>
+
+<h6 id="comparison-of-cameras-by-latency">Comparison of cameras by latency</h6>
+<p>Latency was one of the most important factors to be considered for system performance. 
+As a huge proportion of latency depended on camera, I had to select a camera model carefully. 
+I had plentiful latency testings like below figure and compared scalability, compatibility, resolution and latency of varied camera model.</p>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_realsense_test.gif" width="65%" />
+</figure>
+
+<h5 id="design">Design</h5>
+
+<p>I designed overall architecture of control system by below principle.</p>
+
+<h6 id="modularity">Modularity</h6>
+<p>Since this system is capable of having diverse environmental conditions like manipulator and external sensor devices, 
+I had to consider about minimizing the number of additional tasks when subsystems or peripherals were changed.
+I separated the system into submodules by role and made hierarchy among them.</p>
+
+<h6 id="scalability">Scalability</h6>
+<p>As I mentioned above, we planned an environment transition step by step. 
+So I had to enable smooth conversion among heterogeneous environments such as 2D, 3D, animal and clinic. 
+Also, as we needed repetitive experiments for improving system performance like reward shaping, various settings for experiments had to be managed conveniently.
+I achieved this purpose via abstract and inheritance structure.</p>
+
+<h6 id="compatibility">Compatibility</h6>
+<p>It was necessary for implementing RL algorithm to verify its own performance through unit test. 
+Performance verification ran on  <a href="https://gym.openai.com/envs/#atari">Atari gym</a>. 
+And I had to consider standard communication protocol connecting with heterogeneously external devices.
+For this reason, I designed this system by using de facto standard systems such as <a href="https://gym.openai.com/">openai-gym</a> and <a href="http://www.ros.org/">ROS</a>.</p>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_arch.png" />
+  <figcaption></figcaption>
+</figure>
+
+<h5 id="implement">Implement</h5>
+<p>I implemented the environment module in reinforcement learning framework. 
+It was a core module to manage and to make every device and robot on this system abstract. 
+At the same time, I integrated all modules on this system and implemented functions to improve overall system performance based on designed architecture. 
+The main implementation issues were below</p>
+
+<p><strong>As imprecise manipulation by slip was a big trouble, small fixed control size and value-based RL were picked.</strong><br />
+There were physical errors during manipulation by motor rotation as many general controlling systems under physical world. 
+ In coronary artery surgery environment, this kind of errors especially had a worse effect because we had to handle exquisite unit of space and time. 
+I approached this problem in a heuristic way and tried to define error tolerance thresholds because it was impossible to solve the issue perfectly. 
+In trial and error, my team found that using a very small fixed step command(about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach a correct position. 
+So we decided to use value-based RL algorithm.</p>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_slip.png" width="90%" />
+</figure>
+
+<p><strong>I had to design and implement elaborate data flow because inter-module communication was critical issues.</strong> <br />
+To set proper shape and size of data, there were several trial and error. 
+As shape of data required in each module was different, I had to ponder on computation cost of reshaping data while a current module was transferring data to next module. 
+Also, because RL agent utilized experience replay, limitation of memory size used for replay buffer was a big issue. 
+Therefore, size of state in RL had to be defined properly.</p>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_data.png" width="70%" />
+</figure>
+
+<p><strong>It was essential to solve synchronization problem between RL agent and manipulator.</strong><br />
+RL agent had to obtain necessary data at once for decision making in each time step. 
+But as a manipulator was operated in asynchronous method, I had to decide what module should wait and collect data from the manipulator for synchronization. 
+I implemented communication module and put this module in charge of that task.</p>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_sync.png" width="70%" />
+</figure>
+
+<p><strong>Reduction of system latency was a critical issue.</strong> <br />
+Reactivity of system was one of the most critical factors in overall system performance because agile situation awareness and countermeasure were essential in surgery process. 
+So, it was compulsory to minimize latency on each module because summation of delayed time took a huge proportion of reactivity. 
+Especially, total latency largely depends on acquisition time of camera image and vision preprocessing time.</p>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_latency.png" width="95%" />
+</figure>
+
+<p><strong>I had to implement strict exception handling.</strong><br />
+It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
+I had to handle many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
+Also, communication manipulator exception was another serious handling point because it could lead to system procedure to halt.</p>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_except_twisted.png" width="60%" />
+</figure>
+
+<h5 id="experiment">Experiment</h5>
+
+<p>My team implemented and numerous experiments with RL algorithms to improve system performance. 
+Main experimental factors are below</p>
+
+<ul>
+  <li>Value based algorithms (<a href="https://arxiv.org/abs/1710.02298">Rainbow dqn</a>, <a href="https://arxiv.org/abs/1707.06887">C51</a>, <a href="https://arxiv.org/abs/1806.06923">IQN</a>)</li>
+  <li>Demonstration algorithms (<a href="https://arxiv.org/abs/1704.03732">Deep Q-learning from Demonstrations</a>)</li>
+  <li>Reward Shaping</li>
+  <li>Data fusion Execution Timing (Early fusion, Late fusion)</li>
+  <li>Additional (<a href="https://arxiv.org/abs/1707.01495">Hindsight Experience Replay</a>)</li>
+</ul>
+
+<h5 id="further">Further</h5>
+
+<h6 id="possibility-to-transfer-other-domain">Possibility to transfer other domain</h6>
+
+<p>PCI surgery is a  high risky procedure with and requiring high skills. 
+Therefore, there is a possibility to apply our skill-set in other domains in a relatively easy way.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Search system</th>
+      <th>Pipeline integrity inspection</th>
+      <th>Catheter surgery automation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/images/medipixel/profile_biorobot_newdomain0.png" />Search system used to locate people in a collapsed building by manipulating wire camera</td>
+      <td><img src="/images/medipixel/profile_biorobot_newdomain1.png" />Pipeline integrity inspection in a construction site</td>
+      <td><img src="/images/medipixel/profile_biorobot_newdomain2.png" />Automation of other surgery process through wire and catheter</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="next-plan">Next Plan</h6>
+<p>We made a small success that guidewire reached basic goals in 2D blood vessel. 
+Now, my team and AMC are writing a research paper targeting top medical journals. 
+We are also expected to advance for a new experiment project on 3D environment in the second half of 2019.</p>
+<figure>
+  <img src="/images/medipixel/profile_biorobot_3denv.png" width="60%" />
+</figure>
+
+</article>
+
+      </main>
+      <footer class='footer'>
+  <ul class='footer__list'>
+    
+      
+        <li class='footer__item'>
+          <a href='mailto:hkkxkk@gmail.com'>Hyungkyu Kim</a>
+        </li>
+      
+    
+
+    
+      <li class='footer__item'>
+        <a href='https://github.com/Hyungkyu-Kim' title='github'>
+          <svg class='icon'><use href='/assets/icons/github.svg#github' xlink:href='/assets/icons/github.svg#github'></use>
+</svg>
+
+        </a>
+      </li>
+    
+
+    
+
+    
+
+    
+  </ul>
+</footer>
+
+    </div>
+  </body>
+</html>

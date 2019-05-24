@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Lung Cancer Diagnosis Clinical Decision Support System | Hyungkyu Kim</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Lung Cancer Diagnosis Clinical Decision Support System" />
+<meta name="author" content="Hyungkyu Kim" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The purpose of the system is to help doctors make a decision on diagnosis of lung cancer. It supports diagnosis by deep learning based detection and classification nodules." />
+<meta property="og:description" content="The purpose of the system is to help doctors make a decision on diagnosis of lung cancer. It supports diagnosis by deep learning based detection and classification nodules." />
+<link rel="canonical" href="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system" />
+<meta property="og:url" content="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system" />
+<meta property="og:site_name" content="Hyungkyu Kim" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-04-13T00:00:00+09:00" />
+<script type="application/ld+json">
+{"headline":"Lung Cancer Diagnosis Clinical Decision Support System","dateModified":"2019-04-13T00:00:00+09:00","url":"http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system","datePublished":"2019-04-13T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system"},"author":{"@type":"Person","name":"Hyungkyu Kim"},"description":"The purpose of the system is to help doctors make a decision on diagnosis of lung cancer. It supports diagnosis by deep learning based detection and classification nodules.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel='stylesheet' href='/assets/main.css'>
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hyungkyu Kim" />
+  
+
+</head>
+
+  <body>
+    <div class='layout'>
+      <header class='header'>
+  <nav class='header__nav'>
+    
+      
+        <a class='header__nav__item' href='/'>Hyungkyu Kim</a>
+      
+    
+      
+        <a class='header__nav__item--selected' href='/portfolio'>Portfolio</a>
+      
+    
+      
+        <a class='header__nav__item' href='/cv'>CV</a>
+      
+    
+  </nav>
+  <hr width=100% border-color=#EBEBEB size=1>
+</header>
+      <main class='main'>
+        <article class='post'>
+  <div class="posts__navigation">
+    <a href="/portfolio"> Portfolio </a> &nbsp; > &nbsp; <a href="/portfolio#Medipixel"> Medipixel </a> &nbsp; > &nbsp; Lung Cancer Diagnosis Clinical Decision Support System
+  </div>
+  <br/>
+  <div>
+  
+    
+      <img src="/images/medipixel/logo_medipixel.png" width="100px" style="margin-bottom:35px">
+      
+  </div>
+  <h1>Lung Cancer Diagnosis Clinical Decision Support System</h1>
+  <p>The purpose of the system is to help doctors make a decision on diagnosis of lung cancer. It supports diagnosis by deep learning based detection and classification nodules.</p>
+
+<!--break-->
+
+<h4 id="my-role">My Role</h4>
+<p>Project Leader</p>
+<ul>
+  <li>Design a whole data pipeline</li>
+  <li>Implement <a href="https://en.wikipedia.org/wiki/DICOM">DICOM</a>-based data preprocessing module</li>
+  <li>Design and implement 3D U-net based detection neural network</li>
+  <li>Design and implement 3D Resnet based classification neural network</li>
+</ul>
+
+<hr />
+<h4 id="project-detail">Project Detail</h4>
+
+<p><img src="/images/medipixel/mp_screen_shot.png" alt="Alt text" />
+Lung cancer is placed in a top position in cancer death rate. 
+In 2015 total 17,399 people died by lung cancer in Korea. 
+It was so high that this portion took 27.9% in the total amount of cancer deaths. 
+The reason why lung cancer has high death rate is that efficient inspection process does not exist.</p>
+
+<p>In the light of sharing experience that accumulated over time, decision support system based on AI is widely adopted in various industrial fields. 
+In medical domain, the need of rapid and precise diagnosis decision is intensifying. 
+Therefore, this kind of system is being researched by many scientist. 
+Medipixel’s lung cancer project was designed to fulfill those needs. 
+We co-worked with <a href="http://eng.amc.seoul.kr/gb/lang/main.do">Asan Medical Center</a> and ended up developing Lung Cancer Diagnosis Clinical Decision Support System.</p>
+
+<p>It takes the following advantages</p>
+<ul>
+  <li>Detect nodules that can be missed → increased diagnosis accuracy</li>
+  <li>Assist doctors to read chest ct scan at ease → increased diagnosis productivity</li>
+</ul>
+
+<p><img src="/images/medipixel/mp_chest_system.png" alt="Alt text" /></p>
+
+<h5 id="system-features">System Features</h5>
+<p>This system features are below</p>
+<ul>
+  <li>Support diagnosis whether nodule is malignant or benign</li>
+  <li>Handle non-small cell lung cancer nodule in 10mm~30mm range</li>
+  <li>Show the number of nodules and nodule region of interests</li>
+  <li>Indicate estimated lung cancer risk percentage</li>
+</ul>
+
+<p><img src="/images/medipixel/mp_chest_gui.png" alt="Alt text" /></p>
+
+<h5 id="tasks">Tasks</h5>
+<p>I was involved in this project as a project leader. 
+I was in charge of designing overall process and data flow. 
+Initial conditions of the project were not sufficient. 
+My team consisted of just 3 members including junior engineer.
+Furthermore there were many instances of lost time while my team was preparing for this project. 
+As we had limited time and resources, I had to specify what we were supposed to to and what we were not supposed to do.</p>
+
+<p>I decided to approach this project in practical view. 
+Most of processes in deep learning system are formulaic, I did not put many effort to design a system structure. 
+Also making totally new model were excluded from selections. Instead of it, we put more time to find high performance model adopted in medical domain and improve that model.</p>
+
+<h5 id="dataset">Dataset</h5>
+<p>It is one of the most important issues in deep learning system to gather and handle proper dataset.
+We utilized several dataset of hospitals involved with <a href="http://eng.amc.seoul.kr/gb/lang/main.do">Asan Medical Center</a> and open dataset like <a href="https://biometry.nci.nih.gov/cdas/nlst/">NLST</a> to improve performance of the system. 
+There were some issues with datasets below</p>
+<ul>
+  <li>Data format was different(especially open data-set)</li>
+  <li>Data modality like resolution of CT was different</li>
+  <li>The number of malignant nodules was so overwhelmingly numerous than benign nodules</li>
+  <li>It was hard to find totally negative data which did not have any nodule</li>
+</ul>
+
+<h6 id="preprocess">Preprocess</h6>
+<p>We had to preprocess heterogeneous set through one pipeline.
+Basically, it was necessary to reconstruct and normalize from 2d DICOM slices to 3d voxel data. 
+As this task was expected to take a long time, it had to be done in advance, and results must be saved in hard disk before regular training.
+Main process was like below.</p>
+<ul>
+  <li>Perform 3D reconstruction with thickness of 1mm</li>
+  <li>Set Hounsfield Unit between -1200 and 600</li>
+  <li>Normalize each pixel value between 0 and 255</li>
+</ul>
+
+<figure>
+  <img src="/images/medipixel/mp_net_preprocess0.png" width="80%" />
+  <figcaption></figcaption>
+</figure>
+
+<p>Rather than using the whole voxel data, it was divided into chunks of specific size, and those chunks were used because of GPU memory limitation. 
+This process occurred in training and inference routine.</p>
+
+<figure>
+  <img src="/images/medipixel/mp_net_preprocess1.png" width="68%" />
+  <figcaption></figcaption>
+</figure>
+
+<h6 id="gathering-dataset">Gathering Dataset</h6>
+<p>To improve performance, we needed to obtain more dataset from various source.
+This process collecting proper data for model needed huge time cost for doctors. 
+Especially, data labeling was a big overload because it was handcrafted task to segment the region of nodule in pixel by pixel.</p>
+
+<p>we put many effort to help them.
+Key was a efficiency and decrease  of time consuming. 
+We had several meeting with doctors and proposed useful methods like nodule segmentation support application and semi-auto segmentation for nudule data.</p>
+<figure>
+  <img src="/images/medipixel/mp_chest_data0.jpg" />
+  <figcaption></figcaption>
+</figure>
+
+<h5 id="deep-learning-network">Deep Learning Network</h5>
+<p>In researching period I realized that ensemble strategy was efficient to improve whole system accuracy. 
+So, I got many experiments using various models and tried to find optimal combination. 
+In result we fixed to use three DNN networks in the system.</p>
+
+<h6 id="detection-network">Detection-network</h6>
+<p>This network detects nodules. 
+It is built based on 3d U-net. 
+Detection network consists of encoding and decoding network. 
+Nodule’s features are extracted in encoding network through 3D residual blocks.</p>
+
+<figure>
+  <img src="/images/medipixel/mp_net_detection-net.png" width="70%" />
+  <figcaption></figcaption>
+</figure>
+
+<h6 id="segmentation-network">Segmentation-network</h6>
+<p>This network performs segmentation of nodules in each slide based on the results from detection network. 
+Its second role is to perform as a filter for false-positive regions.
+Our segmentation-network is taking advantage of <a href="https://arxiv.org/abs/1802.02611">Deeplab-v3+</a> network whose network structure is shown in figure below</p>
+<figure>
+  <img src="/images/medipixel/mp_net_segmentation-net.png" width="70%" />
+  <figcaption></figcaption>
+</figure>
+
+<h6 id="classification-network">Classification-network</h6>
+<p>Classification-network is responsible for determining the degree of malignancy of candidate nodules. 
+Features of nodules are extracted through 3D residual network layer, and we come up with final result through the features.</p>
+<figure>
+  <img src="/images/medipixel/mp_net_classification-net.png" width="70%" />
+  <figcaption></figcaption>
+</figure>
+
+<h5 id="practical-technique">Practical Technique</h5>
+<p>In addition, I added simple preprocess stage before segmentation stage to get rid of nodules in outer body.
+This stage was composed of simple method that just checked the largest contour and eroded it.
+It mapped candidate nodule region onto 2D slide, and examined whether it belongs to inside of the body, and regions outside of the body were removed as false-positives.
+This method had some advantages over other methods that performed complicated lung-segmentation as follows</p>
+<ul>
+  <li>It is much faster than conventional segmentation method via complex algorithm</li>
+  <li>It removes a ordinary lung-segmentation algorithm problem that recognizes nodule on the wall as outside the lung</li>
+  <li>It solves region segmentation error resulting from different modality such as different CT slide scanner</li>
+</ul>
+
+<figure>
+  <img src="/images/medipixel/mp_net_trick.png" width="70%" />
+  <figcaption></figcaption>
+</figure>
+
+<h5 id="strengths-of-the-structure">Strengths of The Structure</h5>
+<p>Generally, most systems in cancer diagnosis had similar structure. 
+Among of them combinations with U-net based detector and classifier were popular solution. 
+<strong>I embedded simple preprocess stage and segmentation network</strong> in center of it. 
+Network mapped 3d suspicious chunks to 2d ct slice, at the same time this stage that performed to segment area in suspicious chunks meant scrutinizing and filtering nodules. 
+So, I was able to <strong>remove many false positive nodules</strong> from results from first stage. 
+From those features, the system got simple but powerful improvement.</p>
+
+<p><img src="/images/medipixel/mp_chest_models.png" alt="Alt text" /></p>
+
+<h5 id="conclusion">Conclusion</h5>
+<p>Through processes mentioned above, it was possible to achieve results that reduce time of the whole diagnosis dramatically while maintaining a useful performance.</p>
+
+<figure>
+  <img src="/images/medipixel/mp_chest_auc.png" width="60%" />
+  <figcaption></figcaption>
+</figure>
+
+<p>TSNE result was like below
+<img src="/images/medipixel/mp_chest_tsne.png" alt="Alt text" /></p>
+
+<hr />
+
+<h5 id="patent">Patent</h5>
+<p>[1] Pathological diagnosis method and apparatus based on machine learning KR, P2018-0173475</p>
+
+</article>
+
+      </main>
+      <footer class='footer'>
+  <ul class='footer__list'>
+    
+      
+        <li class='footer__item'>
+          <a href='mailto:hkkxkk@gmail.com'>Hyungkyu Kim</a>
+        </li>
+      
+    
+
+    
+      <li class='footer__item'>
+        <a href='https://github.com/Hyungkyu-Kim' title='github'>
+          <svg class='icon'><use href='/assets/icons/github.svg#github' xlink:href='/assets/icons/github.svg#github'></use>
+</svg>
+
+        </a>
+      </li>
+    
+
+    
+
+    
+
+    
+  </ul>
+</footer>
+
+    </div>
+  </body>
+</html>

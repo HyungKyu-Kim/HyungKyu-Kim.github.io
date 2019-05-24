@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>IoT Camera | Hyungkyu Kim</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="IoT Camera" />
+<meta name="author" content="Hyungkyu Kim" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This new type of product is a network camera working as IoT gateway. It gathers sensor data and provides various service, such as social protection service, fire monitoring service and missing child prevention service, by cooperating with adjacent IoT devices." />
+<meta property="og:description" content="This new type of product is a network camera working as IoT gateway. It gathers sensor data and provides various service, such as social protection service, fire monitoring service and missing child prevention service, by cooperating with adjacent IoT devices." />
+<link rel="canonical" href="http://localhost:4000/portfolio/samsung/iot_camera" />
+<meta property="og:url" content="http://localhost:4000/portfolio/samsung/iot_camera" />
+<meta property="og:site_name" content="Hyungkyu Kim" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-03-31T00:00:00+09:00" />
+<script type="application/ld+json">
+{"headline":"IoT Camera","dateModified":"2019-03-31T00:00:00+09:00","url":"http://localhost:4000/portfolio/samsung/iot_camera","datePublished":"2019-03-31T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/portfolio/samsung/iot_camera"},"author":{"@type":"Person","name":"Hyungkyu Kim"},"description":"This new type of product is a network camera working as IoT gateway. It gathers sensor data and provides various service, such as social protection service, fire monitoring service and missing child prevention service, by cooperating with adjacent IoT devices.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel='stylesheet' href='/assets/main.css'>
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hyungkyu Kim" />
+  
+
+</head>
+
+  <body>
+    <div class='layout'>
+      <header class='header'>
+  <nav class='header__nav'>
+    
+      
+        <a class='header__nav__item' href='/'>Hyungkyu Kim</a>
+      
+    
+      
+        <a class='header__nav__item--selected' href='/portfolio'>Portfolio</a>
+      
+    
+      
+        <a class='header__nav__item' href='/cv'>CV</a>
+      
+    
+  </nav>
+  <hr width=100% border-color=#EBEBEB size=1>
+</header>
+      <main class='main'>
+        <article class='post'>
+  <div class="posts__navigation">
+    <a href="/portfolio"> Portfolio </a> &nbsp; > &nbsp; <a href="/portfolio#Samsung Techwin"> Samsung Techwin </a> &nbsp; > &nbsp; IoT Camera
+  </div>
+  <br/>
+  <div>
+  
+    
+  
+    
+      <img src="/images/samsung/logo_samsung.png" width="100px" style="margin-bottom:35px">
+      
+  </div>
+  <h1>IoT Camera</h1>
+  <p>This new type of product is a network camera working as IoT gateway. 
+It gathers sensor data and provides various service, such as social protection service, fire monitoring service and missing child prevention service, by cooperating with adjacent IoT devices.</p>
+
+<!--break-->
+
+<h4 id="my-role">My Role</h4>
+<p>Network camera main developer at task force team</p>
+<ul>
+  <li>Implement Bluetooth communication module between network camera and devices</li>
+  <li>Implement communication module with IoT server(RESTful)</li>
+  <li>Implement serial communication module(rs-485)</li>
+</ul>
+
+<hr />
+
+<h4 id="project-detail">Project Detail</h4>
+
+<p>Smart city is a fast-growing tech domain nowadays, and it is hard to imagine the smart city without IoT.
+In order to achieve goal of Smart City Services, it is essential to cowork with widespread infrastructural devices in the city.
+Moreover, security field has been moving forward from follow-up service using video information to convergence with information of infrastructural devices.</p>
+
+<p>Network Camera is a device to process video data which is one of the biggest data. 
+Hence, it requires higher computation and network capacity compared to other basic sensor devices.</p>
+
+<h5 id="prove-of-concept">Prove of Concept</h5>
+<p>I had focused on this feature and tried to implement a few Prove of Concept to verify possibility of service  to provide value to customers.</p>
+
+<h6 id="first-poc">First PoC</h6>
+<p>The first PoC was to control smart bulb via camera to test connection process between camera and external devices. 
+The main purpose of this PoC was controlling external device via inner event of camera.</p>
+
+<p><img src="/images/samsung/profile_htw_iot0.gif" alt="centerimage" /></p>
+
+<h6 id="second-poc">Second PoC</h6>
+<p>The second was to control camera by numerical value from outer sensor devices.
+Order of PoC1 was opposite to that of PoC2. 
+But ready made camera was not able to get bluetooth signal. 
+To resolve this problem, I implemented and used simple progam on Raspberry pi.
+<img src="/images/samsung/profile_htw_iot1.gif" alt="centerimage" /></p>
+
+<h5 id="meaning-of-poc">Meaning of PoC</h5>
+
+<p>After a few PoC, I found it possible that Network Camera was able to work as a Edge Gateway.
+As mentioned above, camera has sufficient capability to handle high capacity video data without assistance from upper stage devices,</p>
+
+<p>Also in Smart City, one of the important points is data fusion.
+It can realize services, once regarded as impossible, through  combination of data with various sensors that monitor item such as temperature, moisture, motion detection and image. 
+If camera is a gateway to manage edge devices, data fusion is feasible without intervention from the high performance serve</p>
+
+<h5 id="iot-camera">IoT Camera</h5>
+
+<p>In early 2017, I got a chance to apply this concept to an actual product.
+I joined Task Force Team as a main developer for camera, which is a sizeable project to cover city area.
+Requirements of the project included various services such as missing child prevention and  fire monitoring service.</p>
+
+<p>My team, partner, and client had numerous disscusions to realize this concept in real world, and we decided to use bluetooth sensor devices and camera.</p>
+
+<p><img src="/images/samsung/profile_htw_iot2.png" alt="Alt text" /></p>
+
+<p>We made achievemets as follows</p>
+<ol>
+  <li>Obtain sensor data and video data simultaneously
+    <ul>
+      <li>Service using sensor data and video data at the same time is feasible<br />
+ (eg: If there is not any target’s motion in a specific spot, camera will turn to the specific spot.)</li>
+    </ul>
+  </li>
+  <li>Provide various services via just changing external devices supporting bluetooth
+    <ul>
+      <li>Social Protection Service: Beacon</li>
+      <li>Fire Monitoring Service: BLE temperature sensor</li>
+      <li>Capable of attaching new services easily by adding new BLE devices</li>
+    </ul>
+  </li>
+  <li>Enable network load balancing
+    <ul>
+      <li>It divides computing cost concentrating on server to edge gateway</li>
+      <li>Data fusion can be feasible in this device</li>
+      <li>It can filter sensor data</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+<h4 id="related-news">Related News</h4>
+
+<p>[1] <a href="http://www.pntbiz.co.kr/index.php/2018/03/16/iot-cctv-blog/">Server Partner company’s blog article(korean)</a><br />
+[2] <a href="https://www.youtube.com/watch?v=3PWR8SXjsU0">Server Partner company’s IoT cctv demo(korean)</a><br />
+[3] <a href="https://www.youtube.com/watch?v=IxaOIL74fu8">Server Partner company’s IoT cctv Exhibition(korean)</a><br />
+[4] <a href="http://www.newsis.com/view/?id=NISX20180731_0000378567">Newsis news(korean)</a></p>
+
+</article>
+
+      </main>
+      <footer class='footer'>
+  <ul class='footer__list'>
+    
+      
+        <li class='footer__item'>
+          <a href='mailto:hkkxkk@gmail.com'>Hyungkyu Kim</a>
+        </li>
+      
+    
+
+    
+      <li class='footer__item'>
+        <a href='https://github.com/Hyungkyu-Kim' title='github'>
+          <svg class='icon'><use href='/assets/icons/github.svg#github' xlink:href='/assets/icons/github.svg#github'></use>
+</svg>
+
+        </a>
+      </li>
+    
+
+    
+
+    
+
+    
+  </ul>
+</footer>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+title: Hyungkyu Kim
+author: Hyungkyu Kim
+email: hkkxkk@gmail.com
+description: Hyungkyu Kim's blog
+
+github_username:  Hyungkyu-Kim
+# twitter_username:
+# facebook_username:
+# dribbble_username:
+
+# date_format:
+
+# google_analytics:
+# disqus_shortname:
+
+markdown: kramdown
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag

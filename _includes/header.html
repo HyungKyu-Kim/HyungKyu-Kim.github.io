@@ -1,0 +1,12 @@
+<header class='header'>
+  <nav class='header__nav'>
+    {% for item in site.data.navigation %}
+      {% if item.title ==  page.group %}
+        <a class='header__nav__item--selected' href='{{ item.subfolderitems[0].url | relative_url }}'>{{ item.title | escape }}</a>
+      {% else%}
+        <a class='header__nav__item' href='{{ item.subfolderitems[0].url | relative_url }}'>{{ item.title | escape }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+  <hr width=100% border-color=#EBEBEB size=1>
+</header>

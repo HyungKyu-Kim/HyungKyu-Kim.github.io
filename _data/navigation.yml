@@ -1,0 +1,27 @@
+- title: Hyungkyu Kim
+  subfolderitems:
+    - page: base
+      url: /
+- title: Portfolio
+  subfolderitems:
+    - page: base
+      url: /portfolio
+      subfolderitems:
+      - page: Guidewire Navigation based on Reinforcement Learning
+        url: /portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning
+      - page: Lung Cancer Diagnosis Clinical Decision Support System
+        url: /portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system
+      - page: NIPS 2018 - AI for Prosthetics Challenge
+        url: /portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge
+      - page: IoT Camera
+        url: /portfolio/samsung/iot_camera
+      - page: Video Surveillance as a Service
+        url: /portfolio/samsung/video_surveillance_as_a_service
+      - page: Other Projects
+        url: /portfolio/samsung/other_projects
+      - page: Flatness
+        url: /portfolio/private/flatness
+- title: CV
+  subfolderitems:
+    - page: base
+      url: /cv

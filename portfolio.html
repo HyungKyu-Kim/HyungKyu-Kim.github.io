@@ -1,0 +1,57 @@
+---
+layout: page
+group: Portfolio
+---
+<div class="page__title">PORTFOLIO SUMMARY</div>
+
+{% for org in site.data.organization %}
+<div class="organization__item">
+  <img src="/images/bar.png" style="margin:70px 0px 20px 0px">
+  <div>
+    <div class="organization__name" id="{{org.title}}">
+      {{org.title}}
+    </div>
+    <div class="organization__logo">
+      <img src="{{org.logo}}">
+    </div>
+  </div>
+  <div class="organization__description">
+    <p> {{ org.description }}</p>
+  </div>
+    <div class="organization__duration">
+      {{ org.duration }}
+    </div>
+    <div class="organization__brief">
+      {{ org.brief }}
+    </div>
+    <div class="organization__role">
+      {% for dsc in org.role %}
+      <li>
+        {{ dsc }}
+      </li>
+      {% endfor %}
+    </div>
+  <ul class='posts'>
+    {% for post in site.posts %}
+    {% if org.title == post.organization %}
+    <hr width="100%" border-color="#EBEBEB" size="1">
+    <div class='posts__item'>
+      <div class="posts__thumbnail">
+        <img src="{{ post.thumbnail }}" alt="">
+        <div class="overlay"></div>
+        <div class="button"><a href="{{ post.url | relative_url }}"> Read More </a></div>
+      </div>
+      <div class="post__contents">
+        <div class='posts__title'>
+            {{ post.title | escape }}
+        </div>
+        <div class='posts__description'>
+          <p>{{ post.content | split:'<!--break-->' | first }}</p>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}

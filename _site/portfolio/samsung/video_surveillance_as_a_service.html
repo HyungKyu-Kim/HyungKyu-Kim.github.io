@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Video Surveillance as a Service | Hyungkyu Kim</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Video Surveillance as a Service" />
+<meta name="author" content="Hyungkyu Kim" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This service integrates cloud system and network camera. It can provide necessary information from network camera in the local network to the outside network user while keeping security." />
+<meta property="og:description" content="This service integrates cloud system and network camera. It can provide necessary information from network camera in the local network to the outside network user while keeping security." />
+<link rel="canonical" href="http://localhost:4000/portfolio/samsung/video_surveillance_as_a_service" />
+<meta property="og:url" content="http://localhost:4000/portfolio/samsung/video_surveillance_as_a_service" />
+<meta property="og:site_name" content="Hyungkyu Kim" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-03-30T00:00:00+09:00" />
+<script type="application/ld+json">
+{"headline":"Video Surveillance as a Service","dateModified":"2019-03-30T00:00:00+09:00","url":"http://localhost:4000/portfolio/samsung/video_surveillance_as_a_service","datePublished":"2019-03-30T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/portfolio/samsung/video_surveillance_as_a_service"},"author":{"@type":"Person","name":"Hyungkyu Kim"},"description":"This service integrates cloud system and network camera. It can provide necessary information from network camera in the local network to the outside network user while keeping security.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel='stylesheet' href='/assets/main.css'>
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hyungkyu Kim" />
+  
+
+</head>
+
+  <body>
+    <div class='layout'>
+      <header class='header'>
+  <nav class='header__nav'>
+    
+      
+        <a class='header__nav__item' href='/'>Hyungkyu Kim</a>
+      
+    
+      
+        <a class='header__nav__item--selected' href='/portfolio'>Portfolio</a>
+      
+    
+      
+        <a class='header__nav__item' href='/cv'>CV</a>
+      
+    
+  </nav>
+  <hr width=100% border-color=#EBEBEB size=1>
+</header>
+      <main class='main'>
+        <article class='post'>
+  <div class="posts__navigation">
+    <a href="/portfolio"> Portfolio </a> &nbsp; > &nbsp; <a href="/portfolio#Samsung Techwin"> Samsung Techwin </a> &nbsp; > &nbsp; Video Surveillance as a Service
+  </div>
+  <br/>
+  <div>
+  
+    
+  
+    
+      <img src="/images/samsung/logo_samsung.png" width="100px" style="margin-bottom:35px">
+      
+  </div>
+  <h1>Video Surveillance as a Service</h1>
+  <p>This service integrates cloud system and network camera. 
+It can provide necessary information from network camera in the local network to the outside network user while keeping security.</p>
+
+<!--break-->
+
+<h4 id="my-role">My Role</h4>
+<p>Network camera main developer</p>
+<ul>
+  <li>Implement module establishing tunneling between server and camera</li>
+  <li>Implement controller module between server and camera</li>
+  <li>Implement module streaming between server and camera</li>
+</ul>
+
+<hr />
+<h4 id="project-detail">Project Detail</h4>
+
+<p><img src="/images/samsung/profile_htw_cloud.gif" alt="" /></p>
+
+<p>As we can see from a name, CCTV(Closed Circuit Television) is a device working on closed local network. 
+In network camera age, this concept was maintained as past. 
+But this tendency had met technology called Cloud Service and started to move forward from closed world to open world.
+“Video Surveillance as a Service” was created from this background.
+VSaaS has advantages compred with traditional servailance systems.</p>
+<ul>
+  <li>Provide efficiency and total cost of ownership</li>
+  <li>Provide flexiblity and scalability</li>
+  <li>Access to value-added services</li>
+  <li>Provide a wide array of products for hosted video</li>
+</ul>
+
+<h5 id="stratocast">Stratocast</h5>
+<p>I was participated in this domain as device side developer in 2015, when VSaaS was started to provide commercial service.
+I started to work this interesting domain from <a href="https://www.genetec.com/">Genetek</a>’s <a href="https://www.genetec.com/solutions/all-products/stratocast/overview">“Stratocast project”</a>.</p>
+<figure>
+  <img src="/images/samsung/profile_htw_cloud1.png" />
+  <figcaption>Stratocast implemented in Samsung camera</figcaption>
+</figure>
+
+<h5 id="vsaas-camera">VSaaS Camera</h5>
+<p>After that project, I was involved with development of the various client system in Network Camera device.
+As each Cloud System had a distinct method to communicate between camera and server, I tried to find <strong>flexible hierarchy</strong> to cope with these different features. 
+This point was about <strong>dealing with heterogeneous protocols</strong> with out huge transform.
+Main issues were below</p>
+<ul>
+  <li>Different connection protocol like VPN, SSH and custom protocol(socket)</li>
+  <li>Different system structure like existence of delegate connection server and region connection method</li>
+</ul>
+
+<p>I also had to handle <strong>variation of the connection network types</strong> like.</p>
+<ul>
+  <li>Ethernet</li>
+  <li>LTE</li>
+  <li>wifi</li>
+</ul>
+
+<p>And <strong>exception handle</strong> was a significant topic. It had issues like following.</p>
+<ul>
+  <li>Compose device rebooting scenario(eg. reconnect)</li>
+  <li>Set connection retry count via limitation of server’s resources</li>
+  <li>Control amount of sending data by network bandwith</li>
+</ul>
+
+<p>Structure of VSaaS camera was below figure. My development part is in red rectangle.</p>
+<figure>
+  <img src="/images/samsung/profile_htw_cloud.png" />
+</figure>
+
+<p>This client provided service through connection with server like following order.</p>
+<ol>
+  <li>Register Camera: Official operator performs secure process like RSA key exchange and registers camera in server</li>
+  <li>Sending Data: Registered camera sends video and additional data to streaming server through established tunnel</li>
+  <li>Streaming Service: Authenticated user requests the video streaming matched with user</li>
+</ol>
+
+<hr />
+<h4 id="related-news">Related News</h4>
+<ul>
+  <li><a href="https://securitytoday.com/articles/2016/10/26/hanwha-techwin-america-cameras-earn-genetec-stratocast-vsaas-cloud-integration-and-certification.aspx">Hanwha Techwin America Cameras Earn Genetec Stratocast VSaaS Cloud Integration and Certification </a></li>
+  <li><a href="https://www.sdmmag.com/articles/93266-cameras-earn-cloud-integration-certification">Cameras Earn Cloud Integration &amp; Certification </a></li>
+</ul>
+
+</article>
+
+      </main>
+      <footer class='footer'>
+  <ul class='footer__list'>
+    
+      
+        <li class='footer__item'>
+          <a href='mailto:hkkxkk@gmail.com'>Hyungkyu Kim</a>
+        </li>
+      
+    
+
+    
+      <li class='footer__item'>
+        <a href='https://github.com/Hyungkyu-Kim' title='github'>
+          <svg class='icon'><use href='/assets/icons/github.svg#github' xlink:href='/assets/icons/github.svg#github'></use>
+</svg>
+
+        </a>
+      </li>
+    
+
+    
+
+    
+
+    
+  </ul>
+</footer>
+
+    </div>
+  </body>
+</html>

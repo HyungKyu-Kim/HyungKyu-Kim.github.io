@@ -1,0 +1,324 @@
+// This css basically from yue.css, and I have done some change for it.
+
+.post {
+  color: #555555;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
+  color: $black-light;
+}
+
+.post h1 {
+  color: #1A1A1A;
+  font-family: "Bebas Neue";
+  font-size: 48px;
+  line-height: 44px;
+}
+
+.post > h1 {
+  margin-top: 0;
+}
+
+.post h2 {
+  height: 26px;
+  width: 115px;
+  color: #1A1A1A;
+  font-family: "Bebas Neue";
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.post h3 {
+  color: #1A1A1A;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.post h4
+{
+  color: #1A1A1A;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.post h5 {
+  color: #1A1A1A;
+  text-decoration: underline;
+  font-family: "Open Sans";
+  font-size: 19px;
+  margin-top: 80px;
+  line-height: 25px;
+}
+.post h6 {
+  color: $black-light;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 0,
+}
+
+.post p {
+  margin-top: 0;
+  margin-bottom: 1.46em;
+}
+
+a {
+  color: $black;
+  word-wrap: break-word;
+  text-decoration-color: rgba(0, 0, 0, .8);
+}
+
+a:hover {
+  color: $black-lightest;
+  text-decoration-color: rgba(0, 0, 0, .6);
+}
+
+.post h1 a,
+.post h2 a,
+.post h3 a {
+  text-decoration: none;
+}
+
+.post strong,
+.post b {
+  font-weight: 700;
+  color: $black-light;
+}
+
+.post i {
+  font-style: italic;
+  color: $black-light;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.2em 0;
+}
+
+.post figure {
+  position: relative;
+  clear: both;
+  outline: 0;
+  margin: 10px 0 30px;
+  padding: 0;
+  min-height: 100px;
+}
+
+.post figure img {
+  display: block;
+  max-width: 100%;
+  margin: auto auto 4px;
+  box-sizing: border-box;
+}
+
+.post figure figcaption {
+  text-align: right;
+  width: 100%;
+  font-style: italic;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight:700;
+  margin-top: 10px;
+  color: $black-lightest;
+}
+
+.post figure figcaption a {
+  text-decoration: none;
+  color: $black-lightest;
+}
+
+.post hr {
+  display: block;
+  width: 40%;
+  margin: 60px auto 55px;
+  border: 0 none;
+  border-top: 1px solid $grey-light;
+}
+
+.post blockquote {
+  margin: 0 0 1.64em 0;
+  border-left: 3px solid $grey-light;
+  padding-left: 15px;
+  color: $black-lightest;
+}
+
+.post blockquote a {
+  color: $black-lightest;
+}
+
+.post ul,
+.post ol {
+  margin: 0 0 24px 6px;
+  padding-left: 16px;
+}
+
+.post ul {
+  list-style-type: square;
+}
+
+.post ol {
+  list-style-type: decimal;
+}
+
+.post li {
+  font-family: "Open Sans";
+  margin-bottom: 0.2em;
+}
+
+.post li ul,
+.post li ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.post li ul {
+  list-style-type: disc;
+}
+
+.post li ul ul {
+  list-style-type: circle;
+}
+
+.post li p {
+  margin: 0.4em 0 0.6em;
+}
+
+.post .unstyled {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post code,
+.post tt {
+  color: $black-light;
+  font-size: 0.96em;
+  background-color: $grey-lightest;
+  padding: 1px 2px;
+  border: 1px solid $grey-light;
+  border-radius: 3px;
+  font-family: $monospaced-fonts;
+  word-wrap: break-word;
+}
+
+.post pre {
+  margin: 1.64em 0;
+  padding: 7px;
+  border: none;
+  border-left: 3px solid $grey-light;
+  padding-left: 10px;
+  overflow: auto;
+  line-height: 1.5;
+  font-size: 0.96em;
+  font-family: $monospaced-fonts;
+  color: $black-light;
+  background-color: $grey-lightest;
+}
+
+.post pre code,
+.post pre tt {
+  color: $black-light;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.post table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.5em;
+  font-size: 0.96em;
+  box-sizing: border-box;
+}
+
+.post th,
+.post td {
+  width:33%;
+  text-align: left;
+  padding: 4px 8px 4px 10px;
+  border: 1px solid $grey-light;
+}
+
+.post td {
+  vertical-align: top;
+}
+
+.post tr:nth-child(even) {
+  background-color: $grey-lightest;
+}
+
+.post iframe {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.post figure iframe {
+  margin: auto;
+}
+
+.post table pre {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+@media (min-width: 1100px) {
+  .post blockquote {
+    padding-left: 20px;
+    border-width: 4px;
+  }
+
+  .post blockquote blockquote {
+    margin-left: 0;
+  }
+}
+
+img[alt="centerimage"] {
+  max-width:  70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img[alt="pjtimage"] {
+  max-width:  70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// video
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

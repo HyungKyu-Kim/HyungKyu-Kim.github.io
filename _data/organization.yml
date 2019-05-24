@@ -1,0 +1,30 @@
+- title: Medipixel
+  etc: Medipixel is a medical start-up. As coworking with many stakeholder whom in medical, tech domains, It have been creating interesting systems.
+  logo: /images/medipixel/logo_medipixel.png
+  brief: AI Researcher
+  duration: November.2017 ~ Present
+  description:
+  role:
+    - Develop Deep Learning System
+    - Develop Reinforcement Learning System
+    - Develop Robotics Control System
+    - Handle medical data(DICOM, EMR)
+- title: Samsung Techwin
+  etc: Samsung Techwin is a global top tier security devices manufacturer. It have been developing many network devices used for physical security.
+  logo: /images/samsung/logo_samsung.png
+  brief: Network Camera Developer
+  duration: July.2012 ~ November.2017
+  description:
+  role:
+    - Develop Embedded System
+    - Develop Network Deivces
+    - Handle video CODEC(H.264, MJPEG, YUV422, YUV420)
+    - Handle network protocols(RTSP, RTP, HTTP, FTP, SMTP)
+    - Handle several communication types(serial, WIFI, BLUETOOTH, LTE, ethernet)
+- title: Private
+  etc:
+  logo:
+  brief: My private projects
+  duration:
+  description:
+  role:
