@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-25T04:05:03+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;blah blah&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-26T05:46:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;blah blah&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -11,7 +11,7 @@
 &lt;/ul&gt;
 
 &lt;hr /&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">blah blah</summary></entry><entry><title type="html">Guidewire Navigation based on Reinforcement Learning</title><link href="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning" rel="alternate" type="text/html" title="Guidewire Navigation based on Reinforcement Learning" /><published>2019-04-14T00:00:00+09:00</published><updated>2019-04-14T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Guidewire%20Navigation%20based%20on%20Reinforcement%20Learning</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning">&lt;p&gt;The system places stent to the target lesion in the coronary artery via controlling manipulator made by &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt;. 
-It is the world first autonomous &lt;a href=&quot;https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention&quot;&gt;PCI&lt;/a&gt; surgery robot system. 
+It is the world first autonomous &lt;a href=&quot;https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention&quot;&gt;PCI&lt;/a&gt; robot system. 
 My team has developed reinforcement learning-based control software. 
 This project was awarded first place at &lt;a href=&quot;https://jlabs.jnjinnovation.com/quickfire-challenges/seoul-innovation-quickfire-challenge-robotics-digital-surgery&quot;&gt;Johnson &amp;amp; Johnson QuickFire Challenge&lt;/a&gt;.&lt;/p&gt;
 
@@ -41,88 +41,105 @@ This project was awarded first place at &lt;a href=&quot;https://jlabs.jnjinnova
 &lt;p&gt;&lt;br /&gt;
 Cardiovascular disease takes up a large portion of annual death around the world. 
 &lt;a href=&quot;https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death&quot;&gt;WHO announcement&lt;/a&gt; shows that ischaemic heart disease is the world’s biggest killer in 2016 and one of the most general treatments for ischaemic heart disease is &lt;a href=&quot;https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention&quot;&gt;Percutaneous Coronary Intervention&lt;/a&gt;. 
-But &lt;strong&gt;traditional PCI surgery has several shortages&lt;/strong&gt; as follows.&lt;/p&gt;
+But &lt;strong&gt;traditional PCI has several shortages&lt;/strong&gt; as follows.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Huge gap of proficiency and hard to transfer high level skill&lt;/li&gt;
   &lt;li&gt;Exposure to harmful radiation generated from angiography&lt;/li&gt;
-  &lt;li&gt;Long surgery time(about 1 hour)&lt;/li&gt;
+  &lt;li&gt;Long time(about 1 hour)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;To overcome these challenges, Medipixel has been collaborating with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; to develop &lt;strong&gt;the world first autonomous PCI surgery robot system&lt;/strong&gt;. 
+&lt;p&gt;To overcome these challenges, Medipixel has been collaborating with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; to develop &lt;strong&gt;the world first autonomous PCI robot system&lt;/strong&gt;. 
 This system autonomously navigates guide wire to the target lesion.
-As autonomous robot navigation system supports routine and crucial processes operating guide wire in PCI surgery, it can take advantages such as&lt;/p&gt;
+It means that this system transfers from atypical procedure depended on personal’s skill and experience to typical procedure. 아직 고쳐야함
+This &lt;strong&gt;“Standardization of Procedure”&lt;/strong&gt; can take advantages such as&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Reduce gap between an expert and a beginner&lt;/li&gt;
   &lt;li&gt;Diminish exposing time from radiation&lt;/li&gt;
   &lt;li&gt;Enable workers to do other tasks&lt;/li&gt;
-  &lt;li&gt;Reduce surgery time&lt;/li&gt;
+  &lt;li&gt;Reduce time&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h5 id=&quot;required-technologies&quot;&gt;Required Technologies&lt;/h5&gt;
-&lt;p&gt;My team had to prepare various technologies including medicine, robotics and reinforcement learning.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;To keep safety, it was necessary for my team to comprehend medical knowledge for PCI surgery&lt;/li&gt;
-  &lt;li&gt;To achieve robust control, my team surveyed domains such as Robotics and Elastic Rod&lt;/li&gt;
-  &lt;li&gt;To ascend accuracy of system, we studied Reinforcement Learning(RL) and Computer Vision Algorithm in detail&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_tech.png&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h6 id=&quot;why-reinforcement-learning&quot;&gt;Why Reinforcement Learning&lt;/h6&gt;
-&lt;p&gt;Our environment, coronary arteries involving dynamic state transition like blood flow and heartbeat, was so complex that we did not have high confidence for traditional control method from robotics.	
-Therefore, we needed algorithm to approach a goal by interaction with environment. 
-We defined our problem as Markov Decision Process like below.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_mdp.png&quot; width=&quot;63%&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h6 id=&quot;medic&quot;&gt;Medic&lt;/h6&gt;
-&lt;p&gt;Since most of my team were engineer, it essential that supplemented lack of medical knowledge.
-To understand PCI surgery process, we got interviews with doctors and researchers who involved with coronary artery disease.
-Also, we had PCI surgery observations several times and studied about coronary arteries.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_animal_ex.png&quot; /&gt;
   &lt;figcaption&gt;Animal test observation - COPYRIGHT© 2019 Medipixel. All Rights Reserved.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h5 id=&quot;barriers-to-entry&quot;&gt;Barriers to Entry&lt;/h5&gt;
+&lt;h5 id=&quot;challenges&quot;&gt;Challenges&lt;/h5&gt;
 &lt;p&gt;While designing project, It was significant issue that researched technologies were apply to the problems that what we encounter.
 We needed to know &lt;strong&gt;how to design and quantify intertwined relationship and complex experience&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Standardization of surgery&lt;/p&gt;
-
-&lt;p&gt;All of these expert’s experience and related knowledge needed to be quantified for determining a proper numerical values in RL system. 
+&lt;p&gt;Expert’s experience and related knowledge needed to be quantified for determining a proper numerical values in RL system. 
 Furthermore, we contemplated mechanism of manipulator movement together for successful training of RL agent.&lt;/p&gt;
-
-&lt;p&gt;For example, forward/backward step size for guidewire manipulation was considered in below part.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Medicine&lt;/th&gt;
-      &lt;th&gt;Robotics&lt;/th&gt;
+      &lt;th&gt;Safety&lt;/th&gt;
+      &lt;th&gt;Nonlinearity of manipulation&lt;/th&gt;
       &lt;th&gt;RL&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_medicine.png&quot; /&gt; Movement of guidewire could cause hazardous situation in coronary artery&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_medicine.png&quot; /&gt; Movement of guidewire could cause hazardous situation in coronary artery. 언제든 개입가능하게&lt;/td&gt;
       &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_robotics.png&quot; /&gt; To handle nonlinearity of manipulation, control resolution of step size based on error tolerance was considered&lt;/td&gt;
       &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_rl.png&quot; /&gt;In RL algorithm, discrete or continuous input types were important criterion to define RL algorithm category such as value-based RL or policy-based RL&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h5 id=&quot;required-technologies&quot;&gt;Required Technologies&lt;/h5&gt;
+&lt;p&gt;My team had to prepare various technologies including medicine, robotics and reinforcement learning.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To keep safety, it was necessary for my team to comprehend medical knowledge for PCI&lt;/li&gt;
+  &lt;li&gt;To achieve robust control, my team surveyed domains such as Robotics and Elastic Rod&lt;/li&gt;
+  &lt;li&gt;To ascend accuracy of system, we studied Reinforcement Learning(RL) and Computer Vision Algorithm in detail&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/medipixel/profile_biorobot_tech.png&quot; width=&quot;95%&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h6 id=&quot;supplement-medical-knowledge&quot;&gt;Supplement Medical Knowledge&lt;/h6&gt;
+&lt;p&gt;We got many interviews with doctors and researchers who involved with coronary artery disease. 
+Also, we had PCI observations several times and studied about coronary arteries. 
+In these processes, we obtained knowledge like below&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Procedure of PCI&lt;/li&gt;
+  &lt;li&gt;Case studies by patient&lt;/li&gt;
+  &lt;li&gt;Usage of equipments&lt;/li&gt;
+  &lt;li&gt;Terms and Abbreviation&lt;/li&gt;
+  &lt;li&gt;Procedure time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/medipixel/profile_biorobot_procedure.png&quot; width=&quot;95%&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h6 id=&quot;why-reinforcement-learning&quot;&gt;Why Reinforcement Learning&lt;/h6&gt;
+&lt;p&gt;Our environment, coronary arteries involving dynamic state transition like blood flow and heartbeat, was so complex that we did not have high confidence for traditional control method from robotics.	
+Therefore, we needed algorithm to approach a goal by interaction with environment.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/medipixel/profile_biorobot_mdp.png&quot; width=&quot;63%&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h5 id=&quot;my-main-tasks&quot;&gt;My Main Tasks&lt;/h5&gt;
+&lt;p&gt;My role on this project was to lead direction of development and to materialize a practical plan as a development team leader.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Set-up: At the early stage of the project, I first designed and set up all experiments environment.&lt;/li&gt;
+  &lt;li&gt;Design: I designed overall architecture of control system by below principle.&lt;/li&gt;
+  &lt;li&gt;Implementation: I implemented the environment module in reinforcement learning framework. 
+It was a core module to manage and to make every device and robot on this system abstract. 
+At the same time, I integrated all modules on this system and implemented functions to improve overall system performance based on designed architecture.&lt;/li&gt;
+&lt;/ol&gt;
+
 &lt;h5 id=&quot;set-up&quot;&gt;Set-up&lt;/h5&gt;
 
 &lt;h6 id=&quot;establishment-of-experiment-plan&quot;&gt;Establishment of experiment plan&lt;/h6&gt;
-&lt;p&gt;I established a simple experiment process based on core plan of project.
-Then, I drew a rough sketch of the experiment environment corresponding with experiment process. 
+&lt;p&gt;We started from simple 2D blood vessel model.
+I drew a rough sketch of the experiment environment corresponding with experiment process. 
 Final expected environment figures are like below.
     &lt;figure&gt;
       &lt;img src=&quot;/images/medipixel/profile_biorobot_2d3denv.png&quot; width=&quot;90%&quot; /&gt;
@@ -148,8 +165,6 @@ I had plentiful latency testings like below figure and compared scalability, com
 
 &lt;h5 id=&quot;design&quot;&gt;Design&lt;/h5&gt;
 
-&lt;p&gt;I designed overall architecture of control system by below principle.&lt;/p&gt;
-
 &lt;h6 id=&quot;modularity&quot;&gt;Modularity&lt;/h6&gt;
 &lt;p&gt;Since this system is capable of having diverse environmental conditions like manipulator and external sensor devices, 
 I had to consider about minimizing the number of additional tasks when subsystems or peripherals were changed.
@@ -173,14 +188,11 @@ For this reason, I designed this system by using de facto standard systems such 
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;implement&quot;&gt;Implement&lt;/h5&gt;
-&lt;p&gt;I implemented the environment module in reinforcement learning framework. 
-It was a core module to manage and to make every device and robot on this system abstract. 
-At the same time, I integrated all modules on this system and implemented functions to improve overall system performance based on designed architecture. 
-The main implementation issues were below&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;As imprecise manipulation by slip was a big trouble, small fixed control size and value-based RL were picked.&lt;/strong&gt;&lt;br /&gt;
+&lt;h6 id=&quot;control-nonlinearity&quot;&gt;Control nonlinearity&lt;/h6&gt;
+&lt;p&gt;As imprecise manipulation by slip was a big trouble, small fixed control size and value-based RL were picked. 
 There were physical errors during manipulation by motor rotation as many general controlling systems under physical world. 
- In coronary artery surgery environment, this kind of errors especially had a worse effect because we had to handle exquisite unit of space and time. 
+In coronary artery environment, this kind of errors especially had a worse effect because we had to handle exquisite unit of space and time. 
 I approached this problem in a heuristic way and tried to define error tolerance thresholds because it was impossible to solve the issue perfectly. 
 In trial and error, my team found that using a very small fixed step command(about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach a correct position. 
 So we decided to use value-based RL algorithm.&lt;/p&gt;
@@ -189,8 +201,8 @@ So we decided to use value-based RL algorithm.&lt;/p&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_slip.png&quot; width=&quot;90%&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;strong&gt;I had to design and implement elaborate data flow because inter-module communication was critical issues.&lt;/strong&gt; &lt;br /&gt;
-To set proper shape and size of data, there were several trial and error. 
+&lt;h6 id=&quot;elaborate-data-flow-of-inter-module-communication&quot;&gt;Elaborate data flow of inter-module communication&lt;/h6&gt;
+&lt;p&gt;To set proper shape and size of data, there were several trial and error. 
 As shape of data required in each module was different, I had to ponder on computation cost of reshaping data while a current module was transferring data to next module. 
 Also, because RL agent utilized experience replay, limitation of memory size used for replay buffer was a big issue. 
 Therefore, size of state in RL had to be defined properly.&lt;/p&gt;
@@ -199,8 +211,8 @@ Therefore, size of state in RL had to be defined properly.&lt;/p&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_data.png&quot; width=&quot;70%&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;strong&gt;It was essential to solve synchronization problem between RL agent and manipulator.&lt;/strong&gt;&lt;br /&gt;
-RL agent had to obtain necessary data at once for decision making in each time step. 
+&lt;h6 id=&quot;synchronization-between-rl-agent-and-manipulator&quot;&gt;Synchronization between RL agent and manipulator&lt;/h6&gt;
+&lt;p&gt;RL agent had to obtain necessary data at once for decision making in each time step. 
 But as a manipulator was operated in asynchronous method, I had to decide what module should wait and collect data from the manipulator for synchronization. 
 I implemented communication module and put this module in charge of that task.&lt;/p&gt;
 
@@ -208,8 +220,8 @@ I implemented communication module and put this module in charge of that task.&l
   &lt;img src=&quot;/images/medipixel/profile_biorobot_sync.png&quot; width=&quot;70%&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;strong&gt;Reduction of system latency was a critical issue.&lt;/strong&gt; &lt;br /&gt;
-Reactivity of system was one of the most critical factors in overall system performance because agile situation awareness and countermeasure were essential in surgery process. 
+&lt;h6 id=&quot;reduction-of-system-latency&quot;&gt;Reduction of system latency&lt;/h6&gt;
+&lt;p&gt;Reactivity of system was one of the most critical factors in overall system performance because agile situation awareness and countermeasure were essential in PCI procedure. 
 So, it was compulsory to minimize latency on each module because summation of delayed time took a huge proportion of reactivity. 
 Especially, total latency largely depends on acquisition time of camera image and vision preprocessing time.&lt;/p&gt;
 
@@ -217,8 +229,8 @@ Especially, total latency largely depends on acquisition time of camera image an
   &lt;img src=&quot;/images/medipixel/profile_biorobot_latency.png&quot; width=&quot;95%&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;strong&gt;I had to implement strict exception handling.&lt;/strong&gt;&lt;br /&gt;
-It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
+&lt;h6 id=&quot;strict-exception-handling&quot;&gt;Strict exception handling&lt;/h6&gt;
+&lt;p&gt;It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
 I had to handle many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
 Also, communication manipulator exception was another serious handling point because it could lead to system procedure to halt.&lt;/p&gt;
 
@@ -243,7 +255,7 @@ Main experimental factors are below&lt;/p&gt;
 
 &lt;h6 id=&quot;possibility-to-transfer-other-domain&quot;&gt;Possibility to transfer other domain&lt;/h6&gt;
 
-&lt;p&gt;PCI surgery is a  high risky procedure with and requiring high skills. 
+&lt;p&gt;PCI is a  high risky procedure with and requiring high skills. 
 Therefore, there is a possibility to apply our skill-set in other domains in a relatively easy way.&lt;/p&gt;
 
 &lt;table&gt;
@@ -251,14 +263,14 @@ Therefore, there is a possibility to apply our skill-set in other domains in a r
     &lt;tr&gt;
       &lt;th&gt;Search system&lt;/th&gt;
       &lt;th&gt;Pipeline integrity inspection&lt;/th&gt;
-      &lt;th&gt;Catheter surgery automation&lt;/th&gt;
+      &lt;th&gt;Catheter procedure automation&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_newdomain0.png&quot; /&gt;Search system used to locate people in a collapsed building by manipulating wire camera&lt;/td&gt;
       &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_newdomain1.png&quot; /&gt;Pipeline integrity inspection in a construction site&lt;/td&gt;
-      &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_newdomain2.png&quot; /&gt;Automation of other surgery process through wire and catheter&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_newdomain2.png&quot; /&gt;Automation of other procedure through wire and catheter&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -269,7 +281,7 @@ Now, my team and AMC are writing a research paper targeting top medical journals
 We are also expected to advance for a new experiment project on 3D environment in the second half of 2019.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_3denv.png&quot; width=&quot;60%&quot; /&gt;
-&lt;/figure&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">The system places stent to the target lesion in the coronary artery via controlling manipulator made by Asan Medical Center. It is the world first autonomous PCI surgery robot system. My team has developed reinforcement learning-based control software. This project was awarded first place at Johnson &amp;amp; Johnson QuickFire Challenge.</summary></entry><entry><title type="html">Lung Cancer Diagnosis Clinical Decision Support System</title><link href="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system" rel="alternate" type="text/html" title="Lung Cancer Diagnosis Clinical Decision Support System" /><published>2019-04-13T00:00:00+09:00</published><updated>2019-04-13T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Lung%20Cancer%20Diagnosis%20Clinical%20Decision%20Support%20System</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system">&lt;p&gt;The purpose of the system is to help doctors make a decision on diagnosis of lung cancer. It supports diagnosis by deep learning based detection and classification nodules.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">The system places stent to the target lesion in the coronary artery via controlling manipulator made by Asan Medical Center. It is the world first autonomous PCI robot system. My team has developed reinforcement learning-based control software. This project was awarded first place at Johnson &amp;amp; Johnson QuickFire Challenge.</summary></entry><entry><title type="html">Lung Cancer Diagnosis Clinical Decision Support System</title><link href="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system" rel="alternate" type="text/html" title="Lung Cancer Diagnosis Clinical Decision Support System" /><published>2019-04-13T00:00:00+09:00</published><updated>2019-04-13T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Lung%20Cancer%20Diagnosis%20Clinical%20Decision%20Support%20System</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system">&lt;p&gt;The purpose of the system is to help doctors make a decision on diagnosis of lung cancer. It supports diagnosis by deep learning based detection and classification nodules.&lt;/p&gt;
 
 &lt;!--break--&gt;
 
