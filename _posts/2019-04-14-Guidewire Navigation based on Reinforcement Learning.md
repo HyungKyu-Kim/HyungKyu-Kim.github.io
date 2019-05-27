@@ -51,30 +51,105 @@ This **"Standardization of Procedure"** can take advantages such as
 
 
 ##### Challenges
-While designing project, It was significant issue that researched technologies were apply to the problems that what we encounter.
-We needed to know **how to design and quantify intertwined relationship and complex experience**.  
+For successful PCI procedure, It is necessary to quantify abstract and complex factors, such as doctor's experience and medical knowledge, as proper numerical values in system. 
+Performing this task, we should consider the following issues
 
-Expert's experience and related knowledge needed to be quantified for determining a proper numerical values in RL system. 
-Furthermore, we contemplated mechanism of manipulator movement together for successful training of RL agent.
+<div class="posts__item">
+    <img style="float: left; margin-right: 4%; margin-bottom: 2%;" src="/images/medipixel/profile_biorobot_medicine.png" width="35%">
+    <h6>Safety</h6>
+    <div class="challenge">
+        <ul>
+            <li>
+                There is possibility that movement of guidewire causes hazardous situation in coronary artery
+            </li>
+            <li>
+                Doctors must enable to monitor and intervene at emergency situation 
+            </li>
+            <li>
+                Intervention of doctor should have short latency
+            </li>
+        </ul>
+    </div>
+</div> 
 
-|Safety | Nonlinearity of manipulation |RL |
-|------|------|------|
-|<img src="/images/medipixel/profile_biorobot_medicine.png"> Movement of guidewire could cause hazardous situation in coronary artery. 언제든 개입가능하게 | <img src="/images/medipixel/profile_biorobot_robotics.png"> To handle nonlinearity of manipulation, control resolution of step size based on error tolerance was considered | <img src="/images/medipixel/profile_biorobot_rl.png">In RL algorithm, discrete or continuous input types were important criterion to define RL algorithm category such as value-based RL or policy-based RL|  
+<div class="posts__item"> 
+    <img style="float: left; vertical-align; margin-right: 4%;" src="/images/medipixel/profile_biorobot_robotics.png" width="35%">
+    <h6>Nonlinearity of manipulation</h6>
+    <div class="challenge">
+        <ul style="vertical-align: middle;">
+            <li>
+                Friction and twist of wire triggers difference between control input and output
+            </li>
+            <li>
+                Manipulation slip of wire is big issue also
+            </li>
+        </ul>
+    </div>
+</div>
 
+<div class="posts__item"> 
+    <img style="float: left; vertical-align; margin-right: 4%;" src="/images/medipixel/profile_biorobot_cag.gif" width="35%">
+    <h6>Complexity of environment</h6>
+    <div class="challenge">
+        <ul style="vertical-align: middle;">
+            <li>
+                Coronary arteries is complex environment that involves dynamic status changes like blood flow and heartbeat
+            </li>
+            <li>
+                 It is possible that external factor like condition of patient makes abnormal environment transition  
+            </li>
+        </ul>
+    </div>
+</div>    
 
 
 ##### Required Technologies
-My team had to prepare various technologies including medicine, robotics and reinforcement learning. 
+To undertake complex project, my team had to prepare various technologies including medicine, robotics and reinforcement learning. 
 
-* To keep safety, it was necessary for my team to comprehend medical knowledge for PCI
+* To keep safety, my team had to comprehend medical knowledge for PCI
 * To achieve robust control, my team surveyed domains such as Robotics and Elastic Rod
-* To ascend accuracy of system, we studied Reinforcement Learning(RL) and Computer Vision Algorithm in detail  
+* To ascend accuracy of system, we studied Reinforcement Learning(RL) and Computer Vision Algorithm
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_tech.png" width="95%">
 </figure>
 
-###### Supplement Medical Knowledge 
+###### Why is Reinforcement Learning
+Our environment was so complex that we did not have high confidence for traditional control method from robotics.
+Because most of that algorithms were static method, it had shortage to handle dynamic environment.
+Therefore, we needed algorithm to approach a goal by interaction with environment.
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_mdp.png" width="63%">
+</figure>
+
+
+##### Main Tasks
+###### Planning
+To solve complex problem, we needed approaches by stages.
+Through simplifying problem, we started at the most low dimension.
+I planned this project like
+> 2D → 3D → 3D with heartbeat → Animal → Clinical environment
+
+###### Set to work 어떤걸로 Launch
+My role on this project was to lead direction of development as a development team leader.
+I divided complicated main subject as sub task to materialize a plan like following.
+I performed below tasks in each stage
+
+0. Pre-research: I prepared knowledge for building of system
+1. Set-up: I established all experiments environment
+2. Design: I designed overall system architecture
+3. Implementation: I implemented the environment module in RL framework and integrated all modules 
+
+
+##### Pre-research
+
+###### System Framework
+I compared many other architectures of RL control system.
+찾아본 학회. 
+Especially, I focused on communication of each module of systems. 
+
+###### Medical Knowledge 
 We got many interviews with doctors and researchers who involved with coronary artery disease. 
 Also, we had PCI observations several times and studied about coronary arteries. 
 In these processes, we obtained knowledge like below
@@ -88,27 +163,10 @@ In these processes, we obtained knowledge like below
   <img src="/images/medipixel/profile_biorobot_procedure.png" width="95%">
 </figure>
 
-###### Why Reinforcement Learning
-Our environment, coronary arteries involving dynamic state transition like blood flow and heartbeat, was so complex that we did not have high confidence for traditional control method from robotics.	
-Therefore, we needed algorithm to approach a goal by interaction with environment. 
-
-<figure>
-  <img src="/images/medipixel/profile_biorobot_mdp.png" width="63%">
-</figure>
-
-
-##### My Main Tasks
-My role on this project was to lead direction of development and to materialize a practical plan as a development team leader.
-1. Set-up: At the early stage of the project, I first designed and set up all experiments environment.
-2. Design: I designed overall architecture of control system by below principle.
-3. Implementation: I implemented the environment module in reinforcement learning framework. 
-It was a core module to manage and to make every device and robot on this system abstract. 
-At the same time, I integrated all modules on this system and implemented functions to improve overall system performance based on designed architecture. 
-
 ##### Set-up
 
 ###### Establishment of experiment plan  
-We started from simple 2D blood vessel model.
+2D blood vessel model.
 I drew a rough sketch of the experiment environment corresponding with experiment process. 
 Final expected environment figures are like below.
     <figure>
@@ -134,7 +192,7 @@ I had plentiful latency testings like below figure and compared scalability, com
 </figure>
 
 
-##### Design
+##### Design Principles
 
 ###### Modularity 
 Since this system is capable of having diverse environmental conditions like manipulator and external sensor devices, 
@@ -161,7 +219,7 @@ For this reason, I designed this system by using de facto standard systems such 
 
 ##### Implement
 
-###### Control nonlinearity
+###### Handling nonlinearity
 As imprecise manipulation by slip was a big trouble, small fixed control size and value-based RL were picked. 
 There were physical errors during manipulation by motor rotation as many general controlling systems under physical world. 
 In coronary artery environment, this kind of errors especially had a worse effect because we had to handle exquisite unit of space and time. 
@@ -174,6 +232,7 @@ So we decided to use value-based RL algorithm.
 </figure>
 
 ###### Elaborate data flow of inter-module communication   
+렌더에 대한 언급 필요.
 To set proper shape and size of data, there were several trial and error. 
 As shape of data required in each module was different, I had to ponder on computation cost of reshaping data while a current module was transferring data to next module. 
 Also, because RL agent utilized experience replay, limitation of memory size used for replay buffer was a big issue. 

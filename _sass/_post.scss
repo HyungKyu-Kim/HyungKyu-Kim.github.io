@@ -281,6 +281,15 @@ a:hover {
   background: none;
 }
 
+.post .div challenge{
+  background: red;
+  height: 100px;
+  width: 500px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
 @media (min-width: 1100px) {
   .post blockquote {
     padding-left: 20px;

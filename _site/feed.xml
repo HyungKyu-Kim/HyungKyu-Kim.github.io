@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-26T05:46:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;blah blah&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-28T04:32:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;blah blah&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -65,43 +65,108 @@ This &lt;strong&gt;“Standardization of Procedure”&lt;/strong&gt; can take ad
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;challenges&quot;&gt;Challenges&lt;/h5&gt;
-&lt;p&gt;While designing project, It was significant issue that researched technologies were apply to the problems that what we encounter.
-We needed to know &lt;strong&gt;how to design and quantify intertwined relationship and complex experience&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For successful PCI procedure, It is necessary to quantify abstract and complex factors, such as doctor’s experience and medical knowledge, as proper numerical values in system. 
+Performing this task, we should consider the following issues&lt;/p&gt;
 
-&lt;p&gt;Expert’s experience and related knowledge needed to be quantified for determining a proper numerical values in RL system. 
-Furthermore, we contemplated mechanism of manipulator movement together for successful training of RL agent.&lt;/p&gt;
+&lt;div class=&quot;posts__item&quot;&gt;
+    &lt;img style=&quot;float: left; margin-right: 4%; margin-bottom: 2%;&quot; src=&quot;/images/medipixel/profile_biorobot_medicine.png&quot; width=&quot;35%&quot; /&gt;
+    &lt;h6&gt;Safety&lt;/h6&gt;
+    &lt;div class=&quot;challenge&quot;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                There is possibility that movement of guidewire causes hazardous situation in coronary artery
+            &lt;/li&gt;
+            &lt;li&gt;
+                Doctors must enable to monitor and intervene at emergency situation 
+            &lt;/li&gt;
+            &lt;li&gt;
+                Intervention of doctor should have short latency
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Safety&lt;/th&gt;
-      &lt;th&gt;Nonlinearity of manipulation&lt;/th&gt;
-      &lt;th&gt;RL&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_medicine.png&quot; /&gt; Movement of guidewire could cause hazardous situation in coronary artery. 언제든 개입가능하게&lt;/td&gt;
-      &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_robotics.png&quot; /&gt; To handle nonlinearity of manipulation, control resolution of step size based on error tolerance was considered&lt;/td&gt;
-      &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_rl.png&quot; /&gt;In RL algorithm, discrete or continuous input types were important criterion to define RL algorithm category such as value-based RL or policy-based RL&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;div class=&quot;posts__item&quot;&gt; 
+    &lt;img style=&quot;float: left; vertical-align; margin-right: 4%;&quot; src=&quot;/images/medipixel/profile_biorobot_robotics.png&quot; width=&quot;35%&quot; /&gt;
+    &lt;h6&gt;Nonlinearity of manipulation&lt;/h6&gt;
+    &lt;div class=&quot;challenge&quot;&gt;
+        &lt;ul style=&quot;vertical-align: middle;&quot;&gt;
+            &lt;li&gt;
+                Friction and twist of wire triggers difference between control input and output
+            &lt;/li&gt;
+            &lt;li&gt;
+                Manipulation slip of wire is big issue also
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;posts__item&quot;&gt; 
+    &lt;img style=&quot;float: left; vertical-align; margin-right: 4%;&quot; src=&quot;/images/medipixel/profile_biorobot_cag.gif&quot; width=&quot;35%&quot; /&gt;
+    &lt;h6&gt;Complexity of environment&lt;/h6&gt;
+    &lt;div class=&quot;challenge&quot;&gt;
+        &lt;ul style=&quot;vertical-align: middle;&quot;&gt;
+            &lt;li&gt;
+                Coronary arteries is complex environment that involves dynamic status changes like blood flow and heartbeat
+            &lt;/li&gt;
+            &lt;li&gt;
+                 It is possible that external factor like condition of patient makes abnormal environment transition  
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;h5 id=&quot;required-technologies&quot;&gt;Required Technologies&lt;/h5&gt;
-&lt;p&gt;My team had to prepare various technologies including medicine, robotics and reinforcement learning.&lt;/p&gt;
+&lt;p&gt;To undertake complex project, my team had to prepare various technologies including medicine, robotics and reinforcement learning.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;To keep safety, it was necessary for my team to comprehend medical knowledge for PCI&lt;/li&gt;
+  &lt;li&gt;To keep safety, my team had to comprehend medical knowledge for PCI&lt;/li&gt;
   &lt;li&gt;To achieve robust control, my team surveyed domains such as Robotics and Elastic Rod&lt;/li&gt;
-  &lt;li&gt;To ascend accuracy of system, we studied Reinforcement Learning(RL) and Computer Vision Algorithm in detail&lt;/li&gt;
+  &lt;li&gt;To ascend accuracy of system, we studied Reinforcement Learning(RL) and Computer Vision Algorithm&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_tech.png&quot; width=&quot;95%&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;h6 id=&quot;supplement-medical-knowledge&quot;&gt;Supplement Medical Knowledge&lt;/h6&gt;
+&lt;h6 id=&quot;why-is-reinforcement-learning&quot;&gt;Why is Reinforcement Learning&lt;/h6&gt;
+&lt;p&gt;Our environment was so complex that we did not have high confidence for traditional control method from robotics.
+Because most of that algorithms were static method, it had shortage to handle dynamic environment.
+Therefore, we needed algorithm to approach a goal by interaction with environment.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/medipixel/profile_biorobot_mdp.png&quot; width=&quot;63%&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h5 id=&quot;main-tasks&quot;&gt;Main Tasks&lt;/h5&gt;
+&lt;h6 id=&quot;planning&quot;&gt;Planning&lt;/h6&gt;
+&lt;p&gt;To solve complex problem, we needed approaches by stages.
+Through simplifying problem, we started at the most low dimension.
+I planned this project like&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2D → 3D → 3D with heartbeat → Animal → Clinical environment&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id=&quot;set-to-work-어떤걸로-launch&quot;&gt;Set to work 어떤걸로 Launch&lt;/h6&gt;
+&lt;p&gt;My role on this project was to lead direction of development as a development team leader.
+I divided complicated main subject as sub task to materialize a plan like following.
+I performed below tasks in each stage&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Pre-research: I prepared knowledge for building of system&lt;/li&gt;
+  &lt;li&gt;Set-up: I established all experiments environment&lt;/li&gt;
+  &lt;li&gt;Design: I designed overall system architecture&lt;/li&gt;
+  &lt;li&gt;Implementation: I implemented the environment module in RL framework and integrated all modules&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;pre-research&quot;&gt;Pre-research&lt;/h5&gt;
+
+&lt;h6 id=&quot;system-framework&quot;&gt;System Framework&lt;/h6&gt;
+&lt;p&gt;I compared many other architectures of RL control system.
+찾아본 학회. 
+Especially, I focused on communication of each module of systems.&lt;/p&gt;
+
+&lt;h6 id=&quot;medical-knowledge&quot;&gt;Medical Knowledge&lt;/h6&gt;
 &lt;p&gt;We got many interviews with doctors and researchers who involved with coronary artery disease. 
 Also, we had PCI observations several times and studied about coronary arteries. 
 In these processes, we obtained knowledge like below&lt;/p&gt;
@@ -117,28 +182,10 @@ In these processes, we obtained knowledge like below&lt;/p&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_procedure.png&quot; width=&quot;95%&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;h6 id=&quot;why-reinforcement-learning&quot;&gt;Why Reinforcement Learning&lt;/h6&gt;
-&lt;p&gt;Our environment, coronary arteries involving dynamic state transition like blood flow and heartbeat, was so complex that we did not have high confidence for traditional control method from robotics.	
-Therefore, we needed algorithm to approach a goal by interaction with environment.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_mdp.png&quot; width=&quot;63%&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h5 id=&quot;my-main-tasks&quot;&gt;My Main Tasks&lt;/h5&gt;
-&lt;p&gt;My role on this project was to lead direction of development and to materialize a practical plan as a development team leader.&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Set-up: At the early stage of the project, I first designed and set up all experiments environment.&lt;/li&gt;
-  &lt;li&gt;Design: I designed overall architecture of control system by below principle.&lt;/li&gt;
-  &lt;li&gt;Implementation: I implemented the environment module in reinforcement learning framework. 
-It was a core module to manage and to make every device and robot on this system abstract. 
-At the same time, I integrated all modules on this system and implemented functions to improve overall system performance based on designed architecture.&lt;/li&gt;
-&lt;/ol&gt;
-
 &lt;h5 id=&quot;set-up&quot;&gt;Set-up&lt;/h5&gt;
 
 &lt;h6 id=&quot;establishment-of-experiment-plan&quot;&gt;Establishment of experiment plan&lt;/h6&gt;
-&lt;p&gt;We started from simple 2D blood vessel model.
+&lt;p&gt;2D blood vessel model.
 I drew a rough sketch of the experiment environment corresponding with experiment process. 
 Final expected environment figures are like below.
     &lt;figure&gt;
@@ -163,7 +210,7 @@ I had plentiful latency testings like below figure and compared scalability, com
   &lt;img src=&quot;/images/medipixel/profile_biorobot_realsense_test.gif&quot; width=&quot;65%&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;h5 id=&quot;design&quot;&gt;Design&lt;/h5&gt;
+&lt;h5 id=&quot;design-principles&quot;&gt;Design Principles&lt;/h5&gt;
 
 &lt;h6 id=&quot;modularity&quot;&gt;Modularity&lt;/h6&gt;
 &lt;p&gt;Since this system is capable of having diverse environmental conditions like manipulator and external sensor devices, 
@@ -189,7 +236,7 @@ For this reason, I designed this system by using de facto standard systems such 
 
 &lt;h5 id=&quot;implement&quot;&gt;Implement&lt;/h5&gt;
 
-&lt;h6 id=&quot;control-nonlinearity&quot;&gt;Control nonlinearity&lt;/h6&gt;
+&lt;h6 id=&quot;handling-nonlinearity&quot;&gt;Handling nonlinearity&lt;/h6&gt;
 &lt;p&gt;As imprecise manipulation by slip was a big trouble, small fixed control size and value-based RL were picked. 
 There were physical errors during manipulation by motor rotation as many general controlling systems under physical world. 
 In coronary artery environment, this kind of errors especially had a worse effect because we had to handle exquisite unit of space and time. 
@@ -202,7 +249,8 @@ So we decided to use value-based RL algorithm.&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;h6 id=&quot;elaborate-data-flow-of-inter-module-communication&quot;&gt;Elaborate data flow of inter-module communication&lt;/h6&gt;
-&lt;p&gt;To set proper shape and size of data, there were several trial and error. 
+&lt;p&gt;렌더에 대한 언급 필요.
+To set proper shape and size of data, there were several trial and error. 
 As shape of data required in each module was different, I had to ponder on computation cost of reshaping data while a current module was transferring data to next module. 
 Also, because RL agent utilized experience replay, limitation of memory size used for replay buffer was a big issue. 
 Therefore, size of state in RL had to be defined properly.&lt;/p&gt;
