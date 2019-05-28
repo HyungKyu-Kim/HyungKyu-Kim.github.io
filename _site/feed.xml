@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-28T04:32:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;blah blah&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-29T03:04:52+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;blah blah&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -50,7 +50,7 @@ But &lt;strong&gt;traditional PCI has several shortages&lt;/strong&gt; as follow
 
 &lt;p&gt;To overcome these challenges, Medipixel has been collaborating with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; to develop &lt;strong&gt;the world first autonomous PCI robot system&lt;/strong&gt;. 
 This system autonomously navigates guide wire to the target lesion.
-It means that this system transfers from atypical procedure depended on personal’s skill and experience to typical procedure. 아직 고쳐야함
+It means that this system performs to transfer from atypical procedure depended on personal skill and experience to typical procedure.
 This &lt;strong&gt;“Standardization of Procedure”&lt;/strong&gt; can take advantages such as&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Reduce gap between an expert and a beginner&lt;/li&gt;
@@ -69,7 +69,7 @@ This &lt;strong&gt;“Standardization of Procedure”&lt;/strong&gt; can take ad
 Performing this task, we should consider the following issues&lt;/p&gt;
 
 &lt;div class=&quot;posts__item&quot;&gt;
-    &lt;img style=&quot;float: left; margin-right: 4%; margin-bottom: 2%;&quot; src=&quot;/images/medipixel/profile_biorobot_medicine.png&quot; width=&quot;35%&quot; /&gt;
+    &lt;img style=&quot;float: left; margin-right: 4%; margin-bottom: 1%;&quot; src=&quot;/images/medipixel/profile_biorobot_medicine.png&quot; width=&quot;35%&quot; /&gt;
     &lt;h6&gt;Safety&lt;/h6&gt;
     &lt;div class=&quot;challenge&quot;&gt;
         &lt;ul&gt;
@@ -87,7 +87,7 @@ Performing this task, we should consider the following issues&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;posts__item&quot;&gt; 
-    &lt;img style=&quot;float: left; vertical-align; margin-right: 4%;&quot; src=&quot;/images/medipixel/profile_biorobot_robotics.png&quot; width=&quot;35%&quot; /&gt;
+    &lt;img style=&quot;float: left; margin-right: 4%; margin-bottom: 1%;&quot; src=&quot;/images/medipixel/profile_biorobot_robotics.png&quot; width=&quot;35%&quot; /&gt;
     &lt;h6&gt;Nonlinearity of manipulation&lt;/h6&gt;
     &lt;div class=&quot;challenge&quot;&gt;
         &lt;ul style=&quot;vertical-align: middle;&quot;&gt;
@@ -120,7 +120,7 @@ Performing this task, we should consider the following issues&lt;/p&gt;
 &lt;p&gt;To undertake complex project, my team had to prepare various technologies including medicine, robotics and reinforcement learning.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;To keep safety, my team had to comprehend medical knowledge for PCI&lt;/li&gt;
+  &lt;li&gt;To keep safety, it needed to comprehend medical knowledge for PCI&lt;/li&gt;
   &lt;li&gt;To achieve robust control, my team surveyed domains such as Robotics and Elastic Rod&lt;/li&gt;
   &lt;li&gt;To ascend accuracy of system, we studied Reinforcement Learning(RL) and Computer Vision Algorithm&lt;/li&gt;
 &lt;/ul&gt;
@@ -135,7 +135,7 @@ Because most of that algorithms were static method, it had shortage to handle dy
 Therefore, we needed algorithm to approach a goal by interaction with environment.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_mdp.png&quot; width=&quot;63%&quot; /&gt;
+  &lt;img src=&quot;/images/medipixel/profile_biorobot_mdp.gif&quot; width=&quot;63%&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;main-tasks&quot;&gt;Main Tasks&lt;/h5&gt;
@@ -144,12 +144,12 @@ Therefore, we needed algorithm to approach a goal by interaction with environmen
 Through simplifying problem, we started at the most low dimension.
 I planned this project like&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;2D → 3D → 3D with heartbeat → Animal → Clinical environment&lt;/p&gt;
+  &lt;p&gt;2D → 3D → 3D with vibration → Animal → Clinical environment&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h6 id=&quot;set-to-work-어떤걸로-launch&quot;&gt;Set to work 어떤걸로 Launch&lt;/h6&gt;
+&lt;h6 id=&quot;set-to-work&quot;&gt;Set to work&lt;/h6&gt;
 &lt;p&gt;My role on this project was to lead direction of development as a development team leader.
-I divided complicated main subject as sub task to materialize a plan like following.
+I divided complicated main subject as sub task to materialize a plan.
 I performed below tasks in each stage&lt;/p&gt;
 
 &lt;ol&gt;
@@ -162,9 +162,9 @@ I performed below tasks in each stage&lt;/p&gt;
 &lt;h5 id=&quot;pre-research&quot;&gt;Pre-research&lt;/h5&gt;
 
 &lt;h6 id=&quot;system-framework&quot;&gt;System Framework&lt;/h6&gt;
-&lt;p&gt;I compared many other architectures of RL control system.
-찾아본 학회. 
-Especially, I focused on communication of each module of systems.&lt;/p&gt;
+&lt;p&gt;I compared many other architectures of RL control system in real environment.
+I researched preexistence system published in conferences including &lt;a href=&quot;https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8449910&quot;&gt;ICRA&lt;/a&gt;, &lt;a href=&quot;https://www.nema.org/pages/default.aspx&quot;&gt;NEMA&lt;/a&gt; and &lt;a href=&quot;https://arxiv.org/&quot;&gt;Arxiv&lt;/a&gt;. 
+&lt;a href=&quot;https://arxiv.org/abs/1803.07067v1&quot;&gt;Setting up a Reinforcement Learning Task with a Real-World Robot&lt;/a&gt; was one of the most helpful experiment result.&lt;/p&gt;
 
 &lt;h6 id=&quot;medical-knowledge&quot;&gt;Medical Knowledge&lt;/h6&gt;
 &lt;p&gt;We got many interviews with doctors and researchers who involved with coronary artery disease. 
@@ -185,26 +185,25 @@ In these processes, we obtained knowledge like below&lt;/p&gt;
 &lt;h5 id=&quot;set-up&quot;&gt;Set-up&lt;/h5&gt;
 
 &lt;h6 id=&quot;establishment-of-experiment-plan&quot;&gt;Establishment of experiment plan&lt;/h6&gt;
-&lt;p&gt;2D blood vessel model.
-I drew a rough sketch of the experiment environment corresponding with experiment process. 
-Final expected environment figures are like below.
+&lt;p&gt;First environment was two dimensional blood vessel model.
+I selected equipments of system and drew a rough sketch of the experiment environment. 
+Final expected environment figures were as below.
     &lt;figure&gt;
       &lt;img src=&quot;/images/medipixel/profile_biorobot_2d3denv.png&quot; width=&quot;90%&quot; /&gt;
     &lt;/figure&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;installation-of-darkroom&quot;&gt;Installation of darkroom&lt;/h6&gt;
 &lt;p&gt;Vision was the most important input data method  of this system.
-As vision was sensitive to the change of illumination problem, I wanted to exclude natural light from experiment environment. 
-Darkroom was the best option to handle this problem. 
+Since vision is sensitive to the change of illumination problem, I had to exclude natural light from experiment environment and darkroom was the best option to handle this problem. 
 I was in charge of purchasing and installing all equipments for the darkroom. 
     &lt;figure&gt;
       &lt;img src=&quot;/images/medipixel/profile_biorobot_experiment_env.png&quot; width=&quot;90%&quot; /&gt;
     &lt;/figure&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;comparison-of-cameras-by-latency&quot;&gt;Comparison of cameras by latency&lt;/h6&gt;
-&lt;p&gt;Latency was one of the most important factors to be considered for system performance. 
+&lt;p&gt;Latency is one of the most important factors to be considered for system performance. 
 As a huge proportion of latency depended on camera, I had to select a camera model carefully. 
-I had plentiful latency testings like below figure and compared scalability, compatibility, resolution and latency of varied camera model.&lt;/p&gt;
+As seen in the figure below, I conducted latency tests and compared scalability, compatibility, resolution and latency of varied camera model.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_realsense_test.gif&quot; width=&quot;65%&quot; /&gt;
@@ -219,13 +218,13 @@ I separated the system into submodules by role and made hierarchy among them.&lt
 
 &lt;h6 id=&quot;scalability&quot;&gt;Scalability&lt;/h6&gt;
 &lt;p&gt;As I mentioned above, we planned an environment transition step by step. 
-So I had to enable smooth conversion among heterogeneous environments such as 2D, 3D, animal and clinic. 
+Thus, I had to enable smooth conversion among heterogeneous environments such as 2D, 3D, animal and clinic. 
 Also, as we needed repetitive experiments for improving system performance like reward shaping, various settings for experiments had to be managed conveniently.
 I achieved this purpose via abstract and inheritance structure.&lt;/p&gt;
 
 &lt;h6 id=&quot;compatibility&quot;&gt;Compatibility&lt;/h6&gt;
-&lt;p&gt;It was necessary for implementing RL algorithm to verify its own performance through unit test. 
-Performance verification ran on  &lt;a href=&quot;https://gym.openai.com/envs/#atari&quot;&gt;Atari gym&lt;/a&gt;. 
+&lt;p&gt;It was necessary for implemented RL algorithm to be verified based on unit test. 
+We used &lt;a href=&quot;https://gym.openai.com/envs/#atari&quot;&gt;Atari gym&lt;/a&gt; environment for test. 
 And I had to consider standard communication protocol connecting with heterogeneously external devices.
 For this reason, I designed this system by using de facto standard systems such as &lt;a href=&quot;https://gym.openai.com/&quot;&gt;openai-gym&lt;/a&gt; and &lt;a href=&quot;http://www.ros.org/&quot;&gt;ROS&lt;/a&gt;.&lt;/p&gt;
 
@@ -234,13 +233,12 @@ For this reason, I designed this system by using de facto standard systems such 
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h5 id=&quot;implement&quot;&gt;Implement&lt;/h5&gt;
+&lt;h5 id=&quot;implementation-issues&quot;&gt;Implementation Issues&lt;/h5&gt;
 
 &lt;h6 id=&quot;handling-nonlinearity&quot;&gt;Handling nonlinearity&lt;/h6&gt;
-&lt;p&gt;As imprecise manipulation by slip was a big trouble, small fixed control size and value-based RL were picked. 
-There were physical errors during manipulation by motor rotation as many general controlling systems under physical world. 
-In coronary artery environment, this kind of errors especially had a worse effect because we had to handle exquisite unit of space and time. 
-I approached this problem in a heuristic way and tried to define error tolerance thresholds because it was impossible to solve the issue perfectly. 
+&lt;p&gt;There were physical errors during manipulation by motor rotation as many general controlling systems under physical world. 
+In coronary artery environment, this kind of errors especially had a worse effect because it requires to handle exquisite unit of space and time. 
+I approached this problem in a heuristic way and trying define error tolerance thresholds because there is no perfect solution for this issue. 
 In trial and error, my team found that using a very small fixed step command(about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach a correct position. 
 So we decided to use value-based RL algorithm.&lt;/p&gt;
 
@@ -249,8 +247,7 @@ So we decided to use value-based RL algorithm.&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;h6 id=&quot;elaborate-data-flow-of-inter-module-communication&quot;&gt;Elaborate data flow of inter-module communication&lt;/h6&gt;
-&lt;p&gt;렌더에 대한 언급 필요.
-To set proper shape and size of data, there were several trial and error. 
+&lt;p&gt;To set proper shape and size of data, there were several trial and error. 
 As shape of data required in each module was different, I had to ponder on computation cost of reshaping data while a current module was transferring data to next module. 
 Also, because RL agent utilized experience replay, limitation of memory size used for replay buffer was a big issue. 
 Therefore, size of state in RL had to be defined properly.&lt;/p&gt;
@@ -260,8 +257,8 @@ Therefore, size of state in RL had to be defined properly.&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;h6 id=&quot;synchronization-between-rl-agent-and-manipulator&quot;&gt;Synchronization between RL agent and manipulator&lt;/h6&gt;
-&lt;p&gt;RL agent had to obtain necessary data at once for decision making in each time step. 
-But as a manipulator was operated in asynchronous method, I had to decide what module should wait and collect data from the manipulator for synchronization. 
+&lt;p&gt;RL agent needs to obtain necessary data at once for decision making in each time step. 
+But as a manipulator was operated in asynchronous method, I decided what module should be-waited and collected data from the manipulator for synchronization. 
 I implemented communication module and put this module in charge of that task.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -269,8 +266,8 @@ I implemented communication module and put this module in charge of that task.&l
 &lt;/figure&gt;
 
 &lt;h6 id=&quot;reduction-of-system-latency&quot;&gt;Reduction of system latency&lt;/h6&gt;
-&lt;p&gt;Reactivity of system was one of the most critical factors in overall system performance because agile situation awareness and countermeasure were essential in PCI procedure. 
-So, it was compulsory to minimize latency on each module because summation of delayed time took a huge proportion of reactivity. 
+&lt;p&gt;Reactivity of system is one of the most critical factors in overall system performance because agile situation awareness and countermeasure were essential in PCI procedure. 
+Thus, it was compulsory to minimize latency on each module because summation of delayed time took a huge proportion of reactivity. 
 Especially, total latency largely depends on acquisition time of camera image and vision preprocessing time.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -279,7 +276,7 @@ Especially, total latency largely depends on acquisition time of camera image an
 
 &lt;h6 id=&quot;strict-exception-handling&quot;&gt;Strict exception handling&lt;/h6&gt;
 &lt;p&gt;It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
-I had to handle many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
+I handled many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
 Also, communication manipulator exception was another serious handling point because it could lead to system procedure to halt.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -289,7 +286,7 @@ Also, communication manipulator exception was another serious handling point bec
 &lt;h5 id=&quot;experiment&quot;&gt;Experiment&lt;/h5&gt;
 
 &lt;p&gt;My team implemented and numerous experiments with RL algorithms to improve system performance. 
-Main experimental factors are below&lt;/p&gt;
+Main experimental factors are as below&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Value based algorithms (&lt;a href=&quot;https://arxiv.org/abs/1710.02298&quot;&gt;Rainbow dqn&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/1707.06887&quot;&gt;C51&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/1806.06923&quot;&gt;IQN&lt;/a&gt;)&lt;/li&gt;

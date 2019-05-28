@@ -6,18 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a64748c0-830f-49cd-a748-971bc5141f78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/3a0a43bfb9545c94c5b36ed30fda626f9783cd25/_post.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/3a0a43bfb9545c94c5b36ed30fda626f9783cd25/_post.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_medicine.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_medicine.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_procedure.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_procedure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_robotics.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_robotics.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_mdp.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/medipixel/profile_biorobot_medicine.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/medipixel/profile_biorobot_medicine.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/medipixel/profile_biorobot_procedure.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/medipixel/profile_biorobot_procedure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/medipixel/profile_biorobot_robotics.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/medipixel/profile_biorobot_robotics.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medipixel/profile_biorobot_mdp.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,23 +67,23 @@
     <session id="-191780883">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="4396" />
+          <entry key="md" value="4869" />
           <entry key="scss" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="4396" />
+          <entry key="Markdown" value="4869" />
           <entry key="SCSS" value="17" />
         </counts>
       </usages-collector>
@@ -126,7 +119,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="272">
-                <caret line="149" column="64" selection-start-line="149" selection-start-column="64" selection-end-line="149" selection-end-column="64" />
+                <caret line="219" column="27" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -155,36 +148,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ronary arteries involving dynamic state transition like blood flow and heartbe</find>
-      <find>state tra</find>
-      <find>The Challenge</find>
-      <find>why re</find>
-      <find>ontrol method from robotics</find>
-      <find>ctor’s experience and medical kn</find>
-      <find>It is necessary</find>
-      <find>necessary</find>
-      <find>consider</find>
-      <find>Control nonlinearity</find>
-      <find>t is possible that movement of</find>
-      <find>quired Techn</find>
-      <find>in detail</find>
-      <find>it was necessary for</find>
-      <find>o undertake complex pr</find>
-      <find>onlinearity of Manipulati</find>
-      <find>rity of Manipula</find>
-      <find>Control resolution of step size based on error tolerance was consider</find>
-      <find>oronary arteries is comple</find>
-      <find>Coronary arteries is comCoronary arteries is com</find>
-      <find>plex environment th</find>
-      <find>ned To solve complex problem,</find>
-      <find>We started from simple 2</find>
-      <find>2d</find>
-      <find>complex</find>
-      <find>It was a core module to manage and to make every device and robot on this system abstract. At the</find>
-      <find>e module to manage and to</find>
-      <find>I designed overall architecture of control system</find>
-      <find>performed below</find>
-      <find>Especially</find>
+      <find>It means that this syst</find>
+      <find>m Framework</find>
+      <find>_mdp</find>
+      <find>heartbeat</find>
+      <find>re-research</find>
+      <find>plan like following</find>
+      <find>2D blood vessel m</find>
+      <find>Launch</find>
+      <find>ith experiment process. Final</find>
+      <find>nal expected environ</find>
+      <find>I conducted</find>
+      <find>on step by step.</find>
+      <find>Atari gym</find>
+      <find>rse effect beca</find>
+      <find>heurist</find>
+      <find>t was necessary for imple</find>
+      <find>re is no perfect solution for this i</find>
+      <find>Reactivity of syste</find>
+      <find>surgery pro</find>
+      <find>essential in</find>
+      <find>in real environm</find>
+      <find>ain experimental factors ar</find>
+      <find>nce PCI surge</find>
+      <find>shed in conferenc</find>
+      <find>To set proper shape a</find>
+      <find>I focused on communication method of each devices of system</find>
+      <find>렌더에 대한 언급 필</find>
+      <find>sential in PCI procedure</find>
+      <find>l in PCI procedu</find>
+      <find>Implementation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -653,7 +646,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="272">
-            <caret line="149" column="64" selection-start-line="149" selection-start-column="64" selection-end-line="149" selection-end-column="64" />
+            <caret line="219" column="27" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>

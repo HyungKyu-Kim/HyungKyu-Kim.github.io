@@ -37,7 +37,7 @@ But **traditional PCI has several shortages** as follows.
  
 To overcome these challenges, Medipixel has been collaborating with [Asan Medical Center](http://eng.amc.seoul.kr/gb/lang/main.do) to develop **the world first autonomous PCI robot system**. 
 This system autonomously navigates guide wire to the target lesion.
-It means that this system transfers from atypical procedure depended on personal’s skill and experience to typical procedure. 아직 고쳐야함
+It means that this system performs to transfer from atypical procedure depended on personal skill and experience to typical procedure.
 This **"Standardization of Procedure"** can take advantages such as
 * Reduce gap between an expert and a beginner
 * Diminish exposing time from radiation
@@ -55,7 +55,7 @@ For successful PCI procedure, It is necessary to quantify abstract and complex f
 Performing this task, we should consider the following issues
 
 <div class="posts__item">
-    <img style="float: left; margin-right: 4%; margin-bottom: 2%;" src="/images/medipixel/profile_biorobot_medicine.png" width="35%">
+    <img style="float: left; margin-right: 4%; margin-bottom: 1%;" src="/images/medipixel/profile_biorobot_medicine.png" width="35%">
     <h6>Safety</h6>
     <div class="challenge">
         <ul>
@@ -73,7 +73,7 @@ Performing this task, we should consider the following issues
 </div> 
 
 <div class="posts__item"> 
-    <img style="float: left; vertical-align; margin-right: 4%;" src="/images/medipixel/profile_biorobot_robotics.png" width="35%">
+    <img style="float: left; margin-right: 4%; margin-bottom: 1%;" src="/images/medipixel/profile_biorobot_robotics.png" width="35%">
     <h6>Nonlinearity of manipulation</h6>
     <div class="challenge">
         <ul style="vertical-align: middle;">
@@ -106,7 +106,7 @@ Performing this task, we should consider the following issues
 ##### Required Technologies
 To undertake complex project, my team had to prepare various technologies including medicine, robotics and reinforcement learning. 
 
-* To keep safety, my team had to comprehend medical knowledge for PCI
+* To keep safety, it needed to comprehend medical knowledge for PCI
 * To achieve robust control, my team surveyed domains such as Robotics and Elastic Rod
 * To ascend accuracy of system, we studied Reinforcement Learning(RL) and Computer Vision Algorithm
 
@@ -120,7 +120,7 @@ Because most of that algorithms were static method, it had shortage to handle dy
 Therefore, we needed algorithm to approach a goal by interaction with environment.
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_mdp.png" width="63%">
+  <img src="/images/medipixel/profile_biorobot_mdp.gif" width="63%">
 </figure>
 
 
@@ -129,11 +129,11 @@ Therefore, we needed algorithm to approach a goal by interaction with environmen
 To solve complex problem, we needed approaches by stages.
 Through simplifying problem, we started at the most low dimension.
 I planned this project like
-> 2D → 3D → 3D with heartbeat → Animal → Clinical environment
+> 2D → 3D → 3D with vibration → Animal → Clinical environment
 
-###### Set to work 어떤걸로 Launch
+###### Set to work
 My role on this project was to lead direction of development as a development team leader.
-I divided complicated main subject as sub task to materialize a plan like following.
+I divided complicated main subject as sub task to materialize a plan.
 I performed below tasks in each stage
 
 0. Pre-research: I prepared knowledge for building of system
@@ -145,9 +145,9 @@ I performed below tasks in each stage
 ##### Pre-research
 
 ###### System Framework
-I compared many other architectures of RL control system.
-찾아본 학회. 
-Especially, I focused on communication of each module of systems. 
+I compared many other architectures of RL control system in real environment.
+I researched preexistence system published in conferences including [ICRA](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8449910), [NEMA](https://www.nema.org/pages/default.aspx) and [Arxiv](https://arxiv.org/). 
+[Setting up a Reinforcement Learning Task with a Real-World Robot](https://arxiv.org/abs/1803.07067v1) was one of the most helpful experiment result.
 
 ###### Medical Knowledge 
 We got many interviews with doctors and researchers who involved with coronary artery disease. 
@@ -163,29 +163,29 @@ In these processes, we obtained knowledge like below
   <img src="/images/medipixel/profile_biorobot_procedure.png" width="95%">
 </figure>
 
+
 ##### Set-up
 
 ###### Establishment of experiment plan  
-2D blood vessel model.
-I drew a rough sketch of the experiment environment corresponding with experiment process. 
-Final expected environment figures are like below.
+First environment was two dimensional blood vessel model.
+I selected equipments of system and drew a rough sketch of the experiment environment. 
+Final expected environment figures were as below.
     <figure>
       <img src="/images/medipixel/profile_biorobot_2d3denv.png" width="90%">
     </figure>
 
 ###### Installation of darkroom  
 Vision was the most important input data method  of this system.
-As vision was sensitive to the change of illumination problem, I wanted to exclude natural light from experiment environment. 
-Darkroom was the best option to handle this problem. 
+Since vision is sensitive to the change of illumination problem, I had to exclude natural light from experiment environment and darkroom was the best option to handle this problem. 
 I was in charge of purchasing and installing all equipments for the darkroom. 
     <figure>
       <img src="/images/medipixel/profile_biorobot_experiment_env.png" width="90%">
     </figure>
 
 ###### Comparison of cameras by latency  
-Latency was one of the most important factors to be considered for system performance. 
+Latency is one of the most important factors to be considered for system performance. 
 As a huge proportion of latency depended on camera, I had to select a camera model carefully. 
-I had plentiful latency testings like below figure and compared scalability, compatibility, resolution and latency of varied camera model.
+As seen in the figure below, I conducted latency tests and compared scalability, compatibility, resolution and latency of varied camera model.
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_realsense_test.gif" width="65%">
@@ -201,13 +201,13 @@ I separated the system into submodules by role and made hierarchy among them.
 
 ###### Scalability 
 As I mentioned above, we planned an environment transition step by step. 
-So I had to enable smooth conversion among heterogeneous environments such as 2D, 3D, animal and clinic. 
+Thus, I had to enable smooth conversion among heterogeneous environments such as 2D, 3D, animal and clinic. 
 Also, as we needed repetitive experiments for improving system performance like reward shaping, various settings for experiments had to be managed conveniently.
 I achieved this purpose via abstract and inheritance structure.
 
 ###### Compatibility 
-It was necessary for implementing RL algorithm to verify its own performance through unit test. 
-Performance verification ran on  [Atari gym](https://gym.openai.com/envs/#atari). 
+It was necessary for implemented RL algorithm to be verified based on unit test. 
+We used [Atari gym](https://gym.openai.com/envs/#atari) environment for test. 
 And I had to consider standard communication protocol connecting with heterogeneously external devices.
 For this reason, I designed this system by using de facto standard systems such as [openai-gym](https://gym.openai.com/) and [ROS](http://www.ros.org/).
 
@@ -217,13 +217,12 @@ For this reason, I designed this system by using de facto standard systems such 
 </figure>
 
 
-##### Implement
+##### Implementation Issues
 
 ###### Handling nonlinearity
-As imprecise manipulation by slip was a big trouble, small fixed control size and value-based RL were picked. 
 There were physical errors during manipulation by motor rotation as many general controlling systems under physical world. 
-In coronary artery environment, this kind of errors especially had a worse effect because we had to handle exquisite unit of space and time. 
-I approached this problem in a heuristic way and tried to define error tolerance thresholds because it was impossible to solve the issue perfectly. 
+In coronary artery environment, this kind of errors especially had a worse effect because it requires to handle exquisite unit of space and time. 
+I approached this problem in a heuristic way and trying define error tolerance thresholds because there is no perfect solution for this issue. 
 In trial and error, my team found that using a very small fixed step command(about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach a correct position. 
 So we decided to use value-based RL algorithm.
 
@@ -232,7 +231,6 @@ So we decided to use value-based RL algorithm.
 </figure>
 
 ###### Elaborate data flow of inter-module communication   
-렌더에 대한 언급 필요.
 To set proper shape and size of data, there were several trial and error. 
 As shape of data required in each module was different, I had to ponder on computation cost of reshaping data while a current module was transferring data to next module. 
 Also, because RL agent utilized experience replay, limitation of memory size used for replay buffer was a big issue. 
@@ -243,8 +241,8 @@ Therefore, size of state in RL had to be defined properly.
 </figure>
     
 ###### Synchronization between RL agent and manipulator  
-RL agent had to obtain necessary data at once for decision making in each time step. 
-But as a manipulator was operated in asynchronous method, I had to decide what module should wait and collect data from the manipulator for synchronization. 
+RL agent needs to obtain necessary data at once for decision making in each time step. 
+But as a manipulator was operated in asynchronous method, I decided what module should be-waited and collected data from the manipulator for synchronization. 
 I implemented communication module and put this module in charge of that task.
 
 <figure>
@@ -252,8 +250,8 @@ I implemented communication module and put this module in charge of that task.
 </figure>
 
 ###### Reduction of system latency   
-Reactivity of system was one of the most critical factors in overall system performance because agile situation awareness and countermeasure were essential in PCI procedure. 
-So, it was compulsory to minimize latency on each module because summation of delayed time took a huge proportion of reactivity. 
+Reactivity of system is one of the most critical factors in overall system performance because agile situation awareness and countermeasure were essential in PCI procedure. 
+Thus, it was compulsory to minimize latency on each module because summation of delayed time took a huge proportion of reactivity. 
 Especially, total latency largely depends on acquisition time of camera image and vision preprocessing time.
 
 <figure>
@@ -262,7 +260,7 @@ Especially, total latency largely depends on acquisition time of camera image an
 
 ###### Strict exception handling  
 It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
-I had to handle many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
+I handled many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
 Also, communication manipulator exception was another serious handling point because it could lead to system procedure to halt.
 
 <figure>
@@ -273,7 +271,7 @@ Also, communication manipulator exception was another serious handling point bec
 ##### Experiment
 
 My team implemented and numerous experiments with RL algorithms to improve system performance. 
-Main experimental factors are below
+Main experimental factors are as below
  
 * Value based algorithms ([Rainbow dqn](https://arxiv.org/abs/1710.02298), [C51](https://arxiv.org/abs/1707.06887), [IQN](https://arxiv.org/abs/1806.06923))
 * Demonstration algorithms ([Deep Q-learning from Demonstrations](https://arxiv.org/abs/1704.03732))
