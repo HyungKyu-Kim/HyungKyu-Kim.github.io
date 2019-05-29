@@ -104,7 +104,7 @@ Performing this task, we should consider the following issues
 
 
 ##### Required Technologies
-To undertake complex project, my team had to prepare various technologies including medicine, robotics and reinforcement learning. 
+To undertake complex project, my team prepared various technologies including medicine, robotics and reinforcement learning. 
 
 * To keep safety, it needed to comprehend medical knowledge for PCI
 * To achieve robust control, my team surveyed domains such as Robotics and Elastic Rod
@@ -184,7 +184,7 @@ I was in charge of purchasing and installing all equipments for the darkroom.
 
 ###### Comparison of cameras by latency  
 Latency is one of the most important factors to be considered for system performance. 
-As a huge proportion of latency depended on camera, I had to select a camera model carefully. 
+As a huge proportion of latency depended on camera, I selected a camera model carefully. 
 As seen in the figure below, I conducted latency tests and compared scalability, compatibility, resolution and latency of varied camera model.
 
 <figure>
@@ -196,7 +196,7 @@ As seen in the figure below, I conducted latency tests and compared scalability,
 
 ###### Modularity 
 Since this system is capable of having diverse environmental conditions like manipulator and external sensor devices, 
-I had to consider about minimizing the number of additional tasks when subsystems or peripherals were changed.
+I considered about minimizing the number of additional tasks when subsystems or peripherals were changed.
 I separated the system into submodules by role and made hierarchy among them.
 
 ###### Scalability 
@@ -208,7 +208,7 @@ I achieved this purpose via abstract and inheritance structure.
 ###### Compatibility 
 It was necessary for implemented RL algorithm to be verified based on unit test. 
 We used [Atari gym](https://gym.openai.com/envs/#atari) environment for test. 
-And I had to consider standard communication protocol connecting with heterogeneously external devices.
+And I considered standard communication protocol connecting with heterogeneously external devices.
 For this reason, I designed this system by using de facto standard systems such as [openai-gym](https://gym.openai.com/) and [ROS](http://www.ros.org/).
 
 <figure>
@@ -232,7 +232,7 @@ So we decided to use value-based RL algorithm.
 
 ###### Elaborate data flow of inter-module communication   
 To set proper shape and size of data, there were several trial and error. 
-As shape of data required in each module was different, I had to ponder on computation cost of reshaping data while a current module was transferring data to next module. 
+As shape of data required in each module was different, I pondered on computation cost of reshaping data while a current module was transferring data to next module. 
 Also, because RL agent utilized experience replay, limitation of memory size used for replay buffer was a big issue. 
 Therefore, size of state in RL had to be defined properly.
 

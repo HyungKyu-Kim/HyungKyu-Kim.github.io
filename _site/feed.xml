@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-29T03:04:52+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;blah blah&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-29T15:50:03+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;blah blah&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -117,7 +117,7 @@ Performing this task, we should consider the following issues&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;h5 id=&quot;required-technologies&quot;&gt;Required Technologies&lt;/h5&gt;
-&lt;p&gt;To undertake complex project, my team had to prepare various technologies including medicine, robotics and reinforcement learning.&lt;/p&gt;
+&lt;p&gt;To undertake complex project, my team prepared various technologies including medicine, robotics and reinforcement learning.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;To keep safety, it needed to comprehend medical knowledge for PCI&lt;/li&gt;
@@ -202,7 +202,7 @@ I was in charge of purchasing and installing all equipments for the darkroom.
 
 &lt;h6 id=&quot;comparison-of-cameras-by-latency&quot;&gt;Comparison of cameras by latency&lt;/h6&gt;
 &lt;p&gt;Latency is one of the most important factors to be considered for system performance. 
-As a huge proportion of latency depended on camera, I had to select a camera model carefully. 
+As a huge proportion of latency depended on camera, I selected a camera model carefully. 
 As seen in the figure below, I conducted latency tests and compared scalability, compatibility, resolution and latency of varied camera model.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -213,7 +213,7 @@ As seen in the figure below, I conducted latency tests and compared scalability,
 
 &lt;h6 id=&quot;modularity&quot;&gt;Modularity&lt;/h6&gt;
 &lt;p&gt;Since this system is capable of having diverse environmental conditions like manipulator and external sensor devices, 
-I had to consider about minimizing the number of additional tasks when subsystems or peripherals were changed.
+I considered about minimizing the number of additional tasks when subsystems or peripherals were changed.
 I separated the system into submodules by role and made hierarchy among them.&lt;/p&gt;
 
 &lt;h6 id=&quot;scalability&quot;&gt;Scalability&lt;/h6&gt;
@@ -225,7 +225,7 @@ I achieved this purpose via abstract and inheritance structure.&lt;/p&gt;
 &lt;h6 id=&quot;compatibility&quot;&gt;Compatibility&lt;/h6&gt;
 &lt;p&gt;It was necessary for implemented RL algorithm to be verified based on unit test. 
 We used &lt;a href=&quot;https://gym.openai.com/envs/#atari&quot;&gt;Atari gym&lt;/a&gt; environment for test. 
-And I had to consider standard communication protocol connecting with heterogeneously external devices.
+And I considered standard communication protocol connecting with heterogeneously external devices.
 For this reason, I designed this system by using de facto standard systems such as &lt;a href=&quot;https://gym.openai.com/&quot;&gt;openai-gym&lt;/a&gt; and &lt;a href=&quot;http://www.ros.org/&quot;&gt;ROS&lt;/a&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -248,7 +248,7 @@ So we decided to use value-based RL algorithm.&lt;/p&gt;
 
 &lt;h6 id=&quot;elaborate-data-flow-of-inter-module-communication&quot;&gt;Elaborate data flow of inter-module communication&lt;/h6&gt;
 &lt;p&gt;To set proper shape and size of data, there were several trial and error. 
-As shape of data required in each module was different, I had to ponder on computation cost of reshaping data while a current module was transferring data to next module. 
+As shape of data required in each module was different, I pondered on computation cost of reshaping data while a current module was transferring data to next module. 
 Also, because RL agent utilized experience replay, limitation of memory size used for replay buffer was a big issue. 
 Therefore, size of state in RL had to be defined properly.&lt;/p&gt;
 

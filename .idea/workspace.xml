@@ -8,9 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_mdp.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/medipixel/profile_biorobot_mdp.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,23 +65,23 @@
     <session id="-191780883">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="4869" />
+          <entry key="md" value="4885" />
           <entry key="scss" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="4869" />
+          <entry key="Markdown" value="4885" />
           <entry key="SCSS" value="17" />
         </counts>
       </usages-collector>
@@ -118,8 +116,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="272">
-                <caret line="219" column="27" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
+              <first_editor relative-caret-position="576">
+                <caret line="122" column="68" lean-forward="true" selection-start-line="122" selection-start-column="68" selection-end-line="122" selection-end-column="68" />
               </first_editor>
               <second_editor />
             </state>
@@ -148,13 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>It means that this syst</find>
-      <find>m Framework</find>
-      <find>_mdp</find>
-      <find>heartbeat</find>
-      <find>re-research</find>
-      <find>plan like following</find>
-      <find>2D blood vessel m</find>
       <find>Launch</find>
       <find>ith experiment process. Final</find>
       <find>nal expected environ</find>
@@ -178,6 +169,13 @@
       <find>sential in PCI procedure</find>
       <find>l in PCI procedu</find>
       <find>Implementation</find>
+      <find>s system is capable of having diverse environmental conditions like manipula</find>
+      <find>had to select a cam</find>
+      <find>I had to consider standard</find>
+      <find>onsider standard communication</find>
+      <find>was necessary for implemented</find>
+      <find>nder on computation</find>
+      <find>my team had to prepare various techn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -645,8 +643,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="272">
-            <caret line="219" column="27" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
+          <first_editor relative-caret-position="576">
+            <caret line="122" column="68" lean-forward="true" selection-start-line="122" selection-start-column="68" selection-end-line="122" selection-end-column="68" />
           </first_editor>
           <second_editor />
         </state>

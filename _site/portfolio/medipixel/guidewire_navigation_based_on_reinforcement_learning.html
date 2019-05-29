@@ -166,7 +166,7 @@ Performing this task, we should consider the following issues</p>
 </div>
 
 <h5 id="required-technologies">Required Technologies</h5>
-<p>To undertake complex project, my team had to prepare various technologies including medicine, robotics and reinforcement learning.</p>
+<p>To undertake complex project, my team prepared various technologies including medicine, robotics and reinforcement learning.</p>
 
 <ul>
   <li>To keep safety, it needed to comprehend medical knowledge for PCI</li>
@@ -251,7 +251,7 @@ I was in charge of purchasing and installing all equipments for the darkroom.
 
 <h6 id="comparison-of-cameras-by-latency">Comparison of cameras by latency</h6>
 <p>Latency is one of the most important factors to be considered for system performance. 
-As a huge proportion of latency depended on camera, I had to select a camera model carefully. 
+As a huge proportion of latency depended on camera, I selected a camera model carefully. 
 As seen in the figure below, I conducted latency tests and compared scalability, compatibility, resolution and latency of varied camera model.</p>
 
 <figure>
@@ -262,7 +262,7 @@ As seen in the figure below, I conducted latency tests and compared scalability,
 
 <h6 id="modularity">Modularity</h6>
 <p>Since this system is capable of having diverse environmental conditions like manipulator and external sensor devices, 
-I had to consider about minimizing the number of additional tasks when subsystems or peripherals were changed.
+I considered about minimizing the number of additional tasks when subsystems or peripherals were changed.
 I separated the system into submodules by role and made hierarchy among them.</p>
 
 <h6 id="scalability">Scalability</h6>
@@ -274,7 +274,7 @@ I achieved this purpose via abstract and inheritance structure.</p>
 <h6 id="compatibility">Compatibility</h6>
 <p>It was necessary for implemented RL algorithm to be verified based on unit test. 
 We used <a href="https://gym.openai.com/envs/#atari">Atari gym</a> environment for test. 
-And I had to consider standard communication protocol connecting with heterogeneously external devices.
+And I considered standard communication protocol connecting with heterogeneously external devices.
 For this reason, I designed this system by using de facto standard systems such as <a href="https://gym.openai.com/">openai-gym</a> and <a href="http://www.ros.org/">ROS</a>.</p>
 
 <figure>
@@ -297,7 +297,7 @@ So we decided to use value-based RL algorithm.</p>
 
 <h6 id="elaborate-data-flow-of-inter-module-communication">Elaborate data flow of inter-module communication</h6>
 <p>To set proper shape and size of data, there were several trial and error. 
-As shape of data required in each module was different, I had to ponder on computation cost of reshaping data while a current module was transferring data to next module. 
+As shape of data required in each module was different, I pondered on computation cost of reshaping data while a current module was transferring data to next module. 
 Also, because RL agent utilized experience replay, limitation of memory size used for replay buffer was a big issue. 
 Therefore, size of state in RL had to be defined properly.</p>
 
