@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-29T15:50:03+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;blah blah&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-31T03:39:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;blah blah&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -45,13 +45,13 @@ But &lt;strong&gt;traditional PCI has several shortages&lt;/strong&gt; as follow
 &lt;ul&gt;
   &lt;li&gt;Huge gap of proficiency and hard to transfer high level skill&lt;/li&gt;
   &lt;li&gt;Exposure to harmful radiation generated from angiography&lt;/li&gt;
-  &lt;li&gt;Long time(about 1 hour)&lt;/li&gt;
+  &lt;li&gt;Long time required(about 1 hour)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;To overcome these challenges, Medipixel has been collaborating with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; to develop &lt;strong&gt;the world first autonomous PCI robot system&lt;/strong&gt;. 
 This system autonomously navigates guide wire to the target lesion.
-It means that this system performs to transfer from atypical procedure depended on personal skill and experience to typical procedure.
-This &lt;strong&gt;“Standardization of Procedure”&lt;/strong&gt; can take advantages such as&lt;/p&gt;
+It means that this system performs to transfer atypical procedure requiring depended on personal skill and experience to typical procedure.
+The &lt;strong&gt;“Standardization of Procedure”&lt;/strong&gt; process has advantages such as&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Reduce gap between an expert and a beginner&lt;/li&gt;
   &lt;li&gt;Diminish exposing time from radiation&lt;/li&gt;
@@ -66,7 +66,7 @@ This &lt;strong&gt;“Standardization of Procedure”&lt;/strong&gt; can take ad
 
 &lt;h5 id=&quot;challenges&quot;&gt;Challenges&lt;/h5&gt;
 &lt;p&gt;For successful PCI procedure, It is necessary to quantify abstract and complex factors, such as doctor’s experience and medical knowledge, as proper numerical values in system. 
-Performing this task, we should consider the following issues&lt;/p&gt;
+Performing this task, we considered the following issues&lt;/p&gt;
 
 &lt;div class=&quot;posts__item&quot;&gt;
     &lt;img style=&quot;float: left; margin-right: 4%; margin-bottom: 1%;&quot; src=&quot;/images/medipixel/profile_biorobot_medicine.png&quot; width=&quot;35%&quot; /&gt;
@@ -74,10 +74,10 @@ Performing this task, we should consider the following issues&lt;/p&gt;
     &lt;div class=&quot;challenge&quot;&gt;
         &lt;ul&gt;
             &lt;li&gt;
-                There is possibility that movement of guidewire causes hazardous situation in coronary artery
+                There is possibility that even an unexpected movement of guidewire can cause fatal situation in coronary artery
             &lt;/li&gt;
             &lt;li&gt;
-                Doctors must enable to monitor and intervene at emergency situation 
+                Doctors must be able to monitor and intervene at emergency situation 
             &lt;/li&gt;
             &lt;li&gt;
                 Intervention of doctor should have short latency
@@ -95,7 +95,7 @@ Performing this task, we should consider the following issues&lt;/p&gt;
                 Friction and twist of wire triggers difference between control input and output
             &lt;/li&gt;
             &lt;li&gt;
-                Manipulation slip of wire is big issue also
+                Slip of wire in manipulator is another important issue
             &lt;/li&gt;
         &lt;/ul&gt;
     &lt;/div&gt;
@@ -107,20 +107,20 @@ Performing this task, we should consider the following issues&lt;/p&gt;
     &lt;div class=&quot;challenge&quot;&gt;
         &lt;ul style=&quot;vertical-align: middle;&quot;&gt;
             &lt;li&gt;
-                Coronary arteries is complex environment that involves dynamic status changes like blood flow and heartbeat
+                Coronary arteries is complex environment including dynamic status changes like blood flow and heartbeat
             &lt;/li&gt;
             &lt;li&gt;
-                 It is possible that external factor like condition of patient makes abnormal environment transition  
+                 It is possible that external factors (eg. condition of patient) make abnormal environment transition  
             &lt;/li&gt;
         &lt;/ul&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h5 id=&quot;required-technologies&quot;&gt;Required Technologies&lt;/h5&gt;
-&lt;p&gt;To undertake complex project, my team prepared various technologies including medicine, robotics and reinforcement learning.&lt;/p&gt;
+&lt;p&gt;To undertake the complex project, my team prepared various technologies including medicine, robotics and reinforcement learning.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;To keep safety, it needed to comprehend medical knowledge for PCI&lt;/li&gt;
+  &lt;li&gt;To keep safety, we needed to comprehend medical knowledge for PCI&lt;/li&gt;
   &lt;li&gt;To achieve robust control, my team surveyed domains such as Robotics and Elastic Rod&lt;/li&gt;
   &lt;li&gt;To ascend accuracy of system, we studied Reinforcement Learning(RL) and Computer Vision Algorithm&lt;/li&gt;
 &lt;/ul&gt;
@@ -131,8 +131,8 @@ Performing this task, we should consider the following issues&lt;/p&gt;
 
 &lt;h6 id=&quot;why-is-reinforcement-learning&quot;&gt;Why is Reinforcement Learning&lt;/h6&gt;
 &lt;p&gt;Our environment was so complex that we did not have high confidence for traditional control method from robotics.
-Because most of that algorithms were static method, it had shortage to handle dynamic environment.
-Therefore, we needed algorithm to approach a goal by interaction with environment.&lt;/p&gt;
+Since most of the traditional algorithms were static method, it had shortage to handle dynamic environment. 수정
+We needed algorithm to approach a goal by interaction with environment. 수정&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_mdp.gif&quot; width=&quot;63%&quot; /&gt;
@@ -140,16 +140,16 @@ Therefore, we needed algorithm to approach a goal by interaction with environmen
 
 &lt;h5 id=&quot;main-tasks&quot;&gt;Main Tasks&lt;/h5&gt;
 &lt;h6 id=&quot;planning&quot;&gt;Planning&lt;/h6&gt;
-&lt;p&gt;To solve complex problem, we needed approaches by stages.
-Through simplifying problem, we started at the most low dimension.
-I planned this project like&lt;/p&gt;
+&lt;p&gt;To solve complex problem, we needed approaches step by step.
+Through simplifying problem, we started it from the most low dimension.
+First, I set up project stages as follows&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;2D → 3D → 3D with vibration → Animal → Clinical environment&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h6 id=&quot;set-to-work&quot;&gt;Set to work&lt;/h6&gt;
-&lt;p&gt;My role on this project was to lead direction of development as a development team leader.
-I divided complicated main subject as sub task to materialize a plan.
+&lt;p&gt;My role in this project was to decided direction of development direction as a development team leader.
+I divided complicated main subject into several sub-tasks to materialize a plan.
 I performed below tasks in each stage&lt;/p&gt;
 
 &lt;ol&gt;
@@ -162,14 +162,14 @@ I performed below tasks in each stage&lt;/p&gt;
 &lt;h5 id=&quot;pre-research&quot;&gt;Pre-research&lt;/h5&gt;
 
 &lt;h6 id=&quot;system-framework&quot;&gt;System Framework&lt;/h6&gt;
-&lt;p&gt;I compared many other architectures of RL control system in real environment.
-I researched preexistence system published in conferences including &lt;a href=&quot;https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8449910&quot;&gt;ICRA&lt;/a&gt;, &lt;a href=&quot;https://www.nema.org/pages/default.aspx&quot;&gt;NEMA&lt;/a&gt; and &lt;a href=&quot;https://arxiv.org/&quot;&gt;Arxiv&lt;/a&gt;. 
-&lt;a href=&quot;https://arxiv.org/abs/1803.07067v1&quot;&gt;Setting up a Reinforcement Learning Task with a Real-World Robot&lt;/a&gt; was one of the most helpful experiment result.&lt;/p&gt;
+&lt;p&gt;I compared many different architectures for RL control system in real environment.
+I researched existing systems published in conferences including &lt;a href=&quot;https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8449910&quot;&gt;ICRA&lt;/a&gt;, &lt;a href=&quot;https://www.nema.org/pages/default.aspx&quot;&gt;NEMA&lt;/a&gt; and &lt;a href=&quot;https://arxiv.org/&quot;&gt;Arxiv&lt;/a&gt;. 
+&lt;a href=&quot;https://arxiv.org/abs/1803.07067v1&quot;&gt;Setting up a Reinforcement Learning Task with a Real-World Robot&lt;/a&gt; was one of the most helpful experiment result in that 아직&lt;/p&gt;
 
 &lt;h6 id=&quot;medical-knowledge&quot;&gt;Medical Knowledge&lt;/h6&gt;
-&lt;p&gt;We got many interviews with doctors and researchers who involved with coronary artery disease. 
-Also, we had PCI observations several times and studied about coronary arteries. 
-In these processes, we obtained knowledge like below&lt;/p&gt;
+&lt;p&gt;We conducted interviews with doctors and researchers who have dealt with coronary artery disease. 
+Also, we observed PCI procedure several times and studied on coronary arteries. 
+In this process, we obtained knowledge as&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Procedure of PCI&lt;/li&gt;
   &lt;li&gt;Case studies by patient&lt;/li&gt;
@@ -186,22 +186,22 @@ In these processes, we obtained knowledge like below&lt;/p&gt;
 
 &lt;h6 id=&quot;establishment-of-experiment-plan&quot;&gt;Establishment of experiment plan&lt;/h6&gt;
 &lt;p&gt;First environment was two dimensional blood vessel model.
-I selected equipments of system and drew a rough sketch of the experiment environment. 
-Final expected environment figures were as below.
+I selected equipments for the system and drew a rough sketch of the experiment environment. 
+Final expected environment design output is as below.
     &lt;figure&gt;
       &lt;img src=&quot;/images/medipixel/profile_biorobot_2d3denv.png&quot; width=&quot;90%&quot; /&gt;
     &lt;/figure&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;installation-of-darkroom&quot;&gt;Installation of darkroom&lt;/h6&gt;
-&lt;p&gt;Vision was the most important input data method  of this system.
+&lt;p&gt;Vision was the most important input data process for this system.
 Since vision is sensitive to the change of illumination problem, I had to exclude natural light from experiment environment and darkroom was the best option to handle this problem. 
-I was in charge of purchasing and installing all equipments for the darkroom. 
+For the task, I was in charge of purchasing and installing all equipments for the darkroom. 
     &lt;figure&gt;
       &lt;img src=&quot;/images/medipixel/profile_biorobot_experiment_env.png&quot; width=&quot;90%&quot; /&gt;
     &lt;/figure&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;comparison-of-cameras-by-latency&quot;&gt;Comparison of cameras by latency&lt;/h6&gt;
-&lt;p&gt;Latency is one of the most important factors to be considered for system performance. 
+&lt;p&gt;Latency is one of the most significant factors for system performance. 
 As a huge proportion of latency depended on camera, I selected a camera model carefully. 
 As seen in the figure below, I conducted latency tests and compared scalability, compatibility, resolution and latency of varied camera model.&lt;/p&gt;
 
@@ -213,11 +213,10 @@ As seen in the figure below, I conducted latency tests and compared scalability,
 
 &lt;h6 id=&quot;modularity&quot;&gt;Modularity&lt;/h6&gt;
 &lt;p&gt;Since this system is capable of having diverse environmental conditions like manipulator and external sensor devices, 
-I considered about minimizing the number of additional tasks when subsystems or peripherals were changed.
-I separated the system into submodules by role and made hierarchy among them.&lt;/p&gt;
+I looked for a way to minimize the number of additional tasks when subsystems or peripherals were changed, and suggested a form on separating the system into submodules by role and made hierarchy among them.&lt;/p&gt;
 
 &lt;h6 id=&quot;scalability&quot;&gt;Scalability&lt;/h6&gt;
-&lt;p&gt;As I mentioned above, we planned an environment transition step by step. 
+&lt;p&gt;As mentioned above, we planned an environment transition step by step. 
 Thus, I had to enable smooth conversion among heterogeneous environments such as 2D, 3D, animal and clinic. 
 Also, as we needed repetitive experiments for improving system performance like reward shaping, various settings for experiments had to be managed conveniently.
 I achieved this purpose via abstract and inheritance structure.&lt;/p&gt;
@@ -225,7 +224,7 @@ I achieved this purpose via abstract and inheritance structure.&lt;/p&gt;
 &lt;h6 id=&quot;compatibility&quot;&gt;Compatibility&lt;/h6&gt;
 &lt;p&gt;It was necessary for implemented RL algorithm to be verified based on unit test. 
 We used &lt;a href=&quot;https://gym.openai.com/envs/#atari&quot;&gt;Atari gym&lt;/a&gt; environment for test. 
-And I considered standard communication protocol connecting with heterogeneously external devices.
+I also considered standard communication protocol connecting with heterogeneously external devices.
 For this reason, I designed this system by using de facto standard systems such as &lt;a href=&quot;https://gym.openai.com/&quot;&gt;openai-gym&lt;/a&gt; and &lt;a href=&quot;http://www.ros.org/&quot;&gt;ROS&lt;/a&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -238,9 +237,9 @@ For this reason, I designed this system by using de facto standard systems such 
 &lt;h6 id=&quot;handling-nonlinearity&quot;&gt;Handling nonlinearity&lt;/h6&gt;
 &lt;p&gt;There were physical errors during manipulation by motor rotation as many general controlling systems under physical world. 
 In coronary artery environment, this kind of errors especially had a worse effect because it requires to handle exquisite unit of space and time. 
-I approached this problem in a heuristic way and trying define error tolerance thresholds because there is no perfect solution for this issue. 
-In trial and error, my team found that using a very small fixed step command(about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach a correct position. 
-So we decided to use value-based RL algorithm.&lt;/p&gt;
+I approached this problem in a heuristic way and tried to define error tolerance thresholds because there is no perfect solution for this issue. 
+In trial and error process, my team found that using a very small fixed step command(about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach a correct position. 
+Hence, we decided to use value-based RL algorithm.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_slip.png&quot; width=&quot;90%&quot; /&gt;
@@ -249,8 +248,8 @@ So we decided to use value-based RL algorithm.&lt;/p&gt;
 &lt;h6 id=&quot;elaborate-data-flow-of-inter-module-communication&quot;&gt;Elaborate data flow of inter-module communication&lt;/h6&gt;
 &lt;p&gt;To set proper shape and size of data, there were several trial and error. 
 As shape of data required in each module was different, I pondered on computation cost of reshaping data while a current module was transferring data to next module. 
-Also, because RL agent utilized experience replay, limitation of memory size used for replay buffer was a big issue. 
-Therefore, size of state in RL had to be defined properly.&lt;/p&gt;
+Also, because RL agent utilized experience replay, limitation of memory size for replay buffer was a big issue. 
+Thus, size of state in RL had to be defined properly.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_data.png&quot; width=&quot;70%&quot; /&gt;
@@ -266,7 +265,7 @@ I implemented communication module and put this module in charge of that task.&l
 &lt;/figure&gt;
 
 &lt;h6 id=&quot;reduction-of-system-latency&quot;&gt;Reduction of system latency&lt;/h6&gt;
-&lt;p&gt;Reactivity of system is one of the most critical factors in overall system performance because agile situation awareness and countermeasure were essential in PCI procedure. 
+&lt;p&gt;Reactivity of system is one of the most critical factors in overall system performance since agile situation awareness and countermeasure were essential in PCI procedure. 
 Thus, it was compulsory to minimize latency on each module because summation of delayed time took a huge proportion of reactivity. 
 Especially, total latency largely depends on acquisition time of camera image and vision preprocessing time.&lt;/p&gt;
 
@@ -276,8 +275,8 @@ Especially, total latency largely depends on acquisition time of camera image an
 
 &lt;h6 id=&quot;strict-exception-handling&quot;&gt;Strict exception handling&lt;/h6&gt;
 &lt;p&gt;It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
-I handled many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
-Also, communication manipulator exception was another serious handling point because it could lead to system procedure to halt.&lt;/p&gt;
+I handled many unexpected situations like twisted guidewire and path deviation by excessive manipulation. 
+Also, communication manipulator exception was another serious handling point because it could lead system procedure to be halted.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_except_twisted.png&quot; width=&quot;60%&quot; /&gt;
@@ -300,8 +299,8 @@ Main experimental factors are as below&lt;/p&gt;
 
 &lt;h6 id=&quot;possibility-to-transfer-other-domain&quot;&gt;Possibility to transfer other domain&lt;/h6&gt;
 
-&lt;p&gt;PCI is a  high risky procedure with and requiring high skills. 
-Therefore, there is a possibility to apply our skill-set in other domains in a relatively easy way.&lt;/p&gt;
+&lt;p&gt;PCI is a  high risky procedure requiring high skills. 
+Therefore, there is a possibility to apply our skill-set in other domains in a relatively easy way. 수정&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -322,8 +321,8 @@ Therefore, there is a possibility to apply our skill-set in other domains in a r
 
 &lt;h6 id=&quot;next-plan&quot;&gt;Next Plan&lt;/h6&gt;
 &lt;p&gt;We made a small success that guidewire reached basic goals in 2D blood vessel. 
-Now, my team and AMC are writing a research paper targeting top medical journals. 
-We are also expected to advance for a new experiment project on 3D environment in the second half of 2019.&lt;/p&gt;
+Currently, my team and  researchers in AMC are writing a research paper targeting top medical journals. 
+We also expect to advance for a new experiment project on 3D environment in the second half of 2019.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_3denv.png&quot; width=&quot;60%&quot; /&gt;
 &lt;/figure&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">The system places stent to the target lesion in the coronary artery via controlling manipulator made by Asan Medical Center. It is the world first autonomous PCI robot system. My team has developed reinforcement learning-based control software. This project was awarded first place at Johnson &amp;amp; Johnson QuickFire Challenge.</summary></entry><entry><title type="html">Lung Cancer Diagnosis Clinical Decision Support System</title><link href="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system" rel="alternate" type="text/html" title="Lung Cancer Diagnosis Clinical Decision Support System" /><published>2019-04-13T00:00:00+09:00</published><updated>2019-04-13T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Lung%20Cancer%20Diagnosis%20Clinical%20Decision%20Support%20System</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system">&lt;p&gt;The purpose of the system is to help doctors make a decision on diagnosis of lung cancer. It supports diagnosis by deep learning based detection and classification nodules.&lt;/p&gt;
@@ -493,7 +492,9 @@ From those features, the system got simple but powerful improvement.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/medipixel/mp_chest_models.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h5&gt;
-&lt;p&gt;Through processes mentioned above, it was possible to achieve results that reduce time of the whole diagnosis dramatically while maintaining a useful performance.&lt;/p&gt;
+&lt;p&gt;https://link-springer-com.proxy1.cl.msu.edu/article/10.1007%2Fs00330-009-1596-y
+https://link-springer-com.proxy1.cl.msu.edu/article/10.1007%2Fs00330-007-0667-1
+Through processes mentioned above, it was possible to achieve results that reduce time of the whole diagnosis dramatically while maintaining a useful performance.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_chest_auc.png&quot; width=&quot;60%&quot; /&gt;

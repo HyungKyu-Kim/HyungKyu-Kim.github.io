@@ -166,6 +166,8 @@ From those features, the system got simple but powerful improvement.
 ![Alt text](/images/medipixel/mp_chest_models.png)
 
 ##### Conclusion
+https://link-springer-com.proxy1.cl.msu.edu/article/10.1007%2Fs00330-009-1596-y
+https://link-springer-com.proxy1.cl.msu.edu/article/10.1007%2Fs00330-007-0667-1
 Through processes mentioned above, it was possible to achieve results that reduce time of the whole diagnosis dramatically while maintaining a useful performance.
 
 <figure>
