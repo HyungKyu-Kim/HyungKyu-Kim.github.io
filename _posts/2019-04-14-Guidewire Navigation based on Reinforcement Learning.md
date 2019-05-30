@@ -31,7 +31,7 @@ Development Team Leader
 Cardiovascular disease takes up a large portion of annual death around the world. 
 [WHO announcement](https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death) shows that ischaemic heart disease is the world’s biggest killer in 2016 and one of the most general treatments for ischaemic heart disease is [Percutaneous Coronary Intervention](https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention). 
 But **traditional PCI has several shortages** as follows.
-* Huge gap of proficiency and hard to transfer high level skill 
+* Huge gap of proficiency and hard to transfer high level skill 수정 
 * Exposure to harmful radiation generated from angiography
 * Long time required(about 1 hour)
  
@@ -51,7 +51,7 @@ The **"Standardization of Procedure"** process has advantages such as
 
 
 ##### Challenges
-For successful PCI procedure, It is necessary to quantify abstract and complex factors, such as doctor's experience and medical knowledge, as proper numerical values in system. 
+For successful PCI procedure, it is necessary to quantify abstract and complex factors, such as doctor's experience and medical knowledge, as proper numerical values in system. 
 Performing this task, we considered the following issues
 
 <div class="posts__item">

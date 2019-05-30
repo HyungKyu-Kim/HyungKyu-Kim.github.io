@@ -72,13 +72,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="5256" />
+          <entry key="md" value="5261" />
           <entry key="scss" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="5256" />
+          <entry key="Markdown" value="5261" />
           <entry key="SCSS" value="17" />
         </counts>
       </usages-collector>
@@ -126,7 +126,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="272">
-                <caret line="129" column="59" selection-start-line="129" selection-start-column="59" selection-end-line="129" selection-end-column="59" />
+                <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
               </first_editor>
               <second_editor />
             </state>
@@ -146,8 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>s system is capable of having diverse environmental conditions like manipula</find>
-      <find>had to select a cam</find>
       <find>I had to consider standard</find>
       <find>onsider standard communication</find>
       <find>was necessary for implemented</find>
@@ -176,6 +174,8 @@
       <find>slip of</find>
       <find>relati</find>
       <find>m the most low</find>
+      <find>procedure, It is necessary</find>
+      <find>e gap of proficiency and hard to</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -649,7 +649,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="272">
-            <caret line="129" column="59" selection-start-line="129" selection-start-column="59" selection-end-line="129" selection-end-column="59" />
+            <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
           </first_editor>
           <second_editor />
         </state>
