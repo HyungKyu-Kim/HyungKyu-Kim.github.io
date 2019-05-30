@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64748c0-830f-49cd-a748-971bc5141f78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,13 +72,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="5252" />
+          <entry key="md" value="5256" />
           <entry key="scss" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="5252" />
+          <entry key="Markdown" value="5256" />
           <entry key="SCSS" value="17" />
         </counts>
       </usages-collector>
@@ -130,8 +125,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="311">
-                <caret line="281" column="3" selection-start-line="281" selection-start-column="3" selection-end-line="281" selection-end-column="3" />
+              <first_editor relative-caret-position="272">
+                <caret line="129" column="59" selection-start-line="129" selection-start-column="59" selection-end-line="129" selection-end-column="59" />
               </first_editor>
               <second_editor />
             </state>
@@ -151,7 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Implementation</find>
       <find>s system is capable of having diverse environmental conditions like manipula</find>
       <find>had to select a cam</find>
       <find>I had to consider standard</find>
@@ -181,6 +175,7 @@
       <find>아직</find>
       <find>slip of</find>
       <find>relati</find>
+      <find>m the most low</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -653,8 +648,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="311">
-            <caret line="281" column="3" selection-start-line="281" selection-start-column="3" selection-end-line="281" selection-end-column="3" />
+          <first_editor relative-caret-position="272">
+            <caret line="129" column="59" selection-start-line="129" selection-start-column="59" selection-end-line="129" selection-end-column="59" />
           </first_editor>
           <second_editor />
         </state>

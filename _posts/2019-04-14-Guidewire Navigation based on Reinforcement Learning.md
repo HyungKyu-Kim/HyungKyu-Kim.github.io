@@ -127,7 +127,7 @@ We needed algorithm to approach a goal by interaction with environment. 수정
 ##### Main Tasks
 ###### Planning
 To solve complex problem, we needed approaches step by step.
-Through simplifying problem, we started it from the most low dimension.
+Through simplifying problem, we started it from the lowest dimension.
 First, I set up project stages as follows
 > 2D → 3D → 3D with vibration → Animal → Clinical environment
 
