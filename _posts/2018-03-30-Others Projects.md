@@ -28,8 +28,9 @@ I was able to get many experiences in differnt system, frameworks and devices.
 * Handle raw image format(eg. yuv420, yuv422)
 * Implement C# window application
 
-![pjtimage](/images/samsung/tbeye_pjt.jpg)
-
+<figure>
+  <img src="/images/samsung/tbeye_pjt.jpg" width="70%">
+</figure>
 
 ##### Military Important facilities project
 * Implement communication module
@@ -38,17 +39,18 @@ I was able to get many experiences in differnt system, frameworks and devices.
 * Communication module controls PTZ housing via RS-485
 * Communication module controls sensors and other external devices via RS-485
 
-![pjtimage](/images/samsung/military_pjt.jpg)
-
-
-
+<figure>
+  <img src="/images/samsung/military_pjt.jpg" width="70%">
+</figure>
 
 
 ##### SBER bank project
 * Design communication protocol
 * Implement communication module via RS-232
 
-![pjtimage](/images/samsung/sber_pjt.jpg)
+<figure>
+  <img src="/images/samsung/sber_pjt.jpg" width="70%">
+</figure>
 
 
 ##### Transportation projects 
@@ -57,20 +59,25 @@ I was able to get many experiences in differnt system, frameworks and devices.
 * Implement changing OSD size function 
 * Handle raw image format(eg. yuv420, yuv422)
 
-![pjtimage](/images/samsung/Transportation_pjt.jpg) 
+<figure>
+  <img src="/images/samsung/Transportation_pjt.jpg" width="70%">
+</figure>
 
 ##### Austria OEBB project
 * Implement motion detection function by index
 
-
-![pjtimage](/images/samsung/austria_pjt.jpg)
+<figure>
+  <img src="/images/samsung/austria_pjt.jpg" width="70%">
+</figure>
 
 
 ##### German Bonn project 
 * Train braking system overheating monitoring
 * Implement request to check overheating alarm and area to the camera encoder via RS-485
 
-![pjtimage](/images/samsung/bonn_pjt.jpg)
+<figure>
+  <img src="/images/samsung/bonn_pjt.jpg" width="70%">
+</figure>
 
 
 ##### IVIDEON project 

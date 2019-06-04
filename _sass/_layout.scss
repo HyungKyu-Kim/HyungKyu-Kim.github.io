@@ -15,7 +15,7 @@ body {
 }
 
 .layout {
-  max-width: 910px;
+  max-width: 950px;
   margin: auto;
   padding: 0 15px;
 }
@@ -279,3 +279,31 @@ body {
 #disqus_thread {
   margin-top: 60px;
 }
+
+// profile description
+.profile {
+  overflow: auto;
+  color: rgb(85, 85, 85);
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile::after {
+  content: '';
+  dispaly: table;
+  clear: both
+}
+
+.profile__left {
+  width: 49%;
+  float: left;
+}
+
+.profile__right {
+  width: 49%;
+  float: right;
+}
+

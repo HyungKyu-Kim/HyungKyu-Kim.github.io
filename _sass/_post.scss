@@ -141,6 +141,12 @@ a:hover {
   color: $black-lightest;
 }
 
+@media (max-width:600px) {
+  .post figure img {
+    width: 100%;
+  }
+}
+
 .post hr {
   display: block;
   width: 40%;
@@ -281,13 +287,40 @@ a:hover {
   background: none;
 }
 
-.post .div challenge{
-  background: red;
-  height: 100px;
-  width: 500px;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+// image + text container
+.post .container{
+  display: flex;
+  align-items: center;
+}
+
+.post .container .image{
+  float: left;
+  width: 30%;
+  margin-right: 2%
+}
+
+.post .container .text{
+  float: left;
+  width: 65%;
+}
+@media (max-width:700px){
+  .post .container {
+    display: block;
+  }
+  .post .container .image{
+    float: none;
+    width: 100%;
+  }
+  .post .container .text{
+    float: none;
+    width: 100%;
+  }
+}
+
+.post container::after {
+  content: '';
+  dispaly: table;
+  clear: both
 }
 
 @media (min-width: 1100px) {
@@ -299,20 +332,6 @@ a:hover {
   .post blockquote blockquote {
     margin-left: 0;
   }
-}
-
-img[alt="centerimage"] {
-  max-width:  70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-img[alt="pjtimage"] {
-  max-width:  70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 // video

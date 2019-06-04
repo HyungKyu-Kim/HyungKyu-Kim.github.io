@@ -31,16 +31,16 @@ Development Team Leader
 Cardiovascular disease takes up a large portion of annual death around the world. 
 [WHO announcement](https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death) shows that ischaemic heart disease is the world’s biggest killer in 2016 and one of the most general treatments for ischaemic heart disease is [Percutaneous Coronary Intervention](https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention). 
 But **traditional PCI has several shortages** as follows.
-* Huge gap of proficiency and hard to transfer high level skill 수정 
+* Huge gap of proficiency and difficult transfer of advanced skill 
 * Exposure to harmful radiation generated from angiography
 * Long time required(about 1 hour)
  
 To overcome these challenges, Medipixel has been collaborating with [Asan Medical Center](http://eng.amc.seoul.kr/gb/lang/main.do) to develop **the world first autonomous PCI robot system**. 
 This system autonomously navigates guide wire to the target lesion.
-It means that this system performs to transfer atypical procedure requiring depended on personal skill and experience to typical procedure.
+It means that this system plays a role to transfer atypical procedure requiring personal skill and experience to typical procedure.
 The **"Standardization of Procedure"** process has advantages such as
-* Reduce gap between an expert and a beginner
-* Diminish exposing time from radiation
+* Reduce skill gap between an experienced doctor and a novice doctor
+* Reduce exposing time from radiation
 * Enable workers to do other tasks
 * Reduce time
  
@@ -54,10 +54,13 @@ The **"Standardization of Procedure"** process has advantages such as
 For successful PCI procedure, it is necessary to quantify abstract and complex factors, such as doctor's experience and medical knowledge, as proper numerical values in system. 
 Performing this task, we considered the following issues
 
-<div class="posts__item">
-    <img style="float: left; margin-right: 4%; margin-bottom: 1%;" src="/images/medipixel/profile_biorobot_medicine.png" width="35%">
-    <h6>Safety</h6>
-    <div class="challenge">
+<div class="container">
+    <div class="image">
+        <img src="/images/medipixel/profile_biorobot_medicine.png">
+    </div>
+    <div class="text">
+        <h6>Safety</h6>
+        <br>
         <ul>
             <li>
                 There is possibility that even an unexpected movement of guidewire can cause fatal situation in coronary artery
@@ -72,31 +75,40 @@ Performing this task, we considered the following issues
     </div>
 </div> 
 
-<div class="posts__item"> 
-    <img style="float: left; margin-right: 4%; margin-bottom: 1%;" src="/images/medipixel/profile_biorobot_robotics.png" width="35%">
-    <h6>Nonlinearity of manipulation</h6>
-    <div class="challenge">
-        <ul style="vertical-align: middle;">
+<div class="container"> 
+    <div class="image">
+        <img src="/images/medipixel/profile_biorobot_robotics.png">
+    </div>
+    <div class="text">
+        <h6>Nonlinearity of manipulation</h6>
+        <br>
+        <ul>
             <li>
                 Friction and twist of wire triggers difference between control input and output
             </li>
             <li>
-                Slip of wire in manipulator is another important issue
+                Manipulation error in real environment (e.g. wire slip) was another issue in terms of error management
+            </li>
+            <li>
+                Control of deformable body has been a traditional hard problem 
             </li>
         </ul>
     </div>
 </div>
 
-<div class="posts__item"> 
-    <img style="float: left; vertical-align; margin-right: 4%;" src="/images/medipixel/profile_biorobot_cag.gif" width="35%">
-    <h6>Complexity of environment</h6>
-    <div class="challenge">
-        <ul style="vertical-align: middle;">
+<div class="container"> 
+    <div class="image">
+        <img src="/images/medipixel/profile_biorobot_cag.gif">
+    </div>
+    <div class="text">
+        <h6>Complexity of environment</h6>
+        <br>
+        <ul>
             <li>
-                Coronary arteries is complex environment including dynamic status changes like blood flow and heartbeat
+                Coronary arteries have complex physical structure including dynamic status changes like blood flow and heartbeat
             </li>
             <li>
-                 It is possible that external factors (eg. condition of patient) make abnormal environment transition  
+                It is possible that external factors (e.g. condition of patient) make abnormal environment transition  
             </li>
         </ul>
     </div>
@@ -116,8 +128,9 @@ To undertake the complex project, my team prepared various technologies includin
 
 ###### Why is Reinforcement Learning
 Our environment was so complex that we did not have high confidence for traditional control method from robotics.
-Since most of the traditional algorithms were static method, it had shortage to handle dynamic environment. 수정
-We needed algorithm to approach a goal by interaction with environment. 수정
+Since most of the traditional algorithms are static, it has shortages to handle dynamic environment.
+Hence, to accomplish the task, we used “interaction algorithm”with the dynamic environment.
+
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_mdp.gif" width="63%">
@@ -131,15 +144,15 @@ Through simplifying problem, we started it from the lowest dimension.
 First, I set up project stages as follows
 > 2D → 3D → 3D with vibration → Animal → Clinical environment
 
-###### Set to work
+###### Initiation 
 My role in this project was to decided direction of development direction as a development team leader.
 I divided complicated main subject into several sub-tasks to materialize a plan.
 I performed below tasks in each stage
 
-0. Pre-research: I prepared knowledge for building of system
-1. Set-up: I established all experiments environment
-2. Design: I designed overall system architecture
-3. Implementation: I implemented the environment module in RL framework and integrated all modules 
+0. Pre-research: To prepare knowledge for building of system
+1. Set-up: To establish all experiments environment
+2. Design: To design overall system architecture
+3. Implementation: To implement the environment module in RL framework and integrate all modules 
 
 
 ##### Pre-research
@@ -147,17 +160,13 @@ I performed below tasks in each stage
 ###### System Framework
 I compared many different architectures for RL control system in real environment.
 I researched existing systems published in conferences including [ICRA](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8449910), [NEMA](https://www.nema.org/pages/default.aspx) and [Arxiv](https://arxiv.org/). 
-[Setting up a Reinforcement Learning Task with a Real-World Robot](https://arxiv.org/abs/1803.07067v1) was one of the most helpful experiment result in that 아직
+[Setting up a Reinforcement Learning Task with a Real-World Robot](https://arxiv.org/abs/1803.07067v1) was one of the most helpful experiment result in terms of understanding 1) relationship between System delays and System performance, 2) training results depending on action space, and 3) hierarchy of system in the real world
+
 
 ###### Medical Knowledge 
 We conducted interviews with doctors and researchers who have dealt with coronary artery disease. 
 Also, we observed PCI procedure several times and studied on coronary arteries. 
-In this process, we obtained knowledge as
-* Procedure of PCI
-* Case studies by patient
-* Usage of equipments
-* Terms and Abbreviation
-* Procedure time
+In this process, we obtained knowledge as 1) procedure of PCI, 2) case studies by patient, 3) usage of equipments, 4) terms/abbreviation and 5) Procedure time
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_procedure.png" width="95%">
@@ -205,7 +214,7 @@ Also, as we needed repetitive experiments for improving system performance like 
 I achieved this purpose via abstract and inheritance structure.
 
 ###### Compatibility 
-It was necessary for implemented RL algorithm to be verified based on unit test. 
+RL algorithm is necessary to be verified based on unit test. 
 We used [Atari gym](https://gym.openai.com/envs/#atari) environment for test. 
 I also considered standard communication protocol connecting with heterogeneously external devices.
 For this reason, I designed this system by using de facto standard systems such as [openai-gym](https://gym.openai.com/) and [ROS](http://www.ros.org/).
@@ -223,7 +232,6 @@ There were physical errors during manipulation by motor rotation as many general
 In coronary artery environment, this kind of errors especially had a worse effect because it requires to handle exquisite unit of space and time. 
 I approached this problem in a heuristic way and tried to define error tolerance thresholds because there is no perfect solution for this issue. 
 In trial and error process, my team found that using a very small fixed step command(about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach a correct position. 
-Hence, we decided to use value-based RL algorithm.
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_slip.png" width="90%">
@@ -259,24 +267,60 @@ Especially, total latency largely depends on acquisition time of camera image an
 
 ###### Strict exception handling  
 It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
-I handled many unexpected situations like twisted guidewire and path deviation by excessive manipulation. 
-Also, communication manipulator exception was another serious handling point because it could lead system procedure to be halted.
+I handled many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_except_twisted.png" width="60%">
 </figure>
 
+###### Communication policy
+Communication manipulator exception was another serious handling point because it could lead system procedure to be halted.
+
 
 ##### Experiment
 
+###### RL algorithms
 My team implemented and numerous experiments with RL algorithms to improve system performance. 
-Main experimental factors are as below
  
 * Value based algorithms ([Rainbow dqn](https://arxiv.org/abs/1710.02298), [C51](https://arxiv.org/abs/1707.06887), [IQN](https://arxiv.org/abs/1806.06923))
 * Demonstration algorithms ([Deep Q-learning from Demonstrations](https://arxiv.org/abs/1704.03732))
 * Reward Shaping
 * Data fusion Execution Timing (Early fusion, Late fusion)
 * Additional ([Hindsight Experience Replay](https://arxiv.org/abs/1707.01495))
+
+###### Setup
+In navigation guidewire problem, selection of correct vessel branch is a main issue.
+Thus, we focused to verify about that and design experiment process.
+Setting was below
+ 
+* Max steps is 500
+* Rewards is imposed by operating time and path correctness 
+* Success of episode is to reach the target point within max steps
+* Goal positions are like below figure 
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_goals.png" width="60%">
+</figure>
+
+
+##### Conclusion
+We made a successful result that guidewire reached basic goals in 2D blood vessel. 
+Our navigation system succeeded about 95% to reach goal position.
+Currently, my team and  researchers in AMC are writing a research paper targeting [TCT](https://www.crf.org/tct), top tier medical conference. 
+
+###### Success rate
+The more training is progressed, the nearer success rate is 1.0.
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_successrate.png">
+</figure>
+
+###### Time spent
+In early stage tranning, system moves to forward mainly irrespective of success. Thus, episode time spent of early stage is short. But, after evolve period(400~600 step), system has high succuss rate and short time spent.
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_timespent.png">
+</figure>
 
 
 ##### Further
@@ -291,9 +335,7 @@ Therefore, there is a possibility to apply our skill-set in other domains in a r
 |<img src="/images/medipixel/profile_biorobot_newdomain0.png">Search system used to locate people in a collapsed building by manipulating wire camera|<img src="/images/medipixel/profile_biorobot_newdomain1.png">Pipeline integrity inspection in a construction site|<img src="/images/medipixel/profile_biorobot_newdomain2.png">Automation of other procedure through wire and catheter|
 
 ###### Next Plan
-We made a small success that guidewire reached basic goals in 2D blood vessel. 
-Currently, my team and  researchers in AMC are writing a research paper targeting top medical journals. 
-We also expect to advance for a new experiment project on 3D environment in the second half of 2019. 
+We expect to advance for a new experiment project on 3D environment in the second half of 2019. 
 <figure>
   <img src="/images/medipixel/profile_biorobot_3denv.png" width="60%">
 </figure>

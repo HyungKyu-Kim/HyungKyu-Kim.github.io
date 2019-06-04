@@ -35,14 +35,19 @@ I had focused on this feature and tried to implement a few Prove of Concept to v
 The first PoC was to control smart bulb via camera to test connection process between camera and external devices. 
 The main purpose of this PoC was controlling external device via inner event of camera. 
     
-![centerimage](/images/samsung/profile_htw_iot0.gif)
+<figure>
+  <img src="/images/samsung/profile_htw_iot0.gif" width="70%">
+</figure>
 
 ###### Second PoC
 The second was to control camera by numerical value from outer sensor devices.
 Order of PoC1 was opposite to that of PoC2. 
 But ready made camera was not able to get bluetooth signal. 
 To resolve this problem, I implemented and used simple progam on Raspberry pi.
-![centerimage](/images/samsung/profile_htw_iot1.gif)
+
+<figure>
+  <img src="/images/samsung/profile_htw_iot1.gif" width="70%">
+</figure>
 
 ##### Meaning of PoC
 

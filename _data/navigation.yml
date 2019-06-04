@@ -21,7 +21,7 @@
         url: /portfolio/samsung/other_projects
       - page: Flatness
         url: /portfolio/private/flatness
-- title: CV
-  subfolderitems:
-    - page: base
-      url: /cv
+#- title: CV
+#  subfolderitems:
+#    - page: base
+#      url: /cv
