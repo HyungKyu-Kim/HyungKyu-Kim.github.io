@@ -280,6 +280,16 @@ body {
   margin-top: 60px;
 }
 
+.private_info {
+  color: #1A1A1A;
+  text-decoration: underline;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
 // profile description
 .profile {
   overflow: auto;
@@ -307,3 +317,16 @@ body {
   float: right;
 }
 
+@media (max-width:700px){
+  .post .container {
+    display: block;
+  }
+  .profile__left{
+    float: none;
+    width: 100%;
+  }
+  .profile__right{
+    float: none;
+    width: 100%;
+  }
+}

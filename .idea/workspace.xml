@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/_posts/2019-04-02-NIPS 2018 - AI for Prosthetics Challenge.md" description="RL method study, Opensim simulator study and imita..." line="38" />
+    <bookmark url="file://$PROJECT_DIR$/_posts/2019-04-02-NIPS 2018 - AI for Prosthetics Challenge.md" description="RL method study, Opensim simulator study and imita..." line="36" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64748c0-830f-49cd-a748-971bc5141f78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/3a0a43bfb9545c94c5b36ed30fda626f9783cd25/_layout.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/3a0a43bfb9545c94c5b36ed30fda626f9783cd25/_layout.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/3a0a43bfb9545c94c5b36ed30fda626f9783cd25/_post.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/3a0a43bfb9545c94c5b36ed30fda626f9783cd25/_post.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-03-30-Others Projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-03-30-Others Projects.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-31-IoT Camera.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-31-IoT Camera.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-02-NIPS 2018 - AI for Prosthetics Challenge.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-02-NIPS 2018 - AI for Prosthetics Challenge.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-28-Flatness.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-28-Flatness.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_post.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/cv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_realsense_test.gif" beforeDir="false" afterPath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_realsense_test.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_tech.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_tech.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/hyungkyu0-center.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/hyungkyu0-half.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/hyungkyu0.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/hyungkyu1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/hyungkyu2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/hyungkyu2_.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_timespent.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_timespent.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index_bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index_bak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index_half.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index_half.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index_row.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index_row.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system.html" afterDir="false" />
@@ -28,9 +36,14 @@
       <change beforePath="$PROJECT_DIR$/_site/portfolio/samsung/iot_camera.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/samsung/iot_camera.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/portfolio/samsung/other_projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/samsung/other_projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/portfolio/samsung/video_surveillance_as_a_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/samsung/video_surveillance_as_a_service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/medipixel/profile_biorobot_realsense_test.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/medipixel/profile_biorobot_realsense_test.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/medipixel/profile_biorobot_tech.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/medipixel/profile_biorobot_tech.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hyungkyu0-center.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hyungkyu0-half.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hyungkyu0.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hyungkyu1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hyungkyu2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hyungkyu2_.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medipixel/profile_biorobot_timespent.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/medipixel/profile_biorobot_timespent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,45 +100,47 @@
     <session id="-191780883">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="6" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="8" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="18" />
-          <entry key="md" value="8072" />
-          <entry key="scss" value="366" />
-          <entry key="yml" value="4" />
+          <entry key="html" value="46" />
+          <entry key="md" value="8860" />
+          <entry key="scss" value="391" />
+          <entry key="yml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="18" />
-          <entry key="Markdown" value="8072" />
-          <entry key="SCSS" value="366" />
-          <entry key="YAML" value="4" />
+          <entry key="HTML" value="46" />
+          <entry key="Markdown" value="8451" />
+          <entry key="PLAIN_TEXT" value="409" />
+          <entry key="SCSS" value="391" />
+          <entry key="YAML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="12" />
-          <entry key="md" value="19" />
+          <entry key="html" value="13" />
+          <entry key="md" value="23" />
           <entry key="scss" value="8" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="12" />
-          <entry key="Markdown" value="19" />
+          <entry key="HTML" value="13" />
+          <entry key="Markdown" value="22" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="8" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -135,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_post.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6346">
-              <caret line="334" column="1" selection-start-line="334" selection-start-column="1" selection-end-line="334" selection-end-column="1" />
+            <state relative-caret-position="5928">
+              <caret line="312" column="3" selection-start-line="312" selection-start-column="3" selection-end-line="312" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -145,20 +160,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="298">
-                <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="465">
-                <caret line="312" lean-forward="true" selection-start-line="312" selection-end-line="312" />
+              <first_editor relative-caret-position="893">
+                <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
               </first_editor>
               <second_editor />
             </state>
@@ -166,10 +169,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-03-30-Others Projects.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="342">
+                <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-04-28-Flatness.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_data/organization.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3211">
-              <caret line="169" column="15" selection-start-line="169" selection-start-column="15" selection-end-line="169" selection-end-column="15" />
+            <state relative-caret-position="5681">
+              <caret line="299" column="19" selection-start-line="299" selection-start-column="19" selection-end-line="299" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -178,36 +229,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>summ</find>
-      <find>pro</find>
-      <find>div</find>
-      <find>posts__description</find>
-      <find>network camera device</find>
-      <find>cv</find>
-      <find>here is possibility that even an unexpected movement of guidewire can cause fatal situ</find>
-      <find>challenge</find>
-      <find>vertiacl-align</find>
-      <find>container</find>
-      <find>header</find>
-      <find>af</find>
-      <find>after</find>
-      <find>contai</find>
-      <find>post_</find>
-      <find>.post</find>
-      <find>post__container</find>
-      <find>@media ( max-w</find>
-      <find>@media</find>
-      <find>figure</find>
-      <find>img</find>
-      <find>centerimage</find>
-      <find>ineer. I always dream to devel</find>
-      <find>We made a small succ</find>
-      <find>We made</find>
-      <find>etting the goal position was lik</find>
-      <find>RL algorithms</find>
-      <find>ain experimental factors are as belo</find>
-      <find>tier medical con</find>
-      <find>figcap</find>
+      <find>port diagnosi</find>
+      <find>t as a project l</find>
+      <find>m are formulai</find>
+      <find>es with datasets</find>
+      <find>reprocess heterogen</find>
+      <find>hole voxel data, it was divide</find>
+      <find>ata for mode</find>
+      <find>ta labeli</find>
+      <find>eriod I realized that</find>
+      <find>imal combina</find>
+      <find>and we</find>
+      <find>ple preproces</find>
+      <find>s stage was com</find>
+      <find>D slid</find>
+      <find>ods that perfor</find>
+      <find>er methods that perfo</find>
+      <find>cancer diagnosis h</find>
+      <find>dules from results</find>
+      <find>was possible to achiev</find>
+      <find>My team consisted of just 3 members including</find>
+      <find>Most of processes in deep learning system are formulaic, but I did not put many effort to design a system structur</find>
+      <find>gile, Be flexible, and Be variab</find>
+      <find>Be agile, Be</find>
+      <find>I dream system to</find>
+      <find>opensim-rl</find>
+      <find>link</find>
+      <find>github_username</find>
+      <find>linked</find>
+      <find>github</find>
+      <find>linkedin_username</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,25 +289,26 @@
         <option value="$PROJECT_DIR$/_posts/2018-03-30-Others.md" />
         <option value="$PROJECT_DIR$/assets/main.scss" />
         <option value="$PROJECT_DIR$/_includes/youtubePlayer.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_site/assets/main.css" />
         <option value="$PROJECT_DIR$/_sass/_highlight.scss" />
         <option value="$PROJECT_DIR$/_site/portfolio.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_data/organization.yml" />
-        <option value="$PROJECT_DIR$/_posts/2019-04-28-Flatness.md" />
         <option value="$PROJECT_DIR$/_posts/2019-03-30-Video Surveillance as a Service.md" />
-        <option value="$PROJECT_DIR$/_posts/2019-04-02-NIPS 2018 - AI for Prosthetics Challenge.md" />
-        <option value="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" />
         <option value="$PROJECT_DIR$/portfolio.html" />
         <option value="$PROJECT_DIR$/index_full.md" />
-        <option value="$PROJECT_DIR$/_sass/_layout.scss" />
         <option value="$PROJECT_DIR$/_data/navigation.yml" />
         <option value="$PROJECT_DIR$/_posts/2019-03-31-IoT Camera.md" />
-        <option value="$PROJECT_DIR$/_sass/_post.scss" />
-        <option value="$PROJECT_DIR$/_posts/2018-03-30-Others Projects.md" />
-        <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" />
+        <option value="$PROJECT_DIR$/_sass/_post.scss" />
+        <option value="$PROJECT_DIR$/_sass/_layout.scss" />
+        <option value="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" />
+        <option value="$PROJECT_DIR$/index.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-04-02-NIPS 2018 - AI for Prosthetics Challenge.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-03-30-Others Projects.md" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/2019-04-28-Flatness.md" />
       </list>
     </option>
   </component>
@@ -267,8 +319,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="16" />
+    <option name="x" value="-1" />
     <option name="width" value="1073" />
     <option name="height" value="952" />
   </component>
@@ -288,6 +339,11 @@
             <path>
               <item name="HyungKyu-Kim.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="HyungKyu-Kim.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyungKyu-Kim.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyungKyu-Kim.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,6 +356,12 @@
               <item name="HyungKyu-Kim.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HyungKyu-Kim.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyungKyu-Kim.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -309,23 +371,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="V:/work/academic-kickstart" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="V:\work\HyungKyu-Kim.github.io\images\medipixel" />
-      <recent name="V:\work\HyungKyu-Kim.github.io\images\samsung" />
-      <recent name="V:\work\hyungkyu-kim.github.io\images" />
-      <recent name="V:\work\hyungkyu-kim.github.io\assets\fonts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hkk\HyungKyu-Kim.github.io" />
       <recent name="V:\work\HyungKyu-Kim.github.io\images\medipixel" />
       <recent name="V:\work\HyungKyu-Kim.github.io\images\samsung" />
       <recent name="V:\work\HyungKyu-Kim.github.io\_posts" />
       <recent name="V:\work\HyungKyu-Kim.github.io" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="V:\work\HyungKyu-Kim.github.io\images\medipixel" />
+      <recent name="V:\work\HyungKyu-Kim.github.io\images\samsung" />
+      <recent name="V:\work\hyungkyu-kim.github.io\images" />
+      <recent name="V:\work\hyungkyu-kim.github.io\assets\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,7 +428,7 @@
     <option name="totallyTimeSpent" value="120969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="16" width="1073" height="952" extended-state="0" />
+    <frame x="-1" y="0" width="1073" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -407,13 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
           <caret line="330" column="10" lean-forward="true" selection-start-line="330" selection-start-column="10" selection-end-line="330" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -472,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/jekyll-theme-hkk.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -503,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/organization.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-247">
@@ -522,16 +563,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="228">
             <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-04-02-NIPS 2018 - AI for Prosthetics Challenge.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="387">
-            <caret line="118" column="75" selection-start-line="118" selection-start-column="75" selection-end-line="118" selection-end-column="75" />
           </first_editor>
           <second_editor />
         </state>
@@ -555,13 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-04-28-Flatness.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -624,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/navigation.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="66" lean-forward="true" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -648,20 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_post.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6346">
-          <caret line="334" column="1" selection-start-line="334" selection-start-column="1" selection-end-line="334" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3211">
-          <caret line="169" column="15" selection-start-line="169" selection-start-column="15" selection-end-line="169" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-31-IoT Camera.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -672,11 +675,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-03-30-Others Projects.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="84">
-            <caret line="66" column="46" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+          <first_editor relative-caret-position="1229">
+            <caret line="81" column="14" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -685,30 +688,89 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="710">
-            <caret line="148" column="51" selection-start-line="148" selection-start-column="51" selection-end-line="148" selection-end-column="51" />
+          <first_editor relative-caret-position="95">
+            <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/navigation.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="66" lean-forward="true" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-04-02-NIPS 2018 - AI for Prosthetics Challenge.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-184">
+            <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5928">
+          <caret line="312" column="3" selection-start-line="312" selection-start-column="3" selection-end-line="312" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="298">
-            <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+          <first_editor relative-caret-position="893">
+            <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
+    <entry file="file://$PROJECT_DIR$/_data/organization.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5681">
+          <caret line="299" column="19" selection-start-line="299" selection-start-column="19" selection-end-line="299" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-03-30-Others Projects.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="465">
-            <caret line="312" lean-forward="true" selection-start-line="312" selection-end-line="312" />
+          <first_editor relative-caret-position="342">
+            <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="19" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-04-28-Flatness.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>

@@ -3,19 +3,19 @@ layout: page
 group: Hyungkyu Kim
 ---
 <div align="center">
-    I am software engineer. <br>
-    I dream system to converge between cyber world and physical world<br>
-    To build this tremendous system, I have been preparing.<br>
-    <h3>Be agile, Be flexible, Be variable</h3>
+    I am software engineer.<br>
+    I dream system to break the boundaries between cyber world and physical world.<br>
+    I dream system to<br>
+    <h3>Be agile, <br>Be flexible, <br>Be variable</h3>
 </div>
 
 <div>
     <figure>
-      <img src="/images/hyungkyu2_.JPG">
+      <img src="/images/profile.JPG">
     </figure>
 </div>
 
-**Short Biography** In [Samsung Techwin](/portfolio#Samsung Techwin), I was involved in various projects including IoT camera and cloud camera as a network camera device engineer during 6 years.
+**Short Biography** In [Samsung Techwin](/portfolio#Samsung Techwin) during 6 years, I was involved in various projects including IoT camera and cloud camera as a network camera device engineer.
 Running [machine learning study group](https://www.facebook.com/Deepsight-1780933522021742/) related with researchers and developers who have various background about 3 years, I steped into AI development area.
 After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and have participated in projects including medical image deep-learning system, reinforcement-learning based surgery robot control system.
 
@@ -23,7 +23,7 @@ After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and
 
 <div class="profile">
     <div class="profile__left">
-        <h5>Experience</h5>
+        <div class="private_info">Experience</div>
         <li><strong>Programming:</strong> C, C++, Python, C#, PHP, HTML, CSS, C, C++, Python, C#, PHP, HTML, CSS, C, C++, Python, C#, PHP, HTML, CSS</li>
         <li><strong>Tools:</strong> UML, git</li>
         <li><strong>System:</strong> Embedded system, Linux, Network system</li>
@@ -31,7 +31,7 @@ After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and
         <li><strong>Robotics controll:</strong></li>
     </div>
     <div class="profile__right">
-        <h5>Skills</h5> 
+        <div class="private_info">Skills</div> 
         <li><strong>Programming:</strong> C, C++, Python, C#, PHP, HTML, CSS, C, C++, Python, C#, PHP, HTML, CSS, C, C++, Python, C#, PHP, HTML, CSS</li>
         <li><strong>Tools:</strong> UML, git</li>
         <li><strong>System:</strong> Embedded system, Linux, Network system</li>

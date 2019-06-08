@@ -14,10 +14,8 @@ Though it was hard challenge due to limitations of resources, we were able to ge
 
 #### My Role
 System main engineer
-  * Design a whole data pipeline
-  * Implement [DICOM](https://en.wikipedia.org/wiki/DICOM)-based data preprocessing module
-  * Design and implement 3D U-net based detection neural network
-  * Design and implement 3D Resnet based classification neural network
+  * Implement distributed Reinforcement Learning system([RAY](https://rise.cs.berkeley.edu/projects/ray/)) on Cloud system([Azure](https://azure.microsoft.com/))
+  * Implement RL-agent in [RAY](https://rise.cs.berkeley.edu/projects/ray/)
 
 ----
 

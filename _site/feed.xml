@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-05T03:25:52+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;blah blah&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-08T14:44:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve floor flatness problem in construction site, I have been making device to check flatness level.
+It needs to converge technologies including LIDAR and SLAM.&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -10,7 +11,11 @@
   &lt;li&gt;Implement module streaming between server and camera&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">blah blah</summary></entry><entry><title type="html">Guidewire Navigation based on Reinforcement Learning</title><link href="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning" rel="alternate" type="text/html" title="Guidewire Navigation based on Reinforcement Learning" /><published>2019-04-14T00:00:00+09:00</published><updated>2019-04-14T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Guidewire%20Navigation%20based%20on%20Reinforcement%20Learning</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning">&lt;p&gt;The system places stent to the target lesion in the coronary artery via controlling manipulator made by &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt;. 
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;project-detail&quot;&gt;Project Detail&lt;/h4&gt;
+
+&lt;p&gt;In many construction site, floor flatness leveling is a headache problem.&lt;/p&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">To solve floor flatness problem in construction site, I have been making device to check flatness level. It needs to converge technologies including LIDAR and SLAM.</summary></entry><entry><title type="html">Guidewire Navigation based on Reinforcement Learning</title><link href="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning" rel="alternate" type="text/html" title="Guidewire Navigation based on Reinforcement Learning" /><published>2019-04-14T00:00:00+09:00</published><updated>2019-04-14T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Guidewire%20Navigation%20based%20on%20Reinforcement%20Learning</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning">&lt;p&gt;The system places stent to the target lesion in the coronary artery via controlling manipulator made by &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt;. 
 It is the world first autonomous &lt;a href=&quot;https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention&quot;&gt;PCI&lt;/a&gt; robot system. 
 My team has developed reinforcement learning-based control software. 
 This project was awarded first place at &lt;a href=&quot;https://jlabs.jnjinnovation.com/quickfire-challenges/seoul-innovation-quickfire-challenge-robotics-digital-surgery&quot;&gt;Johnson &amp;amp; Johnson QuickFire Challenge&lt;/a&gt;.&lt;/p&gt;
@@ -364,7 +369,7 @@ Therefore, there is a possibility to apply our skill-set in other domains in a r
 &lt;p&gt;We expect to advance for a new experiment project on 3D environment in the second half of 2019.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_3denv.png&quot; width=&quot;60%&quot; /&gt;
-&lt;/figure&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">The system places stent to the target lesion in the coronary artery via controlling manipulator made by Asan Medical Center. It is the world first autonomous PCI robot system. My team has developed reinforcement learning-based control software. This project was awarded first place at Johnson &amp;amp; Johnson QuickFire Challenge.</summary></entry><entry><title type="html">Lung Cancer Diagnosis Clinical Decision Support System</title><link href="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system" rel="alternate" type="text/html" title="Lung Cancer Diagnosis Clinical Decision Support System" /><published>2019-04-13T00:00:00+09:00</published><updated>2019-04-13T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Lung%20Cancer%20Diagnosis%20Clinical%20Decision%20Support%20System</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system">&lt;p&gt;The purpose of the system is to help doctors make a decision on diagnosis of lung cancer. It supports diagnosis by deep learning based detection and classification nodules.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">The system places stent to the target lesion in the coronary artery via controlling manipulator made by Asan Medical Center. It is the world first autonomous PCI robot system. My team has developed reinforcement learning-based control software. This project was awarded first place at Johnson &amp;amp; Johnson QuickFire Challenge.</summary></entry><entry><title type="html">Lung Cancer Diagnosis Clinical Decision Support System</title><link href="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system" rel="alternate" type="text/html" title="Lung Cancer Diagnosis Clinical Decision Support System" /><published>2019-04-13T00:00:00+09:00</published><updated>2019-04-13T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Lung%20Cancer%20Diagnosis%20Clinical%20Decision%20Support%20System</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system">&lt;p&gt;The purpose of the system is to help doctors make a decision on diagnosis process of lung cancer. It supports diagnosis by deep learning based on detection and classification nodules.&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -382,14 +387,17 @@ Therefore, there is a possibility to apply our skill-set in other domains in a r
 
 &lt;p&gt;&lt;img src=&quot;/images/medipixel/mp_screen_shot.png&quot; alt=&quot;Alt text&quot; /&gt;
 Lung cancer is placed in a top position in cancer death rate. 
-In 2015 total 17,399 people died by lung cancer in Korea. 
-It was so high that this portion took 27.9% in the total amount of cancer deaths. 
-The reason why lung cancer has high death rate is that efficient inspection process does not exist.&lt;/p&gt;
+In 2015 total 17,399 people was killed by lung cancer in Korea. 
+It is fatal in that it takes 27.9% in the total amount of cancer deaths. 
+The reason for its high death rate is that efficient inspection process does not exist yet.&lt;/p&gt;
 
-&lt;p&gt;In the light of sharing experience that accumulated over time, decision support system based on AI is widely adopted in various industrial fields. 
-In medical domain, the need of rapid and precise diagnosis decision is intensifying. 
-Therefore, this kind of system is being researched by many scientist. 
-Medipixel’s lung cancer project was designed to fulfill those needs. 
+&lt;p&gt;In many cases, biopsy is taken to confirm whether a patient has lung cancer or not.
+It, however, should be avoided as much as possible since it is an invasive inspection. 
+Usually chest computed tomography (CT) is used for biopsy screening, so radiologist’s role of reading CT correctly is very important.&lt;/p&gt;
+
+&lt;p&gt;In the light of sharing experience accumulated over time, decision support system based on AI has been widely adopted in various industrial fields. 
+In medical domain, the need of quick and precise diagnosis decision is intensifying. 
+Hence, this kind of system has been being researched by many scientists and Medipixel’s lung cancer project is designed to fulfill those needs. 
 We co-worked with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; and ended up developing Lung Cancer Diagnosis Clinical Decision Support System.&lt;/p&gt;
 
 &lt;p&gt;It takes the following advantages&lt;/p&gt;
@@ -403,7 +411,7 @@ We co-worked with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;
 &lt;h5 id=&quot;system-features&quot;&gt;System Features&lt;/h5&gt;
 &lt;p&gt;This system features are below&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Support diagnosis whether nodule is malignant or benign&lt;/li&gt;
+  &lt;li&gt;Support diagnosis process whether nodule is malignant or benign&lt;/li&gt;
   &lt;li&gt;Handle non-small cell lung cancer nodule in 10mm~30mm range&lt;/li&gt;
   &lt;li&gt;Show the number of nodules and nodule region of interests&lt;/li&gt;
   &lt;li&gt;Indicate estimated lung cancer risk percentage&lt;/li&gt;
@@ -412,32 +420,27 @@ We co-worked with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;
 &lt;p&gt;&lt;img src=&quot;/images/medipixel/mp_chest_gui.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;tasks&quot;&gt;Tasks&lt;/h5&gt;
-&lt;p&gt;I was involved in this project as a project leader. 
-I was in charge of designing overall process and data flow. 
-Initial conditions of the project were not sufficient. 
-My team consisted of just 3 members including junior engineer.
-Furthermore there were many instances of lost time while my team was preparing for this project. 
-As we had limited time and resources, I had to specify what we were supposed to to and what we were not supposed to do.&lt;/p&gt;
+&lt;p&gt;I was involved in this project as a project leader who is in charge of designing overall process and data flow.&lt;/p&gt;
 
 &lt;p&gt;I decided to approach this project in practical view. 
-Most of processes in deep learning system are formulaic, I did not put many effort to design a system structure. 
-Also making totally new model were excluded from selections. Instead of it, we put more time to find high performance model adopted in medical domain and improve that model.&lt;/p&gt;
+Since most of processes in deep learning system are formulaic, I did not put many effort to design a system structure. 
+Also making totally new model was excluded from selections. Instead, we put more time finding high performance model adopted in medical domain and improving it.&lt;/p&gt;
 
 &lt;h5 id=&quot;dataset&quot;&gt;Dataset&lt;/h5&gt;
 &lt;p&gt;It is one of the most important issues in deep learning system to gather and handle proper dataset.
 We utilized several dataset of hospitals involved with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; and open dataset like &lt;a href=&quot;https://biometry.nci.nih.gov/cdas/nlst/&quot;&gt;NLST&lt;/a&gt; to improve performance of the system. 
-There were some issues with datasets below&lt;/p&gt;
+There were some issues with datasets as follow&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Data format was different(especially open data-set)&lt;/li&gt;
-  &lt;li&gt;Data modality like resolution of CT was different&lt;/li&gt;
-  &lt;li&gt;The number of malignant nodules was so overwhelmingly numerous than benign nodules&lt;/li&gt;
-  &lt;li&gt;It was hard to find totally negative data which did not have any nodule&lt;/li&gt;
+  &lt;li&gt;Different data format(especially open data-set)&lt;/li&gt;
+  &lt;li&gt;Different data modality such as resolution of CT&lt;/li&gt;
+  &lt;li&gt;Overwhelmingly numerous malignant nodules(more than benign nodules)&lt;/li&gt;
+  &lt;li&gt;Difficulty on finding totally negative data which did not have any nodule&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&quot;preprocess&quot;&gt;Preprocess&lt;/h6&gt;
-&lt;p&gt;We had to preprocess heterogeneous set through one pipeline.
+&lt;p&gt;We had to preprocess heterogeneous data set through one pipeline.
 Basically, it was necessary to reconstruct and normalize from 2d DICOM slices to 3d voxel data. 
-As this task was expected to take a long time, it had to be done in advance, and results must be saved in hard disk before regular training.
+Since this task was expected to take a long time, it had to be done in advance, and results must be saved in hard disk before proceed regular training process.
 Main process was like below.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Perform 3D reconstruction with thickness of 1mm&lt;/li&gt;
@@ -450,7 +453,7 @@ Main process was like below.&lt;/p&gt;
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Rather than using the whole voxel data, it was divided into chunks of specific size, and those chunks were used because of GPU memory limitation. 
+&lt;p&gt;Rather than using the whole voxel data, it was divided into chunks of specific size due to GPU memory limitation. 
 This process occurred in training and inference routine.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -460,21 +463,21 @@ This process occurred in training and inference routine.&lt;/p&gt;
 
 &lt;h6 id=&quot;gathering-dataset&quot;&gt;Gathering Dataset&lt;/h6&gt;
 &lt;p&gt;To improve performance, we needed to obtain more dataset from various source.
-This process collecting proper data for model needed huge time cost for doctors. 
-Especially, data labeling was a big overload because it was handcrafted task to segment the region of nodule in pixel by pixel.&lt;/p&gt;
+This process collecting proper data for model requires long time cost for doctors. 
+Especially, data labeling is a big overload because it is generally handcrafted task to segment the region of nodule in pixel by pixel.&lt;/p&gt;
 
-&lt;p&gt;we put many effort to help them.
-Key was a efficiency and decrease  of time consuming. 
-We had several meeting with doctors and proposed useful methods like nodule segmentation support application and semi-auto segmentation for nudule data.&lt;/p&gt;
+&lt;p&gt;we put much efforts to help them.
+Key was an efficiency and decrease  of time consuming. 
+We had several meetings with doctors and proposed useful methods such as nodule segmentation support application and semi-auto segmentation for nodule data.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_chest_data0.jpg&quot; /&gt;
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;deep-learning-network&quot;&gt;Deep Learning Network&lt;/h5&gt;
-&lt;p&gt;In researching period I realized that ensemble strategy was efficient to improve whole system accuracy. 
+&lt;p&gt;In research period I realized that ensemble strategy was efficient to improve whole system accuracy. 
 So, I got many experiments using various models and tried to find optimal combination. 
-In result we fixed to use three DNN networks in the system.&lt;/p&gt;
+As a result we decided to use three Deep Neural Network(DNN) networks in the system.&lt;/p&gt;
 
 &lt;h6 id=&quot;detection-network&quot;&gt;Detection-network&lt;/h6&gt;
 &lt;p&gt;This network detects nodules. 
@@ -498,20 +501,20 @@ Our segmentation-network is taking advantage of &lt;a href=&quot;https://arxiv.o
 
 &lt;h6 id=&quot;classification-network&quot;&gt;Classification-network&lt;/h6&gt;
 &lt;p&gt;Classification-network is responsible for determining the degree of malignancy of candidate nodules. 
-Features of nodules are extracted through 3D residual network layer, and we come up with final result through the features.&lt;/p&gt;
+Features of nodules are extracted through 3D residual network layer, and we came up with final result through the features.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_net_classification-net.png&quot; width=&quot;70%&quot; /&gt;
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;practical-technique&quot;&gt;Practical Technique&lt;/h5&gt;
-&lt;p&gt;In addition, I added simple preprocess stage before segmentation stage to get rid of nodules in outer body.
-This stage was composed of simple method that just checked the largest contour and eroded it.
-It mapped candidate nodule region onto 2D slide, and examined whether it belongs to inside of the body, and regions outside of the body were removed as false-positives.
-This method had some advantages over other methods that performed complicated lung-segmentation as follows&lt;/p&gt;
+&lt;p&gt;I also added a simple preprocess stage before segmentation stage to get rid of nodules in outer body.
+This stage was composed of a simple method that just checks the largest contour and eroded it.
+It mapped candidate nodule region onto 2D slide and examined whether it belongs to inside of the body, and regions outside of the body were removed as false-positives.
+This method had some advantages over other methods that perform complicated lung-segmentation as follows&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;It is much faster than conventional segmentation method via complex algorithm&lt;/li&gt;
-  &lt;li&gt;It removes a ordinary lung-segmentation algorithm problem that recognizes nodule on the wall as outside the lung&lt;/li&gt;
+  &lt;li&gt;It removes an ordinary lung-segmentation algorithm problem that recognizes nodule on the wall as outside the lung&lt;/li&gt;
   &lt;li&gt;It solves region segmentation error resulting from different modality such as different CT slide scanner&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -521,11 +524,11 @@ This method had some advantages over other methods that performed complicated lu
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;strengths-of-the-structure&quot;&gt;Strengths of The Structure&lt;/h5&gt;
-&lt;p&gt;Generally, most systems in cancer diagnosis had similar structure. 
-Among of them combinations with U-net based detector and classifier were popular solution. 
+&lt;p&gt;Generally, most systems in cancer diagnosis has similar structure. 
+Among them combinations with U-net based detector and classifier were popular solution. 
 &lt;strong&gt;I embedded simple preprocess stage and segmentation network&lt;/strong&gt; in center of it. 
 Network mapped 3d suspicious chunks to 2d ct slice, at the same time this stage that performed to segment area in suspicious chunks meant scrutinizing and filtering nodules. 
-So, I was able to &lt;strong&gt;remove many false positive nodules&lt;/strong&gt; from results from first stage. 
+So, I was able to &lt;strong&gt;remove many false positive nodules&lt;/strong&gt; from results in first stage. 
 From those features, the system got simple but powerful improvement.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/medipixel/mp_chest_models.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
@@ -533,7 +536,7 @@ From those features, the system got simple but powerful improvement.&lt;/p&gt;
 &lt;h5 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h5&gt;
 &lt;p&gt;https://link-springer-com.proxy1.cl.msu.edu/article/10.1007%2Fs00330-009-1596-y
 https://link-springer-com.proxy1.cl.msu.edu/article/10.1007%2Fs00330-007-0667-1
-Through processes mentioned above, it was possible to achieve results that reduce time of the whole diagnosis dramatically while maintaining a useful performance.&lt;/p&gt;
+Through processes mentioned above, it was possible to achieve satisfying results that reduce time of the whole diagnosis dramatically while maintaining a useful performance.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_chest_auc.png&quot; width=&quot;60%&quot; /&gt;
@@ -546,7 +549,7 @@ Through processes mentioned above, it was possible to achieve results that reduc
 &lt;hr /&gt;
 
 &lt;h5 id=&quot;patent&quot;&gt;Patent&lt;/h5&gt;
-&lt;p&gt;[1] Pathological diagnosis method and apparatus based on machine learning KR, P2018-0173475&lt;/p&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">The purpose of the system is to help doctors make a decision on diagnosis of lung cancer. It supports diagnosis by deep learning based detection and classification nodules.</summary></entry><entry><title type="html">NIPS 2018 - AI for Prosthetics Challenge</title><link href="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge" rel="alternate" type="text/html" title="NIPS 2018 - AI for Prosthetics Challenge" /><published>2019-04-02T00:00:00+09:00</published><updated>2019-04-02T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/NIPS%202018%20-%20AI%20for%20Prosthetics%20Challenge</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge">&lt;p&gt;My team participate in &lt;a href=&quot;https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge&quot;&gt;NIPS 2018 - AI for Prosthetics Challenge&lt;/a&gt; and took a 17th place over 401 teams. 
+&lt;p&gt;[1] Pathological diagnosis method and apparatus based on machine learning KR, P2018-0173475&lt;/p&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">The purpose of the system is to help doctors make a decision on diagnosis process of lung cancer. It supports diagnosis by deep learning based on detection and classification nodules.</summary></entry><entry><title type="html">NIPS 2018 - AI for Prosthetics Challenge</title><link href="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge" rel="alternate" type="text/html" title="NIPS 2018 - AI for Prosthetics Challenge" /><published>2019-04-02T00:00:00+09:00</published><updated>2019-04-02T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/NIPS%202018%20-%20AI%20for%20Prosthetics%20Challenge</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge">&lt;p&gt;My team participate in &lt;a href=&quot;https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge&quot;&gt;NIPS 2018 - AI for Prosthetics Challenge&lt;/a&gt; and took a 17th place over 401 teams. 
 Though it was hard challenge due to limitations of resources, we were able to get valuable &lt;a href=&quot;https://medipixel.github.io/NIPS2018&quot;&gt;practical experiences&lt;/a&gt; about Reinforcement Learning and Biomechanics domains.&lt;/p&gt;
 
 &lt;!--break--&gt;
@@ -554,10 +557,8 @@ Though it was hard challenge due to limitations of resources, we were able to ge
 &lt;h4 id=&quot;my-role&quot;&gt;My Role&lt;/h4&gt;
 &lt;p&gt;System main engineer&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Design a whole data pipeline&lt;/li&gt;
-  &lt;li&gt;Implement &lt;a href=&quot;https://en.wikipedia.org/wiki/DICOM&quot;&gt;DICOM&lt;/a&gt;-based data preprocessing module&lt;/li&gt;
-  &lt;li&gt;Design and implement 3D U-net based detection neural network&lt;/li&gt;
-  &lt;li&gt;Design and implement 3D Resnet based classification neural network&lt;/li&gt;
+  &lt;li&gt;Implement distributed Reinforcement Learning system(&lt;a href=&quot;https://rise.cs.berkeley.edu/projects/ray/&quot;&gt;RAY&lt;/a&gt;) on Cloud system(&lt;a href=&quot;https://azure.microsoft.com/&quot;&gt;Azure&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Implement RL-agent in &lt;a href=&quot;https://rise.cs.berkeley.edu/projects/ray/&quot;&gt;RAY&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -872,7 +873,8 @@ I was able to get many experiences in differnt system, frameworks and devices.&l
 
 &lt;h5 id=&quot;tb-eye-project&quot;&gt;TB-EYE project&lt;/h5&gt;
 &lt;ul&gt;
-  &lt;li&gt;Work on various type &lt;a href=&quot;https://en.wikipedia.org/wiki/On-screen_display&quot;&gt;OSD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/On-screen_display&quot;&gt;OSD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Work on various type OSD&lt;/li&gt;
   &lt;li&gt;Implement image based charecter OSD module&lt;/li&gt;
   &lt;li&gt;Handle raw image format(eg. yuv420, yuv422)&lt;/li&gt;
   &lt;li&gt;Implement C# window application&lt;/li&gt;
