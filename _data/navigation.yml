@@ -19,8 +19,8 @@
         url: /portfolio/samsung/video_surveillance_as_a_service
       - page: Other Projects
         url: /portfolio/samsung/other_projects
-      - page: Flatness
-        url: /portfolio/private/flatness
+      - page: Floor flatness measuring device
+        url: /portfolio/private/floor_flatness_measuring_device
 #- title: CV
 #  subfolderitems:
 #    - page: base

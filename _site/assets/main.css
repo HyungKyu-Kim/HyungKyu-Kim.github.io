@@ -574,6 +574,7 @@ body {
     width: 100%; }
 
   .profile__right {
+    margin-top: 40px;
     float: none;
     width: 100%; } }
 @media screen and (max-width: 768px) {

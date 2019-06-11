@@ -56,8 +56,8 @@ This system features are below
 I was involved in this project as a project leader who is in charge of designing overall process and data flow. 
 
 I decided to approach this project in practical view. 
-Since most of processes in deep learning system are formulaic, I did not put many effort to design a system structure. 
-Also making totally new model was excluded from selections. Instead, we put more time finding high performance model adopted in medical domain and improving it. 
+Since most of processes in deep learning system are formulaic, I did not exert much effort to design a system structure. 
+Making totally new model was excluded from selections as well. Instead, we put more time finding high performance model adopted in medical domain and improving it. 
 
 
 ##### Dataset 
@@ -97,7 +97,7 @@ To improve performance, we needed to obtain more dataset from various source.
 This process collecting proper data for model requires long time cost for doctors. 
 Especially, data labeling is a big overload because it is generally handcrafted task to segment the region of nodule in pixel by pixel.
 
-we put much efforts to help them.
+we exert much efforts to help them.
 Key was an efficiency and decrease  of time consuming. 
 We had several meetings with doctors and proposed useful methods such as nodule segmentation support application and semi-auto segmentation for nodule data.  
 <figure>
@@ -155,7 +155,7 @@ This method had some advantages over other methods that perform complicated lung
 
 ##### Strengths of The Structure
 Generally, most systems in cancer diagnosis has similar structure. 
-Among them combinations with U-net based detector and classifier were popular solution. 
+Among these systems, combinations with U-net based detector and classifier were popular ones. 
 **I embedded simple preprocess stage and segmentation network** in center of it. 
 Network mapped 3d suspicious chunks to 2d ct slice, at the same time this stage that performed to segment area in suspicious chunks meant scrutinizing and filtering nodules. 
 So, I was able to **remove many false positive nodules** from results in first stage. 

@@ -324,14 +324,12 @@ Especially, total latency largely depends on acquisition time of camera image an
 
 <h6 id="strict-exception-handling">Strict exception handling</h6>
 <p>It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
-I handled many abnormal situations like twisted guidewire and path deviation by excessive manipulation.</p>
+I handled many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
+Communication manipulator exception was another serious handling point because it could lead system procedure to be halted.</p>
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_except_twisted.png" width="60%" />
 </figure>
-
-<h6 id="communication-policy">Communication policy</h6>
-<p>Communication manipulator exception was another serious handling point because it could lead system procedure to be halted.</p>
 
 <h5 id="experiment">Experiment</h5>
 
@@ -348,14 +346,14 @@ I handled many abnormal situations like twisted guidewire and path deviation by 
 
 <h6 id="setup">Setup</h6>
 <p>In navigation guidewire problem, selection of correct vessel branch is a main issue.
-Thus, we focused to verify about that and design experiment process.
+Thus, we focused on verifying it and designing experiment process.
 Setting was below</p>
 
 <ul>
-  <li>Max steps is 500</li>
-  <li>Rewards is imposed by operating time and path correctness</li>
-  <li>Success of episode is to reach the target point within max steps</li>
-  <li>Goal positions are like below figure</li>
+  <li>Max step is 500</li>
+  <li>Rewards are imposed by operating time and path correctness</li>
+  <li>Success of episode is to reach the target point within the max step</li>
+  <li>Goal positions are as below figure</li>
 </ul>
 
 <figure>
@@ -368,14 +366,16 @@ Our navigation system succeeded about 95% to reach goal position.
 Currently, my team and  researchers in AMC are writing a research paper targeting <a href="https://www.crf.org/tct">TCT</a>, top tier medical conference.</p>
 
 <h6 id="success-rate">Success rate</h6>
-<p>The more training is progressed, the nearer success rate is 1.0.</p>
+<p>The more training is carried out, the nearer success rate becomes to 1.0.</p>
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_successrate.png" />
 </figure>
 
 <h6 id="time-spent">Time spent</h6>
-<p>In early stage tranning, system moves to forward mainly irrespective of success. Thus, episode time spent of early stage is short. But, after evolve period(400~600 step), system has high succuss rate and short time spent.</p>
+<p>In early stage training, a wire moves forward regardless of success.
+Thus, episode time spent on early stage is short.
+However, after evolving period(400~600 step), system has high success rate and takes short time similar to time spent on the early stage.</p>
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_timespent.png" />
@@ -385,8 +385,8 @@ Currently, my team and  researchers in AMC are writing a research paper targetin
 
 <h6 id="possibility-to-transfer-other-domain">Possibility to transfer other domain</h6>
 
-<p>PCI is a  high risky procedure requiring high skills. 
-Therefore, there is a possibility to apply our skill-set in other domains in a relatively easy way. 수정</p>
+<p>Because the skill-set includes controlling deformable medium and setting RL environment for those control system, we can utilize it to other fields.
+We are having some meetings with persons from other domain and finding chances to apply our system to their fields.</p>
 
 <table>
   <thead>

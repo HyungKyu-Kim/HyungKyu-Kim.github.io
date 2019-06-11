@@ -4,20 +4,20 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Flatness | Hyungkyu Kim</title>
+<title>Floor flatness measuring device | Hyungkyu Kim</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Flatness" />
+<meta property="og:title" content="Floor flatness measuring device" />
 <meta name="author" content="Hyungkyu Kim" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="To solve floor flatness problem in construction site, I have been making device to check flatness level. It needs to converge technologies including LIDAR and SLAM." />
-<meta property="og:description" content="To solve floor flatness problem in construction site, I have been making device to check flatness level. It needs to converge technologies including LIDAR and SLAM." />
+<meta name="description" content="To solve floor flatness problem in construction site, I have been making device to check flatness level. It needs to converge technologies including LIDAR and SLAM. This is ongoing project." />
+<meta property="og:description" content="To solve floor flatness problem in construction site, I have been making device to check flatness level. It needs to converge technologies including LIDAR and SLAM. This is ongoing project." />
 <link rel="canonical" href="http://localhost:4000/portfolio/private/flatness" />
 <meta property="og:url" content="http://localhost:4000/portfolio/private/flatness" />
 <meta property="og:site_name" content="Hyungkyu Kim" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-04-28T00:00:00+09:00" />
 <script type="application/ld+json">
-{"headline":"Flatness","dateModified":"2019-04-28T00:00:00+09:00","url":"http://localhost:4000/portfolio/private/flatness","datePublished":"2019-04-28T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/portfolio/private/flatness"},"author":{"@type":"Person","name":"Hyungkyu Kim"},"description":"To solve floor flatness problem in construction site, I have been making device to check flatness level. It needs to converge technologies including LIDAR and SLAM.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"headline":"Floor flatness measuring device","dateModified":"2019-04-28T00:00:00+09:00","url":"http://localhost:4000/portfolio/private/flatness","datePublished":"2019-04-28T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/portfolio/private/flatness"},"author":{"@type":"Person","name":"Hyungkyu Kim"},"description":"To solve floor flatness problem in construction site, I have been making device to check flatness level. It needs to converge technologies including LIDAR and SLAM. This is ongoing project.","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel='stylesheet' href='/assets/main.css'>
@@ -45,7 +45,7 @@
       <main class='main'>
         <article class='post'>
   <div class="posts__navigation">
-    <a href="/portfolio"> Portfolio </a> &nbsp; > &nbsp; <a href="/portfolio#Private"> Private </a> &nbsp; > &nbsp; Flatness
+    <a href="/portfolio"> Portfolio </a> &nbsp; > &nbsp; <a href="/portfolio#Private"> Private </a> &nbsp; > &nbsp; Floor flatness measuring device
   </div>
   <br/>
   <div>
@@ -58,25 +58,79 @@
       <img src="" width="100px" style="margin-bottom:35px">
       
   </div>
-  <h1>Flatness</h1>
+  <h1>Floor flatness measuring device</h1>
   <p>To solve floor flatness problem in construction site, I have been making device to check flatness level.
-It needs to converge technologies including LIDAR and SLAM.</p>
+It needs to converge technologies including LIDAR and SLAM.
+This is ongoing project.</p>
 
 <!--break-->
 
 <h4 id="my-role">My Role</h4>
-<p>Network camera main developer</p>
+<p>Main developer</p>
 <ul>
-  <li>Implement module establishing tunneling between server and camera</li>
-  <li>Implement controller module between server and camera</li>
-  <li>Implement module streaming between server and camera</li>
+  <li>Design device concept</li>
+  <li>Implement LIDAR</li>
+  <li>Implement</li>
 </ul>
 
 <hr />
 
 <h4 id="project-detail">Project Detail</h4>
 
-<p>In many construction site, floor flatness leveling is a headache problem.</p>
+<p>In many construction site, floor leveling is hard to handle perfectly.
+It is caused by problems including wrong concrete pouring and uneven base ground.
+Especially, this uneven floor makes issues such that floor coating becomes poor looking shapes and special facilities required strict environment(e.g. distribution center, precision manufacture) have improper ground state to install equipments.</p>
+
+<figure>
+  <img src="/images/private/comparison_flat.PNG" width="90%" />
+</figure>
+
+<p>Many construction companies try to fix this problem by various method.
+One of general solution is to use grinding machine.
+Running grinding machine, it is determined from experience of operator that  how many amount of ground will be grinded.</p>
+
+<p>In this process, it is shortage that task depends on personal skill based on eye measurement and there is not any numerical clue what they did. 
+Thus, if there is way to <strong>support flatness measurement task through quantifying atypical image data and visualizing data</strong>, work efficiency and reliability can be increased.
+I made a team with my friend and undertook to solve this problem.</p>
+
+<figure>
+  <img src="/images/private/flat_grinding.PNG" />
+</figure>
+
+<h5 id="requirements">Requirements</h5>
+
+<p>At the beginning of project, My team investigated requirements from field workers firstly.
+To acquire sufficient information, we interviewed with them in many other perspectives.</p>
+
+<p>The main questions are as follow</p>
+<ol>
+  <li>How whole process is preceded</li>
+  <li>How long time takes during task</li>
+  <li></li>
+</ol>
+
+<p>Answers</p>
+<blockquote>
+
+</blockquote>
+
+<h5 id="concept">Concept</h5>
+<p>On the Basis of gathered requirements, I made basic principles of device.</p>
+
+<ol>
+  <li>Reasonable price</li>
+  <li>Easy to use</li>
+  <li>Short measurement time</li>
+</ol>
+
+<h5 id="research">Research</h5>
+
+<p>There are many sensors used for obtaining space information.
+Since most of them have linear correlation between price and accuracy, we need to find proper degree.
+We decide to start from LIDAR sensor because it has reasonable price and accuracy.</p>
+
+<p>Furthermore, to get spatial map, it is necessary to choose method to build map by data from sensors.
+Thus, we study about SLAM.</p>
 
 </article>
 

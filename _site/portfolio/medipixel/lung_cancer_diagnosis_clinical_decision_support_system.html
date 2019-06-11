@@ -109,8 +109,8 @@ We co-worked with <a href="http://eng.amc.seoul.kr/gb/lang/main.do">Asan Medical
 <p>I was involved in this project as a project leader who is in charge of designing overall process and data flow.</p>
 
 <p>I decided to approach this project in practical view. 
-Since most of processes in deep learning system are formulaic, I did not put many effort to design a system structure. 
-Also making totally new model was excluded from selections. Instead, we put more time finding high performance model adopted in medical domain and improving it.</p>
+Since most of processes in deep learning system are formulaic, I did not exert much effort to design a system structure. 
+Making totally new model was excluded from selections as well. Instead, we put more time finding high performance model adopted in medical domain and improving it.</p>
 
 <h5 id="dataset">Dataset</h5>
 <p>It is one of the most important issues in deep learning system to gather and handle proper dataset.
@@ -152,7 +152,7 @@ This process occurred in training and inference routine.</p>
 This process collecting proper data for model requires long time cost for doctors. 
 Especially, data labeling is a big overload because it is generally handcrafted task to segment the region of nodule in pixel by pixel.</p>
 
-<p>we put much efforts to help them.
+<p>we exert much efforts to help them.
 Key was an efficiency and decrease  of time consuming. 
 We had several meetings with doctors and proposed useful methods such as nodule segmentation support application and semi-auto segmentation for nodule data.</p>
 <figure>
@@ -211,7 +211,7 @@ This method had some advantages over other methods that perform complicated lung
 
 <h5 id="strengths-of-the-structure">Strengths of The Structure</h5>
 <p>Generally, most systems in cancer diagnosis has similar structure. 
-Among them combinations with U-net based detector and classifier were popular solution. 
+Among these systems, combinations with U-net based detector and classifier were popular ones. 
 <strong>I embedded simple preprocess stage and segmentation network</strong> in center of it. 
 Network mapped 3d suspicious chunks to 2d ct slice, at the same time this stage that performed to segment area in suspicious chunks meant scrutinizing and filtering nodules. 
 So, I was able to <strong>remove many false positive nodules</strong> from results in first stage. 

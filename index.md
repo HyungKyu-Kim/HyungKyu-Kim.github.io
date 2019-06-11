@@ -5,8 +5,7 @@ group: Hyungkyu Kim
 <div align="center">
     I am software engineer.<br>
     I dream system to break the boundaries between cyber world and physical world.<br>
-    I dream system to<br>
-    <h3>Be agile, <br>Be flexible, <br>Be variable</h3>
+    <h3>"Be agile, Be flexible, Be variable"</h3>
 </div>
 
 <div>
@@ -15,9 +14,9 @@ group: Hyungkyu Kim
     </figure>
 </div>
 
-**Short Biography** In [Samsung Techwin](/portfolio#Samsung Techwin) during 6 years, I was involved in various projects including IoT camera and cloud camera as a network camera device engineer.
-Running [machine learning study group](https://www.facebook.com/Deepsight-1780933522021742/) related with researchers and developers who have various background about 3 years, I steped into AI development area.
-After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and have participated in projects including medical image deep-learning system, reinforcement-learning based surgery robot control system.
+**Short Biography** Working in [Samsung Techwin](/portfolio#Samsung Techwin) for 6 years, I was involved in various projects including IoT camera and cloud camera as a network camera device engineer.
+Running [machine learning study group](https://www.facebook.com/Deepsight-1780933522021742/) for 3 years with researchers and developers from various fields, I stepped into AI development realm.
+After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and have lead AI project team developing medical image deep-learning system and reinforcement-learning based surgery robot control system.
 
 ---
 
@@ -42,17 +41,24 @@ After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and
 
 ---
 
-"Whereof one cannot speak, thereof one must be silent."
+Since I opened my eyes to computer development, the art of logic and knowledge, I have been really into "Oriental Philosophy" also. 
+Because I think that it describes system beyond system determined by modern philosophies. 
+Wittgenstein, one of godfather in modern philosophy, said that 
 
-The way that can be spoken of Is not the constant way  
-The name that can be named Is not the constant name.
+> "Whereof one cannot speak, thereof one must be silent."
 
-Formless 
+This quote is connected with starting paragraph of "Tao Te Ching", one of the greatest oriental philosophy.
 
-Almost 10 years ago when I was university student, I had a chance to attend presentation session for "Cyber Physical System". 
-The speaker of session told final vision of CPS is that connect all artificial and nature environment in the Earth under one system and control it. 
-That session inspired me to find my way in computer science field. Vision of CPS fascinated me. 
-I was really into the concept that borderless interaction between cyber and real world. 
+>"The way that can be spoken of Is not the constant way  
+The name that can be named Is not the constant name."
+
+Both of them indicate something above the "Language", system of mankind.
+I am fascinated by this sort of paradox, the system beyond system and formless form. 
+I use to feel that this can be a clue to get unreachable goals in the present formulaic computer system.
+
+When I was university student, I had a chance to attend presentation session for "Cyber Physical System". 
+The speaker of session told final vision of CPS is that connect all artificial and nature environment in the Earth under one system and control it.
+It was really interesting concept that borderless interaction between cyber and real world. 
 
 I established big plan from that inspiration. 
 To begin with, I needed to find what I have to know. Interaction between cyber and real world was a broad concept. 

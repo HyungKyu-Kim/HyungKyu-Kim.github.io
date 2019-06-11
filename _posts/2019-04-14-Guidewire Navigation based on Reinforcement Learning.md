@@ -268,13 +268,11 @@ Especially, total latency largely depends on acquisition time of camera image an
 ###### Strict exception handling  
 It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
 I handled many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
+Communication manipulator exception was another serious handling point because it could lead system procedure to be halted. 
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_except_twisted.png" width="60%">
 </figure>
-
-###### Communication policy
-Communication manipulator exception was another serious handling point because it could lead system procedure to be halted.
 
 
 ##### Experiment
@@ -290,13 +288,13 @@ My team implemented and numerous experiments with RL algorithms to improve syste
 
 ###### Setup
 In navigation guidewire problem, selection of correct vessel branch is a main issue.
-Thus, we focused to verify about that and design experiment process.
+Thus, we focused on verifying it and designing experiment process.
 Setting was below
  
-* Max steps is 500
-* Rewards is imposed by operating time and path correctness 
-* Success of episode is to reach the target point within max steps
-* Goal positions are like below figure 
+* Max step is 500
+* Rewards are imposed by operating time and path correctness 
+* Success of episode is to reach the target point within the max step
+* Goal positions are as below figure 
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_goals.png" width="60%">
@@ -309,14 +307,16 @@ Our navigation system succeeded about 95% to reach goal position.
 Currently, my team and  researchers in AMC are writing a research paper targeting [TCT](https://www.crf.org/tct), top tier medical conference. 
 
 ###### Success rate
-The more training is progressed, the nearer success rate is 1.0.
+The more training is carried out, the nearer success rate becomes to 1.0.
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_successrate.png">
 </figure>
 
 ###### Time spent
-In early stage tranning, system moves to forward mainly irrespective of success. Thus, episode time spent of early stage is short. But, after evolve period(400~600 step), system has high succuss rate and short time spent.
+In early stage training, a wire moves forward regardless of success.
+Thus, episode time spent on early stage is short.
+However, after evolving period(400~600 step), system has high success rate and takes short time similar to time spent on the early stage.
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_timespent.png">
@@ -327,8 +327,8 @@ In early stage tranning, system moves to forward mainly irrespective of success.
 
 ###### Possibility to transfer other domain    
 
-PCI is a  high risky procedure requiring high skills. 
-Therefore, there is a possibility to apply our skill-set in other domains in a relatively easy way. 수정
+Because the skill-set includes controlling deformable medium and setting RL environment for those control system, we can utilize it to other fields.
+We are having some meetings with persons from other domain and finding chances to apply our system to their fields.
 
 |Search system | Pipeline integrity inspection | Catheter procedure automation |
 |---|---|---|

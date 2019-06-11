@@ -1,21 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-08T14:44:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Flatness</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Flatness" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Flatness</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve floor flatness problem in construction site, I have been making device to check flatness level.
-It needs to converge technologies including LIDAR and SLAM.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-11T11:05:38+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve floor flatness problem in construction site, I have been making device to check flatness level.
+It needs to converge technologies including LIDAR and SLAM.
+This is ongoing project.&lt;/p&gt;
 
 &lt;!--break--&gt;
 
 &lt;h4 id=&quot;my-role&quot;&gt;My Role&lt;/h4&gt;
-&lt;p&gt;Network camera main developer&lt;/p&gt;
+&lt;p&gt;Main developer&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Implement module establishing tunneling between server and camera&lt;/li&gt;
-  &lt;li&gt;Implement controller module between server and camera&lt;/li&gt;
-  &lt;li&gt;Implement module streaming between server and camera&lt;/li&gt;
+  &lt;li&gt;Design device concept&lt;/li&gt;
+  &lt;li&gt;Implement LIDAR&lt;/li&gt;
+  &lt;li&gt;Implement&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
 &lt;h4 id=&quot;project-detail&quot;&gt;Project Detail&lt;/h4&gt;
 
-&lt;p&gt;In many construction site, floor flatness leveling is a headache problem.&lt;/p&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">To solve floor flatness problem in construction site, I have been making device to check flatness level. It needs to converge technologies including LIDAR and SLAM.</summary></entry><entry><title type="html">Guidewire Navigation based on Reinforcement Learning</title><link href="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning" rel="alternate" type="text/html" title="Guidewire Navigation based on Reinforcement Learning" /><published>2019-04-14T00:00:00+09:00</published><updated>2019-04-14T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Guidewire%20Navigation%20based%20on%20Reinforcement%20Learning</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning">&lt;p&gt;The system places stent to the target lesion in the coronary artery via controlling manipulator made by &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt;. 
+&lt;p&gt;In many construction site, floor leveling is hard to handle perfectly.
+It is caused by problems including wrong concrete pouring and uneven base ground.
+Especially, this uneven floor makes issues such that floor coating becomes poor looking shapes and special facilities required strict environment(e.g. distribution center, precision manufacture) have improper ground state to install equipments.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/private/comparison_flat.PNG&quot; width=&quot;90%&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Many construction companies try to fix this problem by various method.
+One of general solution is to use grinding machine.
+Running grinding machine, it is determined from experience of operator that  how many amount of ground will be grinded.&lt;/p&gt;
+
+&lt;p&gt;In this process, it is shortage that task depends on personal skill based on eye measurement and there is not any numerical clue what they did. 
+Thus, if there is way to &lt;strong&gt;support flatness measurement task through quantifying atypical image data and visualizing data&lt;/strong&gt;, work efficiency and reliability can be increased.
+I made a team with my friend and undertook to solve this problem.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/private/flat_grinding.PNG&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h5 id=&quot;requirements&quot;&gt;Requirements&lt;/h5&gt;
+
+&lt;p&gt;At the beginning of project, My team investigated requirements from field workers firstly.
+To acquire sufficient information, we interviewed with them in many other perspectives.&lt;/p&gt;
+
+&lt;p&gt;The main questions are as follow&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;How whole process is preceded&lt;/li&gt;
+  &lt;li&gt;How long time takes during task&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Answers&lt;/p&gt;
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;concept&quot;&gt;Concept&lt;/h5&gt;
+&lt;p&gt;On the Basis of gathered requirements, I made basic principles of device.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Reasonable price&lt;/li&gt;
+  &lt;li&gt;Easy to use&lt;/li&gt;
+  &lt;li&gt;Short measurement time&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;research&quot;&gt;Research&lt;/h5&gt;
+
+&lt;p&gt;There are many sensors used for obtaining space information.
+Since most of them have linear correlation between price and accuracy, we need to find proper degree.
+We decide to start from LIDAR sensor because it has reasonable price and accuracy.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, to get spatial map, it is necessary to choose method to build map by data from sensors.
+Thus, we study about SLAM.&lt;/p&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">To solve floor flatness problem in construction site, I have been making device to check flatness level. It needs to converge technologies including LIDAR and SLAM. This is ongoing project.</summary></entry><entry><title type="html">Guidewire Navigation based on Reinforcement Learning</title><link href="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning" rel="alternate" type="text/html" title="Guidewire Navigation based on Reinforcement Learning" /><published>2019-04-14T00:00:00+09:00</published><updated>2019-04-14T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Guidewire%20Navigation%20based%20on%20Reinforcement%20Learning</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning">&lt;p&gt;The system places stent to the target lesion in the coronary artery via controlling manipulator made by &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt;. 
 It is the world first autonomous &lt;a href=&quot;https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention&quot;&gt;PCI&lt;/a&gt; robot system. 
 My team has developed reinforcement learning-based control software. 
 This project was awarded first place at &lt;a href=&quot;https://jlabs.jnjinnovation.com/quickfire-challenges/seoul-innovation-quickfire-challenge-robotics-digital-surgery&quot;&gt;Johnson &amp;amp; Johnson QuickFire Challenge&lt;/a&gt;.&lt;/p&gt;
@@ -284,14 +338,12 @@ Especially, total latency largely depends on acquisition time of camera image an
 
 &lt;h6 id=&quot;strict-exception-handling&quot;&gt;Strict exception handling&lt;/h6&gt;
 &lt;p&gt;It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
-I handled many abnormal situations like twisted guidewire and path deviation by excessive manipulation.&lt;/p&gt;
+I handled many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
+Communication manipulator exception was another serious handling point because it could lead system procedure to be halted.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_except_twisted.png&quot; width=&quot;60%&quot; /&gt;
 &lt;/figure&gt;
-
-&lt;h6 id=&quot;communication-policy&quot;&gt;Communication policy&lt;/h6&gt;
-&lt;p&gt;Communication manipulator exception was another serious handling point because it could lead system procedure to be halted.&lt;/p&gt;
 
 &lt;h5 id=&quot;experiment&quot;&gt;Experiment&lt;/h5&gt;
 
@@ -308,14 +360,14 @@ I handled many abnormal situations like twisted guidewire and path deviation by 
 
 &lt;h6 id=&quot;setup&quot;&gt;Setup&lt;/h6&gt;
 &lt;p&gt;In navigation guidewire problem, selection of correct vessel branch is a main issue.
-Thus, we focused to verify about that and design experiment process.
+Thus, we focused on verifying it and designing experiment process.
 Setting was below&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Max steps is 500&lt;/li&gt;
-  &lt;li&gt;Rewards is imposed by operating time and path correctness&lt;/li&gt;
-  &lt;li&gt;Success of episode is to reach the target point within max steps&lt;/li&gt;
-  &lt;li&gt;Goal positions are like below figure&lt;/li&gt;
+  &lt;li&gt;Max step is 500&lt;/li&gt;
+  &lt;li&gt;Rewards are imposed by operating time and path correctness&lt;/li&gt;
+  &lt;li&gt;Success of episode is to reach the target point within the max step&lt;/li&gt;
+  &lt;li&gt;Goal positions are as below figure&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure&gt;
@@ -328,14 +380,16 @@ Our navigation system succeeded about 95% to reach goal position.
 Currently, my team and  researchers in AMC are writing a research paper targeting &lt;a href=&quot;https://www.crf.org/tct&quot;&gt;TCT&lt;/a&gt;, top tier medical conference.&lt;/p&gt;
 
 &lt;h6 id=&quot;success-rate&quot;&gt;Success rate&lt;/h6&gt;
-&lt;p&gt;The more training is progressed, the nearer success rate is 1.0.&lt;/p&gt;
+&lt;p&gt;The more training is carried out, the nearer success rate becomes to 1.0.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_successrate.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h6 id=&quot;time-spent&quot;&gt;Time spent&lt;/h6&gt;
-&lt;p&gt;In early stage tranning, system moves to forward mainly irrespective of success. Thus, episode time spent of early stage is short. But, after evolve period(400~600 step), system has high succuss rate and short time spent.&lt;/p&gt;
+&lt;p&gt;In early stage training, a wire moves forward regardless of success.
+Thus, episode time spent on early stage is short.
+However, after evolving period(400~600 step), system has high success rate and takes short time similar to time spent on the early stage.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_timespent.png&quot; /&gt;
@@ -345,8 +399,8 @@ Currently, my team and  researchers in AMC are writing a research paper targetin
 
 &lt;h6 id=&quot;possibility-to-transfer-other-domain&quot;&gt;Possibility to transfer other domain&lt;/h6&gt;
 
-&lt;p&gt;PCI is a  high risky procedure requiring high skills. 
-Therefore, there is a possibility to apply our skill-set in other domains in a relatively easy way. 수정&lt;/p&gt;
+&lt;p&gt;Because the skill-set includes controlling deformable medium and setting RL environment for those control system, we can utilize it to other fields.
+We are having some meetings with persons from other domain and finding chances to apply our system to their fields.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -423,8 +477,8 @@ We co-worked with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;
 &lt;p&gt;I was involved in this project as a project leader who is in charge of designing overall process and data flow.&lt;/p&gt;
 
 &lt;p&gt;I decided to approach this project in practical view. 
-Since most of processes in deep learning system are formulaic, I did not put many effort to design a system structure. 
-Also making totally new model was excluded from selections. Instead, we put more time finding high performance model adopted in medical domain and improving it.&lt;/p&gt;
+Since most of processes in deep learning system are formulaic, I did not exert much effort to design a system structure. 
+Making totally new model was excluded from selections as well. Instead, we put more time finding high performance model adopted in medical domain and improving it.&lt;/p&gt;
 
 &lt;h5 id=&quot;dataset&quot;&gt;Dataset&lt;/h5&gt;
 &lt;p&gt;It is one of the most important issues in deep learning system to gather and handle proper dataset.
@@ -466,7 +520,7 @@ This process occurred in training and inference routine.&lt;/p&gt;
 This process collecting proper data for model requires long time cost for doctors. 
 Especially, data labeling is a big overload because it is generally handcrafted task to segment the region of nodule in pixel by pixel.&lt;/p&gt;
 
-&lt;p&gt;we put much efforts to help them.
+&lt;p&gt;we exert much efforts to help them.
 Key was an efficiency and decrease  of time consuming. 
 We had several meetings with doctors and proposed useful methods such as nodule segmentation support application and semi-auto segmentation for nodule data.&lt;/p&gt;
 &lt;figure&gt;
@@ -525,7 +579,7 @@ This method had some advantages over other methods that perform complicated lung
 
 &lt;h5 id=&quot;strengths-of-the-structure&quot;&gt;Strengths of The Structure&lt;/h5&gt;
 &lt;p&gt;Generally, most systems in cancer diagnosis has similar structure. 
-Among them combinations with U-net based detector and classifier were popular solution. 
+Among these systems, combinations with U-net based detector and classifier were popular ones. 
 &lt;strong&gt;I embedded simple preprocess stage and segmentation network&lt;/strong&gt; in center of it. 
 Network mapped 3d suspicious chunks to 2d ct slice, at the same time this stage that performed to segment area in suspicious chunks meant scrutinizing and filtering nodules. 
 So, I was able to &lt;strong&gt;remove many false positive nodules&lt;/strong&gt; from results in first stage. 
