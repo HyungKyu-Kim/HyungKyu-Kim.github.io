@@ -20,7 +20,10 @@ Project Leader
 ----
 #### Project Detail
 
-![Alt text](/images/medipixel/mp_screen_shot.png)
+{% include youtubePlayer.html id="MP9-zlR1cYc" %}  
+  
+<br/>
+
 Lung cancer is placed in a top position in cancer death rate. 
 In 2015 total 17,399 people was killed by lung cancer in Korea. 
 It is fatal in that it takes 27.9% in the total amount of cancer deaths. 
@@ -48,9 +51,7 @@ This system features are below
 * Show the number of nodules and nodule region of interests
 * Indicate estimated lung cancer risk percentage
 
-
-
-![Alt text](/images/medipixel/mp_chest_gui.png)
+![Alt text](/images/medipixel/mp_screen_shot.png)
 
 ##### Tasks
 I was involved in this project as a project leader who is in charge of designing overall process and data flow. 

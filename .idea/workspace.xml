@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64748c0-830f-49cd-a748-971bc5141f78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2019-04-28-Floor flatness measuring device.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/3a0a43bfb9545c94c5b36ed30fda626f9783cd25/_layout.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/3a0a43bfb9545c94c5b36ed30fda626f9783cd25/_layout.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-04-28-Flatness.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_mdp.gif" beforeDir="false" afterPath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_mdp.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_newdomain2.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/images/medipixel/profile_biorobot_newdomain2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/private/flatness.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/private/flatness.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/medipixel/profile_biorobot_mdp.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/medipixel/profile_biorobot_mdp.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medipixel/profile_biorobot_newdomain2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/medipixel/profile_biorobot_newdomain2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +35,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="2928" />
+          <entry key="html" value="1" />
+          <entry key="md" value="4210" />
           <entry key="scss" value="3" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2909" />
+          <entry key="HTML" value="2" />
+          <entry key="Markdown" value="4190" />
           <entry key="PLAIN_TEXT" value="19" />
           <entry key="SCSS" value="3" />
           <entry key="YAML" value="5" />
@@ -58,16 +52,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="md" value="4" />
+          <entry key="html" value="2" />
+          <entry key="md" value="9" />
           <entry key="scss" value="2" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="Markdown" value="4" />
+          <entry key="HTML" value="2" />
+          <entry key="Markdown" value="9" />
           <entry key="SCSS" value="2" />
           <entry key="YAML" value="2" />
         </counts>
@@ -79,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_post.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
+            <state>
               <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
@@ -89,8 +83,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="380">
-                <caret line="56" column="104" lean-forward="true" selection-start-line="56" selection-start-column="104" selection-end-line="56" selection-end-column="104" />
+              <first_editor relative-caret-position="534">
+                <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -100,11 +94,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="6270">
-                <caret line="330" column="115" selection-start-line="330" selection-start-column="115" selection-end-line="330" selection-end-column="115" />
+              <first_editor relative-caret-position="418">
+                <caret line="22" column="45" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="45" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -117,8 +111,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-04-28-Floor flatness measuring device.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="912">
-                <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+              <first_editor relative-caret-position="874">
+                <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -149,16 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>e most of proc</find>
-      <find>who</find>
-      <find>participated</find>
-      <find>re</find>
-      <find>rewards</find>
-      <find>al positions are</find>
-      <find>but,</find>
-      <find>e boundaries between cyber world and p</find>
-      <find>trict exception handling</find>
-      <find>Reward is impose</find>
       <find>put effor</find>
       <find>put eff</find>
       <find>put much e</find>
@@ -179,6 +163,16 @@
       <find>have</find>
       <find>have mad</find>
       <find>relate</find>
+      <find>It was really interesting</find>
+      <find>riental Philoso</find>
+      <find>1</find>
+      <find>system beyond system and formless form</find>
+      <find>stable</find>
+      <find>unre</find>
+      <find>describe</find>
+      <find>when I faced machine learning meth</find>
+      <find>cause it is change const</find>
+      <find>nprecedented goals</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,7 +209,6 @@
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_data/organization.yml" />
         <option value="$PROJECT_DIR$/_posts/2019-03-30-Video Surveillance as a Service.md" />
-        <option value="$PROJECT_DIR$/portfolio.html" />
         <option value="$PROJECT_DIR$/index_full.md" />
         <option value="$PROJECT_DIR$/_posts/2019-03-31-IoT Camera.md" />
         <option value="$PROJECT_DIR$/_sass/_post.scss" />
@@ -223,12 +216,13 @@
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018-03-30-Others Projects.md" />
-        <option value="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" />
         <option value="$PROJECT_DIR$/_posts/2019-04-28-Flatness.md" />
         <option value="$PROJECT_DIR$/_data/navigation.yml" />
         <option value="$PROJECT_DIR$/_sass/_layout.scss" />
-        <option value="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" />
         <option value="$PROJECT_DIR$/_posts/2019-04-28-Floor flatness measuring device.md" />
+        <option value="$PROJECT_DIR$/portfolio.html" />
+        <option value="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" />
         <option value="$PROJECT_DIR$/index.md" />
       </list>
     </option>
@@ -250,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,6 +281,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -514,13 +508,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index_half.md" />
     <entry file="file://$PROJECT_DIR$/assets/main.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -556,56 +543,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-03-30-Others Projects.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2810" />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="309" column="16" lean-forward="true" selection-start-line="309" selection-start-column="16" selection-end-line="309" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_post.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="6270">
-            <caret line="330" column="115" selection-start-line="330" selection-start-column="115" selection-end-line="330" selection-end-column="115" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-04-28-Floor flatness measuring device.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="912">
-            <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -623,11 +564,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="418">
+            <caret line="22" column="45" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="45" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-04-28-Floor flatness measuring device.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="874">
+            <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="342">
+            <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="380">
-            <caret line="56" column="104" lean-forward="true" selection-start-line="56" selection-start-column="104" selection-end-line="56" selection-end-column="104" />
+          <first_editor relative-caret-position="534">
+            <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />

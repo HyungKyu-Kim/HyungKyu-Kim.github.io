@@ -25,7 +25,7 @@ Development Team Leader
 ----
 #### Project Detail
 
-{% include youtubePlayer.html id="qN3Mx64z1oM" %}
+{% include youtubePlayer.html id="rTzwVTdZ5Ic" %}
 
 \\
 Cardiovascular disease takes up a large portion of annual death around the world. 
@@ -46,7 +46,7 @@ The **"Standardization of Procedure"** process has advantages such as
  
 <figure>
   <img src="/images/medipixel/profile_biorobot_animal_ex.png">
-  <figcaption>Animal test observation - COPYRIGHT© 2019 Medipixel. All Rights Reserved.</figcaption>
+  <figcaption>Animal test observation - COPYRIGHT© 2017 Medipixel. All Rights Reserved.</figcaption>
 </figure>
 
 
