@@ -90,7 +90,7 @@ Performing this task, we considered the following issues
                 Manipulation error in real environment (e.g. wire slip) was another issue in terms of error management
             </li>
             <li>
-                Control of deformable body has been a traditional hard problem 
+                Control of flexible body has been a traditional hard problem 
             </li>
         </ul>
     </div>
@@ -327,7 +327,7 @@ However, after evolving period(400~600 step), system has high success rate and t
 
 ###### Possibility to transfer other domain    
 
-Because the skill-set includes controlling deformable medium and setting RL environment for those control system, we can utilize it to other fields.
+Because the skill-set includes controlling flexible medium and setting RL environment for those control system, we can utilize it to other fields.
 We are having some meetings with persons from other domain and finding chances to apply our system to their fields.
 
 |Search system | Pipeline integrity inspection | Catheter procedure automation |
