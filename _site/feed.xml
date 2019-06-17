@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-16T23:46:08+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve floor flatness problem in construction site, I have been making device to check flatness level.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-18T01:24:21+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve floor flatness problem in construction site, I have been making device to check flatness level.
 It needs to converge technologies including LIDAR and SLAM.
 This is an ongoing project.&lt;/p&gt;
 
@@ -7,9 +7,10 @@ This is an ongoing project.&lt;/p&gt;
 &lt;h4 id=&quot;my-role&quot;&gt;My Role&lt;/h4&gt;
 &lt;p&gt;Main developer&lt;/p&gt;
 &lt;ul&gt;
+  &lt;li&gt;Analyze requirements&lt;/li&gt;
   &lt;li&gt;Design device concept&lt;/li&gt;
-  &lt;li&gt;Implement LIDAR&lt;/li&gt;
-  &lt;li&gt;Implement&lt;/li&gt;
+  &lt;li&gt;Design system architecture&lt;/li&gt;
+  &lt;li&gt;Implement system&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -21,19 +22,69 @@ It is caused by problems including wrong concrete pouring and uneven base ground
 Especially, this uneven floor makes issues such that floor coating becomes poor looking shapes and special facilities where strict environment is required (e.g. distribution center, precision manufacture) cannot have proper ground state to install equipment.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;/images/private/comparison_flat.PNG&quot; width=&quot;90%&quot; /&gt;
+  &lt;img src=&quot;/images/private/flat_comparison.PNG&quot; width=&quot;90%&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Many construction companies try to fix this problem by various methods.
 One of general solutions is to use grinding machine.
 Running grinding machine, operator needs to have sufficient experience to determine how much grinding should be done in order to make the ground even.&lt;/p&gt;
 
-&lt;p&gt;In this process, there are two drawbacks that success of grinding depends on personal skill based on eye measurement and no numerical value can be assigned to what an operator did. 뒷부분 
-Thus, if there is a way to &lt;strong&gt;support flatness measurement task through quantifying atypical image data and visualizing data&lt;/strong&gt;, work efficiency and reliability can be increased.
+&lt;p&gt;In this process, there are two &lt;strong&gt;drawbacks&lt;/strong&gt; that&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Success of grinding depends on personal skill based on eye measurement&lt;/li&gt;
+  &lt;li&gt;No numerical value can be assigned to what an operator did 뒷부분&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thus, if there is a way to &lt;strong&gt;support flatness measurement task through quantifying atypical image data and visualizing data&lt;/strong&gt;, work efficiency and reliability can be increased.
 I made a team with my friend and undertook to solve this problem.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/private/flat_grinding.PNG&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h5 id=&quot;planning&quot;&gt;Planning&lt;/h5&gt;
+
+&lt;p&gt;This project is just first stage.
+Start from this project, final purpose that we want to achieve is to improve all procedure of floor leveling. 
+Because it is hard to improve all procedure of floor leveling at once, we established three big stages.
+Briefly, we approach the goal by below methods&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Quantify atypical data&lt;/li&gt;
+  &lt;li&gt;Gather data&lt;/li&gt;
+  &lt;li&gt;Evaluate tasks&lt;/li&gt;
+  &lt;li&gt;Improve equipment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;1-measurement-and-visualization&quot;&gt;1. Measurement and Visualization&lt;/h6&gt;
+&lt;p&gt;First of all, we need to acquire precise spatio map. 
+Only if we obtain clear data, it is possible to progress rest of procedure based on quantified indicator.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/private/flat_map.png&quot; width=&quot;50%&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h6 id=&quot;2-gathering-field-data&quot;&gt;2. Gathering Field Data&lt;/h6&gt;
+&lt;p&gt;If it is possible to provide clear spatio map data, gathering meaningful data from field is feasible.
+First, we can calculate score of flatness from measuring data via several evaluating standard of floor flatness.
+Second, we can evaluate result of field workers by difference of measuring map data between before task and after task.&lt;/p&gt;
+
+&lt;p&gt;Also, we are going to collect additional data including path of grinding machine in field, material of ground and information of workers.&lt;/p&gt;
+
+&lt;p&gt;Analyzing these data, we decide what is the best task that was done by worker and way how to operate for grinding. 
+Furthermore, through best method, it is possible to provide driving guidelines of grinding machine for field workers.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/private/flat_data.png&quot; width=&quot;90%&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h6 id=&quot;3-improvement-of-grinding-machine&quot;&gt;3. Improvement of Grinding Machine&lt;/h6&gt;
+&lt;p&gt;From accumulated data, we expect to find improvable point of grinding machine because present machine has a shortage that it is hard to work in detailed part.
+This process includes designing new machine and numerous experiment.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/private/flat_grinder.png&quot; width=&quot;50%&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;requirements&quot;&gt;Requirements&lt;/h5&gt;
@@ -41,43 +92,52 @@ I made a team with my friend and undertook to solve this problem.&lt;/p&gt;
 &lt;p&gt;At the beginning of project, my team investigated requirements from field workers at first.
 To acquire sufficient information, we interviewed in many ways.&lt;/p&gt;
 
-&lt;h6 id=&quot;1-how-accurate-should-a-sensor&quot;&gt;1. How accurate should a sensor&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt; There is no exact numerical criterion. 
-In the present process, since most workers check flatness based on eye measurement, result vary by people. 
+&lt;h6 id=&quot;how-accurate-should-a-sensor-be&quot;&gt;How accurate should a sensor be?&lt;/h6&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;There is no exact numerical criterion. 
+In the present process, since most workers check flatness based on eye measurement, it might vary by people.
 But, I think that it is necessary for the sensor to be accurate enough to determine whether it would be flat enough to install precision equipment.
-It might be about 3mm.&lt;br /&gt;
-&lt;strong&gt;Reqirements&lt;/strong&gt; It is necessary for the sensor to check under 3mm.&lt;/p&gt;
+It might be about 3mm.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h6 id=&quot;2-how-long-time-takes-during-mesurement&quot;&gt;2. How long time takes during mesurement&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt; Since measurement does not need any additional devices and dust collector is used in grinding process, Measurement process progresses with grinding process concurrently.
-But as correct ground information map is important, if it is needed extra process to measure and map ground information, we can put additional time and human resources.&lt;br /&gt;
-&lt;strong&gt;Reqirements&lt;/strong&gt; There is possibility to occur measurement error in concurrent process. 
-Thus, we use approach to extra measurement processes firstly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;☛ Reqirements:&lt;/strong&gt; Sensor should enable to check under 3mm.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;h6 id=&quot;3-how-much-budget-that-we-can-use-to-make-device-is-proper&quot;&gt;3. How much budget that we can use to make device is proper&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt; Most of machines in construction site have a tendency to be high price because they have to get high endurance and reliability. 
-Becuase there is no standard device to measure, we cannot say baseline price. 
-Of course, if device has high accuracy with low price, it is the best.&lt;br /&gt;
-&lt;strong&gt;Reqirements&lt;/strong&gt;&lt;/p&gt;
+&lt;h6 id=&quot;how-long-does-it-takes-to-measure-flatness&quot;&gt;How long does it takes to measure flatness?&lt;/h6&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Currently, we do not spend extra flatness measurement time.
+But as correct ground information map is important, if it is needed extra process to measure and map ground information, we can put additional time and human resources.
+In this regard, we request to minimize measurement time as possible because there are other processes in whole procedure.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h6 id=&quot;concept&quot;&gt;Concept&lt;/h6&gt;
-&lt;p&gt;On the Basis of gathered requirements, I made basic principles of device.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;☛ Reqirements:&lt;/strong&gt; Measurement time should be minimized as possible.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Reasonable price&lt;/li&gt;
-  &lt;li&gt;Easy to use&lt;/li&gt;
-  &lt;li&gt;Short measurement time&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h6 id=&quot;how-much-budget-to-make-device-proper-is&quot;&gt;How much budget to make device proper is?&lt;/h6&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Average budget of procedure is about 0000 and assigned budget on usage of equipment is about 0000.
+So, we wish the price of measurement device about 0000.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;☛ Reqirements:&lt;/strong&gt;  Device development cost should be under 0000.&lt;/p&gt;
 
 &lt;h5 id=&quot;research&quot;&gt;Research&lt;/h5&gt;
 
 &lt;p&gt;There are many sensors used for obtaining space information.
 Since most of them have a positive correlation between price and accuracy, we need to find a compromise.
 As task sites can be both inside and outside, there is a huge possibility that can be affected by variance of illuminate condition. 
-Therefore, photogrammetry was excluded in selection and we decided to start from LIDAR sensor because it has reasonable price and accuracy.&lt;/p&gt;
+Therefore, photogrammetry was excluded in selection and we decided to start from &lt;a href=&quot;https://en.wikipedia.org/wiki/Lidar&quot;&gt;Light Detection And Ranging&lt;/a&gt;(LIDAR) sensor because it has reasonable price and accuracy.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/private/flat_LiDAR.jpeg&quot; width=&quot;70%&quot; /&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;Furthermore, to get spatial map, it is necessary to choose a method to build map by data from sensors.
-Thus, we study about SLAM.&lt;/p&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">To solve floor flatness problem in construction site, I have been making device to check flatness level. It needs to converge technologies including LIDAR and SLAM. This is an ongoing project.</summary></entry><entry><title type="html">Guidewire Navigation based on Reinforcement Learning</title><link href="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning" rel="alternate" type="text/html" title="Guidewire Navigation based on Reinforcement Learning" /><published>2019-04-14T00:00:00+09:00</published><updated>2019-04-14T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Guidewire%20Navigation%20based%20on%20Reinforcement%20Learning</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning">&lt;p&gt;The system places stent to the target lesion in the coronary artery via controlling manipulator made by &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt;. 
+Thus, we study about &lt;a href=&quot;https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping&quot;&gt;Simultaneous Localization And Mapping&lt;/a&gt;(SLAM).&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/private/flat_SLAM.png&quot; width=&quot;70%&quot; /&gt;
+&lt;/figure&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">To solve floor flatness problem in construction site, I have been making device to check flatness level. It needs to converge technologies including LIDAR and SLAM. This is an ongoing project.</summary></entry><entry><title type="html">Guidewire Navigation based on Reinforcement Learning</title><link href="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning" rel="alternate" type="text/html" title="Guidewire Navigation based on Reinforcement Learning" /><published>2019-04-14T00:00:00+09:00</published><updated>2019-04-14T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Guidewire%20Navigation%20based%20on%20Reinforcement%20Learning</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning">&lt;p&gt;The system places stent to the target lesion in the coronary artery via controlling manipulator made by &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt;. 
 It is the world first autonomous &lt;a href=&quot;https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention&quot;&gt;PCI&lt;/a&gt; robot system. 
 My team has developed reinforcement learning-based control software. 
 This project was awarded first place at &lt;a href=&quot;https://jlabs.jnjinnovation.com/quickfire-challenges/seoul-innovation-quickfire-challenge-robotics-digital-surgery&quot;&gt;Johnson &amp;amp; Johnson QuickFire Challenge&lt;/a&gt;.&lt;/p&gt;
@@ -604,9 +664,8 @@ From those features, the system got simple but powerful improvement.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/medipixel/mp_chest_models.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h5&gt;
-&lt;p&gt;https://link-springer-com.proxy1.cl.msu.edu/article/10.1007%2Fs00330-009-1596-y
-https://link-springer-com.proxy1.cl.msu.edu/article/10.1007%2Fs00330-007-0667-1
-Through processes mentioned above, it was possible to achieve satisfying results that reduce time of the whole diagnosis dramatically while maintaining a useful performance.&lt;/p&gt;
+&lt;p&gt;Through interviews, we found that time spent on reading chest CT generally takes about from five to twenty minutes.
+Our system achieved satisfying results that reduce time to under one minute while maintaining over 90% accuracy.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_chest_auc.png&quot; width=&quot;60%&quot; /&gt;

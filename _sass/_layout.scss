@@ -128,8 +128,9 @@ body {
 }
 
 .posts__item {
+  display: flex;
   margin: 0;
-  overflow: auto;
+  align-items: center;
 }
 .posts__item::after {
   content: '';
@@ -146,7 +147,7 @@ body {
 
 .post__contents{
   float: right;
-  width: 45%;
+  width: 50%;
 }
 
 
@@ -161,7 +162,7 @@ body {
     color: rgb(85, 85, 85);
     font-family: "Open Sans";
     font-size: 16px;
-    line-height: 25px;
+    line-height: 27px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -183,6 +184,7 @@ body {
     position: relative;
     vertical-align: middle;
     width: 50%;
+    margin-right: 5%
 }
 @media (max-width:700px){
   .posts__thumbnail{
