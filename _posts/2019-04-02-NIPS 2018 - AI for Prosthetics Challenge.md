@@ -8,7 +8,7 @@ permalink: /portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge
 ---
 
 My team participate in [NIPS 2018 - AI for Prosthetics Challenge](https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge) and took a 17th place over 401 teams. 
-Though it was hard challenge due to limitations of resources, we were able to get valuable [practical experiences](https://medipixel.github.io/NIPS2018) about Reinforcement Learning and Biomechanics domains.
+We were able to get valuable [practical experiences](https://medipixel.github.io/NIPS2018) about Reinforcement Learning and Biomechanics domains.
 
 <!--break-->
 
