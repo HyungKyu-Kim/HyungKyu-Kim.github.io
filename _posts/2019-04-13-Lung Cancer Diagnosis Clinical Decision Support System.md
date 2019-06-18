@@ -107,12 +107,12 @@ We had several meetings with doctors and proposed useful methods such as nodule 
 </figure>
 
 
-##### Deep Learning Network
+##### Deep Learning Networks
 In research period I realized that ensemble strategy was efficient to improve whole system accuracy. 
 So, I got many experiments using various models and tried to find optimal combination. 
 As a result we decided to use three Deep Neural Network(DNN) networks in the system.
 
-###### Detection-network
+###### Detection network
 This network detects nodules. 
 It is built based on 3d U-net. 
 Detection network consists of encoding and decoding network. 
@@ -123,7 +123,7 @@ Nodule’s features are extracted in encoding network through 3D residual blocks
   <figcaption></figcaption>
 </figure>
 
-###### Segmentation-network
+###### Segmentation network
 This network performs segmentation of nodules in each slide based on the results from detection network. 
 Its second role is to perform as a filter for false-positive regions.
 Our segmentation-network is taking advantage of [Deeplab-v3+](https://arxiv.org/abs/1802.02611) network whose network structure is shown in figure below
@@ -132,8 +132,8 @@ Our segmentation-network is taking advantage of [Deeplab-v3+](https://arxiv.org/
   <figcaption></figcaption>
 </figure>
 
-###### Classification-network 
-Classification-network is responsible for determining the degree of malignancy of candidate nodules. 
+###### Classification network 
+Classification network is responsible for determining the degree of malignancy of candidate nodules. 
 Features of nodules are extracted through 3D residual network layer, and we came up with final result through the features.
 <figure>
   <img src="/images/medipixel/mp_net_classification-net.png" width="70%">
@@ -141,7 +141,7 @@ Features of nodules are extracted through 3D residual network layer, and we came
 </figure>
 
 ##### Practical Technique
-I also added a simple preprocess stage before segmentation stage to get rid of nodules in outer body.
+I also added a simple preprocess stage before segmentation network to get rid of nodules in outer body.
 This stage was composed of a simple method that just checks the largest contour and eroded it.
 It mapped candidate nodule region onto 2D slide and examined whether it belongs to inside of the body, and regions outside of the body were removed as false-positives.
 This method had some advantages over other methods that perform complicated lung-segmentation as follows

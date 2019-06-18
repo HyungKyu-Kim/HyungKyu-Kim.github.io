@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-18T13:33:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve floor flatness problem in construction site, I have been making device to check flatness level.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-18T19:48:20+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve floor flatness problem in construction site, I have been making device to check flatness level.
 It needs to converge technologies including LIDAR and SLAM.
 This is an ongoing project.&lt;/p&gt;
 
@@ -410,7 +410,7 @@ I handled many abnormal situations like twisted guidewire and path deviation by 
 Communication manipulator exception was another serious handling point because it could lead system procedure to be halted.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_except_twisted.png&quot; width=&quot;60%&quot; /&gt;
+  &lt;img src=&quot;/images/medipixel/profile_biorobot_twist.gif&quot; width=&quot;60%&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;experiment&quot;&gt;Experiment&lt;/h5&gt;
@@ -432,7 +432,7 @@ Thus, we focused on verifying it and designing experiment process.
 Setting was below&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Max step is 500&lt;/li&gt;
+  &lt;li&gt;Max step is 700&lt;/li&gt;
   &lt;li&gt;Rewards are imposed by operating time and path correctness&lt;/li&gt;
   &lt;li&gt;Success of episode is to reach the target point within the max step&lt;/li&gt;
   &lt;li&gt;Goal positions are as below figure&lt;/li&gt;
@@ -457,7 +457,7 @@ Currently, my team and  researchers in AMC are writing a research paper targetin
 &lt;h6 id=&quot;time-spent&quot;&gt;Time spent&lt;/h6&gt;
 &lt;p&gt;In early stage training, a wire moves forward regardless of success.
 Thus, episode time spent on early stage is short.
-However, after evolving period(400~600 step), system has high success rate and takes short time similar to time spent on the early stage.&lt;/p&gt;
+However, after evolving period(400~600 episode step), system has high success rate and takes short time similar to time spent on the early stage.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/profile_biorobot_timespent.png&quot; /&gt;
@@ -604,12 +604,12 @@ We had several meetings with doctors and proposed useful methods such as nodule 
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h5 id=&quot;deep-learning-network&quot;&gt;Deep Learning Network&lt;/h5&gt;
+&lt;h5 id=&quot;deep-learning-networks&quot;&gt;Deep Learning Networks&lt;/h5&gt;
 &lt;p&gt;In research period I realized that ensemble strategy was efficient to improve whole system accuracy. 
 So, I got many experiments using various models and tried to find optimal combination. 
 As a result we decided to use three Deep Neural Network(DNN) networks in the system.&lt;/p&gt;
 
-&lt;h6 id=&quot;detection-network&quot;&gt;Detection-network&lt;/h6&gt;
+&lt;h6 id=&quot;detection-network&quot;&gt;Detection network&lt;/h6&gt;
 &lt;p&gt;This network detects nodules. 
 It is built based on 3d U-net. 
 Detection network consists of encoding and decoding network. 
@@ -620,7 +620,7 @@ Nodule’s features are extracted in encoding network through 3D residual blocks
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h6 id=&quot;segmentation-network&quot;&gt;Segmentation-network&lt;/h6&gt;
+&lt;h6 id=&quot;segmentation-network&quot;&gt;Segmentation network&lt;/h6&gt;
 &lt;p&gt;This network performs segmentation of nodules in each slide based on the results from detection network. 
 Its second role is to perform as a filter for false-positive regions.
 Our segmentation-network is taking advantage of &lt;a href=&quot;https://arxiv.org/abs/1802.02611&quot;&gt;Deeplab-v3+&lt;/a&gt; network whose network structure is shown in figure below&lt;/p&gt;
@@ -629,8 +629,8 @@ Our segmentation-network is taking advantage of &lt;a href=&quot;https://arxiv.o
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h6 id=&quot;classification-network&quot;&gt;Classification-network&lt;/h6&gt;
-&lt;p&gt;Classification-network is responsible for determining the degree of malignancy of candidate nodules. 
+&lt;h6 id=&quot;classification-network&quot;&gt;Classification network&lt;/h6&gt;
+&lt;p&gt;Classification network is responsible for determining the degree of malignancy of candidate nodules. 
 Features of nodules are extracted through 3D residual network layer, and we came up with final result through the features.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_net_classification-net.png&quot; width=&quot;70%&quot; /&gt;
@@ -638,7 +638,7 @@ Features of nodules are extracted through 3D residual network layer, and we came
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;practical-technique&quot;&gt;Practical Technique&lt;/h5&gt;
-&lt;p&gt;I also added a simple preprocess stage before segmentation stage to get rid of nodules in outer body.
+&lt;p&gt;I also added a simple preprocess stage before segmentation network to get rid of nodules in outer body.
 This stage was composed of a simple method that just checks the largest contour and eroded it.
 It mapped candidate nodule region onto 2D slide and examined whether it belongs to inside of the body, and regions outside of the body were removed as false-positives.
 This method had some advantages over other methods that perform complicated lung-segmentation as follows&lt;/p&gt;

@@ -187,11 +187,15 @@ body {
     margin-right: 5%
 }
 @media (max-width:700px){
+    .posts__item {
+      display: block;
+  }
   .posts__thumbnail{
     float: none;
     width: 100%;
   }
   .post__contents{
+    float: none;
     width: 100%;
   }
 }

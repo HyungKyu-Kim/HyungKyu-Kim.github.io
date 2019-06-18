@@ -271,7 +271,7 @@ I handled many abnormal situations like twisted guidewire and path deviation by 
 Communication manipulator exception was another serious handling point because it could lead system procedure to be halted. 
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_except_twisted.png" width="60%">
+  <img src="/images/medipixel/profile_biorobot_twist.gif" width="60%">
 </figure>
 
 
@@ -291,7 +291,7 @@ In navigation guidewire problem, selection of correct vessel branch is a main is
 Thus, we focused on verifying it and designing experiment process.
 Setting was below
  
-* Max step is 500
+* Max step is 700
 * Rewards are imposed by operating time and path correctness 
 * Success of episode is to reach the target point within the max step
 * Goal positions are as below figure 
@@ -316,7 +316,7 @@ The more training is carried out, the nearer success rate becomes to 1.0.
 ###### Time spent
 In early stage training, a wire moves forward regardless of success.
 Thus, episode time spent on early stage is short.
-However, after evolving period(400~600 step), system has high success rate and takes short time similar to time spent on the early stage.
+However, after evolving period(400~600 episode step), system has high success rate and takes short time similar to time spent on the early stage.
 
 <figure>
   <img src="/images/medipixel/profile_biorobot_timespent.png">
