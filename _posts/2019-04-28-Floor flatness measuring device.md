@@ -39,7 +39,7 @@ Running grinding machine, operator needs to have sufficient experience to determ
 In this process, there are two **drawbacks** that
  
 * Success of grinding depends on personal skill based on eye measurement 
-* No numerical value can be assigned to what an operator did 뒷부분
+* There is no quantified measurement results on how much an operator levels the ground off
  
 Thus, if there is a way to **support flatness measurement task through quantifying atypical image data and visualizing data**, work efficiency and reliability can be increased.
 I made a team with my friend and undertook to solve this problem.
