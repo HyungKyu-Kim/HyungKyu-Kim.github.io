@@ -37,7 +37,7 @@ After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and
         <li><strong>Software Architecture:</strong> UML</li>
         <li><strong>Coworking:</strong> Jira, Trello, Slack, Git, Svn</li>
         <li><strong>Documentation:</strong> Wiki, Markdown</li>
-        <li><strong>ETC:</strong> Video codec, Network system</li>
+        <li><strong>ETC:</strong> Video codec, Network system, ROS, Docker</li>
     </div>
 </div>
 
