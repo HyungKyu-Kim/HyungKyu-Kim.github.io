@@ -192,7 +192,7 @@ Since most of the traditional algorithms are static, it has shortages to handle 
 Hence, to accomplish the task, we used “interaction algorithm”with the dynamic environment.</p>
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_mdp.gif" width="63%" />
+  <img src="/images/medipixel/profile_biorobot_mdp.gif" width="60%" />
 </figure>
 
 <h5 id="main-tasks">Main Tasks</h5>
@@ -219,8 +219,7 @@ I performed below tasks in each stage</p>
 <h5 id="pre-research">Pre-research</h5>
 
 <h6 id="system-framework">System Framework</h6>
-<p>I compared many different architectures for RL control system in real environment.
-I researched existing systems published in conferences including <a href="https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8449910">ICRA</a>, <a href="https://www.nema.org/pages/default.aspx">NEMA</a> and <a href="https://arxiv.org/">Arxiv</a>. 
+<p>I researched existing systems for RL control in real environment published in various sources(e.g. <a href="https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8449910">ICRA</a>, <a href="https://www.nema.org/pages/default.aspx">NEMA</a> and <a href="https://arxiv.org/">Arxiv</a>). 
 <a href="https://arxiv.org/abs/1803.07067v1">Setting up a Reinforcement Learning Task with a Real-World Robot</a> was one of the most helpful experiment result in terms of understanding 1) relationship between System delays and System performance, 2) training results depending on action space, and 3) hierarchy of system in the real world</p>
 
 <h6 id="medical-knowledge">Medical Knowledge</h6>
@@ -229,7 +228,7 @@ Also, we observed PCI procedure several times and studied on coronary arteries.
 In this process, we obtained knowledge as 1) procedure of PCI, 2) case studies by patient, 3) usage of equipments, 4) terms/abbreviation and 5) Procedure time</p>
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_procedure.png" width="95%" />
+  <img src="/images/medipixel/profile_biorobot_procedure.png" />
 </figure>
 
 <h5 id="set-up">Set-up</h5>
@@ -237,18 +236,20 @@ In this process, we obtained knowledge as 1) procedure of PCI, 2) case studies b
 <h6 id="establishment-of-experiment-plan">Establishment of experiment plan</h6>
 <p>First environment was two dimensional blood vessel model.
 I selected equipments for the system and drew a rough sketch of the experiment environment. 
-Final expected environment design output is as below.
-    <figure>
-      <img src="/images/medipixel/profile_biorobot_2d3denv.png" width="90%" />
-    </figure></p>
+Final expected environment design output is as below.</p>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_2d3denv.png" width="90%" />
+</figure>
 
 <h6 id="installation-of-darkroom">Installation of darkroom</h6>
 <p>Vision was the most important input data process for this system.
 Since vision is sensitive to the change of illumination problem, I had to exclude natural light from experiment environment and darkroom was the best option to handle this problem. 
-For the task, I was in charge of purchasing and installing all equipments for the darkroom. 
-    <figure>
-      <img src="/images/medipixel/profile_biorobot_experiment_env.png" width="90%" />
-    </figure></p>
+For the task, I was in charge of purchasing and installing all equipments for the darkroom.</p>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_experiment_env.png" width="90%" />
+</figure>
 
 <h6 id="comparison-of-cameras-by-latency">Comparison of cameras by latency</h6>
 <p>Latency is one of the most significant factors for system performance. 
@@ -256,7 +257,7 @@ As a huge proportion of latency depended on camera, I selected a camera model ca
 As seen in the figure below, I conducted latency tests and compared scalability, compatibility, resolution and latency of varied camera model.</p>
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_realsense_test.gif" width="65%" />
+  <img src="/images/medipixel/profile_biorobot_realsense_test.gif" width="60%" />
 </figure>
 
 <h5 id="design-principles">Design Principles</h5>
@@ -291,7 +292,7 @@ I approached this problem in a heuristic way and tried to define error tolerance
 In trial and error process, my team found that using a very small fixed step command(about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach a correct position.</p>
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_slip.png" width="90%" />
+  <img src="/images/medipixel/profile_biorobot_slip.png" width="95%" />
 </figure>
 
 <h6 id="elaborate-data-flow-of-inter-module-communication">Elaborate data flow of inter-module communication</h6>
@@ -301,7 +302,7 @@ Also, because RL agent utilized experience replay, limitation of memory size for
 Thus, size of state in RL had to be defined properly.</p>
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_data.png" width="70%" />
+  <img src="/images/medipixel/profile_biorobot_data.png" width="80%" />
 </figure>
 
 <h6 id="synchronization-between-rl-agent-and-manipulator">Synchronization between RL agent and manipulator</h6>
@@ -310,7 +311,7 @@ But as a manipulator was operated in asynchronous method, I decided what module 
 I implemented communication module and put this module in charge of that task.</p>
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_sync.png" width="70%" />
+  <img src="/images/medipixel/profile_biorobot_sync.png" width="80%" />
 </figure>
 
 <h6 id="reduction-of-system-latency">Reduction of system latency</h6>
@@ -323,7 +324,7 @@ Especially, total latency largely depends on acquisition time of camera image an
 </figure>
 
 <h6 id="strict-exception-handling">Strict exception handling</h6>
-<p>It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
+<p>It was essential to handle and recover errors that cause harmful results because this system was trained in real environment. 
 I handled many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
 Communication manipulator exception was another serious handling point because it could lead system procedure to be halted.</p>
 

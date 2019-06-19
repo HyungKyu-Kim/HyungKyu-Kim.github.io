@@ -133,7 +133,7 @@ Hence, to accomplish the task, we used “interaction algorithm”with the dynam
 
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_mdp.gif" width="63%">
+  <img src="/images/medipixel/profile_biorobot_mdp.gif" width="60%">
 </figure>
 
 
@@ -158,8 +158,7 @@ I performed below tasks in each stage
 ##### Pre-research
 
 ###### System Framework
-I compared many different architectures for RL control system in real environment.
-I researched existing systems published in conferences including [ICRA](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8449910), [NEMA](https://www.nema.org/pages/default.aspx) and [Arxiv](https://arxiv.org/). 
+I researched existing systems for RL control in real environment published in various sources(e.g. [ICRA](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8449910), [NEMA](https://www.nema.org/pages/default.aspx) and [Arxiv](https://arxiv.org/)). 
 [Setting up a Reinforcement Learning Task with a Real-World Robot](https://arxiv.org/abs/1803.07067v1) was one of the most helpful experiment result in terms of understanding 1) relationship between System delays and System performance, 2) training results depending on action space, and 3) hierarchy of system in the real world
 
 
@@ -169,7 +168,7 @@ Also, we observed PCI procedure several times and studied on coronary arteries.
 In this process, we obtained knowledge as 1) procedure of PCI, 2) case studies by patient, 3) usage of equipments, 4) terms/abbreviation and 5) Procedure time
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_procedure.png" width="95%">
+  <img src="/images/medipixel/profile_biorobot_procedure.png">
 </figure>
 
 
@@ -179,17 +178,19 @@ In this process, we obtained knowledge as 1) procedure of PCI, 2) case studies b
 First environment was two dimensional blood vessel model.
 I selected equipments for the system and drew a rough sketch of the experiment environment. 
 Final expected environment design output is as below.
-    <figure>
-      <img src="/images/medipixel/profile_biorobot_2d3denv.png" width="90%">
-    </figure>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_2d3denv.png" width="90%">
+</figure>
 
 ###### Installation of darkroom  
 Vision was the most important input data process for this system.
 Since vision is sensitive to the change of illumination problem, I had to exclude natural light from experiment environment and darkroom was the best option to handle this problem. 
 For the task, I was in charge of purchasing and installing all equipments for the darkroom. 
-    <figure>
-      <img src="/images/medipixel/profile_biorobot_experiment_env.png" width="90%">
-    </figure>
+
+<figure>
+  <img src="/images/medipixel/profile_biorobot_experiment_env.png" width="90%">
+</figure>
 
 ###### Comparison of cameras by latency  
 Latency is one of the most significant factors for system performance. 
@@ -197,7 +198,7 @@ As a huge proportion of latency depended on camera, I selected a camera model ca
 As seen in the figure below, I conducted latency tests and compared scalability, compatibility, resolution and latency of varied camera model.
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_realsense_test.gif" width="65%">
+  <img src="/images/medipixel/profile_biorobot_realsense_test.gif" width="60%">
 </figure>
 
 
@@ -234,7 +235,7 @@ I approached this problem in a heuristic way and tried to define error tolerance
 In trial and error process, my team found that using a very small fixed step command(about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach a correct position. 
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_slip.png" width="90%">
+  <img src="/images/medipixel/profile_biorobot_slip.png" width="95%">
 </figure>
 
 ###### Elaborate data flow of inter-module communication   
@@ -244,7 +245,7 @@ Also, because RL agent utilized experience replay, limitation of memory size for
 Thus, size of state in RL had to be defined properly.
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_data.png" width="70%">
+  <img src="/images/medipixel/profile_biorobot_data.png" width="80%">
 </figure>
     
 ###### Synchronization between RL agent and manipulator  
@@ -253,7 +254,7 @@ But as a manipulator was operated in asynchronous method, I decided what module 
 I implemented communication module and put this module in charge of that task.
 
 <figure>
-  <img src="/images/medipixel/profile_biorobot_sync.png" width="70%">
+  <img src="/images/medipixel/profile_biorobot_sync.png" width="80%">
 </figure>
 
 ###### Reduction of system latency   
@@ -266,7 +267,7 @@ Especially, total latency largely depends on acquisition time of camera image an
 </figure>    
 
 ###### Strict exception handling  
-It was essential to handle and recover errors that cause harmful results strictly because this system was trained in real environment. 
+It was essential to handle and recover errors that cause harmful results because this system was trained in real environment. 
 I handled many abnormal situations like twisted guidewire and path deviation by excessive manipulation. 
 Communication manipulator exception was another serious handling point because it could lead system procedure to be halted. 
 
