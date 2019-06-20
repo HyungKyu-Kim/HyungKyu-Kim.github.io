@@ -14,8 +14,8 @@ group: Hyungkyu Kim
     </figure>
 </div>
 
-**Short Biography** Working in [Samsung Techwin](/portfolio#Samsung Techwin) for 6 years, I was involved in various projects including IoT camera and cloud camera as a network camera device engineer.
-Running [machine learning study group](https://www.facebook.com/Deepsight-1780933522021742/) for 3 years with researchers and developers from various fields, I stepped into AI development realm.
+**Short Biography** Working in [Samsung Techwin](/portfolio#Samsung Techwin) for 6 years, I was involved in various projects including IoT device control and cloud system as a network camera device engineer.
+Leading [machine learning study group](https://www.facebook.com/Deepsight-1780933522021742/) for 3 years with researchers and developers from various fields, I stepped into AI development realm.
 After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and have lead AI project team developing medical image deep-learning system and reinforcement-learning based surgery robot control system.
 
 ---
@@ -37,7 +37,7 @@ After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and
         <li><strong>Software Architecture:</strong> UML</li>
         <li><strong>Coworking:</strong> Jira, Trello, Slack, Git, Svn</li>
         <li><strong>Documentation:</strong> Wiki, Markdown</li>
-        <li><strong>ETC:</strong> Video codec, Network system, ROS, Docker</li>
+        <li><strong>ETC:</strong> Video codec, Network system, ROS, Docker, Photoshop</li>
     </div>
 </div>
 

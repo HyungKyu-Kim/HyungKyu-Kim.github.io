@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-19T20:44:29+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve floor flatness problem in construction site, I have been making device to check flatness level.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-21T02:06:46+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve floor flatness problem in construction site, I have been making device to check flatness level.
 It needs to converge technologies including LIDAR and SLAM.
 This is an ongoing project.&lt;/p&gt;
 
@@ -45,13 +45,13 @@ I made a team with my friend and undertook to solve this problem.&lt;/p&gt;
 
 &lt;h5 id=&quot;planning&quot;&gt;Planning&lt;/h5&gt;
 
-&lt;p&gt;This project is just first stage.
-Start from this project, final purpose that we want to achieve is to improve all procedure of floor leveling. 
-Because it is hard to improve all procedure of floor leveling at once, we established three big stages.
+&lt;p&gt;Starting from this project, the final purpose that we want to achieve is to improve all procedures of floor leveling. 
+Because it is hard to improve all procedures of floor leveling at once, we established three big stages.
+This project is just on the first stage of bigger plan.
 Briefly, we approach the goal by below methods&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Quantify atypical data&lt;/li&gt;
+  &lt;li&gt;Establish quantifying atypical data system&lt;/li&gt;
   &lt;li&gt;Gather data&lt;/li&gt;
   &lt;li&gt;Evaluate tasks&lt;/li&gt;
   &lt;li&gt;Improve equipment&lt;/li&gt;
@@ -59,7 +59,7 @@ Briefly, we approach the goal by below methods&lt;/p&gt;
 
 &lt;h6 id=&quot;1-measurement-and-visualization&quot;&gt;1. Measurement and Visualization&lt;/h6&gt;
 &lt;p&gt;First of all, we need to acquire precise spatio map. 
-Only if we obtain clear data, it is possible to progress rest of procedure based on quantified indicator.&lt;/p&gt;
+Only if we obtain clear data, it is possible to advance the rest of procedure based on quantified indicator.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/private/flat_map.png&quot; width=&quot;50%&quot; /&gt;
@@ -68,20 +68,20 @@ Only if we obtain clear data, it is possible to progress rest of procedure based
 &lt;h6 id=&quot;2-gathering-field-data&quot;&gt;2. Gathering Field Data&lt;/h6&gt;
 &lt;p&gt;If it is possible to provide clear spatio map data, gathering meaningful data from field is feasible.
 First, we can calculate score of flatness from measuring data via several evaluating standard of floor flatness.
-Second, we can evaluate result of field workers by difference of measuring map data between before task and after task.&lt;/p&gt;
+Second, we can evaluate results of field workers by analyzing difference of measured map data before task and after task.&lt;/p&gt;
 
-&lt;p&gt;Also, we are going to collect additional data including path of grinding machine in field, material of ground and information of workers.&lt;/p&gt;
+&lt;p&gt;Also, we are going to collect additional data including path of grinding machine in field, ground material and workers’ information.&lt;/p&gt;
 
-&lt;p&gt;Analyzing these data, we decide what is the best task that was done by worker and way how to operate for grinding. 
-Furthermore, through best method, it is possible to provide driving guidelines of grinding machine for field workers.&lt;/p&gt;
+&lt;p&gt;Analyzing these data, we decide what the best result done by worker is and the best way to operate a grinding equipment. 
+Furthermore, through the best method, it is possible to provide driving guidelines of grinding machine for field workers.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/private/flat_data.png&quot; width=&quot;90%&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h6 id=&quot;3-improvement-of-grinding-machine&quot;&gt;3. Improvement of Grinding Machine&lt;/h6&gt;
-&lt;p&gt;From accumulated data, we expect to find improvable point of grinding machine because present machine has a shortage that it is hard to work in detailed part.
-This process includes designing new machine and numerous experiment.&lt;/p&gt;
+&lt;p&gt;From accumulated data, we expect to find improvable point of grinding machine because present machine has a shortage that it is hard to cover areas in detail.
+This process includes designing new machine and numerous experiments.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/private/flat_grinder.png&quot; width=&quot;50%&quot; /&gt;
@@ -100,33 +100,33 @@ But, I think that it is necessary for the sensor to be accurate enough to determ
 It might be about 3mm.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;☛ Reqirements:&lt;/strong&gt; Sensor should enable to check under 3mm.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;☛ Requirements:&lt;/strong&gt; Sensor should be able to check under 3mm.&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;how-long-does-it-takes-to-measure-flatness&quot;&gt;How long does it takes to measure flatness?&lt;/h6&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Currently, we do not spend extra flatness measurement time.
-But as correct ground information map is important, if it is needed extra process to measure and map ground information, we can put additional time and human resources.
-In this regard, we request to minimize measurement time as possible because there are other processes in whole procedure.&lt;/p&gt;
+  &lt;p&gt;Currently, we do not devote a lot of flatness measurement time.
+But as correct ground information map is important, we can put additional time and human resources if flatness measurement is needed extra process to measure and map ground information.
+We put a request to minimize measurement time as much as possible because there are other processes in the whole procedure.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;☛ Reqirements:&lt;/strong&gt; Measurement time should be minimized as possible.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;☛ Requirements:&lt;/strong&gt; Measurement time should be minimized as much as possible.&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h6 id=&quot;how-much-budget-to-make-device-proper-is&quot;&gt;How much budget to make device proper is?&lt;/h6&gt;
+&lt;h6 id=&quot;how-much-budget-should-be-devoted-to-develop-a-device&quot;&gt;How much budget should be devoted to develop a device?&lt;/h6&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Average budget of procedure is about 0000 and assigned budget on usage of equipment is about 0000.
 So, we wish the price of measurement device about 0000.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;☛ Reqirements:&lt;/strong&gt;  Device development cost should be under 0000.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;☛ Requirements:&lt;/strong&gt;  Device development cost should be under 0000.&lt;/p&gt;
 
 &lt;h5 id=&quot;research&quot;&gt;Research&lt;/h5&gt;
 
 &lt;p&gt;There are many sensors used for obtaining space information.
 Since most of them have a positive correlation between price and accuracy, we need to find a compromise.
-As task sites can be both inside and outside, there is a huge possibility that can be affected by variance of illuminate condition. 
-Therefore, photogrammetry was excluded in selection and we decided to start from &lt;a href=&quot;https://en.wikipedia.org/wiki/Lidar&quot;&gt;Light Detection And Ranging&lt;/a&gt;(LIDAR) sensor because it has reasonable price and accuracy.&lt;/p&gt;
+As task sites can be both inside and outside, there is a huge possibility that sensors can be affected by variance of illumination condition. 
+Therefore, photogrammetry was excluded in selection and we decided to start from &lt;a href=&quot;https://en.wikipedia.org/wiki/Lidar&quot;&gt;Light Detection And Ranging&lt;/a&gt;(LIDAR) sensor because it has a reasonable price and accuracy.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/private/flat_LiDAR.jpeg&quot; width=&quot;70%&quot; /&gt;

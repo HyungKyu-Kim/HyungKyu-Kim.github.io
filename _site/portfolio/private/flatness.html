@@ -23,6 +23,15 @@
   <link rel='stylesheet' href='/assets/main.css'>
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hyungkyu Kim" />
   
+  <script async src='https://www.googletagmanager.com/gtag/js?id=UA-142400702-1'></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-142400702-1');
+  </script>
+
 
 </head>
 
@@ -106,13 +115,13 @@ I made a team with my friend and undertook to solve this problem.</p>
 
 <h5 id="planning">Planning</h5>
 
-<p>This project is just first stage.
-Start from this project, final purpose that we want to achieve is to improve all procedure of floor leveling. 
-Because it is hard to improve all procedure of floor leveling at once, we established three big stages.
+<p>Starting from this project, the final purpose that we want to achieve is to improve all procedures of floor leveling. 
+Because it is hard to improve all procedures of floor leveling at once, we established three big stages.
+This project is just on the first stage of bigger plan.
 Briefly, we approach the goal by below methods</p>
 
 <ul>
-  <li>Quantify atypical data</li>
+  <li>Establish quantifying atypical data system</li>
   <li>Gather data</li>
   <li>Evaluate tasks</li>
   <li>Improve equipment</li>
@@ -120,7 +129,7 @@ Briefly, we approach the goal by below methods</p>
 
 <h6 id="1-measurement-and-visualization">1. Measurement and Visualization</h6>
 <p>First of all, we need to acquire precise spatio map. 
-Only if we obtain clear data, it is possible to progress rest of procedure based on quantified indicator.</p>
+Only if we obtain clear data, it is possible to advance the rest of procedure based on quantified indicator.</p>
 
 <figure>
   <img src="/images/private/flat_map.png" width="50%" />
@@ -129,20 +138,20 @@ Only if we obtain clear data, it is possible to progress rest of procedure based
 <h6 id="2-gathering-field-data">2. Gathering Field Data</h6>
 <p>If it is possible to provide clear spatio map data, gathering meaningful data from field is feasible.
 First, we can calculate score of flatness from measuring data via several evaluating standard of floor flatness.
-Second, we can evaluate result of field workers by difference of measuring map data between before task and after task.</p>
+Second, we can evaluate results of field workers by analyzing difference of measured map data before task and after task.</p>
 
-<p>Also, we are going to collect additional data including path of grinding machine in field, material of ground and information of workers.</p>
+<p>Also, we are going to collect additional data including path of grinding machine in field, ground material and workers’ information.</p>
 
-<p>Analyzing these data, we decide what is the best task that was done by worker and way how to operate for grinding. 
-Furthermore, through best method, it is possible to provide driving guidelines of grinding machine for field workers.</p>
+<p>Analyzing these data, we decide what the best result done by worker is and the best way to operate a grinding equipment. 
+Furthermore, through the best method, it is possible to provide driving guidelines of grinding machine for field workers.</p>
 
 <figure>
   <img src="/images/private/flat_data.png" width="90%" />
 </figure>
 
 <h6 id="3-improvement-of-grinding-machine">3. Improvement of Grinding Machine</h6>
-<p>From accumulated data, we expect to find improvable point of grinding machine because present machine has a shortage that it is hard to work in detailed part.
-This process includes designing new machine and numerous experiment.</p>
+<p>From accumulated data, we expect to find improvable point of grinding machine because present machine has a shortage that it is hard to cover areas in detail.
+This process includes designing new machine and numerous experiments.</p>
 
 <figure>
   <img src="/images/private/flat_grinder.png" width="50%" />
@@ -161,33 +170,33 @@ But, I think that it is necessary for the sensor to be accurate enough to determ
 It might be about 3mm.</p>
 </blockquote>
 
-<p><strong>☛ Reqirements:</strong> Sensor should enable to check under 3mm.<br />
+<p><strong>☛ Requirements:</strong> Sensor should be able to check under 3mm.<br />
 <br /></p>
 
 <h6 id="how-long-does-it-takes-to-measure-flatness">How long does it takes to measure flatness?</h6>
 <blockquote>
-  <p>Currently, we do not spend extra flatness measurement time.
-But as correct ground information map is important, if it is needed extra process to measure and map ground information, we can put additional time and human resources.
-In this regard, we request to minimize measurement time as possible because there are other processes in whole procedure.</p>
+  <p>Currently, we do not devote a lot of flatness measurement time.
+But as correct ground information map is important, we can put additional time and human resources if flatness measurement is needed extra process to measure and map ground information.
+We put a request to minimize measurement time as much as possible because there are other processes in the whole procedure.</p>
 </blockquote>
 
-<p><strong>☛ Reqirements:</strong> Measurement time should be minimized as possible.<br />
+<p><strong>☛ Requirements:</strong> Measurement time should be minimized as much as possible.<br />
 <br /></p>
 
-<h6 id="how-much-budget-to-make-device-proper-is">How much budget to make device proper is?</h6>
+<h6 id="how-much-budget-should-be-devoted-to-develop-a-device">How much budget should be devoted to develop a device?</h6>
 <blockquote>
   <p>Average budget of procedure is about 0000 and assigned budget on usage of equipment is about 0000.
 So, we wish the price of measurement device about 0000.</p>
 </blockquote>
 
-<p><strong>☛ Reqirements:</strong>  Device development cost should be under 0000.</p>
+<p><strong>☛ Requirements:</strong>  Device development cost should be under 0000.</p>
 
 <h5 id="research">Research</h5>
 
 <p>There are many sensors used for obtaining space information.
 Since most of them have a positive correlation between price and accuracy, we need to find a compromise.
-As task sites can be both inside and outside, there is a huge possibility that can be affected by variance of illuminate condition. 
-Therefore, photogrammetry was excluded in selection and we decided to start from <a href="https://en.wikipedia.org/wiki/Lidar">Light Detection And Ranging</a>(LIDAR) sensor because it has reasonable price and accuracy.</p>
+As task sites can be both inside and outside, there is a huge possibility that sensors can be affected by variance of illumination condition. 
+Therefore, photogrammetry was excluded in selection and we decided to start from <a href="https://en.wikipedia.org/wiki/Lidar">Light Detection And Ranging</a>(LIDAR) sensor because it has a reasonable price and accuracy.</p>
 
 <figure>
   <img src="/images/private/flat_LiDAR.jpeg" width="70%" />
