@@ -6,7 +6,7 @@ organization: Medipixel
 thumbnail: /images/medipixel/mp_screen_shot.png
 permalink: /portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system
 ---
-The purpose of the system is to help doctors make a decision on diagnosis process of lung cancer. It supports diagnosis by deep learning based on detection and classification nodules.
+The purpose of this system is to help doctors diagnose of lung cancer. It supports diagnosis by deep learning based on detection and classification nodules.
 
 <!--break-->
 

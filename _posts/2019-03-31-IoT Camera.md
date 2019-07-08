@@ -6,44 +6,44 @@ organization: Samsung Techwin
 thumbnail: /images/samsung/profile_htw_iot2.png
 permalink: /portfolio/samsung/iot_camera
 ---
-This new type of product is a network camera working as IoT gateway. 
-It gathers sensor data and provides various service, such as social protection service, fire monitoring service and missing child prevention service, by cooperating with adjacent IoT devices.
+This new type of product is a network camera working as an IoT gateway. 
+It gathers sensor data and provides various services, such as social protection, fire monitoring and missing child prevention, by cooperating with adjacent IoT devices.
 
 <!--break-->
 
 #### My Role
-Network camera main developer at task force team
+Network camera main developer on Task Force Team
 * Implement Bluetooth communication module between network camera and devices
-* Implement communication module with IoT server(RESTful)
-* Implement serial communication module(rs-485) 
+* Implement communication module with IoT server (RESTful)
+* Implement serial communication module (rs-485) 
 
 ----
 
 #### Project Detail
 
 Smart city is a fast-growing tech domain nowadays, and it is hard to imagine the smart city without IoT.
-In order to achieve goal of Smart City Services, it is essential to cowork with widespread infrastructural devices in the city.
-Moreover, security field has been moving forward from follow-up service using video information to convergence with information of infrastructural devices.  
+In order to achieve goal of Smart City Services, it is essential for widespread infrastructural devices in the city to cooperate.
+Moreover, the security field has been moving forward from follow-up services using video information to convergence with information of infrastructural devices.  
 
-Network Camera is a device to process video data which is one of the biggest data. 
-Hence, it requires higher computation and network capacity compared to other basic sensor devices.  
+Network Camera is a device to process video data. 
+As one of the largest form of data, video data requires higher computation and network capacity compared to other basic sensor devices.  
 
-##### Prove of Concept 
-I had focused on this feature and tried to implement a few Prove of Concept to verify possibility of service  to provide value to customers.
+##### Proof of Concept 
+I have focused on this feature and tried to implement several Proof of Concept to verify the possibility of valuable service to customers.
 
 ###### First PoC
-The first PoC was to control smart bulb via camera to test connection process between camera and external devices. 
-The main purpose of this PoC was controlling external device via inner event of camera. 
+The first PoC was to control a smart bulb via a camera to test the connection process between a camera and external devices. 
+The main purpose of this PoC was to control on external device via an inner event of a camera. 
     
 <figure>
   <img src="/images/samsung/profile_htw_iot0.gif" width="70%">
 </figure>
 
 ###### Second PoC
-The second was to control camera by numerical value from outer sensor devices.
-Order of PoC1 was opposite to that of PoC2. 
-But ready made camera was not able to get bluetooth signal. 
-To resolve this problem, I implemented and used simple progam on Raspberry pi.
+The second PoC was to control a camera by numerical sensor values from outer sensor devices.
+The opposite orders of PoC1.
+Howevers, the ready-made camera was not able to receive the bluetooth signal. 
+To resolve this problem, I implemented and used a simple program on Raspberry pi.
 
 <figure>
   <img src="/images/samsung/profile_htw_iot1.gif" width="70%">
@@ -51,33 +51,33 @@ To resolve this problem, I implemented and used simple progam on Raspberry pi.
 
 ##### Meaning of PoC
 
-After a few PoC, I found it possible that Network Camera was able to work as a Edge Gateway.
-As mentioned above, camera has sufficient capability to handle high capacity video data without assistance from upper stage devices, 
+After a few PoC, I found it possible that Network a Camera was able to work as an Edge Gateway.
+As mentioned above, a camera has sufficient capability to handle high capacity video data without assistance from upper stage devices. 
 
-Also in Smart City, one of the important points is data fusion.
-It can realize services, once regarded as impossible, through  combination of data with various sensors that monitor item such as temperature, moisture, motion detection and image. 
-If camera is a gateway to manage edge devices, data fusion is feasible without intervention from the high performance serve 
+Furthermore in Smart City, data fusion is an important points.
+Data fusion can realize services, once regarded as impossible, through a combination of data from various sensors that monitor items such as temperature, moisture, motion detection, and image. 
+If a camera is a gateway to manage edge devices, data fusion is feasible without intervention from a high performance server. 
 
 ##### IoT Camera
 
 In early 2017, I got a chance to apply this concept to an actual product.
-I joined Task Force Team as a main developer for camera, which is a sizeable project to cover city area.
-Requirements of the project included various services such as missing child prevention and  fire monitoring service.  
+I joined Task Force Team as a main developer for the camera, which was a sizeable project to cover a city area.
+Requirements of the project included various services such as missing child prevention and  fire monitoring services.  
 
-My team, partner, and client had numerous disscusions to realize this concept in real world, and we decided to use bluetooth sensor devices and camera.
+My team, partner, and client had numerous discussions to bring this concept to the real world, and we decided to use bluetooth sensor devices and cameras.
 
 ![Alt text](/images/samsung/profile_htw_iot2.png)
 
-We made achievemets as follows
-1. Obtain sensor data and video data simultaneously
-     * Service using sensor data and video data at the same time is feasible  
+We achieved the following:
+1. Obtained sensor data and video data simultaneously
+     * Services using sensor data and video data at the same time was feasible  
         (eg: If there is not any target’s motion in a specific spot, camera will turn to the specific spot.) 
-2. Provide various services via just changing external devices supporting bluetooth  
+2. Provided various services via simply changing external devices supporting bluetooth  
     * Social Protection Service: Beacon
     * Fire Monitoring Service: BLE temperature sensor
     * Capable of attaching new services easily by adding new BLE devices
-3. Enable network load balancing
-    * It divides computing cost concentrating on server to edge gateway
+3. Enabled network load balancing
+    * It divided computing cost concentrating on server to edge gateway
     * Data fusion can be feasible in this device
     * It can filter sensor data
     

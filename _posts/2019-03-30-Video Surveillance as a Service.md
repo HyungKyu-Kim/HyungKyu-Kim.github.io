@@ -6,8 +6,8 @@ organization: Samsung Techwin
 thumbnail: /images/samsung/profile_htw_cloud.gif
 permalink: /portfolio/samsung/video_surveillance_as_a_service
 ---
-This service integrates cloud system and network camera. 
-It can provide necessary information from network camera in the local network to the outside network user while keeping security.
+This service integrates the cloud system and network camera. 
+It can provide necessary information from a network camera in the local network to the outside network user, all while maintaining security.
 
 <!--break-->
 
@@ -22,26 +22,27 @@ Network camera main developer
 
 ![](/images/samsung/profile_htw_cloud.gif)
 
-As we can see from a name, CCTV(Closed Circuit Television) is a device working on closed local network. 
+As we can see from the name, CCTV(Closed Circuit Television) is a device working on closed local network. 
 In network camera age, this concept was maintained as past. 
 But this tendency had met technology called Cloud Service and started to move forward from closed world to open world.
 "Video Surveillance as a Service" was created from this background.
-VSaaS has advantages compred with traditional servailance systems.
+VSaaS has following advantages compared with traditional surveillance systems.
 * Provide efficiency and total cost of ownership
-* Provide flexiblity and scalability
+* Provide flexibility and scalability
 * Access to value-added services
 * Provide a wide array of products for hosted video
 
 ##### Stratocast
-I was participated in this domain as device side developer in 2015, when VSaaS was started to provide commercial service.
-I started to work this interesting domain from [Genetek](https://www.genetec.com/)'s ["Stratocast project"](https://www.genetec.com/solutions/all-products/stratocast/overview).
+I took a step into Video surveillance field as device side developer in 2015, when VSaaS was started to provide commercial service.
+First project that I participated in was ["Stratocast project"](https://www.genetec.com/solutions/all-products/stratocast/overview).
+It is a cloud-based video monitoring of [Genetek](https://www.genetec.com/).
 <figure>
   <img src="/images/samsung/profile_htw_cloud1.png">
   <figcaption>Stratocast implemented in Samsung camera</figcaption>
 </figure>
 
 ##### VSaaS Camera
-After that project, I was involved with development of the various client system in Network Camera device.
+After Stratocast project, I was involved in various client system in Network Camera device.
 As each Cloud System had a distinct method to communicate between camera and server, I tried to find **flexible hierarchy** to cope with these different features. 
 This point was about **dealing with heterogeneous protocols** with out huge transform.
 Main issues were below

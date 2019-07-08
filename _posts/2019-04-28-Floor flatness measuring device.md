@@ -7,9 +7,8 @@ thumbnail: /images/private/flat_map.png
 permalink: /portfolio/private/flatness
 ---
 
-To solve floor flatness problem in construction site, I have been making device to check flatness level.
-It needs to converge technologies including LIDAR and SLAM.
-This is an ongoing project.
+To solve the floor flatness problem on construction sites, I have been making device to check the flatness level.
+This is an ongoing project that converges technologies including LIDAR and SLAM.
 
 <!--break-->
 
