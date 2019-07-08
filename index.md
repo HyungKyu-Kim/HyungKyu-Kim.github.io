@@ -64,7 +64,7 @@ However, CPS describes a system to manage the cyber and physical worlds by actua
 The speaker of the session said that the final vision of CPS is to connect all artificial and natural environments on Earth under a single integrated system and control it.
 
 I had been seeking a way to graft the notion of "formless form" onto a computer system.
-After coming across CPS, I saw the potential to build an infinitely evolving autogenous system. 
+After coming across CPS, I saw the potential to build an **infinitely evolving autogenous system**. 
 To build this system, it is necessary to obtain the adequate technological background step-by-step.
 
 First, because this system runs by connecting with heterogeneous devices, backbone technologies including IoT, cloud, and network management system are important. 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-08T17:01:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve the floor flatness problem on construction sites, I have been making device to check the flatness level.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-08T23:05:36+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve the floor flatness problem on construction sites, I have been making device to check the flatness level.
 This is an ongoing project that converges technologies including LIDAR and SLAM.&lt;/p&gt;
 
 &lt;!--break--&gt;
@@ -609,7 +609,7 @@ We had several meetings with doctors and proposed useful methods such as nodule 
 So, I got many experiments using various models and tried to find optimal combination. 
 As a result we decided to use three Deep Neural Network(DNN) networks in the system.&lt;/p&gt;
 
-&lt;h6 id=&quot;detection-network&quot;&gt;Detection network&lt;/h6&gt;
+&lt;h6 id=&quot;detection-network&quot;&gt;Detection Network&lt;/h6&gt;
 &lt;p&gt;This network detects nodules. 
 It is built based on 3d U-net. 
 Detection network consists of encoding and decoding network. 
@@ -620,7 +620,7 @@ Nodule’s features are extracted in encoding network through 3D residual blocks
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h6 id=&quot;segmentation-network&quot;&gt;Segmentation network&lt;/h6&gt;
+&lt;h6 id=&quot;segmentation-network&quot;&gt;Segmentation Network&lt;/h6&gt;
 &lt;p&gt;This network performs segmentation of nodules in each slide based on the results from detection network. 
 Its second role is to perform as a filter for false-positive regions.
 Our segmentation-network is taking advantage of &lt;a href=&quot;https://arxiv.org/abs/1802.02611&quot;&gt;Deeplab-v3+&lt;/a&gt; network whose network structure is shown in figure below&lt;/p&gt;
@@ -629,7 +629,7 @@ Our segmentation-network is taking advantage of &lt;a href=&quot;https://arxiv.o
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h6 id=&quot;classification-network&quot;&gt;Classification network&lt;/h6&gt;
+&lt;h6 id=&quot;classification-network&quot;&gt;Classification Network&lt;/h6&gt;
 &lt;p&gt;Classification network is responsible for determining the degree of malignancy of candidate nodules. 
 Features of nodules are extracted through 3D residual network layer, and we came up with final result through the features.&lt;/p&gt;
 &lt;figure&gt;
@@ -653,7 +653,7 @@ This method had some advantages over other methods that perform complicated lung
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h5 id=&quot;strengths-of-the-structure&quot;&gt;Strengths of The Structure&lt;/h5&gt;
+&lt;h5 id=&quot;strengths-of-the-structure&quot;&gt;Strengths of the Structure&lt;/h5&gt;
 &lt;p&gt;Generally, most systems in cancer diagnosis has similar structure. 
 Among these systems, combinations with U-net based detector and classifier were popular ones. 
 &lt;strong&gt;I embedded simple preprocess stage and segmentation network&lt;/strong&gt; in center of it. 
@@ -718,11 +718,11 @@ But, in such attempts &lt;strong&gt;it was possible to obtain a skill-set to han
   &lt;li&gt;Utilize imitation learning method&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5 id=&quot;environment-analysis&quot;&gt;Environment analysis&lt;/h5&gt;
+&lt;h5 id=&quot;environment-analysis&quot;&gt;Environment Analysis&lt;/h5&gt;
 &lt;p&gt;To begin with this competition, I had to analyse unfamiliar environment.
 As opensim simulation and walking/running gait sequence were far from main task that I had handled before, I put efforts to understand it.&lt;/p&gt;
 
-&lt;h6 id=&quot;opensim-environment&quot;&gt;Opensim environment&lt;/h6&gt;
+&lt;h6 id=&quot;opensim-environment&quot;&gt;Opensim Environment&lt;/h6&gt;
 &lt;p&gt;First, I started to verify RL environment space.
 In &lt;a href=&quot;https://www.endtoend.ai/blog/ai-for-prosthetics-2/&quot;&gt;action space&lt;/a&gt;, it was a complex space controlling each muscle one by one compared to other general control methods utilizing joints velocity and angle.
 Also &lt;a href=&quot;http://osim-rl.stanford.edu/docs/nips2018/observation/&quot;&gt;observation space&lt;/a&gt; was relatively complicated, because it had hundreds of data spectated from musculoskeletal.&lt;/p&gt;
@@ -732,7 +732,7 @@ Also &lt;a href=&quot;http://osim-rl.stanford.edu/docs/nips2018/observation/&quo
   &lt;figcaption&gt;from (http://osim-rl.stanford.edu/) &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h6 id=&quot;opensim-tools&quot;&gt;Opensim tools&lt;/h6&gt;
+&lt;h6 id=&quot;opensim-tools&quot;&gt;Opensim Tools&lt;/h6&gt;
 &lt;p&gt;To achieve high score, I had to use &lt;a href=&quot;https://simtk.org/projects/nmbl_running&quot;&gt;experimental datasets&lt;/a&gt; for walking/running gait sequence in Opensim community. 
 I tried to figure out the pattern of joint movements in gait cycle at the provided dataset.
 There were several Opensim applications to solve biomechanical problems through forward and Inverse problem.&lt;/p&gt;
@@ -747,7 +747,7 @@ After comprehension, I made it possible to customize tools based on project need
   &lt;img src=&quot;https://medipixel.github.io/img/imitation/reward_edit_motion.PNG&quot; width=&quot;70%&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;h5 id=&quot;utilization-of-distributed-rl&quot;&gt;Utilization of distributed RL&lt;/h5&gt;
+&lt;h5 id=&quot;utilization-of-distributed-rl&quot;&gt;Utilization of Distributed RL&lt;/h5&gt;
 &lt;p&gt;It was one of the most critical problems that interaction with simulator environment needed huge time while training. 
 To improve training performance, my team used distributed Reinforcement Learning system.
 It was implemented via &lt;a href=&quot;https://rise.cs.berkeley.edu/projects/ray/&quot;&gt;RAY&lt;/a&gt; on &lt;a href=&quot;https://azure.microsoft.com/&quot;&gt;Azure&lt;/a&gt; cloud server. 

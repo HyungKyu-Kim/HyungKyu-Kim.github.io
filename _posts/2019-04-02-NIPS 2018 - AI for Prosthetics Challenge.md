@@ -43,11 +43,11 @@ But, in such attempts **it was possible to obtain a skill-set to handle practica
 * Build distributed Reinforcement Learning system([RAY](https://rise.cs.berkeley.edu/projects/ray/)) on Cloud system([Azure](https://azure.microsoft.com/))
 * Utilize imitation learning method
 
-##### Environment analysis
+##### Environment Analysis
 To begin with this competition, I had to analyse unfamiliar environment.
 As opensim simulation and walking/running gait sequence were far from main task that I had handled before, I put efforts to understand it.
 
-###### Opensim environment  
+###### Opensim Environment  
 First, I started to verify RL environment space.
 In [action space](https://www.endtoend.ai/blog/ai-for-prosthetics-2/), it was a complex space controlling each muscle one by one compared to other general control methods utilizing joints velocity and angle.
 Also [observation space](http://osim-rl.stanford.edu/docs/nips2018/observation/) was relatively complicated, because it had hundreds of data spectated from musculoskeletal. 
@@ -57,7 +57,7 @@ Also [observation space](http://osim-rl.stanford.edu/docs/nips2018/observation/)
   <figcaption>from (http://osim-rl.stanford.edu/) </figcaption>
 </figure>
 
-###### Opensim tools
+###### Opensim Tools
 To achieve high score, I had to use [experimental datasets](https://simtk.org/projects/nmbl_running) for walking/running gait sequence in Opensim community. 
 I tried to figure out the pattern of joint movements in gait cycle at the provided dataset.
 There were several Opensim applications to solve biomechanical problems through forward and Inverse problem.
@@ -72,7 +72,7 @@ After comprehension, I made it possible to customize tools based on project need
   <img src="https://medipixel.github.io/img/imitation/reward_edit_motion.PNG" width="70%">
 </figure>
 
-##### Utilization of distributed RL
+##### Utilization of Distributed RL
 It was one of the most critical problems that interaction with simulator environment needed huge time while training. 
 To improve training performance, my team used distributed Reinforcement Learning system.
 It was implemented via [RAY](https://rise.cs.berkeley.edu/projects/ray/) on [Azure](https://azure.microsoft.com/) cloud server. 

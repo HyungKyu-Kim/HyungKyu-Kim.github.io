@@ -4,6 +4,7 @@ group: Portfolio
 ---
 <div class="page__title">HYUNGKYU KIM'S PORTFOLIO</div>
 
+{% assign readmore_info = true %}
 {% for org in site.data.organization %}
 <div class="organization__item">
   <img src="/images/bar.png" style="margin:70px 0px 20px 0px">
@@ -35,6 +36,10 @@ group: Portfolio
     {% for post in site.posts %}
     {% if org.title == post.organization %}
     <hr width="100%" border-color="#EBEBEB" size="1">
+    {% if readmore_info %}
+      <div class="readmore_info"> Click on image for further information </div>
+      {% assign readmore_info = false %}
+    {% endif %}
     <div class='posts__item'>
       <div class="posts__thumbnail">
         <img src="{{ post.thumbnail }}" alt="">

@@ -112,7 +112,7 @@ In research period I realized that ensemble strategy was efficient to improve wh
 So, I got many experiments using various models and tried to find optimal combination. 
 As a result we decided to use three Deep Neural Network(DNN) networks in the system.
 
-###### Detection network
+###### Detection Network
 This network detects nodules. 
 It is built based on 3d U-net. 
 Detection network consists of encoding and decoding network. 
@@ -123,7 +123,7 @@ Nodule’s features are extracted in encoding network through 3D residual blocks
   <figcaption></figcaption>
 </figure>
 
-###### Segmentation network
+###### Segmentation Network
 This network performs segmentation of nodules in each slide based on the results from detection network. 
 Its second role is to perform as a filter for false-positive regions.
 Our segmentation-network is taking advantage of [Deeplab-v3+](https://arxiv.org/abs/1802.02611) network whose network structure is shown in figure below
@@ -132,7 +132,7 @@ Our segmentation-network is taking advantage of [Deeplab-v3+](https://arxiv.org/
   <figcaption></figcaption>
 </figure>
 
-###### Classification network 
+###### Classification Network 
 Classification network is responsible for determining the degree of malignancy of candidate nodules. 
 Features of nodules are extracted through 3D residual network layer, and we came up with final result through the features.
 <figure>
@@ -154,7 +154,7 @@ This method had some advantages over other methods that perform complicated lung
   <figcaption></figcaption>
 </figure>
 
-##### Strengths of The Structure
+##### Strengths of the Structure
 Generally, most systems in cancer diagnosis has similar structure. 
 Among these systems, combinations with U-net based detector and classifier were popular ones. 
 **I embedded simple preprocess stage and segmentation network** in center of it. 

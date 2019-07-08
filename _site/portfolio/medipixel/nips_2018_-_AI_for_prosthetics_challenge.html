@@ -104,11 +104,11 @@ But, in such attempts <strong>it was possible to obtain a skill-set to handle pr
   <li>Utilize imitation learning method</li>
 </ul>
 
-<h5 id="environment-analysis">Environment analysis</h5>
+<h5 id="environment-analysis">Environment Analysis</h5>
 <p>To begin with this competition, I had to analyse unfamiliar environment.
 As opensim simulation and walking/running gait sequence were far from main task that I had handled before, I put efforts to understand it.</p>
 
-<h6 id="opensim-environment">Opensim environment</h6>
+<h6 id="opensim-environment">Opensim Environment</h6>
 <p>First, I started to verify RL environment space.
 In <a href="https://www.endtoend.ai/blog/ai-for-prosthetics-2/">action space</a>, it was a complex space controlling each muscle one by one compared to other general control methods utilizing joints velocity and angle.
 Also <a href="http://osim-rl.stanford.edu/docs/nips2018/observation/">observation space</a> was relatively complicated, because it had hundreds of data spectated from musculoskeletal.</p>
@@ -118,7 +118,7 @@ Also <a href="http://osim-rl.stanford.edu/docs/nips2018/observation/">observatio
   <figcaption>from (http://osim-rl.stanford.edu/) </figcaption>
 </figure>
 
-<h6 id="opensim-tools">Opensim tools</h6>
+<h6 id="opensim-tools">Opensim Tools</h6>
 <p>To achieve high score, I had to use <a href="https://simtk.org/projects/nmbl_running">experimental datasets</a> for walking/running gait sequence in Opensim community. 
 I tried to figure out the pattern of joint movements in gait cycle at the provided dataset.
 There were several Opensim applications to solve biomechanical problems through forward and Inverse problem.</p>
@@ -133,7 +133,7 @@ After comprehension, I made it possible to customize tools based on project need
   <img src="https://medipixel.github.io/img/imitation/reward_edit_motion.PNG" width="70%" />
 </figure>
 
-<h5 id="utilization-of-distributed-rl">Utilization of distributed RL</h5>
+<h5 id="utilization-of-distributed-rl">Utilization of Distributed RL</h5>
 <p>It was one of the most critical problems that interaction with simulator environment needed huge time while training. 
 To improve training performance, my team used distributed Reinforcement Learning system.
 It was implemented via <a href="https://rise.cs.berkeley.edu/projects/ray/">RAY</a> on <a href="https://azure.microsoft.com/">Azure</a> cloud server. 
