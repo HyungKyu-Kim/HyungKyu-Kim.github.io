@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-08T23:05:36+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve the floor flatness problem on construction sites, I have been making device to check the flatness level.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-11T19:42:51+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve the floor flatness problem on construction sites, I have been making device to check the flatness level.
 This is an ongoing project that converges technologies including LIDAR and SLAM.&lt;/p&gt;
 
 &lt;!--break--&gt;
@@ -516,64 +516,64 @@ We are meeting with people from other fields to find applications of our system 
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Lung cancer is placed in a top position in cancer death rate. 
-In 2015 total 17,399 people was killed by lung cancer in Korea. 
-It is fatal in that it takes 27.9% in the total amount of cancer deaths. 
-The reason for its high death rate is that efficient inspection process does not exist yet.&lt;/p&gt;
+&lt;p&gt;Lung cancer is ranks highly among all causes in death rate. 
+In 2015, 17,399 people were killed by lung cancer in Korea, making up 27.9% of all cancer related deaths.
+The reason for its high death rate is the lack of an efficient inspection process.&lt;/p&gt;
 
-&lt;p&gt;In many cases, biopsy is taken to confirm whether a patient has lung cancer or not.
+&lt;p&gt;In many cases, a biopsy is taken to confirm whether a patient has lung cancer or not.
 It, however, should be avoided as much as possible since it is an invasive inspection. 
-Usually chest computed tomography (CT) is used for biopsy screening, so radiologist’s role of reading CT correctly is very important.&lt;/p&gt;
+Typically a chest computed tomography (CT) is used for biopsy screening, so a radiologist’s ability to read the CT correctly is very important.&lt;/p&gt;
 
-&lt;p&gt;In the light of sharing experience accumulated over time, decision support system based on AI has been widely adopted in various industrial fields. 
-In medical domain, the need of quick and precise diagnosis decision is intensifying. 
-Hence, this kind of system has been being researched by many scientists and Medipixel’s lung cancer project is designed to fulfill those needs. 
-We co-worked with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; and ended up developing Lung Cancer Diagnosis Clinical Decision Support System.&lt;/p&gt;
+&lt;p&gt;To better share experience accumulated over time, decision support system based on AI have been widely adopted in various industrial fields. 
+In the medical domain, the need for a quick and precise diagnosis decision is intensifying. 
+Hence, this kind of system has been researched by many scientists and Medipixel’s lung cancer project is designed to fulfill those needs. 
+We worked jointly with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; and ended up developing the Lung Cancer Diagnosis Clinical Decision Support System.&lt;/p&gt;
 
-&lt;p&gt;It takes the following advantages&lt;/p&gt;
+&lt;p&gt;It has the following advantages&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Detect nodules that can be missed → increased diagnosis accuracy&lt;/li&gt;
-  &lt;li&gt;Assist doctors to read chest ct scan at ease → increased diagnosis productivity&lt;/li&gt;
+  &lt;li&gt;Detects nodules that can be missed → increased diagnosis accuracy&lt;/li&gt;
+  &lt;li&gt;Assists doctors to read chest CT scan with ease → increased diagnosis productivity&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/medipixel/mp_chest_system.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;system-features&quot;&gt;System Features&lt;/h5&gt;
-&lt;p&gt;This system features are below&lt;/p&gt;
+&lt;p&gt;The system features are below&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Support diagnosis process whether nodule is malignant or benign&lt;/li&gt;
-  &lt;li&gt;Handle non-small cell lung cancer nodule in 10mm~30mm range&lt;/li&gt;
-  &lt;li&gt;Show the number of nodules and nodule region of interests&lt;/li&gt;
-  &lt;li&gt;Indicate estimated lung cancer risk percentage&lt;/li&gt;
+  &lt;li&gt;Supports diagnosis process of whether nodule is malignant or benign&lt;/li&gt;
+  &lt;li&gt;Handles non-small cell lung cancer nodule in the 10mm~30mm range&lt;/li&gt;
+  &lt;li&gt;Shows the number of nodules and nodule region of interests&lt;/li&gt;
+  &lt;li&gt;Indicates estimated lung cancer risk percentage&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/medipixel/mp_screen_shot.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;tasks&quot;&gt;Tasks&lt;/h5&gt;
-&lt;p&gt;I was involved in this project as a project leader who is in charge of designing overall process and data flow.&lt;/p&gt;
+&lt;p&gt;I was involved as a project leader who was in charge of designing the overall process and data flow.&lt;/p&gt;
 
-&lt;p&gt;I decided to approach this project in practical view. 
-Since most of processes in deep learning system are formulaic, I did not exert much effort to design a system structure. 
-Making totally new model was excluded from selections as well. Instead, we put more time finding high performance model adopted in medical domain and improving it.&lt;/p&gt;
+&lt;p&gt;I decided to approach this project with a practical view. 
+Since most processes in deep learning system are formulaic, I did not focus on designing a system structure. 
+Making a completely new model was not a focus either. 
+Instead, we put more time into finding a high performance model adopted in the medical domain and improving upon it.&lt;/p&gt;
 
 &lt;h5 id=&quot;dataset&quot;&gt;Dataset&lt;/h5&gt;
-&lt;p&gt;It is one of the most important issues in deep learning system to gather and handle proper dataset.
-We utilized several dataset of hospitals involved with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; and open dataset like &lt;a href=&quot;https://biometry.nci.nih.gov/cdas/nlst/&quot;&gt;NLST&lt;/a&gt; to improve performance of the system. 
-There were some issues with datasets as follow&lt;/p&gt;
+&lt;p&gt;One of the most important issues in a deep learning system is how to gather and handle a proper dataset.
+We utilized several dataset, of hospitals involved with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; and an open dataset like &lt;a href=&quot;https://biometry.nci.nih.gov/cdas/nlst/&quot;&gt;NLST&lt;/a&gt; to improve performance of the system. 
+There were some issues with these datasets as follows&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Different data format(especially open data-set)&lt;/li&gt;
+  &lt;li&gt;Different data format (especially open data-set)&lt;/li&gt;
   &lt;li&gt;Different data modality such as resolution of CT&lt;/li&gt;
-  &lt;li&gt;Overwhelmingly numerous malignant nodules(more than benign nodules)&lt;/li&gt;
-  &lt;li&gt;Difficulty on finding totally negative data which did not have any nodule&lt;/li&gt;
+  &lt;li&gt;Overwhelmingly numerous malignant nodules (more than benign nodules)&lt;/li&gt;
+  &lt;li&gt;Difficulty with finding completely negative data which did not have any nodule&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&quot;preprocess&quot;&gt;Preprocess&lt;/h6&gt;
-&lt;p&gt;We had to preprocess heterogeneous data set through one pipeline.
+&lt;p&gt;We had to preprocess a heterogeneous dataset through one pipeline.
 Basically, it was necessary to reconstruct and normalize from 2d DICOM slices to 3d voxel data. 
-Since this task was expected to take a long time, it had to be done in advance, and results must be saved in hard disk before proceed regular training process.
-Main process was like below.&lt;/p&gt;
+Since this task was expected to take a long time, it had to be done in advance, and the results saved to a hard disk before we could with the proceed regular training process.
+Main process was as follows.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Perform 3D reconstruction with thickness of 1mm&lt;/li&gt;
+  &lt;li&gt;Perform 3D reconstruction with a thickness of 1mm&lt;/li&gt;
   &lt;li&gt;Set Hounsfield Unit between -1200 and 600&lt;/li&gt;
   &lt;li&gt;Normalize each pixel value between 0 and 255&lt;/li&gt;
 &lt;/ul&gt;
@@ -583,8 +583,8 @@ Main process was like below.&lt;/p&gt;
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Rather than using the whole voxel data, it was divided into chunks of specific size due to GPU memory limitation. 
-This process occurred in training and inference routine.&lt;/p&gt;
+&lt;p&gt;Rather than using the whole voxel data, it was divided into smaller cubes due to GPU memory limitation. 
+This process occurred in the training and inference routines.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_net_preprocess1.png&quot; width=&quot;68%&quot; /&gt;
@@ -592,28 +592,27 @@ This process occurred in training and inference routine.&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;h6 id=&quot;gathering-dataset&quot;&gt;Gathering Dataset&lt;/h6&gt;
-&lt;p&gt;To improve performance, we needed to obtain more dataset from various source.
-This process collecting proper data for model requires long time cost for doctors. 
-Especially, data labeling is a big overload because it is generally handcrafted task to segment the region of nodule in pixel by pixel.&lt;/p&gt;
+&lt;p&gt;To improve performance, we needed to obtain more datasets from various sources.
+The process of collecting proper data for modeling requires a significant time cost for doctors. 
+Data labeling, especially, requires significant time because it is an arduous task to segment the region of nodule pixel by pixel.&lt;/p&gt;
 
-&lt;p&gt;we exert much efforts to help them.
-Key was an efficiency and decrease  of time consuming. 
-We had several meetings with doctors and proposed useful methods such as nodule segmentation support application and semi-auto segmentation for nodule data.&lt;/p&gt;
+&lt;p&gt;We exerted much effort to help them.
+To improve efficiency and decrease the time required, we had several meetings with doctors and proposed useful methods such as a nodule segmentation support application and semi-auto segmentation for nodule data.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_chest_data0.jpg&quot; /&gt;
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;deep-learning-networks&quot;&gt;Deep Learning Networks&lt;/h5&gt;
-&lt;p&gt;In research period I realized that ensemble strategy was efficient to improve whole system accuracy. 
-So, I got many experiments using various models and tried to find optimal combination. 
+&lt;p&gt;During the research period, I realized that an ensemble strategy was efficient to improve whole system accuracy. 
+After many experiments using various models, I tried to find the optimal combination. 
 As a result we decided to use three Deep Neural Network(DNN) networks in the system.&lt;/p&gt;
 
 &lt;h6 id=&quot;detection-network&quot;&gt;Detection Network&lt;/h6&gt;
 &lt;p&gt;This network detects nodules. 
 It is built based on 3d U-net. 
-Detection network consists of encoding and decoding network. 
-Nodule’s features are extracted in encoding network through 3D residual blocks.&lt;/p&gt;
+Detection network consists of an encoding and decoding network. 
+The nodule’s features are extracted in the encoding network through 3D residual blocks.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_net_detection-net.png&quot; width=&quot;70%&quot; /&gt;
@@ -621,31 +620,32 @@ Nodule’s features are extracted in encoding network through 3D residual blocks
 &lt;/figure&gt;
 
 &lt;h6 id=&quot;segmentation-network&quot;&gt;Segmentation Network&lt;/h6&gt;
-&lt;p&gt;This network performs segmentation of nodules in each slide based on the results from detection network. 
-Its second role is to perform as a filter for false-positive regions.
-Our segmentation-network is taking advantage of &lt;a href=&quot;https://arxiv.org/abs/1802.02611&quot;&gt;Deeplab-v3+&lt;/a&gt; network whose network structure is shown in figure below&lt;/p&gt;
+&lt;p&gt;This network performs segmentation of nodules in each slide based on the results from the detection network. 
+Its second role is to act as a filter for false-positive regions.
+Our segmentation network takes advantage of the &lt;a href=&quot;https://arxiv.org/abs/1802.02611&quot;&gt;Deeplab-v3+&lt;/a&gt; network whose network structure is shown in figure below&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_net_segmentation-net.png&quot; width=&quot;70%&quot; /&gt;
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h6 id=&quot;classification-network&quot;&gt;Classification Network&lt;/h6&gt;
-&lt;p&gt;Classification network is responsible for determining the degree of malignancy of candidate nodules. 
-Features of nodules are extracted through 3D residual network layer, and we came up with final result through the features.&lt;/p&gt;
+&lt;p&gt;The classification network is responsible for determining the degree of malignancy of candidate nodules. 
+Features of nodules are extracted through the 3D residual network layer, and we came up with final result through the features.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_net_classification-net.png&quot; width=&quot;70%&quot; /&gt;
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;practical-technique&quot;&gt;Practical Technique&lt;/h5&gt;
-&lt;p&gt;I also added a simple preprocess stage before segmentation network to get rid of nodules in outer body.
-This stage was composed of a simple method that just checks the largest contour and eroded it.
-It mapped candidate nodule region onto 2D slide and examined whether it belongs to inside of the body, and regions outside of the body were removed as false-positives.
-This method had some advantages over other methods that perform complicated lung-segmentation as follows&lt;/p&gt;
+&lt;p&gt;I also added a simple preprocess stage before the segmentation network to get rid of nodules in the outer body.
+This stage was composed of a simple method that checks the largest contour and erodes it.
+It mapped a candidate nodule region onto 2D slide and examined whether it belongs to the inside of the body.
+Then any regions outside of the body were removed as false-positives.
+This method has some advantages over other methods that perform complicated lung-segmentation as follows&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;It is much faster than conventional segmentation method via complex algorithm&lt;/li&gt;
-  &lt;li&gt;It removes an ordinary lung-segmentation algorithm problem that recognizes nodule on the wall as outside the lung&lt;/li&gt;
-  &lt;li&gt;It solves region segmentation error resulting from different modality such as different CT slide scanner&lt;/li&gt;
+  &lt;li&gt;It is much faster than a conventional segmentation method via complex algorithm&lt;/li&gt;
+  &lt;li&gt;It removes an ordinary lung-segmentation algorithm problem that recognizes a nodule on the wall as outside the lung&lt;/li&gt;
+  &lt;li&gt;It solves a region segmentation error resulting from different modality such as different CT slide scanner&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure&gt;
@@ -654,12 +654,12 @@ This method had some advantages over other methods that perform complicated lung
 &lt;/figure&gt;
 
 &lt;h5 id=&quot;strengths-of-the-structure&quot;&gt;Strengths of the Structure&lt;/h5&gt;
-&lt;p&gt;Generally, most systems in cancer diagnosis has similar structure. 
-Among these systems, combinations with U-net based detector and classifier were popular ones. 
-&lt;strong&gt;I embedded simple preprocess stage and segmentation network&lt;/strong&gt; in center of it. 
-Network mapped 3d suspicious chunks to 2d ct slice, at the same time this stage that performed to segment area in suspicious chunks meant scrutinizing and filtering nodules. 
-So, I was able to &lt;strong&gt;remove many false positive nodules&lt;/strong&gt; from results in first stage. 
-From those features, the system got simple but powerful improvement.&lt;/p&gt;
+&lt;p&gt;Generally, most cancer diagnosis systems have a similar structure. 
+Among these systems, combinations with U-net based detector and classifier are popular. 
+&lt;strong&gt;I embedded simple preprocess stage and segmentation network&lt;/strong&gt; in center of this combination. 
+The network mapped 3d suspicious cubes to 2d CT slice, at the same time this stage that performed to segment area in suspicious cubes meant scrutinizing and filtering nodules. 
+So, I was able to &lt;strong&gt;remove many false positive nodules&lt;/strong&gt; from the results in the first stage. 
+From those features, the system gained a simple but powerful improvement.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/medipixel/mp_chest_models.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
