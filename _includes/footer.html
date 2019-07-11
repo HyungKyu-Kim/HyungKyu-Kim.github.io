@@ -10,18 +10,18 @@
       {% endif %}
     {% endif %}
 
-    {% if site.linkedin_username %}
-      <li class='footer__item'>
-        <a href='https://www.linkedin.com/in/{{ site.linkedin_username }}' title='linkedin'>
-          {% include icon.html icon='linkedin' %}
-        </a>
-      </li>
-    {% endif %}
-
     {% if site.github_username %}
       <li class='footer__item'>
         <a href='https://github.com/{{ site.github_username }}' title='github'>
           {% include icon.html icon='github' %}
+        </a>
+      </li>
+    {% endif %}
+
+    {% if site.linkedin_username %}
+      <li class='footer__item'>
+        <a href='https://www.linkedin.com/in/{{ site.linkedin_username }}' title='linkedin'>
+          {% include icon.html icon='linkedin' %}
         </a>
       </li>
     {% endif %}

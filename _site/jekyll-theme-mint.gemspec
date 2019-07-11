@@ -6,8 +6,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Hyungkyu']
   spec.email         = ['hkkxkk@gmail.com']
 
-  spec.summary       = 'A clean and responsive jekyll theme'
-  spec.homepage      = 'https://github.com/aidewoode/jekyll-theme-mint'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").select do |f|
