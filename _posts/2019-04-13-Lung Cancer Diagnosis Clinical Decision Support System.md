@@ -84,7 +84,7 @@ Main process was as follows.
   <figcaption></figcaption>
 </figure>
 
-Rather than using the whole voxel data, it was divided into smaller cubes due to GPU memory limitation. 
+Rather than using the whole voxel data, it was divided into smaller chunks due to GPU memory limitation. 
 This process occurred in the training and inference routines.
 
 <figure>
@@ -133,7 +133,7 @@ Our segmentation network takes advantage of the [Deeplab-v3+](https://arxiv.org/
 
 ###### Classification Network 
 The classification network is responsible for determining the degree of malignancy of candidate nodules. 
-Features of nodules are extracted through the 3D residual network layer, and we came up with final result through the features.
+Features of nodules are extracted through the 3D residual network layer, and we made final result from the extracted features.
 <figure>
   <img src="/images/medipixel/mp_net_classification-net.png" width="70%">
   <figcaption></figcaption>
@@ -158,7 +158,8 @@ This method has some advantages over other methods that perform complicated lung
 Generally, most cancer diagnosis systems have a similar structure. 
 Among these systems, combinations with U-net based detector and classifier are popular. 
 **I embedded simple preprocess stage and segmentation network** in center of this combination. 
-The network mapped 3d suspicious cubes to 2d CT slice, at the same time this stage that performed to segment area in suspicious cubes meant scrutinizing and filtering nodules. 
+The network mapped 3d suspicious chunks to 2d CT slice, and, at the same time, performed to segment area in suspicious chunks.
+In this context, segmentation means scrutinizing and filtering nodules. 
 So, I was able to **remove many false positive nodules** from the results in the first stage. 
 From those features, the system gained a simple but powerful improvement.
 

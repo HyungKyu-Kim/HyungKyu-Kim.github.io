@@ -229,7 +229,7 @@ For this reason, I designed the system using de facto standard systems such as [
 ##### Implementation Issues
 
 ###### Handling Nonlinearity
-There were physical errors during manipulation caused by motor rotation as many general controlling systems under physical world. 
+There were physical errors during manipulation caused by motor rotation as many general control systems under physical world have. 
 In the coronary artery environment, this kind of error had a worse effect because it requires handling an exquisite unit of space and time. 
 I approached this problem in a heuristic way and tried to define error tolerance thresholds because there is no perfect solution for this issue. 
 Through a trial and error process, my team found that using a very small fixed step command (about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach the correct position. 
@@ -250,7 +250,7 @@ Thus, the size of state in RL had to be defined properly.
     
 ###### Synchronization Between RL agent and Manipulator  
 RL agent needs to obtain the necessary data at once for decision making in each time step. 
-As a manipulator operates in asynchronous method, I decided what module should be waited and collected data from the manipulator for synchronization. 
+As a manipulator operates in asynchronous method, I had to choose the module waiting to collect data from the manipulator for synchronization. 
 I implemented a communication module and put this module in charge of that task.
 
 <figure>

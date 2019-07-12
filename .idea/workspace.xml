@@ -6,31 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a64748c0-830f-49cd-a748-971bc5141f78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/3a0a43bfb9545c94c5b36ed30fda626f9783cd25/_layout.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/3a0a43bfb9545c94c5b36ed30fda626f9783cd25/_layout.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/icons/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/icons/github.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/icons/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/icons/linkedin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/cv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index_bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index_bak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index_half.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index_half.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index_row.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index_row.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/jekyll-theme-mint.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/_site/jekyll-theme-mint.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/private/flatness.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/private/flatness.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/samsung/iot_camera.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/samsung/iot_camera.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/samsung/other_projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/samsung/other_projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/samsung/video_surveillance_as_a_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/samsung/video_surveillance_as_a_service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/linkedin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jekyll-theme-mint.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/jekyll-theme-mint.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,19 +19,20 @@
     <session id="-191780883">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="145" />
-          <entry key="md" value="14596" />
+          <entry key="md" value="14730" />
           <entry key="scss" value="188" />
           <entry key="svg" value="25" />
           <entry key="yml" value="90" />
@@ -63,7 +41,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="178" />
-          <entry key="Markdown" value="14544" />
+          <entry key="Markdown" value="14678" />
           <entry key="PLAIN_TEXT" value="19" />
           <entry key="SCSS" value="188" />
           <entry key="SVG" value="25" />
@@ -75,7 +53,7 @@
           <entry key="css" value="1" />
           <entry key="gemspec" value="1" />
           <entry key="html" value="10" />
-          <entry key="md" value="42" />
+          <entry key="md" value="44" />
           <entry key="scss" value="6" />
           <entry key="svg" value="14" />
           <entry key="yml" value="12" />
@@ -85,7 +63,7 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="HTML" value="10" />
-          <entry key="Markdown" value="42" />
+          <entry key="Markdown" value="44" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="6" />
           <entry key="SVG" value="14" />
@@ -95,58 +73,31 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jekyll-theme-mint.gemspec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="289">
+                <caret line="253" column="80" lean-forward="true" selection-start-line="253" selection-start-column="80" selection-end-line="253" selection-end-column="80" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/icons/linkedin.svg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/icons/twitter.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/icon.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/portfolio.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="369" column="4" selection-start-line="369" selection-start-column="4" selection-end-line="369" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <entry file="file://$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="270">
+                <caret line="160" column="125" selection-start-line="160" selection-start-column="125" selection-end-line="160" selection-end-column="125" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -155,13 +106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>infrastructural devices</find>
-      <find>using video information</find>
-      <find>infinitely evolving autogenous system</find>
-      <find>posts__item</find>
-      <find>layout</find>
-      <find>read</find>
-      <find>requ</find>
       <find>post</find>
       <find>w</find>
       <find>background-co</find>
@@ -185,6 +129,13 @@
       <find>include</find>
       <find>simpleicons-twitter-icon</find>
       <find>linked</find>
+      <find>motor rotation as many g</find>
+      <find>decided</find>
+      <find>malignancy of candidate</find>
+      <find>segmentation network</find>
+      <find>stre</find>
+      <find>cubes</find>
+      <find>cube</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -224,14 +175,12 @@
         <option value="$PROJECT_DIR$/_posts/2019-04-28-Flatness.md" />
         <option value="$PROJECT_DIR$/_data/navigation.yml" />
         <option value="$PROJECT_DIR$/_includes/google_analytics.html" />
-        <option value="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" />
         <option value="$PROJECT_DIR$/_posts/2019-03-30-Video Surveillance as a Service.md" />
         <option value="$PROJECT_DIR$/_posts/2019-04-28-Floor flatness measuring device.md" />
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_data/organization.yml" />
         <option value="$PROJECT_DIR$/_posts/2019-04-02-NIPS 2018 - AI for Prosthetics Challenge.md" />
         <option value="$PROJECT_DIR$/_posts/2019-03-31-IoT Camera.md" />
-        <option value="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" />
         <option value="$PROJECT_DIR$/portfolio.html" />
         <option value="$PROJECT_DIR$/_sass/_layout.scss" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
@@ -241,6 +190,8 @@
         <option value="$PROJECT_DIR$/assets/icons/linkedin.svg" />
         <option value="$PROJECT_DIR$/assets/icons/github.svg" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" />
       </list>
     </option>
   </component>
@@ -403,8 +354,31 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.17560463" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.1787592" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32908458" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32965687" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3299363" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.1787592" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -536,11 +510,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-28-Floor flatness measuring device.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="336">
@@ -549,6 +518,11 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -581,30 +555,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="225">
             <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="593">
-            <caret line="98" column="111" selection-start-line="98" selection-start-column="111" selection-end-line="98" selection-end-column="111" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -672,10 +622,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/iconmonstr-linkedin-3.svg" />
+    <entry file="file://$PROJECT_DIR$/assets/icons/github.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/facebook.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/linkedin.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll-theme-mint.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/twitter.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/icon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -688,44 +665,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/icons/iconmonstr-linkedin-3.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/icons/twitter.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/icons/github.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/icons/facebook.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/icons/linkedin.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jekyll-theme-mint.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="266">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="289">
+            <caret line="253" column="80" lean-forward="true" selection-start-line="253" selection-start-column="80" selection-end-line="253" selection-end-column="80" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="270">
+            <caret line="160" column="125" selection-start-line="160" selection-start-column="125" selection-end-line="160" selection-end-column="125" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
