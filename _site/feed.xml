@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-12T00:20:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve the floor flatness problem on construction sites, I have been making device to check the flatness level.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-13T23:18:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve the floor flatness problem on construction sites, I have been making device to check the flatness level.
 This is an ongoing project that converges technologies including LIDAR and SLAM.&lt;/p&gt;
 
 &lt;!--break--&gt;
@@ -367,7 +367,7 @@ For this reason, I designed the system using de facto standard systems such as &
 &lt;h5 id=&quot;implementation-issues&quot;&gt;Implementation Issues&lt;/h5&gt;
 
 &lt;h6 id=&quot;handling-nonlinearity&quot;&gt;Handling Nonlinearity&lt;/h6&gt;
-&lt;p&gt;There were physical errors during manipulation caused by motor rotation as many general controlling systems under physical world. 
+&lt;p&gt;There were physical errors during manipulation caused by motor rotation as many general control systems under physical world have. 
 In the coronary artery environment, this kind of error had a worse effect because it requires handling an exquisite unit of space and time. 
 I approached this problem in a heuristic way and tried to define error tolerance thresholds because there is no perfect solution for this issue. 
 Through a trial and error process, my team found that using a very small fixed step command (about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach the correct position.&lt;/p&gt;
@@ -388,7 +388,7 @@ Thus, the size of state in RL had to be defined properly.&lt;/p&gt;
 
 &lt;h6 id=&quot;synchronization-between-rl-agent-and-manipulator&quot;&gt;Synchronization Between RL agent and Manipulator&lt;/h6&gt;
 &lt;p&gt;RL agent needs to obtain the necessary data at once for decision making in each time step. 
-As a manipulator operates in asynchronous method, I decided what module should be waited and collected data from the manipulator for synchronization. 
+As a manipulator operates in asynchronous method, I had to choose the module waiting to collect data from the manipulator for synchronization. 
 I implemented a communication module and put this module in charge of that task.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -583,7 +583,7 @@ Main process was as follows.&lt;/p&gt;
   &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Rather than using the whole voxel data, it was divided into smaller cubes due to GPU memory limitation. 
+&lt;p&gt;Rather than using the whole voxel data, it was divided into smaller chunks due to GPU memory limitation. 
 This process occurred in the training and inference routines.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -630,7 +630,7 @@ Our segmentation network takes advantage of the &lt;a href=&quot;https://arxiv.o
 
 &lt;h6 id=&quot;classification-network&quot;&gt;Classification Network&lt;/h6&gt;
 &lt;p&gt;The classification network is responsible for determining the degree of malignancy of candidate nodules. 
-Features of nodules are extracted through the 3D residual network layer, and we came up with final result through the features.&lt;/p&gt;
+Features of nodules are extracted through the 3D residual network layer, and we made final result from the extracted features.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/medipixel/mp_net_classification-net.png&quot; width=&quot;70%&quot; /&gt;
   &lt;figcaption&gt;&lt;/figcaption&gt;
@@ -657,7 +657,8 @@ This method has some advantages over other methods that perform complicated lung
 &lt;p&gt;Generally, most cancer diagnosis systems have a similar structure. 
 Among these systems, combinations with U-net based detector and classifier are popular. 
 &lt;strong&gt;I embedded simple preprocess stage and segmentation network&lt;/strong&gt; in center of this combination. 
-The network mapped 3d suspicious cubes to 2d CT slice, at the same time this stage that performed to segment area in suspicious cubes meant scrutinizing and filtering nodules. 
+The network mapped 3d suspicious chunks to 2d CT slice, and, at the same time, performed to segment area in suspicious chunks.
+In this context, segmentation means scrutinizing and filtering nodules. 
 So, I was able to &lt;strong&gt;remove many false positive nodules&lt;/strong&gt; from the results in the first stage. 
 From those features, the system gained a simple but powerful improvement.&lt;/p&gt;
 
@@ -678,7 +679,7 @@ Our system achieved satisfying results that reduce time to under one minute whil
 &lt;hr /&gt;
 
 &lt;h5 id=&quot;patent&quot;&gt;Patent&lt;/h5&gt;
-&lt;p&gt;[1] Pathological diagnosis method and apparatus based on machine learning KR, P2018-0173475&lt;/p&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">The purpose of this system is to help doctors diagnose of lung cancer. It supports diagnosis by deep learning based on detection and classification nodules.</summary></entry><entry><title type="html">NIPS 2018 - AI for Prosthetics Challenge</title><link href="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge" rel="alternate" type="text/html" title="NIPS 2018 - AI for Prosthetics Challenge" /><published>2019-04-02T00:00:00+09:00</published><updated>2019-04-02T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/NIPS%202018%20-%20AI%20for%20Prosthetics%20Challenge</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge">&lt;p&gt;My team participated in &lt;a href=&quot;https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge&quot;&gt;NIPS 2018 - AI for Prosthetics Challenge&lt;/a&gt; and took 17th place out of 401 teams. 
+&lt;p&gt;[1] Pathological diagnosis method and apparatus based on machine learning KR, P2018-0173475&lt;/p&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">The purpose of this system is to help doctors diagnose of lung cancer. It supports diagnosis by deep learning based on detection and classification nodules.</summary></entry><entry><title type="html">NeurIPS 2018 - AI for Prosthetics Challenge</title><link href="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge" rel="alternate" type="text/html" title="NeurIPS 2018 - AI for Prosthetics Challenge" /><published>2019-04-02T00:00:00+09:00</published><updated>2019-04-02T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/NIPS%202018%20-%20AI%20for%20Prosthetics%20Challenge</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge">&lt;p&gt;My team participated in &lt;a href=&quot;https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge&quot;&gt;NeurIPS 2018 - AI for Prosthetics Challenge&lt;/a&gt; and took 17th place out of 401 teams. 
 We were able to get valuable &lt;a href=&quot;https://medipixel.github.io/NIPS2018&quot;&gt;practical experiences&lt;/a&gt; with reinforcement learning and biomechanics domains.&lt;/p&gt;
 
 &lt;!--break--&gt;
@@ -814,7 +815,7 @@ The final results were like below&lt;/p&gt;
       &lt;td&gt;&lt;img src=&quot;https://medipixel.github.io/img/imitation/reward_final.gif&quot; /&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">My team participated in NIPS 2018 - AI for Prosthetics Challenge and took 17th place out of 401 teams. We were able to get valuable practical experiences with reinforcement learning and biomechanics domains.</summary></entry><entry><title type="html">IoT Camera</title><link href="http://localhost:4000/portfolio/samsung/iot_camera" rel="alternate" type="text/html" title="IoT Camera" /><published>2019-03-31T00:00:00+09:00</published><updated>2019-03-31T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/samsung/IoT%20Camera</id><content type="html" xml:base="http://localhost:4000/portfolio/samsung/iot_camera">&lt;p&gt;This new type of product is a network camera working as an IoT gateway. 
+&lt;/table&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">My team participated in NeurIPS 2018 - AI for Prosthetics Challenge and took 17th place out of 401 teams. We were able to get valuable practical experiences with reinforcement learning and biomechanics domains.</summary></entry><entry><title type="html">IoT Camera</title><link href="http://localhost:4000/portfolio/samsung/iot_camera" rel="alternate" type="text/html" title="IoT Camera" /><published>2019-03-31T00:00:00+09:00</published><updated>2019-03-31T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/samsung/IoT%20Camera</id><content type="html" xml:base="http://localhost:4000/portfolio/samsung/iot_camera">&lt;p&gt;This new type of product is a network camera working as an IoT gateway. 
 It gathers sensor data and provides various services, such as social protection, fire monitoring and missing child prevention, by cooperating with adjacent IoT devices.&lt;/p&gt;
 
 &lt;!--break--&gt;

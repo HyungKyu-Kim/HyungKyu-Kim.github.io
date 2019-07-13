@@ -1,5 +1,5 @@
 ---
-title:  NIPS 2018 - AI for Prosthetics Challenge
+title:  NeurIPS 2018 - AI for Prosthetics Challenge
 layout: post
 group: Portfolio
 organization: Medipixel
@@ -7,7 +7,7 @@ thumbnail: /images/medipixel/nips_run.gif
 permalink: /portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge
 ---
 
-My team participated in [NIPS 2018 - AI for Prosthetics Challenge](https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge) and took 17th place out of 401 teams. 
+My team participated in [NeurIPS 2018 - AI for Prosthetics Challenge](https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge) and took 17th place out of 401 teams. 
 We were able to get valuable [practical experiences](https://medipixel.github.io/NIPS2018) with reinforcement learning and biomechanics domains.
 
 <!--break-->
