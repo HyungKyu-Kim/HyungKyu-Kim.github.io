@@ -1,0 +1,30 @@
+- title: Medipixel
+  etc: Medipixel is a medical start-up. As coworking with many stakeholder whom in medical, tech domains, It have been creating interesting systems.
+  logo: /images/medipixel/logo_medipixel.png
+  role: AI Researcher
+  duration: November 2017 ~ June 2019
+  description:
+  pjt1: Medical Robot System
+  img1: /images/medipixel/profile_biorobot_brief.gif
+  url1: /portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning
+  pjt2: CDSS System
+  img2: /images/medipixel/mp_chest_brief.gif
+  url2: /portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system
+  pjt3: NeurIPS RL Competition
+  img3: /images/medipixel/nips_run.gif
+  url3: /portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge
+- title: Samsung Techwin
+  etc: Samsung Techwin is a global top tier security devices manufacturer. It have been developing many network devices used for physical security.
+  logo: /images/samsung/logo_samsung.png
+  role: Network Camera Developer
+  duration: July 2012 ~ November 2017
+  description:
+  pjt1: VSaaS
+  img1: /images/samsung/profile_htw_cloud.gif
+  url1: /portfolio/samsung/video_surveillance_as_a_service
+  pjt2: IoT Camera
+  img2: /images/samsung/profile_htw_iot2.png
+  url2: /portfolio/samsung/iot_camera
+  pjt3: Flatness Measuring Device
+  img3: /images/private/flat_map.png
+  url3: /portfolio/private/flatness

@@ -346,3 +346,95 @@ body {
     width: 100%;
   }
 }
+
+
+
+// --------------------------
+.brief__item {
+    margin-top: 0px;
+}
+
+.brief {
+  overflow: auto;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.brief::after {
+  content: '';
+  dispaly: table;
+  clear: both
+}
+
+.brief_l {
+  width: 200px;
+  float: left;
+  margin-right: 10%
+}
+
+.brief_m {
+  width: 200px;
+  float: left;
+  margin-right: 10%
+}
+
+.brief_r {
+  width: 200px;
+  float: left;
+}
+
+.logopart {
+  overflow: auto;
+}
+
+.logopart::after {
+  content: '';
+  dispaly: table;
+  clear: both
+}
+
+.logopart .img {
+  float: left;
+  margin-right: 10%;
+  width: 130px;
+}
+
+.logopart .text {
+  float: left;
+}
+
+.logopart .text .duration {
+    color: #888;
+    font-family: "Noto Sans CJK KR";
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.logopart .text .role {
+    color: rgb(85, 85, 85);
+    font-family: "Noto Sans CJK KR";
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.brief_further {
+  color: #888;
+  font-family: "Noto Sans CJK KR";
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 300;
+  text-align:center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.brief_see {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}

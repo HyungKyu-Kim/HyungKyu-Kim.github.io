@@ -12,7 +12,7 @@ We were able to get valuable [practical experiences](https://medipixel.github.io
 
 <!--break-->
 
-#### My Role
+#### My Role 
 System main engineer
   * Implement distributed Reinforcement Learning system([RAY](https://rise.cs.berkeley.edu/projects/ray/)) on Cloud system([Azure](https://azure.microsoft.com/))
   * Implement RL-agent in [RAY](https://rise.cs.berkeley.edu/projects/ray/)
