@@ -14,18 +14,18 @@ I am confident to break any obstacle that I will face for research with my exper
   </div>
   <div class="partial_img">
     <div>2. Handling various communication & data type</div>
-    <img src="/images/mail/skill2.PNG" alt="">
+    <img src="/images/mail/skill2.png" alt="">
   </div>
 </div>
 
 <div class="brief">
   <div class="partial_img">
     <div>3. Handling various frameworks & methods</div>
-    <img src="/images/mail/skill3.PNG" alt="">
+    <img src="/images/mail/skill3.png" alt="">
   </div>
   <div class="partial_img">
     <div>4. Handling various H/W & sensors</div>
-    <img src="/images/mail/skill4.PNG" alt="">
+    <img src="/images/mail/skill4.png" alt="">
   </div>
 </div>
 
