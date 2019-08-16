@@ -606,6 +606,11 @@ body {
   dispaly: table;
   clear: both; }
 
+.brief .partial_img {
+  width: 45%;
+  float: left;
+  margin-right: 5%; }
+
 .brief_l {
   width: 200px;
   float: left;

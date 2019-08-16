@@ -349,7 +349,7 @@ body {
 
 
 
-// --------------------------
+// mail -----------------
 .brief__item {
     margin-top: 0px;
 }
@@ -365,6 +365,12 @@ body {
   content: '';
   dispaly: table;
   clear: both
+}
+
+.brief .partial_img {
+  width: 45%;
+  float: left;
+  margin-right: 5%
 }
 
 .brief_l {
