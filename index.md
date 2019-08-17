@@ -3,7 +3,7 @@ layout: page
 group: Hyungkyu Kim
 ---
 <div align="center">
-    I am a software engineer.<br>
+    I am an enthusiast eager to change world via IT technology.<br>
     I dream of systems to break the boundaries between cyber world and physical world.<br>
     <h3>"Be agile, Be flexible, Be variable"</h3>
 </div>
