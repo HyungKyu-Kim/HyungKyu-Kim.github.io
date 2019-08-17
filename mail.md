@@ -13,11 +13,11 @@ My main skill-set is like bellow.
 <br>
 <div class="brief">
   <div class="partial_img">
-    <div>1. Implementing hybrid system by case</div>
+    <div style="text-align:center">Implementing hybrid system by case</div>
     <img src="/images/mail/skill1.gif" alt="">
   </div>
   <div class="partial_img">
-    <div>2. Handling various communication & data type</div>
+    <div style="text-align:center">Handling various communication & data type</div>
     <img src="/images/mail/skill2.png" alt="">
   </div>
 </div>
@@ -25,11 +25,11 @@ My main skill-set is like bellow.
 
 <div class="brief">
   <div class="partial_img">
-    <div>3. Handling various frameworks & methods</div>
+    <div style="text-align:center">Handling various frameworks & methods</div>
     <img src="/images/mail/skill3.png" alt="">
   </div>
   <div class="partial_img">
-    <div>4. Handling various H/W & sensors</div>
+    <div style="text-align:center">Handling various H/W & sensors</div>
     <img src="/images/mail/skill4.png" alt="">
   </div>
 </div>
@@ -48,15 +48,15 @@ Main projects that I have been in charge of are followings.
     font-weight: bold;
     font-size: 14px;">
   <div class="brief_l">
-    <div>{{ brf.pjt1 }}</div>
+    <div style="text-align:center">{{ brf.pjt1 }}</div>
     <a href="{{ brf.url1 | relative_url }}"> <img src="{{ brf.img1 }}" alt=""> </a>
   </div>
   <div class="brief_m">
-    <div>{{ brf.pjt2 }}</div>
+    <div style="text-align:center">{{ brf.pjt2 }}</div>
     <a href="{{ brf.url2 | relative_url }}"><img src="{{ brf.img2 }}" alt=""></a>
   </div>
   <div class="brief_r">
-    <div>{{ brf.pjt3 }}</div>
+    <div style="text-align:center">{{ brf.pjt3 }}</div>
     <a href="{{ brf.url3 | relative_url }}"><img src="{{ brf.img3 }}" alt=""></a>
   </div>
 </div>
