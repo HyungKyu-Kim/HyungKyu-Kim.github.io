@@ -20,21 +20,22 @@
     <session id="-191780883">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="12" />
           <entry key="project.open.time.7" value="8" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="157" />
-          <entry key="md" value="18523" />
+          <entry key="md" value="18557" />
           <entry key="scss" value="531" />
           <entry key="svg" value="25" />
           <entry key="yml" value="216" />
@@ -42,8 +43,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="346" />
-          <entry key="Markdown" value="18315" />
+          <entry key="HTML" value="350" />
+          <entry key="Markdown" value="18345" />
           <entry key="PLAIN_TEXT" value="19" />
           <entry key="SCSS" value="531" />
           <entry key="SVG" value="25" />
@@ -101,17 +102,11 @@
         <entry file="file://$PROJECT_DIR$/mail.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="559">
-                <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+              <first_editor relative-caret-position="255">
+                <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
                 <folding>
-                  <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                   <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                   <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
                   <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
                 </folding>
               </first_editor>
@@ -158,10 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>NeurIPS Competition</find>
-      <find>erest in HCI and its</find>
-      <find>startup</find>
-      <find>Full Portfolio Link</find>
       <find>as Embedded</find>
       <find>readmore_info</find>
       <find>brief_info</find>
@@ -188,6 +179,10 @@
       <find>h5</find>
       <find>n your gro</find>
       <find>1.</find>
+      <find>UNG, I had worked as Embe</find>
+      <find>th your marvelous</find>
+      <find>oined Medipixel, a med</find>
+      <find>potential to conque</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -678,6 +673,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-28-Floor flatness measuring device.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="95">
@@ -686,11 +686,6 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -758,17 +753,11 @@
     <entry file="file://$PROJECT_DIR$/mail.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="559">
-            <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+          <first_editor relative-caret-position="255">
+            <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
             <folding>
-              <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
             </folding>
           </first_editor>

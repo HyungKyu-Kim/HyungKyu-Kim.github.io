@@ -4,13 +4,12 @@ group: mail
 ---
 <div style="color: #555555; font-family: Open Sans; font-size: 16px; line-height: 30px; max-width: 850px;">
 <p>Dear Professor 000<br>
-I am HyungKyu Kim from South Korea and I contact you regarding applying to your doctoral course.<br>
+My name is Hyungkyu Kim from South Korea and I am emailing you since I am interested in your doctoral course.<br>
 Until now, I have pondered "how" I can develop, but I think that it's time to focus on "what" I develop.<br>
-I am confident to break any obstacle that I will face for research with my experience of industrial field over years!<br>
-My main skill-set is like bellow.
+I believe that I am able to break any obstacles that I will face for research with my experience of industrial field over years!!<br>
 </p>
 
-<br>
+<p>I would like to briefly introduce my background. My main skill-set is as below</p>
 <div class="brief">
   <div class="partial_img">
     <div style="text-align:center">Implementing hybrid system by case</div>
@@ -35,11 +34,11 @@ My main skill-set is like bellow.
 </div>
 
 <br>
-<p> I wanted to train myself through product process in industrial field.<br>
-As a result, it was possible to get skill to develop any results what I want.<br>
-In SAMSUNG, I have worked as Embedded System Engineer over five years.<br>
-And In a medical startup, I have an as AI Researcher for two years.<br>
-Main projects that I have been in charge of are followings.
+<p> For many years, I had wanted to train myself through product process in industrial field.<br>
+As a result, I was able to get skills to develop any results that I want.<br>
+In SAMSUNG, I had worked as Embedded System Engineer over five years until I joined Medipixel, a medical startup.
+And In Medipixel, I have done AI Researcher job for two years.<br>
+Main projects that I have been in charge of are as follows
 </p>
 <br>
 
@@ -67,12 +66,12 @@ Main projects that I have been in charge of are followings.
 </div>
 
 <p><br>
-I have huge interest that the way can bring out information collected and processed in cyber world to the real world.
-Reading researches and publications in your group, I was fascinated with your marvelous achievements.
-Shape-shifting device was really impressed me in that it can propose display of intuitional alive information.   
-And the concept of ubiquitous robotics was fantastic also. 
-I think It has tremendous potential to conquer complex environment.  
-I believe that In your group, with my experiences in industry,it is possible to move forward to unprecedented work.
+I have huge interest in finding a way to bring out information collected and processed in cyber world to the real world.
+Reading  research papers in your group, I got fascinated with your marvelous achievements. <br>
+Shape-shifting device was really impressing to me in that it can propose display of intuitional alive information. <br>
+The concept of ubiquitous robotics was fantastic as well.  
+I believe it has tremendous potential to conquer complex environment such as space exploration. <br>
+I also believe that in your group, with my experience in industry, I could contribute to progress unprecedented works in your group.
 <br>
 </p>
 
@@ -81,10 +80,10 @@ I believe that In your group, with my experiences in industry,it is possible to 
 </p>
 
 <p>
-I want to say more in this email, but I know you are very busy.<br>
+I would like to say more in this email, but I know you are very busy.<br>
 If I can get a chance, it would be great honor for me to communicate with you regarding getting your exciting experiments and advice.
 <br><br>
-I know that there are huge possibility that this mail will not be read, since tremendous number of people send mail to you.
+I know that there is a huge possibility that this mail will not be read, since tremendous number of people are sending mail to you. 
 But I will never give up to get this chance.
 I am really dreaming of joining your research group.
 I am looking forward to your reply.
