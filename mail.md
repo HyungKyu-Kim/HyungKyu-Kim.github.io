@@ -6,7 +6,7 @@ group: mail
 <p>Dear Professor 000<br>
 My name is Hyungkyu Kim from South Korea and I am emailing you since I am interested in your doctoral course.<br>
 Until now, I have pondered "how" I can develop, but I think that it's time to focus on "what" I develop.<br>
-I believe that I am able to break any obstacles that I will face for research with my experience of industrial field over years!!<br>
+I believe that I am able to break any obstacles that I will face for research with my experience of industrial field over years!<br>
 </p>
 
 <p>I would like to briefly introduce my background. My main skill-set is as below</p>
@@ -71,7 +71,7 @@ Reading  research papers in your group, I got fascinated with your marvelous ach
 Shape-shifting device was really impressing to me in that it can propose display of intuitional alive information. <br>
 The concept of ubiquitous robotics was fantastic as well.  
 I believe it has tremendous potential to conquer complex environment such as space exploration. <br>
-I also believe that in your group, with my experience in industry, I could contribute to progress unprecedented works in your group.
+I also believe that in your group, with my experience in industry, I could contribute to progress unprecedented works.
 <br>
 </p>
 
