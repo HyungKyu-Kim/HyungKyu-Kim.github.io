@@ -41,6 +41,8 @@ After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and
     </div>
 </div>
 
+<br>
+
 ---
 Since I opened my eyes to computer development, the art of logic and knowledge, I also have become interested in "Oriental Philosophy"
 because I believe that it describes a system beyond the system defined in modern philosophies. 
