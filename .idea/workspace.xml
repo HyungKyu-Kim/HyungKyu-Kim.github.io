@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a64748c0-830f-49cd-a748-971bc5141f78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/mail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mail.md" beforeDir="false" afterPath="$PROJECT_DIR$/mail.md" afterDir="false" />
     </list>
@@ -22,22 +23,23 @@
     <session id="-191780883">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="49" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="7" />
-          <entry key="project.open.time.6" value="14" />
-          <entry key="project.open.time.7" value="10" />
+          <entry key="project.open.time.5" value="8" />
+          <entry key="project.open.time.6" value="22" />
+          <entry key="project.open.time.7" value="13" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="157" />
-          <entry key="md" value="19181" />
+          <entry key="md" value="21769" />
           <entry key="scss" value="531" />
           <entry key="svg" value="25" />
           <entry key="yml" value="216" />
@@ -45,8 +47,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="374" />
-          <entry key="Markdown" value="18945" />
+          <entry key="HTML" value="452" />
+          <entry key="Markdown" value="21455" />
           <entry key="PLAIN_TEXT" value="19" />
           <entry key="SCSS" value="531" />
           <entry key="SVG" value="25" />
@@ -57,8 +59,8 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="gemspec" value="1" />
-          <entry key="html" value="15" />
-          <entry key="md" value="56" />
+          <entry key="html" value="16" />
+          <entry key="md" value="57" />
           <entry key="scss" value="10" />
           <entry key="svg" value="14" />
           <entry key="yml" value="18" />
@@ -67,8 +69,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="15" />
-          <entry key="Markdown" value="56" />
+          <entry key="HTML" value="16" />
+          <entry key="Markdown" value="57" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="10" />
           <entry key="SVG" value="14" />
@@ -100,15 +102,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mail.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="337">
-                <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
-                <folding>
-                  <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="227">
+                <caret line="143" column="131" lean-forward="true" selection-start-line="143" selection-start-column="131" selection-end-line="143" selection-end-column="131" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="309">
+                <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -121,8 +134,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="874">
-                <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+              <first_editor relative-caret-position="1254">
+                <caret line="66" selection-start-line="66" selection-end-line="66" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -153,24 +166,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>industrial field</find>
-      <find>I drea</find>
-      <find>et, it would be great honor for me to communicate with you regarding your exciting experiments</find>
-      <find>tre</find>
-      <find>See full portfolio page</find>
-      <find>o computer fields, I have prepared to cr</find>
-      <find>With my experience in many projects, I belive that it is possible to create new</find>
-      <find>with my experie</find>
-      <find>ed with your</find>
-      <find>broe</find>
-      <find>bold</find>
-      <find>brief__item</find>
-      <find>@ㅡㅇ</find>
-      <find>img</find>
-      <find>max</find>
-      <find>logopart</find>
-      <find>h5</find>
-      <find>n your gro</find>
       <find>1.</find>
       <find>UNG, I had worked as Embe</find>
       <find>th your marvelous</find>
@@ -183,6 +178,24 @@
       <find>expl</find>
       <find>of ubiquitous roboti</find>
       <find>ngineer ove</find>
+      <find>for many</find>
+      <find>For many years, I had wanted to train myself through product process in industrial field.</find>
+      <find>As a result, I acquired integral skills to develop any results that I want.</find>
+      <find>fasci</find>
+      <find>saw</find>
+      <find>way</find>
+      <find>Fadel</find>
+      <find>artific</find>
+      <find>dream of creating systems to break boundaries between cyber world and physical world.</find>
+      <find>I have always contemplated about how I could add value to the real world through information collected and processed in cyber world</find>
+      <find>Reading researches and publications in your group, I got fascinated with your marvelous achievement</find>
+      <find>our works on connection of the various sensors and environments including</find>
+      <find>doctral</find>
+      <find>overarching</find>
+      <find>pondered</find>
+      <find>beyond</find>
+      <find>contemp</find>
+      <find>youtu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2019-03-01-asdf.md" />
         <option value="$PROJECT_DIR$/_posts/2019-04-16-guuu.md" />
         <option value="$PROJECT_DIR$/_posts/2019-04-01-guuu.md" />
         <option value="$PROJECT_DIR$/asdf.md" />
@@ -232,7 +244,6 @@
         <option value="$PROJECT_DIR$/assets/icons/linkedin.svg" />
         <option value="$PROJECT_DIR$/assets/icons/github.svg" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" />
         <option value="$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md" />
         <option value="$PROJECT_DIR$/_posts/2019-04-02-NIPS 2018 - AI for Prosthetics Challenge.md" />
         <option value="$PROJECT_DIR$/portfolio.html" />
@@ -242,6 +253,8 @@
         <option value="$PROJECT_DIR$/_sass/_layout.scss" />
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/mail.md" />
+        <option value="$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html" />
+        <option value="$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md" />
       </list>
     </option>
   </component>
@@ -251,11 +264,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="4" />
-    <option name="width" value="1010" />
-    <option name="height" value="1009" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-3" />
+    <option name="y" value="17" />
+    <option name="width" value="984" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,6 +276,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,48 +284,16 @@
               <item name="HyungKyu-Kim.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="HyungKyu-Kim.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HyungKyu-Kim.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HyungKyu-Kim.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HyungKyu-Kim.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HyungKyu-Kim.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HyungKyu-Kim.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HyungKyu-Kim.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HyungKyu-Kim.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HyungKyu-Kim.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HyungKyu-Kim.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HyungKyu-Kim.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HyungKyu-Kim.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HyungKyu-Kim.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="V:/work/academic-kickstart" />
+    <property name="last_opened_file_path" value="D:/backup/medipixel/work/mp_dcm_lung2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -319,18 +301,18 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="V:\work\HyungKyu-Kim.github.io\images\medipixel" />
-      <recent name="V:\work\HyungKyu-Kim.github.io\images\samsung" />
-      <recent name="V:\work\hyungkyu-kim.github.io\images" />
-      <recent name="V:\work\hyungkyu-kim.github.io\assets\fonts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hkk\HyungKyu-Kim.github.io\_data" />
       <recent name="C:\Users\hkk\HyungKyu-Kim.github.io" />
       <recent name="V:\work\HyungKyu-Kim.github.io\images\medipixel" />
       <recent name="V:\work\HyungKyu-Kim.github.io\images\samsung" />
       <recent name="V:\work\HyungKyu-Kim.github.io\_posts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="V:\work\HyungKyu-Kim.github.io\images\medipixel" />
+      <recent name="V:\work\HyungKyu-Kim.github.io\images\samsung" />
+      <recent name="V:\work\hyungkyu-kim.github.io\images" />
+      <recent name="V:\work\hyungkyu-kim.github.io\assets\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -381,7 +363,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="4" width="1010" height="1009" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32912722" />
@@ -404,7 +386,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="5" weight="0.23894736" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.11727079" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32912722" />
@@ -486,13 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="106" column="43" lean-forward="true" selection-start-line="106" selection-start-column="43" selection-end-line="106" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -605,18 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="100" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="100" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-13-Lung Cancer Diagnosis Clinical Decision Support System.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -666,6 +629,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-28-Floor flatness measuring device.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="95">
@@ -674,11 +642,6 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -727,8 +690,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="874">
-            <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+          <first_editor relative-caret-position="1254">
+            <caret line="66" selection-start-line="66" selection-end-line="66" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -750,14 +713,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_site/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mail.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="337">
-            <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
-            <folding>
-              <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="227">
+            <caret line="143" column="131" lean-forward="true" selection-start-line="143" selection-start-column="131" selection-end-line="143" selection-end-column="131" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-04-14-Guidewire Navigation based on Reinforcement Learning.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="309">
+            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
