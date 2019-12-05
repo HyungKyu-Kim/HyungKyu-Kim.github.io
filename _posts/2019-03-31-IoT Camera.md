@@ -14,7 +14,7 @@ It gathers sensor data and provides various services, such as social protection,
 #### My Role
 Network camera main developer on Task Force Team
 * Implement Bluetooth communication module between network camera and devices
-* Implement communication module with IoT server (RESTful)
+* Implement communication module with IoT server (REST)
 * Implement serial communication module (rs-485) 
 
 ----

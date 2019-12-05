@@ -23,8 +23,7 @@ I was able to get many experiences in differnt system, frameworks and devices.
 
 
 ##### TB-EYE project
-* [OSD](https://en.wikipedia.org/wiki/On-screen_display)
-* Work on various type OSD
+* Work on various type [OSD](https://en.wikipedia.org/wiki/On-screen_display)
 * Implement image based charecter OSD module
 * Handle raw image format(eg. yuv420, yuv422)
 * Implement C# window application
