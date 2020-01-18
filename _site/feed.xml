@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-22T02:08:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve the floor flatness problem on construction sites, I have been making device to check the flatness level.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-19T01:38:37+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve the floor flatness problem on construction sites, I have been making device to check the flatness level.
 This is an ongoing project that converges technologies including LIDAR and SLAM.&lt;/p&gt;
 
 &lt;!--break--&gt;
@@ -160,7 +160,7 @@ This project was awarded first place at &lt;a href=&quot;https://jlabs.jnjinnova
 &lt;!-- Feel free to change the width and height to your desired video size. --&gt;
 
 &lt;div class=&quot;embed-container&quot;&gt;
-  &lt;iframe src=&quot;https://www.youtube.com/embed/wIDE0NGT9oM&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/1imlCMfr4mI&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
   &lt;/iframe&gt;
 &lt;/div&gt;
 
@@ -824,7 +824,7 @@ It gathers sensor data and provides various services, such as social protection,
 &lt;p&gt;Network camera main developer on Task Force Team&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Implement Bluetooth communication module between network camera and devices&lt;/li&gt;
-  &lt;li&gt;Implement communication module with IoT server (RESTful)&lt;/li&gt;
+  &lt;li&gt;Implement communication module with IoT server (REST)&lt;/li&gt;
   &lt;li&gt;Implement serial communication module (rs-485)&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1004,8 +1004,7 @@ I was able to get many experiences in differnt system, frameworks and devices.&l
 
 &lt;h5 id=&quot;tb-eye-project&quot;&gt;TB-EYE project&lt;/h5&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/On-screen_display&quot;&gt;OSD&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Work on various type OSD&lt;/li&gt;
+  &lt;li&gt;Work on various type &lt;a href=&quot;https://en.wikipedia.org/wiki/On-screen_display&quot;&gt;OSD&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Implement image based charecter OSD module&lt;/li&gt;
   &lt;li&gt;Handle raw image format(eg. yuv420, yuv422)&lt;/li&gt;
   &lt;li&gt;Implement C# window application&lt;/li&gt;

@@ -25,7 +25,7 @@ Development Team Leader
 ----
 #### Project Detail
 
-{% include youtubePlayer.html id="wIDE0NGT9oM" %}
+{% include youtubePlayer.html id="1imlCMfr4mI" %}
 
 \\
 Each year, Cardiovascular disease causes a large portion of annual death around the world. 
