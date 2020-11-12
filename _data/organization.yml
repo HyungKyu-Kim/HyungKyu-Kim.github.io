@@ -21,10 +21,10 @@
     - Handled video CODEC (H.264, MJPEG, YUV422, YUV420)
     - Handled network protocols (RTSP, RTP, HTTP, FTP, SMTP)
     - Handled several communication types (serial, WIFI, BLUETOOTH, LTE, ethernet)
-- title: Private
-  etc:
-  logo:
-  brief: My private projects
-  duration:
-  description:
-  role:
+# - title: Private
+#  etc:
+#  logo:
+#  brief: My private projects
+#  duration:
+#  description:
+#  role:
