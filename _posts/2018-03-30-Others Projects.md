@@ -3,7 +3,7 @@ title:  Other Projects
 layout: post
 group: Portfolio
 organization: Samsung Techwin
-thumbnail: /images/samsung/etc.png
+thumbnail: /images/samsung/etc.jpg
 permalink: /portfolio/samsung/other_projects
 ---
 
