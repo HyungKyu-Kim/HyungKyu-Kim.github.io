@@ -3,7 +3,7 @@ title:  Other Projects
 layout: post
 group: Portfolio
 organization: Samsung Techwin
-thumbnail: https://image.freepik.com/free-vector/programmer-s-workplace-writing-code-laptop_80328-238.jpg
+thumbnail: /images/samsung/etc.png
 permalink: /portfolio/samsung/other_projects
 ---
 
