@@ -2,6 +2,10 @@
 layout: page
 group: Hyungkyu Kim
 ---
+{% include youtubePlayer.html id="MP9-zlR1cYc" %}
+
+---
+
 <div align="center">
     I am an enthusiast eager to change world via IT technology.<br>
     I dream of systems to break the boundaries between cyber world and physical world.<br>
