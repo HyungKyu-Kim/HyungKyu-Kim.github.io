@@ -99,5 +99,5 @@ I was able to get many experiences in differnt system, frameworks and devices.
 ##### Add on board POC
 * Implment video fusion between camera and thermal camera on raspberry pi 
 
-##### Chilsung engineering project: 
+##### Chilsung engineering project
 * Implement camera control routine via RS485, AUX 
