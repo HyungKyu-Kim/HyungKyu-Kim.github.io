@@ -180,4 +180,4 @@ TSNE result was like below
 ----
 
 ##### Patent
-[1] Pathological diagnosis method and apparatus based on machine learning KR, P2018-0173475
+[1] Pathological diagnosis method and apparatus based on machine learning 10-2020-0082660
