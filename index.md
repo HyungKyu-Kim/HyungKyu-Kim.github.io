@@ -34,14 +34,16 @@ After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and
     </div>
     <div class="profile__right">
         <div class="private_info">Skills</div> 
-        <li><strong>Programming:</strong> C/C++, Linux system programming, Python, C#, PHP, HTML, CSS</li>
+        <li><strong>Programming:</strong> C/C++, Linux system programming, Python</li>
         <li><strong>ML Framework:</strong> Pytorch, Tensorflow, Ray (Berkeley RL framework)</li>
         <li><strong>Cloud Platform:</strong> GCP, MS-azure</li>
         <li><strong>Data Analysis:</strong> Pandas, R</li>
+        <li><strong>Simulation:</strong> Ansys, ROS-gazebo, Unity</li>
         <li><strong>Software Architecture:</strong> UML</li>
         <li><strong>Coworking:</strong> Jira, Trello, Slack, Git, Svn</li>
         <li><strong>Documentation:</strong> Wiki, Markdown</li>
-        <li><strong>ETC:</strong> Video codec, Network system, ROS, Docker, Photoshop</li>
+        <li><strong>Graphic:</strong> Blender, Adobe After Effect, Adobe Premiere, Adobe Photoshop, Adobe Illustrator</li>
+        <li><strong>ETC:</strong> Video codec, Network system, ROS, Docker</li>
     </div>
 </div>
 
