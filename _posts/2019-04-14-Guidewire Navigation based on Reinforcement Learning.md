@@ -340,3 +340,9 @@ We expect to advance to a new experiment project in a 3D environment in the seco
 <figure>
   <img src="/images/medipixel/profile_biorobot_3denv.png" width="60%">
 </figure>
+
+
+----
+
+##### Patent
+[1] METHOD AND APPARATUS FOR TRAINING MACHINE LEARNING MODELS TO DETERMINE ACTION OF MEDICAL TOOL INSERTION DEVICE 10-2021-0101640
