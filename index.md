@@ -31,6 +31,7 @@ After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and
         <li><strong>Cloud System:</strong> VSaaS client</li> 
         <li><strong>Deep Learning:</strong> Medical information system</li>
         <li><strong>Reinforcement Learning:</strong> Medical robot control system, Biomechanical control system, Distributed RL system</li>
+        <li><strong>Robotics:</strong> Shape changing robot, Soft robot simulation </li>
     </div>
     <div class="profile__right">
         <div class="private_info">Skills</div> 
