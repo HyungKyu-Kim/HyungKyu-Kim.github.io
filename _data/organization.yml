@@ -1,3 +1,13 @@
+- title: Seoul National University
+  etc: 
+  logo: /images/snu/snu_ui_download.png
+  brief: Researcher
+  duration: April 2021 ~ 
+  description:
+  role:
+    - Developed reinforcement learning systems
+    - Developed robotics control Systems
+    - Developed a fluid simulator
 - title: Medipixel
   etc: Medipixel is a medical start-up. As coworking with many stakeholder whom in medical, tech domains, It have been creating interesting systems.
   logo: /images/medipixel/logo_medipixel.png
@@ -5,9 +15,9 @@
   duration: November 2017 ~ June 2019
   description:
   role:
-    - Developed Deep Learning Systems
-    - Developed Reinforcement Learning Systems
-    - Developed Robotics Control Systems
+    - Developed deep learning systems
+    - Developed reinforcement learning systems
+    - Developed robotics control systems
     - Handled medical data (DICOM, EMR)
 - title: Samsung Techwin
   etc: Samsung Techwin is a global top tier security devices manufacturer. It have been developing many network devices used for physical security.
