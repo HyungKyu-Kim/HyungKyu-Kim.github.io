@@ -7,8 +7,8 @@ thumbnail: /images/snu/20240126 TCTabstract_Robot_RL figure_update.png
 permalink: /portfolio/snu/shape_changing_robot_system
 ---
 
-This system alters the robot's morphology to minimize drag forces in environments with flowing currents. 
-My team developed RL(Reinforcement Learning)-based control software. 
+This system adjusts the robot's shape to minimize drag forces in environments with flowing currents. 
+My team developed a robot system controlled by Reinforcement Learning (RL).
 Additionally, to address the challenges of real-world learning in aquatic environments, we implemented a fluid simulator for use in the learning environment.
 
 <!--break-->
