@@ -2,7 +2,7 @@
 title: Shape changing robot system
 layout: post
 group: Portfolio
-organization: SNU
+organization: Seoul National University
 thumbnail: /images/snu/20240126 TCTabstract_Robot_RL figure_update.png
 permalink: /portfolio/snu/shape_changing_robot_system
 ---
