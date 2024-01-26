@@ -7,6 +7,8 @@
     - page: base
       url: /portfolio
       subfolderitems:
+      - page: Shape Changing Robot System
+        url: /portfolio/snu/shape_changing_robot_system
       - page: Guidewire Navigation based on Reinforcement Learning
         url: /portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning
       - page: Lung Cancer Diagnosis Clinical Decision Support System
