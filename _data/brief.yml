@@ -1,3 +1,12 @@
+- title: Seoul National University
+  etc: 
+  logo: /images/snu/snu_ui_download.png
+  brief: Researcher
+  duration: April 2021 ~ 
+  description:
+  pjt1: Shape changing robot system
+  img1: /images/medipixel/profile_biorobot_brief.gif
+  url1: /portfolio/snu/shape_changing_robot_system
 - title: Medipixel
   etc: Medipixel is a medical start-up. As coworking with many stakeholder whom in medical, tech domains, It have been creating interesting systems.
   logo: /images/medipixel/logo_medipixel.png
