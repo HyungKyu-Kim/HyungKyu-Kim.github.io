@@ -1,5 +1,5 @@
 ---
-title: Shape changing robot system
+title: Shape Changing Robot System
 layout: post
 group: Portfolio
 organization: Seoul National University
