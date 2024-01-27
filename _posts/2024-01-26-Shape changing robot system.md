@@ -35,3 +35,7 @@ With shape-changing capabilities, we anticipate that the robot can adapt to dyna
 We employed reinforcement learning to enable the system to learn how to transform the appropriate shape. 
 Additionally, to reduce the burden of continuous exposure of the actual robot to aquatic environments during experiments, we implemented a ROS(Robot Operating System)-based fluid simulator. 
 Customizing the Gazebo physics engine for ROS using the PCISPH (Predictive-corrective incompressible smoothed particle hydrodynamics) model, we developed a robot simulator.
+
+<p align="center">
+    <img src="/images/snu/shape_robot_sim.webp">
+<p>
