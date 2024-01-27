@@ -28,7 +28,9 @@ For example, in front-flow situations, the robot might transform into a sharp fo
 In contrast, the robot uses a flat form transformation to harness back-flow forces. 
 With shape-changing capabilities, we anticipate that the robot can adapt to dynamic environments.
 
-![Alt text](/images/snu/shape_robot_real.webp)
+<p align="center">
+    <img src="/images/snu/shape_robot_real.webp">
+p>
 
 We employed reinforcement learning to enable the system to learn how to transform the appropriate shape. 
 Additionally, to reduce the burden of continuous exposure of the actual robot to aquatic environments during experiments, we implemented a ROS(Robot Operating System)-based fluid simulator. 
