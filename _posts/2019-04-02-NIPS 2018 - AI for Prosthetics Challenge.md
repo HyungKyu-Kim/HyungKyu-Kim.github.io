@@ -3,7 +3,7 @@ title:  NeurIPS 2018 - AI for Prosthetics Challenge
 layout: post
 group: Portfolio
 organization: Medipixel
-thumbnail: /images/medipixel/nips_run.gif
+thumbnail: /images/medipixel/nips_run2.gif
 permalink: /portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge
 ---
 
