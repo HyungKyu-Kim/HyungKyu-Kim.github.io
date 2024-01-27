@@ -3,7 +3,7 @@ title:  Guidewire Navigation based on Reinforcement Learning
 layout: post
 group: Portfolio
 organization: Medipixel
-thumbnail: /images/medipixel/20190602 TCTabstract_Robot_RL figure_update.png
+thumbnail: /images/medipixel/20190602 TCTabstract_Robot_RL figure_update2.png
 permalink: /portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning
 ---
 This system places a stent in the target lesion of the coronary artery via a controlling manipulator made by [Asan Medical Center](http://eng.amc.seoul.kr/gb/lang/main.do). 
