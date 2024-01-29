@@ -27,7 +27,7 @@ After that, I joined [Medipixel](/portfolio#Medipixel), the medical startup, and
     <div class="profile__right">
         <div class="private_info">Skills</div> 
         <li><strong>Programming:</strong> C/C++, Linux system programming, Python</li>
-        <li><strong>ML Framework:</strong> Pytorch, Tensorflow, Ray (Berkeley RL framework)</li>
+        <li><strong>ML Framework:</strong> Pytorch, Tensorflow, Ray RLlib</li>
         <li><strong>Cloud Platform:</strong> GCP, MS-azure</li>
         <li><strong>Data Analysis:</strong> Pandas, R</li>
         <li><strong>Simulation:</strong> Ansys, ROS-gazebo, Unity</li>
