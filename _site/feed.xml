@@ -1,1099 +1,1153 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-19T01:38:37+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyungkyu Kim</title><subtitle>Hyungkyu Kim's blog</subtitle><author><name>Hyungkyu Kim</name></author><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness">&lt;p&gt;To solve the floor flatness problem on construction sites, I have been making device to check the flatness level.
-This is an ongoing project that converges technologies including LIDAR and SLAM.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-15T13:16:02+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/02/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-02-15T11:32:47+09:00</published><updated>2024-02-15T11:32:47+09:00</updated><id>http://localhost:4000/jekyll/update/2024/02/15/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/02/15/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
-&lt;!--break--&gt;
+<p>Jekyll requires blog post files to be named according to the following format:</p>
 
-&lt;h4 id=&quot;my-role&quot;&gt;My Role&lt;/h4&gt;
-&lt;p&gt;Main developer&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Analyze requirements&lt;/li&gt;
-  &lt;li&gt;Design device concept&lt;/li&gt;
-  &lt;li&gt;Design system architecture&lt;/li&gt;
-  &lt;li&gt;Implement system&lt;/li&gt;
-&lt;/ul&gt;
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
 
-&lt;hr /&gt;
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
-&lt;h4 id=&quot;project-detail&quot;&gt;Project Detail&lt;/h4&gt;
+<p>Jekyll also offers powerful support for code snippets:</p>
 
-&lt;p&gt;In many construction site, floor leveling is hard to handle perfectly.
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Shape Changing Robot System</title><link href="http://localhost:4000/portfolio/snu/shape_changing_robot_system" rel="alternate" type="text/html" title="Shape Changing Robot System" /><published>2024-01-26T00:00:00+09:00</published><updated>2024-01-26T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/snu/Shape%20changing%20robot%20system</id><content type="html" xml:base="http://localhost:4000/portfolio/snu/shape_changing_robot_system"><![CDATA[<p>This system adjusts the robot’s shape to minimize drag forces in environments with flowing currents. 
+My team developed a robot system controlled by Reinforcement Learning (RL).
+Additionally, to address the challenges of real-world learning in aquatic environments, we implemented a fluid simulator for use in the learning environment.</p>
+
+<!--break-->
+
+<h4 id="my-role">My Role</h4>
+<p>System main engineer</p>
+<ul>
+  <li>Developed fluid simulator based on hydrodynamics model(PCISPH)</li>
+  <li>Developed robot control system based on reinforcement learning</li>
+</ul>
+
+<hr />
+<h4 id="project-detail">Project Detail</h4>
+
+<p>At SNU, my team aims to demonstrate the concept that the robot system can transform into the most appropriate form using contextual knowledge. 
+To achieve this, we developed a robot system with the ability to attain the desired drag force in diverse fluid environments. 
+For example, in front-flow situations, the robot might transform into a sharp form to decrease drag force. 
+In contrast, the robot uses a flat form transformation to harness back-flow forces. 
+With shape-changing capabilities, we anticipate that the robot can adapt to dynamic environments.</p>
+
+<p align="center">
+    <img src="/images/snu/shape_robot_real.webp" />
+<p>
+
+We employed reinforcement learning to enable the system to learn how to transform the appropriate shape. 
+Additionally, to reduce the burden of continuous exposure of the actual robot to aquatic environments during experiments, we implemented a ROS(Robot Operating System)-based fluid simulator. 
+Customizing the Gazebo physics engine for ROS using the PCISPH (Predictive-corrective incompressible smoothed particle hydrodynamics) model, we developed a robot simulator.
+
+<p align="center">
+    <img src="/images/snu/shape_robot_sim.webp" />
+<p>
+</p></p></p></p>]]></content><author><name></name></author><summary type="html"><![CDATA[This system adjusts the robot’s shape to minimize drag forces in environments with flowing currents. My team developed a robot system controlled by Reinforcement Learning (RL). Additionally, to address the challenges of real-world learning in aquatic environments, we implemented a fluid simulator for use in the learning environment.]]></summary></entry><entry><title type="html">Floor flatness measuring device</title><link href="http://localhost:4000/portfolio/private/flatness" rel="alternate" type="text/html" title="Floor flatness measuring device" /><published>2019-04-28T00:00:00+09:00</published><updated>2019-04-28T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/private/Floor%20flatness%20measuring%20device</id><content type="html" xml:base="http://localhost:4000/portfolio/private/flatness"><![CDATA[<p>To solve the floor flatness problem on construction sites, I have been making device to check the flatness level.
+This is an ongoing project that converges technologies including LIDAR and SLAM.</p>
+
+<!--break-->
+
+<h4 id="my-role">My Role</h4>
+<p>Main developer</p>
+<ul>
+  <li>Analyze requirements</li>
+  <li>Design device concept</li>
+  <li>Design system architecture</li>
+  <li>Implement system</li>
+</ul>
+
+<hr />
+
+<h4 id="project-detail">Project Detail</h4>
+
+<p>In many construction site, floor leveling is hard to handle perfectly.
 It is caused by problems including wrong concrete pouring and uneven base ground.
-Especially, this uneven floor makes issues such that floor coating becomes poor looking shapes and special facilities where strict environment is required (e.g. distribution center, precision manufacture) cannot have proper ground state to install equipment.&lt;/p&gt;
+Especially, this uneven floor makes issues such that floor coating becomes poor looking shapes and special facilities where strict environment is required (e.g. distribution center, precision manufacture) cannot have proper ground state to install equipment.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/private/flat_comparison.PNG&quot; width=&quot;90%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/private/flat_comparison.PNG" width="90%" />
+</figure>
 
-&lt;p&gt;Many construction companies try to fix this problem by various methods.
+<p>Many construction companies try to fix this problem by various methods.
 One of general solutions is to use grinding machine.
-Running grinding machine, operator needs to have sufficient experience to determine how much grinding should be done in order to make the ground even.&lt;/p&gt;
+Running grinding machine, operator needs to have sufficient experience to determine how much grinding should be done in order to make the ground even.</p>
 
-&lt;p&gt;In this process, there are two &lt;strong&gt;drawbacks&lt;/strong&gt; that&lt;/p&gt;
+<p>In this process, there are two <strong>drawbacks</strong> that</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Success of grinding depends on personal skill based on eye measurement&lt;/li&gt;
-  &lt;li&gt;There is no quantified measurement system on how much an operator levels the ground off&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Success of grinding depends on personal skill based on eye measurement</li>
+  <li>There is no quantified measurement system on how much an operator levels the ground off</li>
+</ul>
 
-&lt;p&gt;Thus, if there is a way to &lt;strong&gt;support flatness measurement task through quantifying atypical image data and visualizing data&lt;/strong&gt;, work efficiency and reliability can be increased.
-I made a team with my friend and undertook to solve this problem.&lt;/p&gt;
+<p>Thus, if there is a way to <strong>support flatness measurement task through quantifying atypical image data and visualizing data</strong>, work efficiency and reliability can be increased.
+I made a team with my friend and undertook to solve this problem.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/private/flat_grinding.PNG&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/private/flat_grinding.PNG" />
+</figure>
 
-&lt;h5 id=&quot;planning&quot;&gt;Planning&lt;/h5&gt;
+<h5 id="planning">Planning</h5>
 
-&lt;p&gt;Starting from this project, the final purpose that we want to achieve is to improve all procedures of floor leveling. 
+<p>Starting from this project, the final purpose that we want to achieve is to improve all procedures of floor leveling. 
 Because it is hard to improve all procedures of floor leveling at once, we established three big stages.
 This project is just on the first stage of bigger plan.
-Briefly, we approach the goal by below methods&lt;/p&gt;
+Briefly, we approach the goal by below methods</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Establish quantifying atypical data system&lt;/li&gt;
-  &lt;li&gt;Gather data&lt;/li&gt;
-  &lt;li&gt;Evaluate tasks&lt;/li&gt;
-  &lt;li&gt;Improve equipment&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Establish quantifying atypical data system</li>
+  <li>Gather data</li>
+  <li>Evaluate tasks</li>
+  <li>Improve equipment</li>
+</ul>
 
-&lt;h6 id=&quot;1-measurement-and-visualization&quot;&gt;1. Measurement and Visualization&lt;/h6&gt;
-&lt;p&gt;First of all, we need to acquire precise spatio map. 
-Only if we obtain clear data, it is possible to advance the rest of procedure based on quantified indicator.&lt;/p&gt;
+<h6 id="1-measurement-and-visualization">1. Measurement and Visualization</h6>
+<p>First of all, we need to acquire precise spatio map. 
+Only if we obtain clear data, it is possible to advance the rest of procedure based on quantified indicator.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/private/flat_map.png&quot; width=&quot;50%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/private/flat_map.png" width="50%" />
+</figure>
 
-&lt;h6 id=&quot;2-gathering-field-data&quot;&gt;2. Gathering Field Data&lt;/h6&gt;
-&lt;p&gt;If it is possible to provide clear spatio map data, gathering meaningful data from field is feasible.
+<h6 id="2-gathering-field-data">2. Gathering Field Data</h6>
+<p>If it is possible to provide clear spatio map data, gathering meaningful data from field is feasible.
 First, we can calculate score of flatness from measuring data via several evaluating standard of floor flatness.
-Second, we can evaluate results of field workers by analyzing difference of measured map data before task and after task.&lt;/p&gt;
+Second, we can evaluate results of field workers by analyzing difference of measured map data before task and after task.</p>
 
-&lt;p&gt;Also, we are going to collect additional data including path of grinding machine in field, ground material and workers’ information.&lt;/p&gt;
+<p>Also, we are going to collect additional data including path of grinding machine in field, ground material and workers’ information.</p>
 
-&lt;p&gt;Analyzing these data, we decide what the best result done by worker is and the best way to operate a grinding equipment. 
-Furthermore, through the best method, it is possible to provide driving guidelines of grinding machine for field workers.&lt;/p&gt;
+<p>Analyzing these data, we decide what the best result done by worker is and the best way to operate a grinding equipment. 
+Furthermore, through the best method, it is possible to provide driving guidelines of grinding machine for field workers.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/private/flat_data.png&quot; width=&quot;90%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/private/flat_data.png" width="90%" />
+</figure>
 
-&lt;h6 id=&quot;3-improvement-of-grinding-machine&quot;&gt;3. Improvement of Grinding Machine&lt;/h6&gt;
-&lt;p&gt;From accumulated data, we expect to find improvable point of grinding machine because present machine has a shortage that it is hard to cover areas in detail.
-This process includes designing new machine and numerous experiments.&lt;/p&gt;
+<h6 id="3-improvement-of-grinding-machine">3. Improvement of Grinding Machine</h6>
+<p>From accumulated data, we expect to find improvable point of grinding machine because present machine has a shortage that it is hard to cover areas in detail.
+This process includes designing new machine and numerous experiments.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/private/flat_grinder.png&quot; width=&quot;50%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/private/flat_grinder.png" width="50%" />
+</figure>
 
-&lt;h5 id=&quot;requirements&quot;&gt;Requirements&lt;/h5&gt;
+<h5 id="requirements">Requirements</h5>
 
-&lt;p&gt;At the beginning of project, my team investigated requirements from field workers at first.
-To acquire sufficient information, we interviewed in many ways.&lt;/p&gt;
+<p>At the beginning of project, my team investigated requirements from field workers at first.
+To acquire sufficient information, we interviewed in many ways.</p>
 
-&lt;h6 id=&quot;how-accurate-should-a-sensor-be&quot;&gt;How accurate should a sensor be?&lt;/h6&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;There is no exact numerical criterion. 
+<h6 id="how-accurate-should-a-sensor-be">How accurate should a sensor be?</h6>
+<blockquote>
+  <p>There is no exact numerical criterion. 
 In the present process, since most workers check flatness based on eye measurement, it might vary by people.
 But, I think that it is necessary for the sensor to be accurate enough to determine whether it would be flat enough to install precision equipment.
-It might be about 3mm.&lt;/p&gt;
-&lt;/blockquote&gt;
+It might be about 3mm.</p>
+</blockquote>
 
-&lt;p&gt;&lt;strong&gt;☛ Requirements:&lt;/strong&gt; Sensor should be able to check under 3mm.&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><strong>☛ Requirements:</strong> Sensor should be able to check under 3mm.<br />
+<br /></p>
 
-&lt;h6 id=&quot;how-long-does-it-takes-to-measure-flatness&quot;&gt;How long does it takes to measure flatness?&lt;/h6&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Currently, we do not devote a lot of flatness measurement time.
+<h6 id="how-long-does-it-takes-to-measure-flatness">How long does it takes to measure flatness?</h6>
+<blockquote>
+  <p>Currently, we do not devote a lot of flatness measurement time.
 But as correct ground information map is important, we can put additional time and human resources if flatness measurement is needed extra process to measure and map ground information.
-We put a request to minimize measurement time as much as possible because there are other processes in the whole procedure.&lt;/p&gt;
-&lt;/blockquote&gt;
+We put a request to minimize measurement time as much as possible because there are other processes in the whole procedure.</p>
+</blockquote>
 
-&lt;p&gt;&lt;strong&gt;☛ Requirements:&lt;/strong&gt; Measurement time should be minimized as much as possible.&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><strong>☛ Requirements:</strong> Measurement time should be minimized as much as possible.<br />
+<br /></p>
 
-&lt;h6 id=&quot;how-much-budget-should-be-devoted-to-develop-a-device&quot;&gt;How much budget should be devoted to develop a device?&lt;/h6&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Average budget of procedure is about 0000 and assigned budget on usage of equipment is about 0000.
-So, we wish the price of measurement device about 0000.&lt;/p&gt;
-&lt;/blockquote&gt;
+<h6 id="how-much-budget-should-be-devoted-to-develop-a-device">How much budget should be devoted to develop a device?</h6>
+<blockquote>
+  <p>Average budget of procedure is about 0000 and assigned budget on usage of equipment is about 0000.
+So, we wish the price of measurement device about 0000.</p>
+</blockquote>
 
-&lt;p&gt;&lt;strong&gt;☛ Requirements:&lt;/strong&gt;  Device development cost should be under 0000.&lt;/p&gt;
+<p><strong>☛ Requirements:</strong>  Device development cost should be under 0000.</p>
 
-&lt;h5 id=&quot;research&quot;&gt;Research&lt;/h5&gt;
+<h5 id="research">Research</h5>
 
-&lt;p&gt;There are many sensors used for obtaining space information.
+<p>There are many sensors used for obtaining space information.
 Since most of them have a positive correlation between price and accuracy, we need to find a compromise.
 As task sites can be both inside and outside, there is a huge possibility that sensors can be affected by variance of illumination condition. 
-Therefore, photogrammetry was excluded in selection and we decided to start from &lt;a href=&quot;https://en.wikipedia.org/wiki/Lidar&quot;&gt;Light Detection And Ranging&lt;/a&gt;(LIDAR) sensor because it has a reasonable price and accuracy.&lt;/p&gt;
+Therefore, photogrammetry was excluded in selection and we decided to start from <a href="https://en.wikipedia.org/wiki/Lidar">Light Detection And Ranging</a>(LIDAR) sensor because it has a reasonable price and accuracy.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/private/flat_LiDAR.jpeg&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/private/flat_LiDAR.jpeg" width="70%" />
+</figure>
 
-&lt;p&gt;Furthermore, to get spatial map, it is necessary to choose a method to build map by data from sensors.
-Thus, we study about &lt;a href=&quot;https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping&quot;&gt;Simultaneous Localization And Mapping&lt;/a&gt;(SLAM).&lt;/p&gt;
+<p>Furthermore, to get spatial map, it is necessary to choose a method to build map by data from sensors.
+Thus, we study about <a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">Simultaneous Localization And Mapping</a>(SLAM).</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/private/flat_SLAM.png&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">To solve the floor flatness problem on construction sites, I have been making device to check the flatness level. This is an ongoing project that converges technologies including LIDAR and SLAM.</summary></entry><entry><title type="html">Guidewire Navigation based on Reinforcement Learning</title><link href="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning" rel="alternate" type="text/html" title="Guidewire Navigation based on Reinforcement Learning" /><published>2019-04-14T00:00:00+09:00</published><updated>2019-04-14T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Guidewire%20Navigation%20based%20on%20Reinforcement%20Learning</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning">&lt;p&gt;This system places a stent in the target lesion of the coronary artery via a controlling manipulator made by &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt;. 
-It is the world’s first autonomous &lt;a href=&quot;https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention&quot;&gt;PCI&lt;/a&gt; robot system. 
+<figure>
+  <img src="/images/private/flat_SLAM.png" width="70%" />
+</figure>]]></content><author><name></name></author><summary type="html"><![CDATA[To solve the floor flatness problem on construction sites, I have been making device to check the flatness level. This is an ongoing project that converges technologies including LIDAR and SLAM.]]></summary></entry><entry><title type="html">Guidewire Navigation based on Reinforcement Learning</title><link href="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning" rel="alternate" type="text/html" title="Guidewire Navigation based on Reinforcement Learning" /><published>2019-04-14T00:00:00+09:00</published><updated>2019-04-14T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Guidewire%20Navigation%20based%20on%20Reinforcement%20Learning</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/guidewire_navigation_based_on_reinforcement_learning"><![CDATA[<p>This system places a stent in the target lesion of the coronary artery via a controlling manipulator made by <a href="http://eng.amc.seoul.kr/gb/lang/main.do">Asan Medical Center</a>. 
+It is the world’s first autonomous <a href="https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention">PCI</a> robot system. 
 My team developed reinforcement learning-based control software. 
-This project was awarded first place at &lt;a href=&quot;https://jlabs.jnjinnovation.com/quickfire-challenges/seoul-innovation-quickfire-challenge-robotics-digital-surgery&quot;&gt;Johnson &amp;amp; Johnson QuickFire Challenge&lt;/a&gt;.&lt;/p&gt;
+This project was awarded first place at <a href="https://jlabs.jnjinnovation.com/quickfire-challenges/seoul-innovation-quickfire-challenge-robotics-digital-surgery">Johnson &amp; Johnson QuickFire Challenge</a>.</p>
 
-&lt;!--break--&gt;
+<!--break-->
 
-&lt;h4 id=&quot;my-role&quot;&gt;My Role&lt;/h4&gt;
-&lt;p&gt;Development Team Leader&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Design overall system architecture&lt;/li&gt;
-  &lt;li&gt;Design data flow in system&lt;/li&gt;
-  &lt;li&gt;Design an experiment process&lt;/li&gt;
-  &lt;li&gt;Establish experiment environment&lt;/li&gt;
-  &lt;li&gt;Implement device communication(manipulator, camera) module&lt;/li&gt;
-  &lt;li&gt;Implement reinforcement learning environment module&lt;/li&gt;
-&lt;/ul&gt;
+<h4 id="my-role">My Role</h4>
+<p>Development Team Leader</p>
+<ul>
+  <li>Design overall system architecture</li>
+  <li>Design data flow in system</li>
+  <li>Design an experiment process</li>
+  <li>Establish experiment environment</li>
+  <li>Implement device communication(manipulator, camera) module</li>
+  <li>Implement reinforcement learning environment module</li>
+</ul>
 
-&lt;hr /&gt;
-&lt;h4 id=&quot;project-detail&quot;&gt;Project Detail&lt;/h4&gt;
+<hr />
+<h4 id="project-detail">Project Detail</h4>
 
-&lt;!-- Feel free to change the width and height to your desired video size. --&gt;
+<!-- Feel free to change the width and height to your desired video size. -->
 
-&lt;div class=&quot;embed-container&quot;&gt;
-  &lt;iframe src=&quot;https://www.youtube.com/embed/1imlCMfr4mI&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
-  &lt;/iframe&gt;
-&lt;/div&gt;
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/1imlCMfr4mI" width="700" height="480" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
 
-&lt;p&gt;&lt;br /&gt;
+<p><br />
 Each year, Cardiovascular disease causes a large portion of annual death around the world. 
-A &lt;a href=&quot;https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death&quot;&gt;WHO announcement&lt;/a&gt; shows that ischaemic heart disease was the world’s biggest killer in 2016 and one of the most general treatments for ischaemic heart disease is &lt;a href=&quot;https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention&quot;&gt;Percutaneous Coronary Intervention&lt;/a&gt;. 
-However, &lt;strong&gt;traditional PCI has several drawbacks:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Large gap of proficiency and difficult transfer of an advanced skill&lt;/li&gt;
-  &lt;li&gt;Exposure to harmful radiation generated from angiography&lt;/li&gt;
-  &lt;li&gt;Long time required (about 1 hour)&lt;/li&gt;
-&lt;/ul&gt;
+A <a href="https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death">WHO announcement</a> shows that ischaemic heart disease was the world’s biggest killer in 2016 and one of the most general treatments for ischaemic heart disease is <a href="https://en.wikipedia.org/wiki/Percutaneous_coronary_intervention">Percutaneous Coronary Intervention</a>. 
+However, <strong>traditional PCI has several drawbacks:</strong></p>
+<ul>
+  <li>Large gap of proficiency and difficult transfer of an advanced skill</li>
+  <li>Exposure to harmful radiation generated from angiography</li>
+  <li>Long time required (about 1 hour)</li>
+</ul>
 
-&lt;p&gt;To overcome these challenges, Medipixel has been collaborating with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; to develop &lt;strong&gt;the world’s first autonomous PCI robot system&lt;/strong&gt;. 
+<p>To overcome these challenges, Medipixel has been collaborating with <a href="http://eng.amc.seoul.kr/gb/lang/main.do">Asan Medical Center</a> to develop <strong>the world’s first autonomous PCI robot system</strong>. 
 This system autonomously navigates guide wire to the target lesion, which means it transform an atypical atypical procedure requiring personal skill and experience to typical procedure.
-The &lt;strong&gt;“Standardization of Procedure”&lt;/strong&gt; process has advantages such as:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Reducing skill gap between an experienced doctor and a novice doctor&lt;/li&gt;
-  &lt;li&gt;Reducing exposure time to radiation&lt;/li&gt;
-  &lt;li&gt;Enabling workers to do other tasks&lt;/li&gt;
-  &lt;li&gt;Reducing time&lt;/li&gt;
-&lt;/ul&gt;
+The <strong>“Standardization of Procedure”</strong> process has advantages such as:</p>
+<ul>
+  <li>Reducing skill gap between an experienced doctor and a novice doctor</li>
+  <li>Reducing exposure time to radiation</li>
+  <li>Enabling workers to do other tasks</li>
+  <li>Reducing time</li>
+</ul>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_animal_ex.png&quot; /&gt;
-  &lt;figcaption&gt;Animal test observation - COPYRIGHT© 2017 Medipixel. All Rights Reserved.&lt;/figcaption&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_animal_ex.png" />
+  <figcaption>Animal test observation - COPYRIGHT© 2017 Medipixel. All Rights Reserved.</figcaption>
+</figure>
 
-&lt;h5 id=&quot;challenges&quot;&gt;Challenges&lt;/h5&gt;
-&lt;p&gt;For a successful PCI procedure, it is necessary to quantify the abstract and complex factors, such as the doctor’s experience and medical knowledge, into proper numerical values in the system. 
-When performing this task, we considered the following issues:&lt;/p&gt;
+<h5 id="challenges">Challenges</h5>
+<p>For a successful PCI procedure, it is necessary to quantify the abstract and complex factors, such as the doctor’s experience and medical knowledge, into proper numerical values in the system. 
+When performing this task, we considered the following issues:</p>
 
-&lt;div class=&quot;container&quot;&gt;
-    &lt;div class=&quot;image&quot;&gt;
-        &lt;img src=&quot;/images/medipixel/profile_biorobot_medicine.png&quot; /&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;text&quot;&gt;
-        &lt;h6&gt;Safety&lt;/h6&gt;
-        &lt;br /&gt;
-        &lt;ul&gt;
-            &lt;li&gt;
+<div class="container">
+    <div class="image">
+        <img src="/images/medipixel/profile_biorobot_medicine.png" />
+    </div>
+    <div class="text">
+        <h6>Safety</h6>
+        <br />
+        <ul>
+            <li>
                 There is a possibility that even an unexpected movement of the guidewire can cause a fatal situation in the coronary artery
-            &lt;/li&gt;
-            &lt;li&gt;
+            </li>
+            <li>
                 Doctors must be able to monitor and intervene in an emergency situation 
-            &lt;/li&gt;
-            &lt;li&gt;
+            </li>
+            <li>
                 Intervention of doctor should be quick
-            &lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+            </li>
+        </ul>
+    </div>
+</div>
 
-&lt;div class=&quot;container&quot;&gt; 
-    &lt;div class=&quot;image&quot;&gt;
-        &lt;img src=&quot;/images/medipixel/profile_biorobot_robotics.png&quot; /&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;text&quot;&gt;
-        &lt;h6&gt;Nonlinearity of manipulation&lt;/h6&gt;
-        &lt;br /&gt;
-        &lt;ul&gt;
-            &lt;li&gt;
+<div class="container"> 
+    <div class="image">
+        <img src="/images/medipixel/profile_biorobot_robotics.png" />
+    </div>
+    <div class="text">
+        <h6>Nonlinearity of manipulation</h6>
+        <br />
+        <ul>
+            <li>
                 Friction and twist of wire can trigger a difference between control input and output
-            &lt;/li&gt;
-            &lt;li&gt;
+            </li>
+            <li>
                 Manipulation error in a real environment (e.g. wire slip) is another issue in terms of error management
-            &lt;/li&gt;
-            &lt;li&gt;
+            </li>
+            <li>
                 Control of the flexible body is a traditionally hard problem 
-            &lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+            </li>
+        </ul>
+    </div>
+</div>
 
-&lt;div class=&quot;container&quot;&gt; 
-    &lt;div class=&quot;image&quot;&gt;
-        &lt;img src=&quot;/images/medipixel/profile_biorobot_cag.gif&quot; /&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;text&quot;&gt;
-        &lt;h6&gt;Complexity of environment&lt;/h6&gt;
-        &lt;br /&gt;
-        &lt;ul&gt;
-            &lt;li&gt;
+<div class="container"> 
+    <div class="image">
+        <img src="/images/medipixel/profile_biorobot_cag.gif" />
+    </div>
+    <div class="text">
+        <h6>Complexity of environment</h6>
+        <br />
+        <ul>
+            <li>
                 Coronary arteries have a complex physical structure including dynamic status changes like blood flow and heartbeat
-            &lt;/li&gt;
-            &lt;li&gt;
+            </li>
+            <li>
                 It is possible that external factors (e.g. condition of patient) cause abnormal environments  
-            &lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+            </li>
+        </ul>
+    </div>
+</div>
 
-&lt;h5 id=&quot;required-technologies&quot;&gt;Required Technologies&lt;/h5&gt;
-&lt;p&gt;To undertake the complex project, my team prepared various technologies including medicine, robotics and reinforcement learning.&lt;/p&gt;
+<h5 id="required-technologies">Required Technologies</h5>
+<p>To undertake the complex project, my team prepared various technologies including medicine, robotics and reinforcement learning.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;To maintain safety, we needed to comprehend the necessary medical knowledge related to PCI&lt;/li&gt;
-  &lt;li&gt;To achieve robust control, my team surveyed domains such as Robotics and Elastic Rod&lt;/li&gt;
-  &lt;li&gt;To improve system accuracy, we studied Reinforcement Learning(RL) and Computer Vision Algorithm&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>To maintain safety, we needed to comprehend the necessary medical knowledge related to PCI</li>
+  <li>To achieve robust control, my team surveyed domains such as Robotics and Elastic Rod</li>
+  <li>To improve system accuracy, we studied Reinforcement Learning(RL) and Computer Vision Algorithm</li>
+</ul>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_tech.png&quot; width=&quot;95%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_tech.png" width="95%" />
+</figure>
 
-&lt;h6 id=&quot;why-reinforcement-learning&quot;&gt;Why Reinforcement Learning?&lt;/h6&gt;
-&lt;p&gt;Our environment was so complex that we did not have high confidence in the traditional control method of robotics.
+<h6 id="why-reinforcement-learning">Why Reinforcement Learning?</h6>
+<p>Our environment was so complex that we did not have high confidence in the traditional control method of robotics.
 Since most of the traditional algorithms are static, they have difficulty handling dynamic environments.
-Therefore, to accomplish the task, we used an “interaction algorithm” with the dynamic environment.&lt;/p&gt;
+Therefore, to accomplish the task, we used an “interaction algorithm” with the dynamic environment.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_mdp.gif&quot; width=&quot;60%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_mdp.gif" width="60%" />
+</figure>
 
-&lt;h5 id=&quot;main-tasks&quot;&gt;Main Tasks&lt;/h5&gt;
-&lt;h6 id=&quot;planning&quot;&gt;Planning&lt;/h6&gt;
-&lt;p&gt;To solve such a complex problem, we needed a step-by-step approach.
+<h5 id="main-tasks">Main Tasks</h5>
+<h6 id="planning">Planning</h6>
+<p>To solve such a complex problem, we needed a step-by-step approach.
 Simplifying the problem, we started at the lowest dimension.
-First, I set up project stages as follows:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;2D → 3D → 3D with vibration → Animal → Clinical environment&lt;/p&gt;
-&lt;/blockquote&gt;
+First, I set up project stages as follows:</p>
+<blockquote>
+  <p>2D → 3D → 3D with vibration → Animal → Clinical environment</p>
+</blockquote>
 
-&lt;h6 id=&quot;initiation&quot;&gt;Initiation&lt;/h6&gt;
-&lt;p&gt;My role in this project was to decide the direction of development as a development team leader.
+<h6 id="initiation">Initiation</h6>
+<p>My role in this project was to decide the direction of development as a development team leader.
 I divided the complicated main task into several sub-tasks to operationalize the plan.
-I performed below tasks in each stage:&lt;/p&gt;
+I performed below tasks in each stage:</p>
 
-&lt;ol&gt;
-  &lt;li&gt;Pre-research: To acquire knowledge to build the system&lt;/li&gt;
-  &lt;li&gt;Set-up: To establish all experiment environments&lt;/li&gt;
-  &lt;li&gt;Design: To design overall system architecture&lt;/li&gt;
-  &lt;li&gt;Implementation: To implement the environment module in RL framework and integrate all modules&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Pre-research: To acquire knowledge to build the system</li>
+  <li>Set-up: To establish all experiment environments</li>
+  <li>Design: To design overall system architecture</li>
+  <li>Implementation: To implement the environment module in RL framework and integrate all modules</li>
+</ol>
 
-&lt;h5 id=&quot;pre-research&quot;&gt;Pre-research&lt;/h5&gt;
+<h5 id="pre-research">Pre-research</h5>
 
-&lt;h6 id=&quot;system-framework&quot;&gt;System Framework&lt;/h6&gt;
-&lt;p&gt;I researched existing systems for RL control in real environments published in various sources (e.g. &lt;a href=&quot;https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8449910&quot;&gt;ICRA&lt;/a&gt;, &lt;a href=&quot;https://www.nema.org/pages/default.aspx&quot;&gt;NEMA&lt;/a&gt; and &lt;a href=&quot;https://arxiv.org/&quot;&gt;Arxiv&lt;/a&gt;). 
-&lt;a href=&quot;https://arxiv.org/abs/1803.07067v1&quot;&gt;Setting up a Reinforcement Learning Task with a Real-World Robot&lt;/a&gt; was one of the most helpful experimental result in terms of understanding 1) the relationship between System delays and System performance, 2) training results depending on action space, and 3) the hierarchy of systems in the real world&lt;/p&gt;
+<h6 id="system-framework">System Framework</h6>
+<p>I researched existing systems for RL control in real environments published in various sources (e.g. <a href="https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8449910">ICRA</a>, <a href="https://www.nema.org/pages/default.aspx">NEMA</a> and <a href="https://arxiv.org/">Arxiv</a>). 
+<a href="https://arxiv.org/abs/1803.07067v1">Setting up a Reinforcement Learning Task with a Real-World Robot</a> was one of the most helpful experimental result in terms of understanding 1) the relationship between System delays and System performance, 2) training results depending on action space, and 3) the hierarchy of systems in the real world</p>
 
-&lt;h6 id=&quot;medical-knowledge&quot;&gt;Medical Knowledge&lt;/h6&gt;
-&lt;p&gt;We conducted interviews with doctors and researchers who have dealt with coronary artery disease. 
+<h6 id="medical-knowledge">Medical Knowledge</h6>
+<p>We conducted interviews with doctors and researchers who have dealt with coronary artery disease. 
 Also, we observed the PCI procedure several times and studied coronary arteries. 
-Through this process, we learned about 1) the procedure of PCI, 2) case studies by patient, 3) usage of equipment, 4) terms/abbreviations and 5) procedure time&lt;/p&gt;
+Through this process, we learned about 1) the procedure of PCI, 2) case studies by patient, 3) usage of equipment, 4) terms/abbreviations and 5) procedure time</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_procedure.png&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_procedure.png" />
+</figure>
 
-&lt;h5 id=&quot;set-up&quot;&gt;Set-up&lt;/h5&gt;
+<h5 id="set-up">Set-up</h5>
 
-&lt;h6 id=&quot;establishment-of-experiment-plan&quot;&gt;Establishment of Experiment Plan&lt;/h6&gt;
-&lt;p&gt;The first environment was a two dimensional blood vessel model.
+<h6 id="establishment-of-experiment-plan">Establishment of Experiment Plan</h6>
+<p>The first environment was a two dimensional blood vessel model.
 I selected equipment for the system and drew a rough sketch of the experiment environment. 
-Final expected environment design output is below.&lt;/p&gt;
+Final expected environment design output is below.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_2d3denv.png&quot; width=&quot;90%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_2d3denv.png" width="90%" />
+</figure>
 
-&lt;h6 id=&quot;installation-of-darkroom&quot;&gt;Installation of Darkroom&lt;/h6&gt;
-&lt;p&gt;Vision was the most important input data process for this system.
+<h6 id="installation-of-darkroom">Installation of Darkroom</h6>
+<p>Vision was the most important input data process for this system.
 Since vision is sensitive to changes in illumination, I had to exclude natural light from experiment environment and darkroom was the best solution. 
-For this task, I was in charge of purchasing and installing all equipment for the darkroom.&lt;/p&gt;
+For this task, I was in charge of purchasing and installing all equipment for the darkroom.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_experiment_env.png&quot; width=&quot;90%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_experiment_env.png" width="90%" />
+</figure>
 
-&lt;h6 id=&quot;comparison-of-cameras-by-latency&quot;&gt;Comparison of Cameras by Latency&lt;/h6&gt;
-&lt;p&gt;Latency is one of the most significant factors for system performance. 
+<h6 id="comparison-of-cameras-by-latency">Comparison of Cameras by Latency</h6>
+<p>Latency is one of the most significant factors for system performance. 
 As a large proportion of latency depended on the camera, I selected a camera model carefully. 
-As seen in the figure below, I conducted latency tests and compared scalability, compatibility, resolution, and latency of the various camera models.&lt;/p&gt;
+As seen in the figure below, I conducted latency tests and compared scalability, compatibility, resolution, and latency of the various camera models.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_realsense_test.gif&quot; width=&quot;60%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_realsense_test.gif" width="60%" />
+</figure>
 
-&lt;h5 id=&quot;design-principles&quot;&gt;Design Principles&lt;/h5&gt;
+<h5 id="design-principles">Design Principles</h5>
 
-&lt;h6 id=&quot;modularity&quot;&gt;Modularity&lt;/h6&gt;
-&lt;p&gt;Since this system is capable of having diverse environmental conditions like manipulator and external sensor devices, 
+<h6 id="modularity">Modularity</h6>
+<p>Since this system is capable of having diverse environmental conditions like manipulator and external sensor devices, 
 I looked for a way to minimize the number of additional tasks when subsystems or peripherals were changed.
-I suggested a form on separating the system into submodules by role and made a hierarchy among the submodules.&lt;/p&gt;
+I suggested a form on separating the system into submodules by role and made a hierarchy among the submodules.</p>
 
-&lt;h6 id=&quot;scalability&quot;&gt;Scalability&lt;/h6&gt;
-&lt;p&gt;As mentioned above, we planned an environment transition step-by-step. 
+<h6 id="scalability">Scalability</h6>
+<p>As mentioned above, we planned an environment transition step-by-step. 
 Thus, I had to enable smooth conversion among heterogeneous environments such as 2D, 3D, animal, and clinic. 
 Also, as we needed repetitive experiments for improving system performance like reward shaping, various settings for experiments had to be managed conveniently.
-I achieved this via an abstract and inheritance structure.&lt;/p&gt;
+I achieved this via an abstract and inheritance structure.</p>
 
-&lt;h6 id=&quot;compatibility&quot;&gt;Compatibility&lt;/h6&gt;
-&lt;p&gt;The RL algorithm is necessary to be verified based on a unit test. 
-We used the &lt;a href=&quot;https://gym.openai.com/envs/#atari&quot;&gt;Atari gym&lt;/a&gt; environment for testing. 
+<h6 id="compatibility">Compatibility</h6>
+<p>The RL algorithm is necessary to be verified based on a unit test. 
+We used the <a href="https://gym.openai.com/envs/#atari">Atari gym</a> environment for testing. 
 I also considered standard communication protocol connecting with heterogeneous external devices.
-For this reason, I designed the system using de facto standard systems such as &lt;a href=&quot;https://gym.openai.com/&quot;&gt;openai-gym&lt;/a&gt; and &lt;a href=&quot;http://www.ros.org/&quot;&gt;ROS&lt;/a&gt;.&lt;/p&gt;
+For this reason, I designed the system using de facto standard systems such as <a href="https://gym.openai.com/">openai-gym</a> and <a href="http://www.ros.org/">ROS</a>.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_arch.png&quot; /&gt;
-  &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_arch.png" />
+  <figcaption></figcaption>
+</figure>
 
-&lt;h5 id=&quot;implementation-issues&quot;&gt;Implementation Issues&lt;/h5&gt;
+<h5 id="implementation-issues">Implementation Issues</h5>
 
-&lt;h6 id=&quot;handling-nonlinearity&quot;&gt;Handling Nonlinearity&lt;/h6&gt;
-&lt;p&gt;There were physical errors during manipulation caused by motor rotation as many general control systems under physical world have. 
+<h6 id="handling-nonlinearity">Handling Nonlinearity</h6>
+<p>There were physical errors during manipulation caused by motor rotation as many general control systems under physical world have. 
 In the coronary artery environment, this kind of error had a worse effect because it requires handling an exquisite unit of space and time. 
 I approached this problem in a heuristic way and tried to define error tolerance thresholds because there is no perfect solution for this issue. 
-Through a trial and error process, my team found that using a very small fixed step command (about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach the correct position.&lt;/p&gt;
+Through a trial and error process, my team found that using a very small fixed step command (about 0.05mm) guaranteed that guidewire would be less affected by this problem and able to reach the correct position.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_slip.png&quot; width=&quot;95%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_slip.png" width="95%" />
+</figure>
 
-&lt;h6 id=&quot;elaborate-data-flow-of-inter-module-communication&quot;&gt;Elaborate Data Flow of Inter-module Communication&lt;/h6&gt;
-&lt;p&gt;To set the proper shape and size of data, there were several trial and error attempts. 
+<h6 id="elaborate-data-flow-of-inter-module-communication">Elaborate Data Flow of Inter-module Communication</h6>
+<p>To set the proper shape and size of data, there were several trial and error attempts. 
 As the shape of data required in each module was different, I pondered the computational cost of reshaping the data while one module was transferring data to next module. 
 Also, because RL agent utilized experience replay, limitation of memory size for replay buffer was a big issue. 
-Thus, the size of state in RL had to be defined properly.&lt;/p&gt;
+Thus, the size of state in RL had to be defined properly.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_data.png&quot; width=&quot;80%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_data.png" width="80%" />
+</figure>
 
-&lt;h6 id=&quot;synchronization-between-rl-agent-and-manipulator&quot;&gt;Synchronization Between RL agent and Manipulator&lt;/h6&gt;
-&lt;p&gt;RL agent needs to obtain the necessary data at once for decision making in each time step. 
+<h6 id="synchronization-between-rl-agent-and-manipulator">Synchronization Between RL agent and Manipulator</h6>
+<p>RL agent needs to obtain the necessary data at once for decision making in each time step. 
 As a manipulator operates in asynchronous method, I had to choose the module waiting to collect data from the manipulator for synchronization. 
-I implemented a communication module and put this module in charge of that task.&lt;/p&gt;
+I implemented a communication module and put this module in charge of that task.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_sync.png&quot; width=&quot;80%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_sync.png" width="80%" />
+</figure>
 
-&lt;h6 id=&quot;reduction-of-system-latency&quot;&gt;Reduction of System Latency&lt;/h6&gt;
-&lt;p&gt;Reactivity of the system is one of the most critical factors in overall system performance since agile situational awareness and countermeasures are essential in PCI procedures. 
+<h6 id="reduction-of-system-latency">Reduction of System Latency</h6>
+<p>Reactivity of the system is one of the most critical factors in overall system performance since agile situational awareness and countermeasures are essential in PCI procedures. 
 Thus, it was imperative to minimize latency on each module because the summation of delayed time took a huge proportion of reactivity. 
-Especially, total latency largely depends on a acquisition time of the camera image and vision preprocessing time.&lt;/p&gt;
+Especially, total latency largely depends on a acquisition time of the camera image and vision preprocessing time.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_latency.png&quot; width=&quot;95%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_latency.png" width="95%" />
+</figure>
 
-&lt;h6 id=&quot;strict-exception-handling&quot;&gt;Strict Exception Handling&lt;/h6&gt;
-&lt;p&gt;It was essential to handle and recover errors that cause harmful results because this system was trained in a real environment. 
+<h6 id="strict-exception-handling">Strict Exception Handling</h6>
+<p>It was essential to handle and recover errors that cause harmful results because this system was trained in a real environment. 
 I handled many abnormal situations like a twisted guidewire and path deviation from excessive manipulation. 
-Communication manipulator exception was another serious situation because it could lead to the system procedure being halted.&lt;/p&gt;
+Communication manipulator exception was another serious situation because it could lead to the system procedure being halted.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_twist.gif&quot; width=&quot;60%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_twist.gif" width="60%" />
+</figure>
 
-&lt;h5 id=&quot;experiment&quot;&gt;Experiment&lt;/h5&gt;
+<h5 id="experiment">Experiment</h5>
 
-&lt;h6 id=&quot;rl-algorithms&quot;&gt;RL Algorithms&lt;/h6&gt;
-&lt;p&gt;My team implemented and ran numerous experiments with RL algorithms to improve system performance.&lt;/p&gt;
+<h6 id="rl-algorithms">RL Algorithms</h6>
+<p>My team implemented and ran numerous experiments with RL algorithms to improve system performance.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Value based algorithms (&lt;a href=&quot;https://arxiv.org/abs/1710.02298&quot;&gt;Rainbow dqn&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/1707.06887&quot;&gt;C51&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/1806.06923&quot;&gt;IQN&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Demonstration algorithms (&lt;a href=&quot;https://arxiv.org/abs/1704.03732&quot;&gt;Deep Q-learning from Demonstrations&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Reward Shaping&lt;/li&gt;
-  &lt;li&gt;Data fusion Execution Timing (Early fusion, Late fusion)&lt;/li&gt;
-  &lt;li&gt;Additional (&lt;a href=&quot;https://arxiv.org/abs/1707.01495&quot;&gt;Hindsight Experience Replay&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Value based algorithms (<a href="https://arxiv.org/abs/1710.02298">Rainbow dqn</a>, <a href="https://arxiv.org/abs/1707.06887">C51</a>, <a href="https://arxiv.org/abs/1806.06923">IQN</a>)</li>
+  <li>Demonstration algorithms (<a href="https://arxiv.org/abs/1704.03732">Deep Q-learning from Demonstrations</a>)</li>
+  <li>Reward Shaping</li>
+  <li>Data fusion Execution Timing (Early fusion, Late fusion)</li>
+  <li>Additional (<a href="https://arxiv.org/abs/1707.01495">Hindsight Experience Replay</a>)</li>
+</ul>
 
-&lt;h6 id=&quot;setup&quot;&gt;Setup&lt;/h6&gt;
-&lt;p&gt;In the guidewire navigation problem, selection of the correct vessel branch is a main issue.
+<h6 id="setup">Setup</h6>
+<p>In the guidewire navigation problem, selection of the correct vessel branch is a main issue.
 Thus, we focused on verifying it and designing the experiment process.
-The settiing is below:&lt;/p&gt;
+The settiing is below:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Max step is 700&lt;/li&gt;
-  &lt;li&gt;Rewards are imposed by operating time and path correctness&lt;/li&gt;
-  &lt;li&gt;Success of episode is to reach the target point within the max step&lt;/li&gt;
-  &lt;li&gt;Goal positions are as below&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Max step is 700</li>
+  <li>Rewards are imposed by operating time and path correctness</li>
+  <li>Success of episode is to reach the target point within the max step</li>
+  <li>Goal positions are as below</li>
+</ul>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_goals.png&quot; width=&quot;60%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_goals.png" width="60%" />
+</figure>
 
-&lt;h5 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h5&gt;
-&lt;p&gt;The guidewire successfully achieved our basic goals in the 2D blood vessel. 
+<h5 id="conclusion">Conclusion</h5>
+<p>The guidewire successfully achieved our basic goals in the 2D blood vessel. 
 Our navigation system successfully reached the goal position about 95% of the time.
-Currently, my team and  researchers in AMC are writing a research paper targeting &lt;a href=&quot;https://www.crf.org/tct&quot;&gt;TCT&lt;/a&gt;, a top tier medical conference.&lt;/p&gt;
+Currently, my team and  researchers in AMC are writing a research paper targeting <a href="https://www.crf.org/tct">TCT</a>, a top tier medical conference.</p>
 
-&lt;h6 id=&quot;success-rate&quot;&gt;Success rate&lt;/h6&gt;
-&lt;p&gt;The more training that is carried out, the nearer our success rate moves to 1.0.&lt;/p&gt;
+<h6 id="success-rate">Success rate</h6>
+<p>The more training that is carried out, the nearer our success rate moves to 1.0.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_successrate.png&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_successrate.png" />
+</figure>
 
-&lt;h6 id=&quot;time-spent&quot;&gt;Time spent&lt;/h6&gt;
-&lt;p&gt;In early stage training, the wire moved forward regardless of success.
+<h6 id="time-spent">Time spent</h6>
+<p>In early stage training, the wire moved forward regardless of success.
 Thus, episode time spent on early stage was short.
-However, after evolving period (400~600 episode step), the system had a high success rate and takes short time similar to time spent on the early stage.&lt;/p&gt;
+However, after evolving period (400~600 episode step), the system had a high success rate and takes short time similar to time spent on the early stage.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_timespent.png&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/profile_biorobot_timespent.png" />
+</figure>
 
-&lt;h5 id=&quot;further&quot;&gt;Further&lt;/h5&gt;
+<h5 id="further">Further</h5>
 
-&lt;h6 id=&quot;possibility-to-transfer-other-domain&quot;&gt;Possibility to Transfer Other Domain&lt;/h6&gt;
+<h6 id="possibility-to-transfer-other-domain">Possibility to Transfer Other Domain</h6>
 
-&lt;p&gt;Because the skill-set includes controlling flexible medium and setting RL environment for control systems, we can utilize it in other fields.
-We are meeting with people from other fields to find applications of our system to their fields.&lt;/p&gt;
+<p>Because the skill-set includes controlling flexible medium and setting RL environment for control systems, we can utilize it in other fields.
+We are meeting with people from other fields to find applications of our system to their fields.</p>
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Search system&lt;/th&gt;
-      &lt;th&gt;Pipeline integrity inspection&lt;/th&gt;
-      &lt;th&gt;Catheter procedure automation&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_newdomain0.png&quot; /&gt;Search system used to locate people in a collapsed building by manipulating wire camera&lt;/td&gt;
-      &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_newdomain1.png&quot; /&gt;Pipeline integrity inspection in a construction site&lt;/td&gt;
-      &lt;td&gt;&lt;img src=&quot;/images/medipixel/profile_biorobot_newdomain2.png&quot; /&gt;Automation of other procedure through wire and catheter&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <thead>
+    <tr>
+      <th>Search system</th>
+      <th>Pipeline integrity inspection</th>
+      <th>Catheter procedure automation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/images/medipixel/profile_biorobot_newdomain0.png" />Search system used to locate people in a collapsed building by manipulating wire camera</td>
+      <td><img src="/images/medipixel/profile_biorobot_newdomain1.png" />Pipeline integrity inspection in a construction site</td>
+      <td><img src="/images/medipixel/profile_biorobot_newdomain2.png" />Automation of other procedure through wire and catheter</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;h6 id=&quot;next-plan&quot;&gt;Next Plan&lt;/h6&gt;
-&lt;p&gt;We expect to advance to a new experiment project in a 3D environment in the second half of 2019.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/profile_biorobot_3denv.png&quot; width=&quot;60%&quot; /&gt;
-&lt;/figure&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">This system places a stent in the target lesion of the coronary artery via a controlling manipulator made by Asan Medical Center. It is the world’s first autonomous PCI robot system. My team developed reinforcement learning-based control software. This project was awarded first place at Johnson &amp;amp; Johnson QuickFire Challenge.</summary></entry><entry><title type="html">Lung Cancer Diagnosis Clinical Decision Support System</title><link href="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system" rel="alternate" type="text/html" title="Lung Cancer Diagnosis Clinical Decision Support System" /><published>2019-04-13T00:00:00+09:00</published><updated>2019-04-13T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Lung%20Cancer%20Diagnosis%20Clinical%20Decision%20Support%20System</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system">&lt;p&gt;The purpose of this system is to help doctors diagnose of lung cancer. It supports diagnosis by deep learning based on detection and classification nodules.&lt;/p&gt;
+<h6 id="next-plan">Next Plan</h6>
+<p>We expect to advance to a new experiment project in a 3D environment in the second half of 2019.</p>
+<figure>
+  <img src="/images/medipixel/profile_biorobot_3denv.png" width="60%" />
+</figure>
 
-&lt;!--break--&gt;
+<hr />
 
-&lt;h4 id=&quot;my-role&quot;&gt;My Role&lt;/h4&gt;
-&lt;p&gt;Project Leader&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Design a whole data pipeline&lt;/li&gt;
-  &lt;li&gt;Implement &lt;a href=&quot;https://en.wikipedia.org/wiki/DICOM&quot;&gt;DICOM&lt;/a&gt;-based data preprocessing module&lt;/li&gt;
-  &lt;li&gt;Design and implement 3D U-net based detection neural network&lt;/li&gt;
-  &lt;li&gt;Design and implement 3D Resnet based classification neural network&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="patent">Patent</h5>
+<p>[1] METHOD AND APPARATUS FOR TRAINING MACHINE LEARNING MODELS TO DETERMINE ACTION OF MEDICAL TOOL INSERTION DEVICE 10-2021-0101640</p>]]></content><author><name></name></author><summary type="html"><![CDATA[This system places a stent in the target lesion of the coronary artery via a controlling manipulator made by Asan Medical Center. It is the world’s first autonomous PCI robot system. My team developed reinforcement learning-based control software. This project was awarded first place at Johnson &amp; Johnson QuickFire Challenge.]]></summary></entry><entry><title type="html">Lung Cancer Diagnosis Clinical Decision Support System</title><link href="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system" rel="alternate" type="text/html" title="Lung Cancer Diagnosis Clinical Decision Support System" /><published>2019-04-13T00:00:00+09:00</published><updated>2019-04-13T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/Lung%20Cancer%20Diagnosis%20Clinical%20Decision%20Support%20System</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/lung_cancer_diagnosis_clinical_decision_support_system"><![CDATA[<p>The purpose of this system is to help doctors diagnose of lung cancer. It supports diagnosis by deep learning based on detection and classification nodules.</p>
 
-&lt;hr /&gt;
-&lt;h4 id=&quot;project-detail&quot;&gt;Project Detail&lt;/h4&gt;
+<!--break-->
 
-&lt;!-- Feel free to change the width and height to your desired video size. --&gt;
+<h4 id="my-role">My Role</h4>
+<p>Project Leader</p>
+<ul>
+  <li>Design a whole data pipeline</li>
+  <li>Implement <a href="https://en.wikipedia.org/wiki/DICOM">DICOM</a>-based data preprocessing module</li>
+  <li>Design and implement 3D U-net based detection neural network</li>
+  <li>Design and implement 3D Resnet based classification neural network</li>
+</ul>
 
-&lt;div class=&quot;embed-container&quot;&gt;
-  &lt;iframe src=&quot;https://www.youtube.com/embed/MP9-zlR1cYc&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
-  &lt;/iframe&gt;
-&lt;/div&gt;
+<hr />
+<h4 id="project-detail">Project Detail</h4>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<!-- Feel free to change the width and height to your desired video size. -->
 
-&lt;p&gt;Lung cancer is ranks highly among all causes in death rate. 
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/MP9-zlR1cYc" width="700" height="480" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
+
+<p><br /></p>
+
+<p>Lung cancer is ranks highly among all causes in death rate. 
 In 2015, 17,399 people were killed by lung cancer in Korea, making up 27.9% of all cancer related deaths.
-The reason for its high death rate is the lack of an efficient inspection process.&lt;/p&gt;
+The reason for its high death rate is the lack of an efficient inspection process.</p>
 
-&lt;p&gt;In many cases, a biopsy is taken to confirm whether a patient has lung cancer or not.
+<p>In many cases, a biopsy is taken to confirm whether a patient has lung cancer or not.
 It, however, should be avoided as much as possible since it is an invasive inspection. 
-Typically a chest computed tomography (CT) is used for biopsy screening, so a radiologist’s ability to read the CT correctly is very important.&lt;/p&gt;
+Typically a chest computed tomography (CT) is used for biopsy screening, so a radiologist’s ability to read the CT correctly is very important.</p>
 
-&lt;p&gt;To better share experience accumulated over time, decision support system based on AI have been widely adopted in various industrial fields. 
+<p>To better share experience accumulated over time, decision support system based on AI have been widely adopted in various industrial fields. 
 In the medical domain, the need for a quick and precise diagnosis decision is intensifying. 
 Hence, this kind of system has been researched by many scientists and Medipixel’s lung cancer project is designed to fulfill those needs. 
-We worked jointly with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; and ended up developing the Lung Cancer Diagnosis Clinical Decision Support System.&lt;/p&gt;
+We worked jointly with <a href="http://eng.amc.seoul.kr/gb/lang/main.do">Asan Medical Center</a> and ended up developing the Lung Cancer Diagnosis Clinical Decision Support System.</p>
 
-&lt;p&gt;It has the following advantages&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Detects nodules that can be missed → increased diagnosis accuracy&lt;/li&gt;
-  &lt;li&gt;Assists doctors to read chest CT scan with ease → increased diagnosis productivity&lt;/li&gt;
-&lt;/ul&gt;
+<p>It has the following advantages</p>
+<ul>
+  <li>Detects nodules that can be missed → increased diagnosis accuracy</li>
+  <li>Assists doctors to read chest CT scan with ease → increased diagnosis productivity</li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;/images/medipixel/mp_chest_system.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/medipixel/mp_chest_system.png" alt="Alt text" /></p>
 
-&lt;h5 id=&quot;system-features&quot;&gt;System Features&lt;/h5&gt;
-&lt;p&gt;The system features are below&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Supports diagnosis process of whether nodule is malignant or benign&lt;/li&gt;
-  &lt;li&gt;Handles non-small cell lung cancer nodule in the 10mm~30mm range&lt;/li&gt;
-  &lt;li&gt;Shows the number of nodules and nodule region of interests&lt;/li&gt;
-  &lt;li&gt;Indicates estimated lung cancer risk percentage&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="system-features">System Features</h5>
+<p>The system features are below</p>
+<ul>
+  <li>Supports diagnosis process of whether nodule is malignant or benign</li>
+  <li>Handles non-small cell lung cancer nodule in the 10mm~30mm range</li>
+  <li>Shows the number of nodules and nodule region of interests</li>
+  <li>Indicates estimated lung cancer risk percentage</li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;/images/medipixel/mp_screen_shot.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/medipixel/mp_screen_shot.png" alt="Alt text" /></p>
 
-&lt;h5 id=&quot;tasks&quot;&gt;Tasks&lt;/h5&gt;
-&lt;p&gt;I was involved as a project leader who was in charge of designing the overall process and data flow.&lt;/p&gt;
+<h5 id="tasks">Tasks</h5>
+<p>I was involved as a project leader who was in charge of designing the overall process and data flow.</p>
 
-&lt;p&gt;I decided to approach this project with a practical view. 
+<p>I decided to approach this project with a practical view. 
 Since most processes in deep learning system are formulaic, I did not focus on designing a system structure. 
 Making a completely new model was not a focus either. 
-Instead, we put more time into finding a high performance model adopted in the medical domain and improving upon it.&lt;/p&gt;
+Instead, we put more time into finding a high performance model adopted in the medical domain and improving upon it.</p>
 
-&lt;h5 id=&quot;dataset&quot;&gt;Dataset&lt;/h5&gt;
-&lt;p&gt;One of the most important issues in a deep learning system is how to gather and handle a proper dataset.
-We utilized several dataset, of hospitals involved with &lt;a href=&quot;http://eng.amc.seoul.kr/gb/lang/main.do&quot;&gt;Asan Medical Center&lt;/a&gt; and an open dataset like &lt;a href=&quot;https://biometry.nci.nih.gov/cdas/nlst/&quot;&gt;NLST&lt;/a&gt; to improve performance of the system. 
-There were some issues with these datasets as follows&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Different data format (especially open data-set)&lt;/li&gt;
-  &lt;li&gt;Different data modality such as resolution of CT&lt;/li&gt;
-  &lt;li&gt;Overwhelmingly numerous malignant nodules (more than benign nodules)&lt;/li&gt;
-  &lt;li&gt;Difficulty with finding completely negative data which did not have any nodule&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="dataset">Dataset</h5>
+<p>One of the most important issues in a deep learning system is how to gather and handle a proper dataset.
+We utilized several dataset, of hospitals involved with <a href="http://eng.amc.seoul.kr/gb/lang/main.do">Asan Medical Center</a> and an open dataset like <a href="https://biometry.nci.nih.gov/cdas/nlst/">NLST</a> to improve performance of the system. 
+There were some issues with these datasets as follows</p>
+<ul>
+  <li>Different data format (especially open data-set)</li>
+  <li>Different data modality such as resolution of CT</li>
+  <li>Overwhelmingly numerous malignant nodules (more than benign nodules)</li>
+  <li>Difficulty with finding completely negative data which did not have any nodule</li>
+</ul>
 
-&lt;h6 id=&quot;preprocess&quot;&gt;Preprocess&lt;/h6&gt;
-&lt;p&gt;We had to preprocess a heterogeneous dataset through one pipeline.
+<h6 id="preprocess">Preprocess</h6>
+<p>We had to preprocess a heterogeneous dataset through one pipeline.
 Basically, it was necessary to reconstruct and normalize from 2d DICOM slices to 3d voxel data. 
 Since this task was expected to take a long time, it had to be done in advance, and the results saved to a hard disk before we could with the proceed regular training process.
-Main process was as follows.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Perform 3D reconstruction with a thickness of 1mm&lt;/li&gt;
-  &lt;li&gt;Set Hounsfield Unit between -1200 and 600&lt;/li&gt;
-  &lt;li&gt;Normalize each pixel value between 0 and 255&lt;/li&gt;
-&lt;/ul&gt;
+Main process was as follows.</p>
+<ul>
+  <li>Perform 3D reconstruction with a thickness of 1mm</li>
+  <li>Set Hounsfield Unit between -1200 and 600</li>
+  <li>Normalize each pixel value between 0 and 255</li>
+</ul>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/mp_net_preprocess0.png&quot; width=&quot;80%&quot; /&gt;
-  &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/mp_net_preprocess0.png" width="80%" />
+  <figcaption></figcaption>
+</figure>
 
-&lt;p&gt;Rather than using the whole voxel data, it was divided into smaller chunks due to GPU memory limitation. 
-This process occurred in the training and inference routines.&lt;/p&gt;
+<p>Rather than using the whole voxel data, it was divided into smaller chunks due to GPU memory limitation. 
+This process occurred in the training and inference routines.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/mp_net_preprocess1.png&quot; width=&quot;68%&quot; /&gt;
-  &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/mp_net_preprocess1.png" width="68%" />
+  <figcaption></figcaption>
+</figure>
 
-&lt;h6 id=&quot;gathering-dataset&quot;&gt;Gathering Dataset&lt;/h6&gt;
-&lt;p&gt;To improve performance, we needed to obtain more datasets from various sources.
+<h6 id="gathering-dataset">Gathering Dataset</h6>
+<p>To improve performance, we needed to obtain more datasets from various sources.
 The process of collecting proper data for modeling requires a significant time cost for doctors. 
-Data labeling, especially, requires significant time because it is an arduous task to segment the region of nodule pixel by pixel.&lt;/p&gt;
+Data labeling, especially, requires significant time because it is an arduous task to segment the region of nodule pixel by pixel.</p>
 
-&lt;p&gt;We exerted much effort to help them.
-To improve efficiency and decrease the time required, we had several meetings with doctors and proposed useful methods such as a nodule segmentation support application and semi-auto segmentation for nodule data.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/mp_chest_data0.jpg&quot; /&gt;
-  &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
+<p>We exerted much effort to help them.
+To improve efficiency and decrease the time required, we had several meetings with doctors and proposed useful methods such as a nodule segmentation support application and semi-auto segmentation for nodule data.</p>
+<figure>
+  <img src="/images/medipixel/mp_chest_data0.jpg" />
+  <figcaption></figcaption>
+</figure>
 
-&lt;h5 id=&quot;deep-learning-networks&quot;&gt;Deep Learning Networks&lt;/h5&gt;
-&lt;p&gt;During the research period, I realized that an ensemble strategy was efficient to improve whole system accuracy. 
+<h5 id="deep-learning-networks">Deep Learning Networks</h5>
+<p>During the research period, I realized that an ensemble strategy was efficient to improve whole system accuracy. 
 After many experiments using various models, I tried to find the optimal combination. 
-As a result we decided to use three Deep Neural Network(DNN) networks in the system.&lt;/p&gt;
+As a result we decided to use three Deep Neural Network(DNN) networks in the system.</p>
 
-&lt;h6 id=&quot;detection-network&quot;&gt;Detection Network&lt;/h6&gt;
-&lt;p&gt;This network detects nodules. 
+<h6 id="detection-network">Detection Network</h6>
+<p>This network detects nodules. 
 It is built based on 3d U-net. 
 Detection network consists of an encoding and decoding network. 
-The nodule’s features are extracted in the encoding network through 3D residual blocks.&lt;/p&gt;
+The nodule’s features are extracted in the encoding network through 3D residual blocks.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/mp_net_detection-net.png&quot; width=&quot;70%&quot; /&gt;
-  &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/mp_net_detection-net.png" width="70%" />
+  <figcaption></figcaption>
+</figure>
 
-&lt;h6 id=&quot;segmentation-network&quot;&gt;Segmentation Network&lt;/h6&gt;
-&lt;p&gt;This network performs segmentation of nodules in each slide based on the results from the detection network. 
+<h6 id="segmentation-network">Segmentation Network</h6>
+<p>This network performs segmentation of nodules in each slide based on the results from the detection network. 
 Its second role is to act as a filter for false-positive regions.
-Our segmentation network takes advantage of the &lt;a href=&quot;https://arxiv.org/abs/1802.02611&quot;&gt;Deeplab-v3+&lt;/a&gt; network whose network structure is shown in figure below&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/mp_net_segmentation-net.png&quot; width=&quot;70%&quot; /&gt;
-  &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
+Our segmentation network takes advantage of the <a href="https://arxiv.org/abs/1802.02611">Deeplab-v3+</a> network whose network structure is shown in figure below</p>
+<figure>
+  <img src="/images/medipixel/mp_net_segmentation-net.png" width="70%" />
+  <figcaption></figcaption>
+</figure>
 
-&lt;h6 id=&quot;classification-network&quot;&gt;Classification Network&lt;/h6&gt;
-&lt;p&gt;The classification network is responsible for determining the degree of malignancy of candidate nodules. 
-Features of nodules are extracted through the 3D residual network layer, and we made final result from the extracted features.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/mp_net_classification-net.png&quot; width=&quot;70%&quot; /&gt;
-  &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
+<h6 id="classification-network">Classification Network</h6>
+<p>The classification network is responsible for determining the degree of malignancy of candidate nodules. 
+Features of nodules are extracted through the 3D residual network layer, and we made final result from the extracted features.</p>
+<figure>
+  <img src="/images/medipixel/mp_net_classification-net.png" width="70%" />
+  <figcaption></figcaption>
+</figure>
 
-&lt;h5 id=&quot;practical-technique&quot;&gt;Practical Technique&lt;/h5&gt;
-&lt;p&gt;I also added a simple preprocess stage before the segmentation network to get rid of nodules in the outer body.
+<h5 id="practical-technique">Practical Technique</h5>
+<p>I also added a simple preprocess stage before the segmentation network to get rid of nodules in the outer body.
 This stage was composed of a simple method that checks the largest contour and erodes it.
 It mapped a candidate nodule region onto 2D slide and examined whether it belongs to the inside of the body.
 Then any regions outside of the body were removed as false-positives.
-This method has some advantages over other methods that perform complicated lung-segmentation as follows&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;It is much faster than a conventional segmentation method via complex algorithm&lt;/li&gt;
-  &lt;li&gt;It removes an ordinary lung-segmentation algorithm problem that recognizes a nodule on the wall as outside the lung&lt;/li&gt;
-  &lt;li&gt;It solves a region segmentation error resulting from different modality such as different CT slide scanner&lt;/li&gt;
-&lt;/ul&gt;
+This method has some advantages over other methods that perform complicated lung-segmentation as follows</p>
+<ul>
+  <li>It is much faster than a conventional segmentation method via complex algorithm</li>
+  <li>It removes an ordinary lung-segmentation algorithm problem that recognizes a nodule on the wall as outside the lung</li>
+  <li>It solves a region segmentation error resulting from different modality such as different CT slide scanner</li>
+</ul>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/mp_net_trick.png&quot; width=&quot;70%&quot; /&gt;
-  &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/mp_net_trick.png" width="70%" />
+  <figcaption></figcaption>
+</figure>
 
-&lt;h5 id=&quot;strengths-of-the-structure&quot;&gt;Strengths of the Structure&lt;/h5&gt;
-&lt;p&gt;Generally, most cancer diagnosis systems have a similar structure. 
+<h5 id="strengths-of-the-structure">Strengths of the Structure</h5>
+<p>Generally, most cancer diagnosis systems have a similar structure. 
 Among these systems, combinations with U-net based detector and classifier are popular. 
-&lt;strong&gt;I embedded simple preprocess stage and segmentation network&lt;/strong&gt; in center of this combination. 
+<strong>I embedded simple preprocess stage and segmentation network</strong> in center of this combination. 
 The network mapped 3d suspicious chunks to 2d CT slice, and, at the same time, performed to segment area in suspicious chunks.
 In this context, segmentation means scrutinizing and filtering nodules. 
-So, I was able to &lt;strong&gt;remove many false positive nodules&lt;/strong&gt; from the results in the first stage. 
-From those features, the system gained a simple but powerful improvement.&lt;/p&gt;
+So, I was able to <strong>remove many false positive nodules</strong> from the results in the first stage. 
+From those features, the system gained a simple but powerful improvement.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/medipixel/mp_chest_models.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/medipixel/mp_chest_models.png" alt="Alt text" /></p>
 
-&lt;h5 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h5&gt;
-&lt;p&gt;Through interviews, we found that time spent on reading chest CT generally takes about from five to twenty minutes.
-Our system achieved satisfying results that reduce time to under one minute while maintaining over 90% accuracy.&lt;/p&gt;
+<h5 id="conclusion">Conclusion</h5>
+<p>Through interviews, we found that time spent on reading chest CT generally takes about from five to twenty minutes.
+Our system achieved satisfying results that reduce time to under one minute while maintaining over 90% accuracy.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/mp_chest_auc.png&quot; width=&quot;60%&quot; /&gt;
-  &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/mp_chest_auc.png" width="60%" />
+  <figcaption></figcaption>
+</figure>
 
-&lt;p&gt;TSNE result was like below
-&lt;img src=&quot;/images/medipixel/mp_chest_tsne.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+<p>TSNE result was like below
+<img src="/images/medipixel/mp_chest_tsne.png" alt="Alt text" /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h5 id=&quot;patent&quot;&gt;Patent&lt;/h5&gt;
-&lt;p&gt;[1] Pathological diagnosis method and apparatus based on machine learning KR, P2018-0173475&lt;/p&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">The purpose of this system is to help doctors diagnose of lung cancer. It supports diagnosis by deep learning based on detection and classification nodules.</summary></entry><entry><title type="html">NeurIPS 2018 - AI for Prosthetics Challenge</title><link href="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge" rel="alternate" type="text/html" title="NeurIPS 2018 - AI for Prosthetics Challenge" /><published>2019-04-02T00:00:00+09:00</published><updated>2019-04-02T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/NIPS%202018%20-%20AI%20for%20Prosthetics%20Challenge</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge">&lt;p&gt;My team participated in &lt;a href=&quot;https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge&quot;&gt;NeurIPS 2018 - AI for Prosthetics Challenge&lt;/a&gt; and took 17th place out of 401 teams. 
-We were able to get valuable &lt;a href=&quot;https://medipixel.github.io/authors/hyungkyu-kim/&quot;&gt;practical experiences&lt;/a&gt; with reinforcement learning and biomechanics domains.&lt;/p&gt;
+<h5 id="patent">Patent</h5>
+<p>[1] Pathological diagnosis method and apparatus based on machine learning 10-2020-0082660</p>]]></content><author><name></name></author><summary type="html"><![CDATA[The purpose of this system is to help doctors diagnose of lung cancer. It supports diagnosis by deep learning based on detection and classification nodules.]]></summary></entry><entry><title type="html">NeurIPS 2018 - AI for Prosthetics Challenge</title><link href="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge" rel="alternate" type="text/html" title="NeurIPS 2018 - AI for Prosthetics Challenge" /><published>2019-04-02T00:00:00+09:00</published><updated>2019-04-02T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/medipixel/NIPS%202018%20-%20AI%20for%20Prosthetics%20Challenge</id><content type="html" xml:base="http://localhost:4000/portfolio/medipixel/nips_2018_-_AI_for_prosthetics_challenge"><![CDATA[<p>My team participated in <a href="https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge">NeurIPS 2018 - AI for Prosthetics Challenge</a> and took 17th place out of 401 teams. 
+We were able to get valuable <a href="https://medipixel.github.io/authors/hyungkyu-kim/">practical experiences</a> with reinforcement learning and biomechanics domains.</p>
 
-&lt;!--break--&gt;
+<!--break-->
 
-&lt;h4 id=&quot;my-role&quot;&gt;My Role&lt;/h4&gt;
-&lt;p&gt;System main engineer&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implement distributed Reinforcement Learning system(&lt;a href=&quot;https://rise.cs.berkeley.edu/projects/ray/&quot;&gt;RAY&lt;/a&gt;) on Cloud system(&lt;a href=&quot;https://azure.microsoft.com/&quot;&gt;Azure&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Implement RL-agent in &lt;a href=&quot;https://rise.cs.berkeley.edu/projects/ray/&quot;&gt;RAY&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<h4 id="my-role">My Role</h4>
+<p>System main engineer</p>
+<ul>
+  <li>Implement distributed Reinforcement Learning system(<a href="https://rise.cs.berkeley.edu/projects/ray/">RAY</a>) on Cloud system(<a href="https://azure.microsoft.com/">Azure</a>)</li>
+  <li>Implement RL-agent in <a href="https://rise.cs.berkeley.edu/projects/ray/">RAY</a></li>
+</ul>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;project-detail&quot;&gt;Project Detail&lt;/h4&gt;
+<h4 id="project-detail">Project Detail</h4>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/nips_final.png&quot; width=&quot;80%&quot; /&gt;
-  &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/nips_final.png" width="80%" />
+  <figcaption></figcaption>
+</figure>
 
-&lt;p&gt;AI for Prosthetics Challenge was a official competition in &lt;a href=&quot;https://nips.cc/Conferences/2018/CompetitionTrack&quot;&gt;NeurIPS 2018 Competition Track&lt;/a&gt;. 
-It used &lt;a href=&quot;http://opensim.stanford.edu/&quot;&gt;Opensim&lt;/a&gt; as a environment. 
-The topic of this competition was to control neuromusculoskeletal model of person with prosthetics in the right leg for moving forward at the given velocity.&lt;/p&gt;
+<p>AI for Prosthetics Challenge was a official competition in <a href="https://nips.cc/Conferences/2018/CompetitionTrack">NeurIPS 2018 Competition Track</a>. 
+It used <a href="http://opensim.stanford.edu/">Opensim</a> as a environment. 
+The topic of this competition was to control neuromusculoskeletal model of person with prosthetics in the right leg for moving forward at the given velocity.</p>
 
-&lt;p&gt;We tried many approaches to save time and overcome shortage of resources. 
-First, we researched &lt;a href=&quot;http://osim-rl.stanford.edu/docs/nips2017/solutions/&quot;&gt;previous competition&lt;/a&gt; and gathered useful information from them. 
+<p>We tried many approaches to save time and overcome shortage of resources. 
+First, we researched <a href="http://osim-rl.stanford.edu/docs/nips2017/solutions/">previous competition</a> and gathered useful information from them. 
 Second, since my team was just two members, we divided the work up between each member cleary. 
-The areas that my team focused on were RL method study, Opensim simulator study and imitation learning study.&lt;/p&gt;
+The areas that my team focused on were RL method study, Opensim simulator study and imitation learning study.</p>
 
-&lt;h5 id=&quot;achievements&quot;&gt;Achievements&lt;/h5&gt;
-&lt;p&gt;Since it was the first massive and practical RL project that my team undertook, we had numerous failures. 
-But, in such attempts &lt;strong&gt;it was possible to obtain a skill-set to handle practical RL problem.&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Handle complex environment(hundreds state values, 20  action values)&lt;/li&gt;
-  &lt;li&gt;Handle sparse reward problem in RL&lt;/li&gt;
-  &lt;li&gt;Build distributed Reinforcement Learning system(&lt;a href=&quot;https://rise.cs.berkeley.edu/projects/ray/&quot;&gt;RAY&lt;/a&gt;) on Cloud system(&lt;a href=&quot;https://azure.microsoft.com/&quot;&gt;Azure&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Utilize imitation learning method&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="achievements">Achievements</h5>
+<p>Since it was the first massive and practical RL project that my team undertook, we had numerous failures. 
+But, in such attempts <strong>it was possible to obtain a skill-set to handle practical RL problem.</strong></p>
+<ul>
+  <li>Handle complex environment(hundreds state values, 20  action values)</li>
+  <li>Handle sparse reward problem in RL</li>
+  <li>Build distributed Reinforcement Learning system(<a href="https://rise.cs.berkeley.edu/projects/ray/">RAY</a>) on Cloud system(<a href="https://azure.microsoft.com/">Azure</a>)</li>
+  <li>Utilize imitation learning method</li>
+</ul>
 
-&lt;h5 id=&quot;environment-analysis&quot;&gt;Environment Analysis&lt;/h5&gt;
-&lt;p&gt;To begin with this competition, I had to analyse unfamiliar environment.
-As opensim simulation and walking/running gait sequence were far from main task that I had handled before, I put efforts to understand it.&lt;/p&gt;
+<h5 id="environment-analysis">Environment Analysis</h5>
+<p>To begin with this competition, I had to analyse unfamiliar environment.
+As opensim simulation and walking/running gait sequence were far from main task that I had handled before, I put efforts to understand it.</p>
 
-&lt;h6 id=&quot;opensim-environment&quot;&gt;Opensim Environment&lt;/h6&gt;
-&lt;p&gt;First, I started to verify RL environment space.
-In &lt;a href=&quot;https://www.endtoend.ai/blog/ai-for-prosthetics-2/&quot;&gt;action space&lt;/a&gt;, it was a complex space controlling each muscle one by one compared to other general control methods utilizing joints velocity and angle.
-Also &lt;a href=&quot;http://osim-rl.stanford.edu/docs/nips2018/observation/&quot;&gt;observation space&lt;/a&gt; was relatively complicated, because it had hundreds of data spectated from musculoskeletal.&lt;/p&gt;
+<h6 id="opensim-environment">Opensim Environment</h6>
+<p>First, I started to verify RL environment space.
+In <a href="https://www.endtoend.ai/blog/ai-for-prosthetics-2/">action space</a>, it was a complex space controlling each muscle one by one compared to other general control methods utilizing joints velocity and angle.
+Also <a href="http://osim-rl.stanford.edu/docs/nips2018/observation/">observation space</a> was relatively complicated, because it had hundreds of data spectated from musculoskeletal.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;https://raw.githubusercontent.com/stanfordnmbl/osim-rl/1679344e509e29bdcc2ee368ddf83e868d93bf61/demo/random.gif&quot; width=&quot;50%&quot; /&gt;
-  &lt;figcaption&gt;from (http://osim-rl.stanford.edu/) &lt;/figcaption&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="https://raw.githubusercontent.com/stanfordnmbl/osim-rl/1679344e509e29bdcc2ee368ddf83e868d93bf61/demo/random.gif" width="50%" />
+  <figcaption>from (http://osim-rl.stanford.edu/) </figcaption>
+</figure>
 
-&lt;h6 id=&quot;opensim-tools&quot;&gt;Opensim Tools&lt;/h6&gt;
-&lt;p&gt;To achieve high score, I had to use &lt;a href=&quot;https://simtk.org/projects/nmbl_running&quot;&gt;experimental datasets&lt;/a&gt; for walking/running gait sequence in Opensim community. 
+<h6 id="opensim-tools">Opensim Tools</h6>
+<p>To achieve high score, I had to use <a href="https://simtk.org/projects/nmbl_running">experimental datasets</a> for walking/running gait sequence in Opensim community. 
 I tried to figure out the pattern of joint movements in gait cycle at the provided dataset.
-There were several Opensim applications to solve biomechanical problems through forward and Inverse problem.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;https://medipixel.github.io/img/opensim/opensim_01.png&quot; width=&quot;70%&quot; /&gt;
-  &lt;figcaption&gt;OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement&lt;/figcaption&gt;
-&lt;/figure&gt;
+There were several Opensim applications to solve biomechanical problems through forward and Inverse problem.</p>
+<figure>
+  <img src="https://medipixel.github.io/img/opensim/opensim_01.png" width="70%" />
+  <figcaption>OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement</figcaption>
+</figure>
 
-&lt;p&gt;Furthermore, it was necessary to analyze tools in code level, since built-in application had a limitation and I needed to modify experiment dataset in various ways.
-After comprehension, I made it possible to customize tools based on project needs.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;https://medipixel.github.io/img/imitation/reward_edit_motion.PNG&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;
+<p>Furthermore, it was necessary to analyze tools in code level, since built-in application had a limitation and I needed to modify experiment dataset in various ways.
+After comprehension, I made it possible to customize tools based on project needs.</p>
+<figure>
+  <img src="https://medipixel.github.io/img/imitation/reward_edit_motion.PNG" width="70%" />
+</figure>
 
-&lt;h5 id=&quot;utilization-of-distributed-rl&quot;&gt;Utilization of Distributed RL&lt;/h5&gt;
-&lt;p&gt;It was one of the most critical problems that interaction with simulator environment needed huge time while training. 
+<h5 id="utilization-of-distributed-rl">Utilization of Distributed RL</h5>
+<p>It was one of the most critical problems that interaction with simulator environment needed huge time while training. 
 To improve training performance, my team used distributed Reinforcement Learning system.
-It was implemented via &lt;a href=&quot;https://rise.cs.berkeley.edu/projects/ray/&quot;&gt;RAY&lt;/a&gt; on &lt;a href=&quot;https://azure.microsoft.com/&quot;&gt;Azure&lt;/a&gt; cloud server. 
+It was implemented via <a href="https://rise.cs.berkeley.edu/projects/ray/">RAY</a> on <a href="https://azure.microsoft.com/">Azure</a> cloud server. 
 We operated four cloud servers, and each server instance had 72 high-speed cores.
 And all of server was clustered via Ray.
-In result, It was possible to achieve much faster convergence of RL training results.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/nips_system.png&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;
+In result, It was possible to achieve much faster convergence of RL training results.</p>
+<figure>
+  <img src="/images/medipixel/nips_system.png" width="70%" />
+</figure>
 
-&lt;h5 id=&quot;imitation-learning&quot;&gt;Imitation Learning&lt;/h5&gt;
-&lt;p&gt;Sparse reward was a big trouble. 
+<h5 id="imitation-learning">Imitation Learning</h5>
+<p>Sparse reward was a big trouble. 
 In this competition, There was no clue for reward of RL agent except for the running speed. 
-I tried to solve this problem with reward shaping and imitation learning method.&lt;/p&gt;
+I tried to solve this problem with reward shaping and imitation learning method.</p>
 
-&lt;h6 id=&quot;demonstration&quot;&gt;Demonstration&lt;/h6&gt;
-&lt;p&gt;First of all, I created running demonstration from provided dataset because RL agent needed to refer to expert’s trajectories.
+<h6 id="demonstration">Demonstration</h6>
+<p>First of all, I created running demonstration from provided dataset because RL agent needed to refer to expert’s trajectories.
 Having limited period of gait cycle in Experiment dataset, I needed to insert additional kinematic motion data. 
-So, I analysed pattern of gait from other referenced experiments(eg. &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/18822415&quot;&gt;Muscle contributions to support and progression over a range&lt;/a&gt;) and made omitted data.&lt;/p&gt;
+So, I analysed pattern of gait from other referenced experiments(eg. <a href="https://www.ncbi.nlm.nih.gov/pubmed/18822415">Muscle contributions to support and progression over a range</a>) and made omitted data.</p>
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;img src=&quot;https://medipixel.github.io/img/opensim/opensim_30002_ik.gif&quot; /&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;img src=&quot;https://medipixel.github.io/img/opensim/opensim_run_demo0.gif&quot; /&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <tbody>
+    <tr>
+      <td><img src="https://medipixel.github.io/img/opensim/opensim_30002_ik.gif" /></td>
+      <td><img src="https://medipixel.github.io/img/opensim/opensim_run_demo0.gif" /></td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;h6 id=&quot;behavioral-cloning-from-observation&quot;&gt;Behavioral Cloning from Observation&lt;/h6&gt;
-&lt;p&gt;It failed to obtain actions from Opensim application with provided kinematic data. 
+<h6 id="behavioral-cloning-from-observation">Behavioral Cloning from Observation</h6>
+<p>It failed to obtain actions from Opensim application with provided kinematic data. 
 I needed to use a new approach that utilized only kinematic data for training. 
-&lt;a href=&quot;https://arxiv.org/abs/1805.01954&quot;&gt;Behavioral Cloning from Observation&lt;/a&gt;(BCO) was one of the best options because Ray had BC agent and it was possible to implement BCO by exploiting built-in BC agent.
+<a href="https://arxiv.org/abs/1805.01954">Behavioral Cloning from Observation</a>(BCO) was one of the best options because Ray had BC agent and it was possible to implement BCO by exploiting built-in BC agent.
 BCO was a model-based RL method that used model to infer actions from kinematics.
-Therefore, I implemented &lt;a href=&quot;https://github.com/HyungKyu-Kim/ray/tree/master/python/ray/rllib/agents/bco&quot;&gt;BCO agent in Ray&lt;/a&gt;.&lt;/p&gt;
+Therefore, I implemented <a href="https://github.com/HyungKyu-Kim/ray/tree/master/python/ray/rllib/agents/bco">BCO agent in Ray</a>.</p>
 
-&lt;h6 id=&quot;deepmimic&quot;&gt;Deepmimic&lt;/h6&gt;
-&lt;p&gt;Unfortunately, BCO method did not take notable score. 
+<h6 id="deepmimic">Deepmimic</h6>
+<p>Unfortunately, BCO method did not take notable score. 
 Complexity of Opensim environment was too high to obtain meaningful state transition data from not-well-trained agent interactions. 
-So I used state of the art method of imitation learning called &lt;a href=&quot;https://arxiv.org/abs/1804.02717&quot;&gt;Deepmimic&lt;/a&gt;.
-I implemented &lt;a href=&quot;&quot;&gt;reward function of Deepmimic in Opensim environment&lt;/a&gt;.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;http://bair.berkeley.edu/static/blog/stuntman/teaser.gif&quot; /&gt;
-  &lt;figcaption&gt;from https://bair.berkeley.edu/blog/2018/04/10/virtual-stuntman/&lt;/figcaption&gt;
-&lt;/figure&gt;
+So I used state of the art method of imitation learning called <a href="https://arxiv.org/abs/1804.02717">Deepmimic</a>.
+I implemented <a href="">reward function of Deepmimic in Opensim environment</a>.</p>
+<figure>
+  <img src="http://bair.berkeley.edu/static/blog/stuntman/teaser.gif" />
+  <figcaption>from https://bair.berkeley.edu/blog/2018/04/10/virtual-stuntman/</figcaption>
+</figure>
 
-&lt;h5 id=&quot;experiment&quot;&gt;Experiment&lt;/h5&gt;
-&lt;p&gt;As deepmimic had a huge parameter set, I had to have many parameter-tuning tasks to improve score until project deadline.
-Examples of early phase training by various parameters are like below.&lt;/p&gt;
+<h5 id="experiment">Experiment</h5>
+<p>As deepmimic had a huge parameter set, I had to have many parameter-tuning tasks to improve score until project deadline.
+Examples of early phase training by various parameters are like below.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/medipixel/nips_graph.PNG&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/medipixel/nips_graph.PNG" />
+</figure>
 
-&lt;h5 id=&quot;result&quot;&gt;Result&lt;/h5&gt;
-&lt;p&gt;Unlike my expectation, even we used Deepmimic method, agent could not imitate movement of demonstrations perfectly.
+<h5 id="result">Result</h5>
+<p>Unlike my expectation, even we used Deepmimic method, agent could not imitate movement of demonstrations perfectly.
 But Deepmimic was so helpful that agent achieved higher score than heuristic reward shaping method.
-The final results were like below&lt;/p&gt;
+The final results were like below</p>
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;img src=&quot;https://medipixel.github.io/img/imitation/reward_ars_demo.gif&quot; /&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;img src=&quot;https://medipixel.github.io/img/imitation/reward_final.gif&quot; /&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">My team participated in NeurIPS 2018 - AI for Prosthetics Challenge and took 17th place out of 401 teams. We were able to get valuable practical experiences with reinforcement learning and biomechanics domains.</summary></entry><entry><title type="html">IoT Camera</title><link href="http://localhost:4000/portfolio/samsung/iot_camera" rel="alternate" type="text/html" title="IoT Camera" /><published>2019-03-31T00:00:00+09:00</published><updated>2019-03-31T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/samsung/IoT%20Camera</id><content type="html" xml:base="http://localhost:4000/portfolio/samsung/iot_camera">&lt;p&gt;This new type of product is a network camera working as an IoT gateway. 
-It gathers sensor data and provides various services, such as social protection, fire monitoring and missing child prevention, by cooperating with adjacent IoT devices.&lt;/p&gt;
+<table>
+  <tbody>
+    <tr>
+      <td><img src="https://medipixel.github.io/img/imitation/reward_ars_demo.gif" /></td>
+      <td><img src="https://medipixel.github.io/img/imitation/reward_final.gif" /></td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name></name></author><summary type="html"><![CDATA[My team participated in NeurIPS 2018 - AI for Prosthetics Challenge and took 17th place out of 401 teams. We were able to get valuable practical experiences with reinforcement learning and biomechanics domains.]]></summary></entry><entry><title type="html">IoT Camera</title><link href="http://localhost:4000/portfolio/samsung/iot_camera" rel="alternate" type="text/html" title="IoT Camera" /><published>2019-03-31T00:00:00+09:00</published><updated>2019-03-31T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/samsung/IoT%20Camera</id><content type="html" xml:base="http://localhost:4000/portfolio/samsung/iot_camera"><![CDATA[<p>This new type of product is a network camera working as an IoT gateway. 
+It gathers sensor data and provides various services, such as social protection, fire monitoring and missing child prevention, by cooperating with adjacent IoT devices.</p>
 
-&lt;!--break--&gt;
+<!--break-->
 
-&lt;h4 id=&quot;my-role&quot;&gt;My Role&lt;/h4&gt;
-&lt;p&gt;Network camera main developer on Task Force Team&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implement Bluetooth communication module between network camera and devices&lt;/li&gt;
-  &lt;li&gt;Implement communication module with IoT server (REST)&lt;/li&gt;
-  &lt;li&gt;Implement serial communication module (rs-485)&lt;/li&gt;
-&lt;/ul&gt;
+<h4 id="my-role">My Role</h4>
+<p>Network camera main developer on Task Force Team</p>
+<ul>
+  <li>Implement Bluetooth communication module between network camera and devices</li>
+  <li>Implement communication module with IoT server (REST)</li>
+  <li>Implement serial communication module (rs-485)</li>
+</ul>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;project-detail&quot;&gt;Project Detail&lt;/h4&gt;
+<h4 id="project-detail">Project Detail</h4>
 
-&lt;p&gt;Smart city is a fast-growing tech domain nowadays, and it is hard to imagine the smart city without IoT.
+<p>Smart city is a fast-growing tech domain nowadays, and it is hard to imagine the smart city without IoT.
 In order to achieve goal of Smart City Services, it is essential for widespread infrastructural devices in the city to cooperate.
-Moreover, the security field has been moving forward from follow-up services using video information to convergence with information of infrastructural devices.&lt;/p&gt;
+Moreover, the security field has been moving forward from follow-up services using video information to convergence with information of infrastructural devices.</p>
 
-&lt;p&gt;Network Camera is a device to process video data. 
-As one of the largest form of data, video data requires higher computation and network capacity compared to other basic sensor devices.&lt;/p&gt;
+<p>Network Camera is a device to process video data. 
+As one of the largest form of data, video data requires higher computation and network capacity compared to other basic sensor devices.</p>
 
-&lt;h5 id=&quot;proof-of-concept&quot;&gt;Proof of Concept&lt;/h5&gt;
-&lt;p&gt;I have focused on this feature and tried to implement several Proof of Concept to verify the possibility of valuable service to customers.&lt;/p&gt;
+<h5 id="proof-of-concept">Proof of Concept</h5>
+<p>I have focused on this feature and tried to implement several Proof of Concept to verify the possibility of valuable service to customers.</p>
 
-&lt;h6 id=&quot;first-poc&quot;&gt;First PoC&lt;/h6&gt;
-&lt;p&gt;The first PoC was to control a smart bulb via a camera to test the connection process between a camera and external devices. 
-The main purpose of this PoC was to control on external device via an inner event of a camera.&lt;/p&gt;
+<h6 id="first-poc">First PoC</h6>
+<p>The first PoC was to control a smart bulb via a camera to test the connection process between a camera and external devices. 
+The main purpose of this PoC was to control on external device via an inner event of a camera.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/samsung/profile_htw_iot0.gif&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/samsung/profile_htw_iot0.gif" width="70%" />
+</figure>
 
-&lt;h6 id=&quot;second-poc&quot;&gt;Second PoC&lt;/h6&gt;
-&lt;p&gt;The second PoC was to control a camera by numerical sensor values from outer sensor devices.
+<h6 id="second-poc">Second PoC</h6>
+<p>The second PoC was to control a camera by numerical sensor values from outer sensor devices.
 The opposite orders of PoC1.
 Howevers, the ready-made camera was not able to receive the bluetooth signal. 
-To resolve this problem, I implemented and used a simple program on Raspberry pi.&lt;/p&gt;
+To resolve this problem, I implemented and used a simple program on Raspberry pi.</p>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/samsung/profile_htw_iot1.gif&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/samsung/profile_htw_iot1.gif" width="70%" />
+</figure>
 
-&lt;h5 id=&quot;meaning-of-poc&quot;&gt;Meaning of PoC&lt;/h5&gt;
+<h5 id="meaning-of-poc">Meaning of PoC</h5>
 
-&lt;p&gt;After a few PoC, I found it possible that Network a Camera was able to work as an Edge Gateway.
-As mentioned above, a camera has sufficient capability to handle high capacity video data without assistance from upper stage devices.&lt;/p&gt;
+<p>After a few PoC, I found it possible that Network a Camera was able to work as an Edge Gateway.
+As mentioned above, a camera has sufficient capability to handle high capacity video data without assistance from upper stage devices.</p>
 
-&lt;p&gt;Furthermore in Smart City, data fusion is an important points.
+<p>Furthermore in Smart City, data fusion is an important points.
 Data fusion can realize services, once regarded as impossible, through a combination of data from various sensors that monitor items such as temperature, moisture, motion detection, and image. 
-If a camera is a gateway to manage edge devices, data fusion is feasible without intervention from a high performance server.&lt;/p&gt;
+If a camera is a gateway to manage edge devices, data fusion is feasible without intervention from a high performance server.</p>
 
-&lt;h5 id=&quot;iot-camera&quot;&gt;IoT Camera&lt;/h5&gt;
+<h5 id="iot-camera">IoT Camera</h5>
 
-&lt;p&gt;In early 2017, I got a chance to apply this concept to an actual product.
+<p>In early 2017, I got a chance to apply this concept to an actual product.
 I joined Task Force Team as a main developer for the camera, which was a sizeable project to cover a city area.
-Requirements of the project included various services such as missing child prevention and  fire monitoring services.&lt;/p&gt;
+Requirements of the project included various services such as missing child prevention and  fire monitoring services.</p>
 
-&lt;p&gt;My team, partner, and client had numerous discussions to bring this concept to the real world, and we decided to use bluetooth sensor devices and cameras.&lt;/p&gt;
+<p>My team, partner, and client had numerous discussions to bring this concept to the real world, and we decided to use bluetooth sensor devices and cameras.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/samsung/profile_htw_iot2.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/samsung/profile_htw_iot2.png" alt="Alt text" /></p>
 
-&lt;p&gt;We achieved the following:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Obtained sensor data and video data simultaneously
-    &lt;ul&gt;
-      &lt;li&gt;Services using sensor data and video data at the same time was feasible&lt;br /&gt;
- (eg: If there is not any target’s motion in a specific spot, camera will turn to the specific spot.)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Provided various services via simply changing external devices supporting bluetooth
-    &lt;ul&gt;
-      &lt;li&gt;Social Protection Service: Beacon&lt;/li&gt;
-      &lt;li&gt;Fire Monitoring Service: BLE temperature sensor&lt;/li&gt;
-      &lt;li&gt;Capable of attaching new services easily by adding new BLE devices&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Enabled network load balancing
-    &lt;ul&gt;
-      &lt;li&gt;It divided computing cost concentrating on server to edge gateway&lt;/li&gt;
-      &lt;li&gt;Data fusion can be feasible in this device&lt;/li&gt;
-      &lt;li&gt;It can filter sensor data&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+<p>We achieved the following:</p>
+<ol>
+  <li>Obtained sensor data and video data simultaneously
+    <ul>
+      <li>Services using sensor data and video data at the same time was feasible<br />
+ (eg: If there is not any target’s motion in a specific spot, camera will turn to the specific spot.)</li>
+    </ul>
+  </li>
+  <li>Provided various services via simply changing external devices supporting bluetooth
+    <ul>
+      <li>Social Protection Service: Beacon</li>
+      <li>Fire Monitoring Service: BLE temperature sensor</li>
+      <li>Capable of attaching new services easily by adding new BLE devices</li>
+    </ul>
+  </li>
+  <li>Enabled network load balancing
+    <ul>
+      <li>It divided computing cost concentrating on server to edge gateway</li>
+      <li>Data fusion can be feasible in this device</li>
+      <li>It can filter sensor data</li>
+    </ul>
+  </li>
+</ol>
 
-&lt;hr /&gt;
-&lt;h4 id=&quot;related-news&quot;&gt;Related News&lt;/h4&gt;
+<hr />
+<h4 id="related-news">Related News</h4>
 
-&lt;p&gt;[1] &lt;a href=&quot;http://www.pntbiz.co.kr/index.php/2018/03/16/iot-cctv-blog/&quot;&gt;Server Partner company’s blog article(korean)&lt;/a&gt;&lt;br /&gt;
-[2] &lt;a href=&quot;https://www.youtube.com/watch?v=3PWR8SXjsU0&quot;&gt;Server Partner company’s IoT cctv demo(korean)&lt;/a&gt;&lt;br /&gt;
-[3] &lt;a href=&quot;https://www.youtube.com/watch?v=IxaOIL74fu8&quot;&gt;Server Partner company’s IoT cctv Exhibition(korean)&lt;/a&gt;&lt;br /&gt;
-[4] &lt;a href=&quot;http://www.newsis.com/view/?id=NISX20180731_0000378567&quot;&gt;Newsis news(korean)&lt;/a&gt;&lt;/p&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">This new type of product is a network camera working as an IoT gateway. It gathers sensor data and provides various services, such as social protection, fire monitoring and missing child prevention, by cooperating with adjacent IoT devices.</summary></entry><entry><title type="html">Video Surveillance as a Service</title><link href="http://localhost:4000/portfolio/samsung/video_surveillance_as_a_service" rel="alternate" type="text/html" title="Video Surveillance as a Service" /><published>2019-03-30T00:00:00+09:00</published><updated>2019-03-30T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/samsung/Video%20Surveillance%20as%20a%20Service</id><content type="html" xml:base="http://localhost:4000/portfolio/samsung/video_surveillance_as_a_service">&lt;p&gt;This service integrates the cloud system and network camera. 
-It can provide necessary information from a network camera in the local network to the outside network user, all while maintaining security.&lt;/p&gt;
+<p>[1] <a href="http://www.pntbiz.co.kr/index.php/2018/03/16/iot-cctv-blog/">Server Partner company’s blog article(korean)</a><br />
+[2] <a href="https://www.youtube.com/watch?v=3PWR8SXjsU0">Server Partner company’s IoT cctv demo(korean)</a><br />
+[3] <a href="https://www.youtube.com/watch?v=IxaOIL74fu8">Server Partner company’s IoT cctv Exhibition(korean)</a><br />
+[4] <a href="http://www.newsis.com/view/?id=NISX20180731_0000378567">Newsis news(korean)</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[This new type of product is a network camera working as an IoT gateway. It gathers sensor data and provides various services, such as social protection, fire monitoring and missing child prevention, by cooperating with adjacent IoT devices.]]></summary></entry><entry><title type="html">Video Surveillance as a Service</title><link href="http://localhost:4000/portfolio/samsung/video_surveillance_as_a_service" rel="alternate" type="text/html" title="Video Surveillance as a Service" /><published>2019-03-30T00:00:00+09:00</published><updated>2019-03-30T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/samsung/Video%20Surveillance%20as%20a%20Service</id><content type="html" xml:base="http://localhost:4000/portfolio/samsung/video_surveillance_as_a_service"><![CDATA[<p>This service integrates the cloud system and network camera. 
+It can provide necessary information from a network camera in the local network to the outside network user, all while maintaining security.</p>
 
-&lt;!--break--&gt;
+<!--break-->
 
-&lt;h4 id=&quot;my-role&quot;&gt;My Role&lt;/h4&gt;
-&lt;p&gt;Network camera main developer&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implement module establishing tunneling between server and camera&lt;/li&gt;
-  &lt;li&gt;Implement controller module between server and camera&lt;/li&gt;
-  &lt;li&gt;Implement module streaming between server and camera&lt;/li&gt;
-&lt;/ul&gt;
+<h4 id="my-role">My Role</h4>
+<p>Network camera main developer</p>
+<ul>
+  <li>Implement module establishing tunneling between server and camera</li>
+  <li>Implement controller module between server and camera</li>
+  <li>Implement module streaming between server and camera</li>
+</ul>
 
-&lt;hr /&gt;
-&lt;h4 id=&quot;project-detail&quot;&gt;Project Detail&lt;/h4&gt;
+<hr />
+<h4 id="project-detail">Project Detail</h4>
 
-&lt;p&gt;&lt;img src=&quot;/images/samsung/profile_htw_cloud.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/samsung/profile_htw_cloud.gif" alt="" /></p>
 
-&lt;p&gt;As we can see from the name, CCTV(Closed Circuit Television) is a device working on closed local network. 
+<p>As we can see from the name, CCTV(Closed Circuit Television) is a device working on closed local network. 
 In network camera age, this concept was maintained as past. 
 But this tendency had met technology called Cloud Service and started to move forward from closed world to open world.
 “Video Surveillance as a Service” was created from this background.
-VSaaS has following advantages compared with traditional surveillance systems.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Provide efficiency and total cost of ownership&lt;/li&gt;
-  &lt;li&gt;Provide flexibility and scalability&lt;/li&gt;
-  &lt;li&gt;Access to value-added services&lt;/li&gt;
-  &lt;li&gt;Provide a wide array of products for hosted video&lt;/li&gt;
-&lt;/ul&gt;
+VSaaS has following advantages compared with traditional surveillance systems.</p>
+<ul>
+  <li>Provide efficiency and total cost of ownership</li>
+  <li>Provide flexibility and scalability</li>
+  <li>Access to value-added services</li>
+  <li>Provide a wide array of products for hosted video</li>
+</ul>
 
-&lt;h5 id=&quot;stratocast&quot;&gt;Stratocast&lt;/h5&gt;
-&lt;p&gt;I took a step into Video surveillance field as device side developer in 2015, when VSaaS was started to provide commercial service.
-First project that I participated in was &lt;a href=&quot;https://www.genetec.com/solutions/all-products/stratocast/overview&quot;&gt;“Stratocast project”&lt;/a&gt;.
-It is a cloud-based video monitoring of &lt;a href=&quot;https://www.genetec.com/&quot;&gt;Genetek&lt;/a&gt;.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/samsung/profile_htw_cloud1.png&quot; /&gt;
-  &lt;figcaption&gt;Stratocast implemented in Samsung camera&lt;/figcaption&gt;
-&lt;/figure&gt;
+<h5 id="stratocast">Stratocast</h5>
+<p>I took a step into Video surveillance field as device side developer in 2015, when VSaaS was started to provide commercial service.
+First project that I participated in was <a href="https://www.genetec.com/solutions/all-products/stratocast/overview">“Stratocast project”</a>.
+It is a cloud-based video monitoring of <a href="https://www.genetec.com/">Genetek</a>.</p>
+<figure>
+  <img src="/images/samsung/profile_htw_cloud1.png" />
+  <figcaption>Stratocast implemented in Samsung camera</figcaption>
+</figure>
 
-&lt;h5 id=&quot;vsaas-camera&quot;&gt;VSaaS Camera&lt;/h5&gt;
-&lt;p&gt;After Stratocast project, I was involved in various client system in Network Camera device.
-As each Cloud System had a distinct method to communicate between camera and server, I tried to find &lt;strong&gt;flexible hierarchy&lt;/strong&gt; to cope with these different features. 
-This point was about &lt;strong&gt;dealing with heterogeneous protocols&lt;/strong&gt; with out huge transform.
-Main issues were below&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Different connection protocol like VPN, SSH and custom protocol(socket)&lt;/li&gt;
-  &lt;li&gt;Different system structure like existence of delegate connection server and region connection method&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="vsaas-camera">VSaaS Camera</h5>
+<p>After Stratocast project, I was involved in various client system in Network Camera device.
+As each Cloud System had a distinct method to communicate between camera and server, I tried to find <strong>flexible hierarchy</strong> to cope with these different features. 
+This point was about <strong>dealing with heterogeneous protocols</strong> with out huge transform.
+Main issues were below</p>
+<ul>
+  <li>Different connection protocol like VPN, SSH and custom protocol(socket)</li>
+  <li>Different system structure like existence of delegate connection server and region connection method</li>
+</ul>
 
-&lt;p&gt;I also had to handle &lt;strong&gt;variation of the connection network types&lt;/strong&gt; like.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ethernet&lt;/li&gt;
-  &lt;li&gt;LTE&lt;/li&gt;
-  &lt;li&gt;wifi&lt;/li&gt;
-&lt;/ul&gt;
+<p>I also had to handle <strong>variation of the connection network types</strong> like.</p>
+<ul>
+  <li>Ethernet</li>
+  <li>LTE</li>
+  <li>wifi</li>
+</ul>
 
-&lt;p&gt;And &lt;strong&gt;exception handle&lt;/strong&gt; was a significant topic. It had issues like following.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Compose device rebooting scenario(eg. reconnect)&lt;/li&gt;
-  &lt;li&gt;Set connection retry count via limitation of server’s resources&lt;/li&gt;
-  &lt;li&gt;Control amount of sending data by network bandwith&lt;/li&gt;
-&lt;/ul&gt;
+<p>And <strong>exception handle</strong> was a significant topic. It had issues like following.</p>
+<ul>
+  <li>Compose device rebooting scenario(eg. reconnect)</li>
+  <li>Set connection retry count via limitation of server’s resources</li>
+  <li>Control amount of sending data by network bandwith</li>
+</ul>
 
-&lt;p&gt;Structure of VSaaS camera was below figure. My development part is in red rectangle.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/samsung/profile_htw_cloud.png&quot; /&gt;
-&lt;/figure&gt;
+<p>Structure of VSaaS camera was below figure. My development part is in red rectangle.</p>
+<figure>
+  <img src="/images/samsung/profile_htw_cloud.png" />
+</figure>
 
-&lt;p&gt;This client provided service through connection with server like following order.&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Register Camera: Official operator performs secure process like RSA key exchange and registers camera in server&lt;/li&gt;
-  &lt;li&gt;Sending Data: Registered camera sends video and additional data to streaming server through established tunnel&lt;/li&gt;
-  &lt;li&gt;Streaming Service: Authenticated user requests the video streaming matched with user&lt;/li&gt;
-&lt;/ol&gt;
+<p>This client provided service through connection with server like following order.</p>
+<ol>
+  <li>Register Camera: Official operator performs secure process like RSA key exchange and registers camera in server</li>
+  <li>Sending Data: Registered camera sends video and additional data to streaming server through established tunnel</li>
+  <li>Streaming Service: Authenticated user requests the video streaming matched with user</li>
+</ol>
 
-&lt;hr /&gt;
-&lt;h4 id=&quot;related-news&quot;&gt;Related News&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://securitytoday.com/articles/2016/10/26/hanwha-techwin-america-cameras-earn-genetec-stratocast-vsaas-cloud-integration-and-certification.aspx&quot;&gt;Hanwha Techwin America Cameras Earn Genetec Stratocast VSaaS Cloud Integration and Certification &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sdmmag.com/articles/93266-cameras-earn-cloud-integration-certification&quot;&gt;Cameras Earn Cloud Integration &amp;amp; Certification &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">This service integrates the cloud system and network camera. It can provide necessary information from a network camera in the local network to the outside network user, all while maintaining security.</summary></entry><entry><title type="html">Other Projects</title><link href="http://localhost:4000/portfolio/samsung/other_projects" rel="alternate" type="text/html" title="Other Projects" /><published>2018-03-30T00:00:00+09:00</published><updated>2018-03-30T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/samsung/Others%20Projects</id><content type="html" xml:base="http://localhost:4000/portfolio/samsung/other_projects">&lt;p&gt;Brief descriptions of other projects in Samsung Techwin.&lt;/p&gt;
+<hr />
+<h4 id="related-news">Related News</h4>
+<ul>
+  <li><a href="https://securitytoday.com/articles/2016/10/26/hanwha-techwin-america-cameras-earn-genetec-stratocast-vsaas-cloud-integration-and-certification.aspx">Hanwha Techwin America Cameras Earn Genetec Stratocast VSaaS Cloud Integration and Certification </a></li>
+  <li><a href="https://www.sdmmag.com/articles/93266-cameras-earn-cloud-integration-certification">Cameras Earn Cloud Integration &amp; Certification </a></li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[This service integrates the cloud system and network camera. It can provide necessary information from a network camera in the local network to the outside network user, all while maintaining security.]]></summary></entry><entry><title type="html">Other Projects</title><link href="http://localhost:4000/portfolio/samsung/other_projects" rel="alternate" type="text/html" title="Other Projects" /><published>2018-03-30T00:00:00+09:00</published><updated>2018-03-30T00:00:00+09:00</updated><id>http://localhost:4000/portfolio/samsung/Others%20Projects</id><content type="html" xml:base="http://localhost:4000/portfolio/samsung/other_projects"><![CDATA[<p>Brief descriptions of other projects in Samsung Techwin.</p>
 
-&lt;!--break--&gt;
+<!--break-->
 
-&lt;h4 id=&quot;my-role&quot;&gt;My Role&lt;/h4&gt;
-&lt;p&gt;Network camera main developer&lt;/p&gt;
+<h4 id="my-role">My Role</h4>
+<p>Network camera main developer</p>
 
-&lt;hr /&gt;
-&lt;h4 id=&quot;project-detail&quot;&gt;Project Detail&lt;/h4&gt;
+<hr />
+<h4 id="project-detail">Project Detail</h4>
 
-&lt;p&gt;I had worked as a Product Engineering team member several years. Tasks of Product Engineering team were to handle additional requirements on Samsung Techwin’s products from other branch corporations. 
-I was able to get many experiences in differnt system, frameworks and devices.&lt;/p&gt;
+<p>I had worked as a Product Engineering team member several years. Tasks of Product Engineering team were to handle additional requirements on Samsung Techwin’s products from other branch corporations. 
+I was able to get many experiences in differnt system, frameworks and devices.</p>
 
-&lt;h5 id=&quot;tb-eye-project&quot;&gt;TB-EYE project&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Work on various type &lt;a href=&quot;https://en.wikipedia.org/wiki/On-screen_display&quot;&gt;OSD&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Implement image based charecter OSD module&lt;/li&gt;
-  &lt;li&gt;Handle raw image format(eg. yuv420, yuv422)&lt;/li&gt;
-  &lt;li&gt;Implement C# window application&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="tb-eye-project">TB-EYE project</h5>
+<ul>
+  <li>Work on various type <a href="https://en.wikipedia.org/wiki/On-screen_display">OSD</a></li>
+  <li>Implement image based charecter OSD module</li>
+  <li>Handle raw image format(eg. yuv420, yuv422)</li>
+  <li>Implement C# window application</li>
+</ul>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/samsung/tbeye_pjt.jpg&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/samsung/tbeye_pjt.jpg" width="70%" />
+</figure>
 
-&lt;h5 id=&quot;military-important-facilities-project&quot;&gt;Military Important facilities project&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implement communication module&lt;/li&gt;
-  &lt;li&gt;Design communication protocol&lt;/li&gt;
-  &lt;li&gt;Communication module receives cgi command from central management system&lt;/li&gt;
-  &lt;li&gt;Communication module controls PTZ housing via RS-485&lt;/li&gt;
-  &lt;li&gt;Communication module controls sensors and other external devices via RS-485&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="military-important-facilities-project">Military Important facilities project</h5>
+<ul>
+  <li>Implement communication module</li>
+  <li>Design communication protocol</li>
+  <li>Communication module receives cgi command from central management system</li>
+  <li>Communication module controls PTZ housing via RS-485</li>
+  <li>Communication module controls sensors and other external devices via RS-485</li>
+</ul>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/samsung/military_pjt.jpg&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/samsung/military_pjt.jpg" width="70%" />
+</figure>
 
-&lt;h5 id=&quot;sber-bank-project&quot;&gt;SBER bank project&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Design communication protocol&lt;/li&gt;
-  &lt;li&gt;Implement communication module via RS-232&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="sber-bank-project">SBER bank project</h5>
+<ul>
+  <li>Design communication protocol</li>
+  <li>Implement communication module via RS-232</li>
+</ul>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/samsung/sber_pjt.jpg&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/samsung/sber_pjt.jpg" width="70%" />
+</figure>
 
-&lt;h5 id=&quot;transportation-projects&quot;&gt;Transportation projects&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implement input jpeg logo type OSD function&lt;/li&gt;
-  &lt;li&gt;Implement input multi lines OSD function&lt;/li&gt;
-  &lt;li&gt;Implement changing OSD size function&lt;/li&gt;
-  &lt;li&gt;Handle raw image format(eg. yuv420, yuv422)&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="transportation-projects">Transportation projects</h5>
+<ul>
+  <li>Implement input jpeg logo type OSD function</li>
+  <li>Implement input multi lines OSD function</li>
+  <li>Implement changing OSD size function</li>
+  <li>Handle raw image format(eg. yuv420, yuv422)</li>
+</ul>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/samsung/Transportation_pjt.jpg&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/samsung/Transportation_pjt.jpg" width="70%" />
+</figure>
 
-&lt;h5 id=&quot;austria-oebb-project&quot;&gt;Austria OEBB project&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implement motion detection function by index&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="austria-oebb-project">Austria OEBB project</h5>
+<ul>
+  <li>Implement motion detection function by index</li>
+</ul>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/samsung/austria_pjt.jpg&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/samsung/austria_pjt.jpg" width="70%" />
+</figure>
 
-&lt;h5 id=&quot;german-bonn-project&quot;&gt;German Bonn project&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Train braking system overheating monitoring&lt;/li&gt;
-  &lt;li&gt;Implement request to check overheating alarm and area to the camera encoder via RS-485&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="german-bonn-project">German Bonn project</h5>
+<ul>
+  <li>Train braking system overheating monitoring</li>
+  <li>Implement request to check overheating alarm and area to the camera encoder via RS-485</li>
+</ul>
 
-&lt;figure&gt;
-  &lt;img src=&quot;/images/samsung/bonn_pjt.jpg&quot; width=&quot;70%&quot; /&gt;
-&lt;/figure&gt;
+<figure>
+  <img src="/images/samsung/bonn_pjt.jpg" width="70%" />
+</figure>
 
-&lt;h5 id=&quot;ivideon-project&quot;&gt;IVIDEON project&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implement camera LED contorl module via RESTful API&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="ivideon-project">IVIDEON project</h5>
+<ul>
+  <li>Implement camera LED contorl module via RESTful API</li>
+</ul>
 
-&lt;h5 id=&quot;buthan-dam-project&quot;&gt;Buthan Dam project&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implement &lt;a href=&quot;https://www.unifore.net/ip-video-surveillance/network-camera-basic-what-s-defog-technology.html&quot;&gt;defog&lt;/a&gt; function&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="buthan-dam-project">Buthan Dam project</h5>
+<ul>
+  <li>Implement <a href="https://www.unifore.net/ip-video-surveillance/network-camera-basic-what-s-defog-technology.html">defog</a> function</li>
+</ul>
 
-&lt;h5 id=&quot;noemis-project&quot;&gt;Noemis project&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Improve PTZ control via serial communication&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="noemis-project">Noemis project</h5>
+<ul>
+  <li>Improve PTZ control via serial communication</li>
+</ul>
 
-&lt;h5 id=&quot;agricultural-bank-project&quot;&gt;Agricultural bank project&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implement control module connected with bill counter via RS-485&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="agricultural-bank-project">Agricultural bank project</h5>
+<ul>
+  <li>Implement control module connected with bill counter via RS-485</li>
+</ul>
 
-&lt;h5 id=&quot;add-on-board-poc&quot;&gt;Add on board POC&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implment video fusion between camera and thermal camera on raspberry pi&lt;/li&gt;
-&lt;/ul&gt;
+<h5 id="add-on-board-poc">Add on board POC</h5>
+<ul>
+  <li>Implment video fusion between camera and thermal camera on raspberry pi</li>
+</ul>
 
-&lt;h5 id=&quot;chilsung-engineering-project&quot;&gt;Chilsung engineering project:&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implement camera control routine via RS485, AUX&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hyungkyu Kim</name></author><summary type="html">Brief descriptions of other projects in Samsung Techwin.</summary></entry></feed>
+<h5 id="chilsung-engineering-project">Chilsung engineering project</h5>
+<ul>
+  <li>Implement camera control routine via RS485, AUX</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Brief descriptions of other projects in Samsung Techwin.]]></summary></entry></feed>
