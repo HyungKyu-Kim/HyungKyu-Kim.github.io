@@ -31,7 +31,8 @@ group: Hyungkyu Kim
         <li><strong>Programming:</strong> C/C++, Linux system programming, Python</li>
         <li><strong>ML Framework:</strong> Pytorch, Tensorflow, Ray RLlib</li>
         <li><strong>Cloud Platform:</strong> GCP, MS-azure</li>
-        <li><strong>Data Analysis:</strong> Pandas, R</li>
+        <li><strong>Data Engineering:</strong> AirFlow, Kubenetes </li>
+        <li><strong>Data Analysis:</strong> Pandas </li>
         <li><strong>Simulation:</strong> Ansys, ROS-gazebo, Unity</li>
         <li><strong>Software Architecture:</strong> UML</li>
         <li><strong>Coworking:</strong> Jira, Trello, Slack, Git, Svn</li>
