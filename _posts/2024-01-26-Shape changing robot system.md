@@ -17,6 +17,7 @@ Additionally, to address the challenges of real-world learning in aquatic enviro
 System main engineer
   * Developed fluid simulator based on hydrodynamics model(PCISPH)
   * Developed robot control system based on reinforcement learning 
+  * Developed a robot controller using Arduino
 
 
 ----

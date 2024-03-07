@@ -5,9 +5,9 @@
   duration: April 2021 ~ 
   description:
   role:
-    - Developed reinforcement learning systems
-    - Developed robotics control systems
+    - Developed a robot controller using Arduino
     - Developed a particle-based fluid simulator
+    - Developed robot control system based on reinforcement learning
 - title: Medipixel
   etc: Medipixel is a medical start-up. As coworking with many stakeholder whom in medical, tech domains, It have been creating interesting systems.
   logo: /images/medipixel/logo_medipixel.png
